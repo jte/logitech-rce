@@ -1,0 +1,15 @@
+/**
+DeviceMgrMainInit
+DeviceMgrIsEventValid
+DeviceMgrCompareEvent
+DeviceMgrDispatchEvent
+DeviceMgrDispatchDeviceEvent
+DeviceMgrRegisterEvent
+DeviceMgrUnregisterEvent
+DeviceMgrAutoRepeat
+DeviceMgrSendInput
+DeviceMgrPreDeviceControl
+DeviceMgrDeviceControl
+DeviceMgrPostDeviceControl
+DevMgrSignalRefreshComplete
+ */

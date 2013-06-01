@@ -1,0 +1,5 @@
+/**
+DeviceLoadModelTable
+DeviceLoadCapabilities
+DeviceGetCapability
+*/
