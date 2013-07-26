@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">srl</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech proizvod</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Softver za vaš Logitech proizvod</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Softver za miševe i tastature</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Softver za miševe i tastature</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Softver za poboljšanje produktivnosti za miševe i tastature</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Softver namenjen igrama za miševe i tastature</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Softver za Web kamere</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Softver za Web kamere</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Softver za komunikaciju</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ softver</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series softver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Softver koji podržava Logitech G15 tastaturu za igre</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series softver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Softver koji podržava Logitech Z-10 zvučnike</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series softver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Softver koji podržava Logitech G11 tastaturu za igre</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series softver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Softver koji podržava Logitech G11 tastaturu za igre</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel softver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Softver za tastature i table za igre G-Series</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">Softver za igranje</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Logitechov softver za palice i konzole za igru i točkove</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">Softver za igranje</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">Softver za tastature i table za igre G-Series</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Napredni softver za prostorni zvuk</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logitech Z-5 zvučnici</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Napredni softver za Logitech Z-5 zvučnike</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Softver za prostorni zvuk za slušalice</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitech bežične slušalice za igre G930 sa višekanalnim Dolby prostornim zvukom</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logitech bežične slušalice sa H760 pomoćnikom za muzičke plejere</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">Logitech wireless Headset H800 Assistant for media players</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Softver za uparivanje Unifying uređaja</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying miš</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Ispravka firmvera za Unifying miš</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying tastatura</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Ispravka firmvera za Unifying tastaturu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying numerička tastatura</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Ispravka firmvera za Unifying numeričku tastaturu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying prijemnik</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Ispravka firmvera za Unifying prijemnik</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Softver za Web kamere</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Softver za Logitech Web kameru</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid predstavlja jednostavan način održavanja kontakta sa prijateljima i porodicom širom sveta</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Softver za Logitech Alert™ video bezbednosni sistem</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">LifeSize Connections je jednostavan način komuniciranja sa kolegama i klijentima širom sveta</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Aplikacija Logitech Solar</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Software za nadgledanje i upravljanje tastaturom Logitech Wireless Solar Keyboard K750</String>
+  </LU_Strings_1>
+</LogitechUpdater>

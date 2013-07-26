@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">fin</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize-päivitin</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize-päivitin</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Saatavana on uusia päivityksiä. Lataa ne napsauttamalla tätä.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Suorita LifeSize-ohjelmistopäivitykset loppuun napsauttamalla.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">LifeSize-ohjelmiston päivityksiä ladataan</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Saatavana on uusia päivityksiä. Lataa ne napsauttamalla tätä.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">LifeSize-ohjelmiston päivityksiä asennetaan</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">LifeSize-ohjelmisto on ajan tasalla</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">LifeSize-ohjelmiston asennus valmistuu, kun tietokone käynnistetään uudelleen</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Napsauta ja suorita ohjelmistoasennus loppuun</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Ei Internet-yhteyttä. Uuden version saatavuutta ei voitu tarkistaa</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Tapahtui virhe</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Asennusvirhe.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Asennus peruutettu.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Pyydettyyn toimintoon vaaditaan järjestelmänvalvojan käyttöoikeudet</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internet-yhteys palautettiin. Yritä myöhemmin uudelleen</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internet-yhteys päivitettiin. LifeSize-päivitin yrittää myöhemmin uudelleen</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Asennus epäonnistui, koska levy on täynnä.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Tee valmiiksi</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Peruuta</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Piilota</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Päivitä myöhemmin</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Lataa &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Jatka lataamista &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Asenna &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Asenna kaikki, kun ne ovat valmiina &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Kyllä</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Ei</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Käynnistä uudelleen</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">Tietokone on käynnistettävä uudelleen, jotta asennus voidaan suorittaa loppuun</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Määritä</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Määritä automaattiset asetukset</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Show previously declined updates</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Ladataan komponenttia %d/%d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Asennetaan komponenttia %d/%d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Jäljellä oleva aika:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Ladattu %s/%s</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">Tietokone on käynnistettävä uudelleen, jotta asennus voidaan suorittaa loppuun.</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">LifeSize-päivitinasetukset</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Valitse, miten haluat päivitystoiminnon toimivan.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Ota automaattiset päivitykset käyttöön.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Lähetä ilmoitus, mutta älä lataa tai asenna tiedostoja automaattisesti.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Lataa päivitykset, mutta anna minun päättää, koska ne asennetaan.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Asenna ja lataa päivitykset automaattisesti.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Palauta oletusasetukset</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Tuote</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Tila</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Koko</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">odotetaan tarkistusta</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">saatavana</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">valmiina asennettavaksi</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">vahingoittunut</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">peruutettu</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">valmis</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Tarvitaan</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Suositeltu</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Valinnainen</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">kt</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">Mt</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">Gt</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">tunti</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">tuntia</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">minuutti</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">minuuttia</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sekunti</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sekuntia</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Valitse</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Lataa</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Tarkastelu</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Asenna</String>	
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Nämä päivitykset ovat saatavana.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">LifeSize-tuotteista saa suuremman hyödyn hankkimalla LifeSize-ohjelmiston uudet versiot.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Latauksen tila</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Päivityksiä ladataan.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Asennuksen tila</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Nämä päivitykset ovat valmiina ladattaviksi.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Asennuksen tila</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Päivityksiä asennetaan.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Asennuksen tila</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Tietokone on käynnistettävä uudelleen</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Tietokone on käynnistettävä uudelleen, jotta LifeSize-ohjelmiston asennus voidaan suorittaa loppuun. Tallenna avoinna olevat asiakirjat ja verkkosivut.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Haluatko käynnistää tietokoneen uudelleen nyt?</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize-päivitin</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Varoitus: Tämä komponentti jätettiin oletusarvoisesti valitsematta, koska se ei ole seuraavien rajoitusten mukainen:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Näytä LifeSize-päivitin</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Muuta automaattisia asetuksia...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Lopeta</String>
+  </LU_Strings_1>
+</LogitechUpdater>

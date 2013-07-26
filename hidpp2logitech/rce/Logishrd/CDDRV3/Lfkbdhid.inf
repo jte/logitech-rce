@@ -1,0 +1,421 @@
+;##############################################################################
+;#  LfKbdHid.inf - framework keyboard INF for HID devices
+;#  Copyright (c) 1999-2012 Logitech. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = LfKbdHid.cat
+Class       = Keyboard
+ClassGUID   = {4D36E96B-E325-11CE-BFC1-08002BE10318}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LHidFilt.sys = 1			; WDF version of the HID filter driver
+
+[DestinationDirs]
+DefaultDestDir       = 12    ; DIRID_DRIVERS
+
+[ControlFlags]
+ExcludeFromSelect   = *
+; ---------------------------------------------------------
+
+[Manufacturer]
+%Provider%	= ForAllNT
+%ProviderVista%	= VistaAndAbove,NT.6.0
+%Logicool%	= Logicool
+
+[ForAllNT]
+;------------------- Corded ------------------------------------------
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C30F&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C316&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C317&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C318&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C31B&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C326&Mi_00
+
+;------------------- Corded HID++ 2.0 --------------------------------
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C071&Mi_01&Col01
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C073&Mi_01&Col01
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C074&Mi_01&Col01
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C320&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C321&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C322&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C323&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C324&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C325&Mi_00
+
+;------------------- Cordless ----------------------------------------
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C50C&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C512&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C513&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C516&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C517&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C51C&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C529&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C52E&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C534&Mi_00
+
+"HID-Compliant Keyboard" = HIDFiltInstWakeEnbl,HID\VID_04C5&PID_12AE&Mi_00
+
+;------------------- Unifying IDs ------------------------------------------
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_0002
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_0006&Col01
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_000A&Col01
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_000E&Col01
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_001A&Col01
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_001E&Col01
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_011A&Col01
+%LogiHIDUnifyingKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&Class_040A&Col01
+
+;------------------- Bluetooth Receivers -----------------------------
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C703&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C704&Mi_00
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C70B
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C70E
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C713
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C71B
+%LogiHIDKeyboard%      = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C71E
+
+;------------------- Bluetooth Keyboards -----------------------------
+;BTW
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B301&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B303&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B307&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B308&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B309&Col02
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B30B&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B30C&Col02
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B305&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B3E1&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B3E3&Col01
+;Microsoft Non host connectable keyboards
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B301&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B303&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B307&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B308&Col01
+;Microsoft Host Connectable keyboards
+%LogiHIDKeyboard%      = HIDFiltInstLEDFix,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b305&Col01
+%LogiHIDKeyboard%      = HIDFiltInstLEDFix,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B309&Col02
+%LogiHIDKeyboard%      = HIDFiltInstLEDFix,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b3e1&Col01
+%LogiHIDKeyboard%      = HIDFiltInstLEDFix,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b3e3&Col01
+%LogiHIDKeyboard%      = HIDFiltInstLEDFix,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B30B&Col01
+%LogiHIDKeyboard%      = HIDFiltInstLEDFix,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B30C&Col02
+%LogiHIDKeyboard%      = HIDFiltInst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B319&Col01
+;Toshiba
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B301&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B303&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B307&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B308&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B309&Col02
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B30B&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B30C&Col02
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B305&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B3E1&Col01
+%LogiHIDKeyboard%      = HIDFiltInst,HID\VID_046D&PID_B3E3&Col01
+
+[VistaAndAbove.NT.6.0]
+%LogiHIDKeyboard% = HIDFiltInstWakeEnbl,HID\VID_046D&PID_C505&Mi_00
+
+[Logicool]
+;--------------------------- 106 keys
+;------------------- Corded ------------------------------------------
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C30F&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C316&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C317&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C318&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C31B&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C326&Mi_00
+
+;------------------- Corded HID++ 2.0 --------------------------------
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C071&Mi_01&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C073&Mi_01&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C074&Mi_01&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C320&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C321&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C322&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C323&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C324&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C325&Mi_00
+
+;------------------- Cordless ----------------------------------------
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C50C&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C512&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C513&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C516&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C517&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C51C&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C529&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C52E&Mi_00
+"HID-Compliant Keyboard"   = HIDFiltInstWakeEnblJ,HID\VID_04C5&PID_12AE&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C534&Mi_00
+
+;------------------- DJ IDs ------------------------------------------
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_0002
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_0006&Col01
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_000A&Col01
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_000E&Col01
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_001A&Col01
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_001E&Col01
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_011A&Col01
+%LogicoolHidUnifyingKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&Class_040A&Col01
+;------------------- Bluetooth Receivers -----------------------------
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C703&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C704&Mi_00
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C70B
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblJ,HID\VID_046D&PID_C70E
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblEngLayout,HID\VID_046D&PID_C713
+%LogicoolHidKeyboard%      = HIDFiltInstWakeEnblEngLayout,HID\VID_046D&PID_C71E
+;------------------- Bluetooth Keyboards -----------------------------
+;BTW
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B301&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B303&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B307&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B308&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B309&Col02
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B305&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B30B&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B30C&Col02
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B3E1&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B3E3&Col01
+;Microsoft Non host connectable keyboards
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B301&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B303&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B307&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B308&Col01
+;Microsoft Host Connectable keyboards
+%LogicoolHidKeyboard%      = HIDFiltInstLEDFixJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b305&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstLEDFixJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B309&Col02
+%LogicoolHidKeyboard%      = HIDFiltInstLEDFixJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b3e1&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstLEDFixJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b3e3&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstLEDFixJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B30B&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstLEDFixJ,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B30C&Col02
+;Toshiba
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B301&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B303&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B307&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B308&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B309&Col02
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B30B&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B30C&Col02
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B305&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B3E1&Col01
+%LogicoolHidKeyboard%      = HIDFiltInstJ,HID\VID_046D&PID_B3E3&Col01
+
+;------------------- HID non-Japanese -------------------------------
+[HIDFiltInst.NT]
+Include     = keyboard.inf
+Needs       = HID_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInst.NT.HW]
+Include     = keyboard.inf
+Needs       = HID_Keyboard_Inst.NT.HW
+AddReg      = Hid_LowerFilter
+
+[HIDFiltInst.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+[HIDFiltInstWakeEnbl.NT]
+Include     = keyboard.inf
+Needs       = HID_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInstWakeEnbl.NT.HW]
+Include     = keyboard.inf
+Needs       = HID_Keyboard_Inst.NT.HW
+AddReg      = Hid_LowerFilter, Hid_WaitWakeEnable
+
+[HIDFiltInstWakeEnbl.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+[HIDFiltInstLEDFix.NT]
+Include     = keyboard.inf
+Needs       = HID_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInstLEDFix.NT.HW]
+Include     = keyboard.inf
+Needs       = HID_Keyboard_Inst.NT.HW
+AddReg      = Hid_LowerFilter, DelayLEDWrite_AddReg
+
+[HIDFiltInstLEDFix.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+;------------------- HID Japanese -----------------------------------
+[HIDFiltInstJ.NT]
+Include     = keyboard.inf
+Needs	    = HID_106_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInstJ.NT.HW]
+AddReg      = Hid_LowerFilter
+
+[HIDFiltInstJ.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+[HIDFiltInstWakeEnblJ.NT]
+Include     = keyboard.inf
+Needs	    = HID_106_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInstWakeEnblJ.NT.HW]
+AddReg      = Hid_LowerFilter, Hid_WaitWakeEnable
+
+[HIDFiltInstWakeEnblJ.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+[HIDFiltInstWakeEnblEngLayout.NT]
+Include     = keyboard.inf
+Needs	    = HID_106_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInstWakeEnblEngLayout.NT.HW]
+AddReg      = Hid_LowerFilter, Hid_WaitWakeEnable
+
+[HIDFiltInstWakeEnblEngLayout.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+[HIDFiltInstLEDFixJ.NT]
+Include     = keyboard.inf
+Needs       = HID_106_Keyboard_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles
+
+[HIDFiltInstLEDFixJ.NT.HW]
+AddReg      = Hid_LowerFilter, DelayLEDWrite_AddReg, Jpn_Kbd_Spec
+
+[Hid_LowerFilter]
+HKR,,"LowerFilters",%REG_MULTI_SZ%,"LHidFilt"
+
+[DelayLEDWrite_AddReg]
+HKR,,DelayLEDWrite,%REG_DWORD%,1
+
+[Hid_WaitWakeEnable]
+HKR,,"WaitWakeEnabled",0x00010001,0x1
+
+[Jpn_Kbd_Spec]
+HKR,,"KeyboardTypeOverride",0x00010001,7
+HKR,,"KeyboardSubtypeOverride",0x00010001,2
+
+[HIDFiltInstLEDFixJ.NT.Services]
+Include    = keyboard.inf
+Needs      = HID_Keyboard_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Filter Driver
+
+[LHidFilt_Service_Inst]
+DisplayName     = %LHidFilt.SvcDesc%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\LHidFilt.Sys
+LoadOrderGroup  = Pointer Port
+
+[LHidFilt.CopyFiles]
+LHidFilt.Sys
+
+;--- WDF Coinstaller installation ------
+;
+
+[DestinationDirs]
+HIDFltrInstall_Inst_CoInstaller_CopyFiles = 11
+
+[HIDFiltInst.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstWakeEnbl.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstJ.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstWakeEnblJ.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstWakeEnblEngLayout.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstLEDFix.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstLEDFixJ.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFltrInstall_Inst_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "LkmdfCoInst.dll,CoDeviceInstall"
+
+[HIDFltrInstall_Inst_CoInstaller_CopyFiles]
+LkmdfCoInst.dll
+
+[SourceDisksFiles]
+LkmdfCoInst.dll=1 		; make sure the number matches with SourceDisksNames
+
+[HIDFiltInst.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstJ.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstWakeEnbl.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstWakeEnblJ.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstWakeEnblEngLayout.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstLEDFix.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstLEDFixJ.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFltrInstall_wdfsect]
+KmdfLibraryVersion = 1.5
+
+;-------end of WDF section
+
+[Strings]
+Provider  = "Logitech"
+ProviderVista  = "Logitech (Vista and Above)"
+ProviderSer = "Logitech"
+Logicool  = "Logicool"
+DiskName  = "Logitech SetPoint Driver Disk"
+
+LogiHIDKeyboard		= "Logitech HID-Compliant Keyboard"
+LogicoolHidKeyboard	= "Logicool HID-Compliant Keyboard (106 keys)"
+LogiHIDUnifyingKeyboard = "Logitech HID-compliant Unifying keyboard"
+LogicoolHidUnifyingKeyboard = "Logitech HID-compliant Unifying keyboard (106 keys)"
+
+LHidFilt.SvcDesc = "Logitech SetPoint KMDF HID Filter Driver"
+
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+REG_DWORD                   = 0x00010001
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

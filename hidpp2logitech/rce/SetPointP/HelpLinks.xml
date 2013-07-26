@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Source>
+	<language xml:lang="en-us"/>
+
+  <HelpLinks>
+
+    <HelpLink Name="KeyboardButtonsCustomizeHelp" CHMFile="keyboard_tp" HTMLLink="kbd_how_can_customizing_hlp"></HelpLink >
+    <HelpLink Name="MouseButtonsCustomizeHelp" CHMFile="mouse_tp" HTMLLink="mouse_changing_the_task"></HelpLink >
+    <HelpLink Name="MouseGameSettingsHelp" CHMFile="mouse_tp" HTMLLink="mouse_set_up_gaming_sett"></HelpLink >
+    <HelpLink Name="MouseAdvGameSettingsHelp" CHMFile="mouse_tp" HTMLLink="mouse_advanced_game_sett"></HelpLink >
+    <HelpLink Name="DeviceBatteryChangingHelp" CHMFile="gettingstarted" HTMLLink="gs_changing_batteries"></HelpLink >
+    <HelpLink Name="DeviceConnectBTHelp" CHMFile="gettingstarted" HTMLLink="gs_conn_and_reconn_bt_devs"></HelpLink >
+    <HelpLink Name="DeviceConnect27Help" CHMFile="gettingstarted" HTMLLink="gs_27_connect_overview"></HelpLink >
+    <HelpLink Name="MouseNotifPrefHelp" CHMFile="mouse_tp" HTMLLink="mouse_define_notif_pref"></HelpLink >
+    <HelpLink Name="KeyboardNotifPrefHelp" CHMFile="keyboard_tp" HTMLLink="kbd_lcd_to_integrate_email"></HelpLink >
+    <HelpLink Name="MediaPadNotifPrefHelp" CHMFile="mediapad_tp" HTMLLink="mp_to_integrate_email"></HelpLink >
+    <HelpLink Name="KeyboardiNavUseHelp" CHMFile="keyboard_tp" HTMLLink="kbd_using_inav_features"></HelpLink >
+    <HelpLink Name="KeyboardSetupPlaylistHelp" CHMFile="keyboard_tp" HTMLLink="kbd_lcd_set_up_playlist"></HelpLink >
+    <HelpLink Name="RemoteButtonsCustomizeHelp" CHMFile="remote_tp" HTMLLink="rc_customizing_buttons"></HelpLink >
+    <HelpLink Name="MediaPadButtonsCustomizeHelp" CHMFile="mediapad_tp" HTMLLink="mp_to_choose_media_player"></HelpLink >
+    <HelpLink Name="MousePointerSettingsHelp" CHMFile="mouse_tp" HTMLLink="mouse_choose_pointer_moves"></HelpLink >
+    <HelpLink Name="KeyboardLCDNotifPrefHelp" CHMFile="keyboard_tp" HTMLLink="kbd_lcd_choose_how_notified"></HelpLink >
+    <HelpLink Name="MediaPadAlertNotifHelp" CHMFile="mediapad_tp" HTMLLink="mp_to_choose_how_i_alerted"></HelpLink >
+    <HelpLink Name="ToolsIndicatorsHelp" CHMFile="gettingstarted" HTMLLink="gs_setting_tp_options"></HelpLink >
+    <HelpLink Name="ComfortGuideHelp" CHMFile="setpoint" HTMLLink="front_comfort_guidelines"></HelpLink >
+    <HelpLink Name="SetPointHelpCenter" CHMFile="SetPoint" HTMLLink=""></HelpLink >
+    <HelpLink Name="ZoomSettingsTabHelp" CHMFile="mouse_tp" HTMLLink="mouse_define_zoom_pref"></HelpLink >
+    <HelpLink Name="SmartWheelSettingsTabHelp" CHMFile="mouse_tp" HTMLLink="mouse_adjust_scroll_wheel"></HelpLink >
+    <HelpLink Name="LCMSettingsHelp" CHMFile="speakerphone_tp" HTMLLink="spk_adj_com_man_sett"></HelpLink >
+    <HelpLink Name="MouseTouchPadScrollSettingsHelp" CHMFile="keyboard_tp" HTMLLink="kbd_tchdsk_adj_scroll_spd"></HelpLink >
+    <HelpLink Name="KeyboardTouchPadScrollSettingsHelp" CHMFile="keyboard_tp" HTMLLink="kbd_tchdsk_how_use_tchdsk"></HelpLink >
+    <HelpLink Name="KeyboardInActiveKeysHelp" CHMFile="keyboard_tp" HTMLLink="kbd_disabling_keys"></HelpLink >
+    <HelpLink Name="MouseOrientationHelp" CHMFile="mouse_tp" HTMLLink="mouse_trackball_orientat"></HelpLink >
+  </HelpLinks>
+
+</Source>

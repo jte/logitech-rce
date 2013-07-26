@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="pt-pt"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Instalação do SetPoint™</String>
+    <String ID="IDS_TITLE">Instalação do SetPoint™</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Software para ratos e teclados Logitech</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Obrigado por ter adquirido este produto da Logitech.  Os produtos da Logitech foram concebidos para o ajudar a utilizar o PC de forma mais eficaz. Tire proveito das funcionalidades avançadas do produto instalando este software.
+
+
+
+      Quando estiver pronto para iniciar a instalação deste produto de software da Logitech, ligue o dispositivo, seleccione o seu idioma e prima o botão Seguinte.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">Alterar as funções atribuídas aos botões do rato Logitech ou teclas de função do teclado Logitech</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Alterar as funções atribuídas aos botões do rato Logitech ou teclas de função do teclado Logitech</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Alterar as funções atribuídas aos botões do rato Logitech ou teclas de função do teclado Logitech</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Instalação do SetPoint™</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Instalação do SetPoint™</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Instalação do SetPoint™</String>
+    <String ID="IDS_WARNING_OS">Este software não é compatível com o sistema operativo. Visite www.logitech.com para transferir uma versão compatível.</String>
+    <String ID="IDS_WARNING_EDITION32">Esta versão do instalador requer a edição de 32-bit do seu sistema operativo.\nVisite www.logitech.com/downloads/SetPoint para transferir uma versão compatível.</String>
+    <String ID="IDS_WARNING_EDITION64">Esta versão do instalador requer a edição de 64-bit do seu sistema operativo.\nVisite www.logitech.com/downloads/SetPoint para transferir uma versão compatível.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Actualizar o Utilitário para o software da Logitech</String>
+
+  </StringSet>
+</FESetup_Strings_1>

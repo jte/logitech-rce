@@ -1,0 +1,54 @@
+;##############################################################################
+;#  LfUnkRaw.inf - framework Unknown INF for RawPdo devices
+;#  Copyright (c) 1999-2012 Logicool. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = JfUnkRaw.cat
+Class       = DriverInterface
+ClassGuid   = {D41DD63A-1395-4419-AE14-A534F5F2AD29}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+
+[SourceDisksFiles]
+
+[DestinationDirs]
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[ClassInstall32]
+AddReg=DriverInterfaceAddreg
+
+[DriverInterfaceAddreg]
+HKR,,,,DriverInterface
+HKR,,Icon,,"-18"
+
+; ---------------------------------------------------------
+[Manufacturer]
+%Provider%	= Logicool
+
+[Logicool]
+%LOGITECH_RAW_PDO% = NullInst,LOGITECH_RAW_PDO
+
+; Install Sections
+; ---------------------------------------------------------
+
+[NullInst.NT]
+; dummy section
+
+[NullInst.NT.Services]
+AddService = , %SPSVCINST_ASSOCSERVICE%, 
+
+
+;-----------------------------------------------------------
+[Strings]
+Provider                    = "Logicool"
+
+LOGITECH_RAW_PDO  = "Logicool Driver Interface"
+
+REG_MULTI_SZ                = 0x00010000
+SPSVCINST_ASSOCSERVICE      = 0x00000002

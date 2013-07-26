@@ -1,0 +1,45 @@
+; Logicool Bluetooth Driver INF
+; Copyright (c) 2003-2010 Logicool
+
+[Version]
+CatalogFile = JRcvBthK.cat
+Signature="$Windows NT$"
+Class=Bluetooth
+Provider=%Logicool%
+CLASSGUID={e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+DriverVer=01/03/2013,5.52.22.0
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Manufacturer]
+%Logicool%=Logicool
+
+[ClassInstall32.NT]
+AddReg=BluetoothClass.NT.AddReg
+
+[BluetoothClass.NT.AddReg]
+HKR,,,,%BluetoothClassName%
+HKR,,NoInstallClass,,1
+HKR,,Installer32,,"bthci.dll,BluetoothClassInstaller"
+HKR,,Icon,,"201"
+
+[Logicool]
+%USB\Vid_046d&Pid_c709% = LBthUsb,USB\Vid_046d&Pid_c709
+
+[LBthUsb.NT]
+Include=Bth.inf
+Needs=BthUsb.NT
+
+[LBthUsb.NT.HW]
+Needs=BthUsb.NT.HW
+
+[LBthUsb.NT.Services]
+Needs=BthUsb.NT.Services
+
+[Strings]
+Logicool = "Logicool"
+BluetoothClassName = "Bluetooth Radios"
+USB\Vid_046d&Pid_c707 = "Bluetooth wireless hub"
+USB\Vid_046d&Pid_c708 = "Bluetooth wireless hub"
+USB\Vid_046d&Pid_c709 = "Bluetooth wireless hub"

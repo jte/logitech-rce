@@ -1,0 +1,179 @@
+;##############################################################################
+;#  JfHidUsb.inf - framework HID INF for USB devices
+;#  Copyright (c) 1999-2012 Logicool. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = JfHidUsb.cat
+Class       = HIDClass
+ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LUsbFilt.sys = 1				; KMDF version of the USB filter driver
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+; ---------------------------------------------------------
+[Manufacturer]
+%Provider%	= Logicool
+
+[Logicool]
+;--------------------- Corded Mice ------------------------
+%USB\VID_046D&PID_C016% = HidInst,USB\VID_046D&PID_C016
+%USB\VID_046D&PID_C018% = HidInst,USB\VID_046D&PID_C018
+%USB\VID_046D&PID_C019% = HidInst,USB\VID_046D&PID_C019
+%USB\VID_046D&PID_C01A% = HidInst,USB\VID_046D&PID_C01A
+%USB\VID_046D&PID_C01B% = HidInst,USB\VID_046D&PID_C01B
+%USB\VID_046D&PID_C01D% = HidInst,USB\VID_046D&PID_C01D
+%USB\VID_046D&PID_C040% = HidInst,USB\VID_046D&PID_C040
+%USB\VID_046D&PID_C043% = HidInst,USB\VID_046D&PID_C043
+%USB\VID_046D&PID_C044% = HidInst,USB\VID_046D&PID_C044
+%USB\VID_046D&PID_C045% = HidInst,USB\VID_046D&PID_C045
+%USB\VID_046D&PID_C046% = HidInst,USB\VID_046D&PID_C046
+%USB\VID_046D&PID_C047% = HidInst,USB\VID_046D&PID_C047
+%USB\VID_046D&PID_C050% = HidInst,USB\VID_046D&PID_C050
+%USB\VID_046D&PID_C053% = HidInst,USB\VID_046D&PID_C053
+%USB\VID_046D&PID_C05A% = HidInst,USB\VID_046D&PID_C05A
+%USB\VID_046D&PID_C05B% = HidInst,USB\VID_046D&PID_C05B
+%USB\VID_046D&PID_C061% = HidInst,USB\VID_046D&PID_C061
+%USB\VID_046D&PID_C062% = HidInst,USB\VID_046D&PID_C062
+%USB\VID_046D&PID_C064% = HidInst,USB\VID_046D&PID_C064
+%USB\VID_046D&PID_C065% = HidInst,USB\VID_046D&PID_C065
+%USB\VID_046D&PID_C069% = HidInst,USB\VID_046D&PID_C069
+%USB\VID_046D&PID_C078% = HidInst,USB\VID_046D&PID_C078
+%USB\VID_046D&PID_C07A% = HidInst,USB\VID_046D&PID_C07A
+%USB\VID_046D&PID_C06D% = HidInst,USB\VID_046D&PID_C06D
+
+;------------------- Corded keyboards ---------------------------
+%USB\VID_046D&PID_C30F&MI_01% = HidInst,USB\VID_046D&PID_C30F&MI_01
+%USB\VID_046D&PID_C316&MI_01% = HidInst,USB\VID_046D&PID_C316&MI_01
+;------------------ Cordless Receivers --------------------
+%USB\VID_046D&PID_C501% = HidInst,USB\VID_046D&PID_C501
+%USB\VID_046D&PID_C508% = HidInst,USB\VID_046D&PID_C508
+%USB\VID_046D&PID_C50D% = HidInst,USB\VID_046D&PID_C50D
+%USB\VID_046D&PID_C50E% = HidInst,USB\VID_046D&PID_C50E
+%USB\VID_046D&PID_C510% = HidInst,USB\VID_046D&PID_C510
+;------------------ Cordless Dual Mouse and Keyboard Receivers ------
+%USB\VID_046D&PID_C512&Mi_00% = HidInst,USB\VID_046D&PID_C512&Mi_00
+%USB\VID_046D&PID_C512&Mi_01% = HidInst,USB\VID_046D&PID_C512&Mi_01
+
+; Install Sections
+; ---------------------------------------------------------
+[CopyFilesLUsbFilt]
+LUsbFilt.sys
+
+[HidInst.NT]
+Include     = input.inf
+Needs       = HID_Inst.NT
+CopyFiles = CopyFilesLUsbFilt
+
+[HidInst.NT.HW]
+Include     = input.inf
+Needs       = HID_Inst.NT.HW
+AddReg = HID_LowerFilter
+
+[HID_LowerFilter]
+HKR,,"LowerFilters",%REG_MULTI_SZ%,"LUsbFilt"
+HKR,,"WaitWakeEnabled",0x00010001,0x1
+
+[HidInst.NT.Services]
+Include    = input.inf
+Needs      = HID_Inst.NT.Services
+AddService = LUsbFilt,,LUsbFilt_Service_Inst
+
+[LUsbFilt_Service_Inst]
+DisplayName     = %FltDisplayName%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_IGNORE%
+ServiceBinary   = %10%\System32\Drivers\LUsbFilt.Sys
+LoadOrderGroup  = Extended Base
+
+
+;--- WDF Coinstaller installation ------
+
+[DestinationDirs]
+LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles = 11
+
+[HidInst.NT.CoInstallers]
+AddReg=LOGIUSBMOUSE_Inst_CoInstaller_AddReg
+CopyFiles=LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles
+
+[LOGIUSBMOUSE_Inst_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "LkmdfCoInst.dll,CoDeviceInstall"
+
+[LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles]
+LkmdfCoInst.dll
+
+[SourceDisksFiles]
+LkmdfCoInst.dll=1		; make sure the number matches with SourceDisksNames
+
+[HidInst.NT.Wdf]
+KmdfService = LUsbFilt, HidInst_wdfsect
+
+[HidInst_wdfsect]
+KmdfLibraryVersion = 1.5
+
+;-----------------------------------------------------------
+[Strings]
+Provider                    = "Logicool"
+ProviderVista		    = "Logicool (Vista and Above)"
+DiskName                    = "Logicool SetPoint Driver Disk"
+SvcDisplayName              = "Logicool SetPoint USB Receiver Device Driver"
+SvcDescription              = "Logicool SetPoint USB Receiver"
+FltDisplayName              = "Logicool SetPoint KMDF USB Filter"
+
+USB\VID_046D&PID_C016  = "Logicool USB Optical Wheel Mouse"
+USB\VID_046D&PID_C018  = "Logicool USB Optical Wheel Mouse"
+USB\VID_046D&PID_C019  = "Logicool Optical Tilt Wheel Mouse"
+USB\VID_046D&PID_C01A  = "Logicool USB UltraX Optical Mouse"
+USB\VID_046D&PID_C01B  = "Logicool USB MX310 Optical Mouse"
+USB\VID_046D&PID_C01D  = "Logicool USB MX510 Optical Mouse"
+USB\VID_046D&PID_C040  = "Logicool Corded USB Wheel Mouse"
+USB\VID_046D&PID_C043  = "Logicool USB MX320 Laser Mouse"
+USB\VID_046D&PID_C044  = "Logicool USB LX3 Optical Mouse"
+USB\VID_046D&PID_C045  = "Logicool USB Optical Tilt Wheel Mouse"
+USB\VID_046D&PID_C046  = "Logicool USB RX1000 Laser Mouse"
+USB\VID_046D&PID_C047  = "Logicool USB Laser Tilt Wheel Mouse"
+USB\VID_046D&PID_C050  = "Logicool USB (RX250) Optical Mouse"
+USB\VID_046D&PID_C053  = "Logicool USB Laser Mouse"
+USB\VID_046D&PID_C05A  = "USB Optical Mouse"
+USB\VID_046D&PID_C05B  = "USB Optical TiltWheel Mouse"
+USB\VID_046D&PID_C061  = "Logicool USB RX1500 Mouse"
+USB\VID_046D&PID_C062  = "Logicool USB LS1 Laser Mouse"
+USB\VID_046D&PID_C064  = "USB Optical TiltWheel Mouse"
+USB\VID_046D&PID_C065  = "USB Laser Mouse"
+USB\VID_046D&PID_C069  = "Logicool USB M500 Laser Mouse"
+USB\VID_046D&PID_C078  = "USB Optical Tilt Wheel Mouse"
+USB\VID_046D&PID_C07A  = "USB Optical Tilt Wheel Mouse"
+USB\VID_046D&PID_C501  = "Logicool Cordless USB Trackball"
+USB\VID_046D&PID_C505&Mi_00 = "Logicool Cordless USB Keyboard"
+USB\VID_046D&PID_C505&Mi_01 = "Logicool Cordless USB Mouse & Enhanced Keys"
+USB\VID_046D&PID_C508  = "Logicool Cordless USB Trackball"
+USB\VID_046D&PID_C50D  = "Logicool Cordless USB Mouse"
+USB\VID_046D&PID_C50E  = "Logicool Cordless USB Mouse"
+USB\VID_046D&PID_C510  = "Logicool Cordless USB Mouse"
+USB\VID_046D&PID_C512&Mi_00 = "Logicool Cordless USB Keyboard"
+USB\VID_046D&PID_C512&Mi_01 = "Logicool Cordless USB Mouse & Enhanced Keys"
+USB\VID_046D&PID_C06D  = "Logicool USB Mouse"
+
+USB\VID_046D&PID_C30F&MI_01	 = "Logicool HID-Compliant Keyboard"
+USB\VID_046D&PID_C316&MI_01	 = "Logicool HID-Compliant Keyboard"
+
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_IGNORE        = 0x00000000
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

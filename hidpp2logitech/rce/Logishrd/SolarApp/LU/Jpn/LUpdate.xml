@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">jpn</String>
+    
+    <String ALIAS="IDS_UI_TOOLTIP">ロジクール アップデータ</String>
+    
+    <String ALIAS="IDS_UI_BALLOON_TITLE">ロジクール アップデータ</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">ご使用のロジクール ソフトウェアのための新しいアップデートが入手できます。</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">ロジクール ソフトウェアのアップデートをダウンロードしています。</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">ロジクール ソフトウェアのアップデートをインストールする準備ができました。</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">ロジクール ソフトウェアのアップデートをインストールしています。</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">ご使用のロジクール ソフトウェアが更新されました。</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">インターネット接続がありません。新しいバージョンの入手状況をチェックできませんでした.</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">エラーが発生しました</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">この操作を実行するためには管理者権限が必要です</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">インターネット接続がリセットされました。後で再び試してください。</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">インターネット接続がリセットされました。ロジクール アップデータは後で再試行します。</String>
+    
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">キャンセル</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">非表示</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">後で</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">ダウンロード</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">インストール</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">準備ができならすべてインストールする</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">自動設定を変更する...</String>
+    
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">自動アップデートを有効にする</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">自動的にダウンロードまたはインストールしないで確認を求める。</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">アップデートをダウンロードするが、インストールは自分で行う。</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">自動的にダウンロードとインストールを行う。</String>
+    
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">製品</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">ステータス</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">サイズ</String>
+    
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">チェックを待機しています</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">入手できます</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">インストールの準備ができました</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">完了</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">これらのアップデートが入手できます。</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">ダウンロードのステータス</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">これらのアップデートをインストールする準備ができました。</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">インストールのステータス</String>
+    
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">ロジクール アップデータを表示する</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">自動設定を変更する...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">終了</String>
+  </LU_Strings_1>
+</LogitechUpdater>

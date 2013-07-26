@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="en-us"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPoint™ Setup</String>
+    <String ID="IDS_TITLE">SetPoint™ Setup</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Software for Logitech Mice &amp; Keyboards</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Thank you for your purchase of this Logitech product.  Logitech products are designed to help you use your PC more effectively.  Take advantage of enhanced product features by installing this software.
+
+
+
+      When you are ready to begin installation of this Logitech software product, please select your language and press the Next button.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">Change the functions assigned to your Logitech mouse buttons or Logitech keyboard function keys</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Change the functions assigned to your Logitech mouse buttons or Logitech keyboard function keys</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Personalize the settings of your Logitech mouse or keyboard.</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+    <String ID="IDS_LGS_LINK">Click &#60;a href="http://www.logitech.com/swr_lgs" target="_blank" id="eula"&#62;here &#60;/a&#62; to get Logitech Gaming Software to customize the settings of your gaming mouse.</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPoint™ Setup</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">SetPoint™ Setup</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">SetPoint™ Setup</String>
+    <String ID="IDS_WARNING_OS">Sorry, this software is not compatible with your operating system.  Please visit www.logitech.com to download a compatible version.</String>
+    <String ID="IDS_WARNING_EDITION32">This version of the installer requires a 32-bit edition of your operating system.\nPlease visit www.logitech.com/downloads/SetPoint to download a compatible version.</String>
+    <String ID="IDS_WARNING_EDITION64">This version of the installer requires a 64-bit edition of your operating system.\nPlease visit www.logitech.com/downloads/SetPoint to download a compatible version.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Update Utility for Logitech software</String>
+
+  </StringSet>
+</FESetup_Strings_1>

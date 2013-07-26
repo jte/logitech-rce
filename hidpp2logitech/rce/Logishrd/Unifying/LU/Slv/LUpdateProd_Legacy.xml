@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">slv</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Izdelek Logitech</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Programska oprema za izdelek Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Programska oprema za miško in tipkovnico</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Programska oprema za miško in tipkovnico</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Pisarniška programska oprema za miško in tipkovnico</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Programska oprema za igre za miško in tipkovnico</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Programska oprema za spletno kamero</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Programska oprema za spletno kamero</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Komunikacijska programska oprema</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Programska oprema Wireless DJ</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">Programska oprema G-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Programska oprema za igralno tipkovnico Logitech G15</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Programska oprema Z-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Programska oprema za zvočnike Logitech Z-10</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">Programska oprema G-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Programska oprema za igralno tipkovnico Logitech G11</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">Programska oprema G-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Programska oprema za igralno tipkovnico Logitech G11</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">Programska oprema GamePanel</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Programska oprema za tipkovnice in igralne blazinice Logitech G-Series</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">Programska oprema za igranje</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Programska oprema za igralne palice, igralne blazinice in kolesca Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">Programska oprema za igranje</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">Programska oprema za tipkovnice in igralne blazinice Logitech G-Series</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Napredna programska oprema za prostorski zvok</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Zvočniki Logitech Z-5</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Napredna programska oprema za zvočnike Logitech Z-5</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Programska oprema za slušalke za prostorski zvok</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitechove brezžične slušalke z mikrofonom za igranje iger G930 z zvokom Dolby Surround iz več kanalov</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logitechov pomočnik za brezžične slušalke z mikrofonom H760 za predvajalnike predstavnosti</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">Logitech wireless Headset H800 Assistant for media players</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Programska oprema za vzpostavljanje povezav med napravami Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Miška Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Posodobitev vdelane programske opreme za miško Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Tipkovnica Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Posodobitev vdelane programske opreme za tipkovnico Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Številčna tipkovnica Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Posodobitev vdelane programske opreme za številčno tipkovnico Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Sprejemnik Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Posodobitev vdelane programske opreme za sprejemnik Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Programska oprema za spletno kamero</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Programska oprema za spletno kamero Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid vam omogoča preprosto vzdrževanje stikov s prijatelji in sorodniki po vsem svetu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Programska oprema za varnostni videosistem Logitech Alert™</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">LifeSize Connections je preprost način za povezovanje s kolegi in strankami po vsem svetu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Program Logitech Solar</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Program za nadzor in upravljanje tipkovnice Logitech Wireless Solar Keyboard K750</String>
+  </LU_Strings_1>
+</LogitechUpdater>

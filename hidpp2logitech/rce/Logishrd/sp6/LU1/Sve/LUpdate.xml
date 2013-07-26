@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">sve</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Det finns nya uppdateringar. Klicka här för att ladda ner.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klicka här för att slutföra uppdateringen av Logitech-programvaran.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Uppdateringar för din Logitech-programvara laddas ner</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Det finns nya uppdateringar tillgängliga. Klicka här om du vill installera.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Uppdateringar för din Logitech-programvara installeras</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Din Logitech-programvara är uppdaterad</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">Installationen av Logitech-programvaran slutförs när du startar om systemet</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Klicka här om du vill slutföra installationen av programvaran</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Det finns ingen internetanslutning. Det går inte att kontrollera om det finns en nyare version tillgänglig</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Det uppstod ett fel</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Installationsfel.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Installationen har avbrutits.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Det krävs administratörsbehörighet för att utföra åtgärden</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internetanslutningen har återställts. Försök igen senare</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internetanslutningen har återställts. Logitech Updater försöker igen senare</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installationen misslyckades eftersom disken är full.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Slutför</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Avbryt</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Dölj</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Uppdatera senare</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Ladda ner &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Fortsätt nerladdning &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installera &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Installera samtliga när de har laddats ner&gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Ja</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Nej</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Starta om systemet</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">Du måste starta om systemet för att slutföra installationen</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigurera</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Konfigurera automatiska inställningar</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Visa tidigare avböjda uppdateringar</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Laddar ner komponent %d av %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Installerar komponent %d av %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Återstående tid:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">%s av %s har laddats ned</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">Du måste starta om systemet för att slutföra installationen.</String>
+
+	<String ALIAS="IDS_UI_BANNER_CONFIG">Uppdateringsinställningar för Logitech</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Välj hur du vill att uppdateraren ska arbeta.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Aktivera automatisk uppdatering.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Meddela mig, men ladda inte ner eller installera uppdateringarna automatiskt.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Ladda ner uppdateringar, men låt mig välja när jag vill installera dem.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Ladda ner och installera uppdateringar automatiskt.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Återställ standardinställningarna</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkt</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Status</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Storlek</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">väntar på kontroll</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">tillgänglig</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">klar att installera</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">skadad</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">har avbrutits</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">klar</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Nödvändig</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Rekommenderas</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Valfri</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">timme</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">timmar</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">minut</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">minuter</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sekund</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sekunder</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Välj</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Hämta</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Granska</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Installera</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">De här uppdateringarna är tillgängliga.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Få ut mer av Logitechs produkter med de senaste versionerna av Logitech-programvaran.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Nedladdningsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Uppdateringarna laddas ner.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Installationsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Du kan nu börja installera de här uppdateringarna.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Installationsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Uppdateringarna installeras.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Installationsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Omstart krävs</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Omstart krävs för att installationen av Logitech-programvaran ska slutföras. Spara dina ändringar i alla öppna dokument och alla öppna webbsidor.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Vill du starta om systemet nu?</String>
+
+	<String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Varning: Den här komponenten avmarkerades automatiskt eftersom följande gräns(er) överskridits:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Visa Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Ändra automatiska inställningar...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Avsluta</String>
+  </LU_Strings_1>
+</LogitechUpdater>

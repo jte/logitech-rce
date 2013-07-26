@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="LBTWizGI.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="English"/>
+	<StringSet ID="English">
+		<String ALIAS="USE_JAPANESE_LOGO">0</String>
+		<String ALIAS="WINDOW_CAPTION">Bluetooth^&#174; Connection Assistant</String>
+		<String ALIAS="BOTTOM_CLOSE_BUTTON">Close</String>
+		<String ALIAS="INFO_TITLE">More Info</String>
+		<String ALIAS="FINISH_LABEL">Finish</String>
+		<String ALIAS="FINISH_FOOTER">Click the Finish button to exit the Connection Wizard.</String>
+		<String ALIAS="WELCOME_INFO">Bluetooth operates through radio waves. Your Bluetooth wireless hub is using radio waves to find "discoverable" devices.\n\nIn a moment, you will be shown how to securely connect your devices to your computer.</String>
+		<String ALIAS="WELCOME_RFID_INFO">Please wait while we ensure your Bluetooth device is recognized and securely connected to your system.</String>
+		<String ALIAS="DFU_INFO">We constantly improve the products you have purchased. This step is necessary so you can benefit from the latest fixed and optimized functionality we have made available for your product.</String>
+    <String ALIAS="DFU_QUERY">We constantly improve the products you have purchased. This step is necessary so you can benefit from the latest fixed and optimized functionality we have made available for your product.</String>
+    <String ALIAS="MOUSE_BATT_INFO">Bluetooth devices must be powered and "discoverable" to be detected by your Bluetooth wireless hub. When you press the Connect buttons, your device will become "discoverable" and available for connection to your computer.</String>
+		<String ALIAS="MOUSE_CONFIRM_INFO">A "discoverable" Bluetooth mouse has been found. Clicking on the chain will confirm its connection to your computer. If you cannot click the chain, the wizard will begin to search again after a moment.</String>
+		<String ALIAS="MOUSE_DONE_INFO">Now that you've successfully closed the chain, your mouse is connected to your computer and can't be discovered or secured by other computers. No other computer can detect your mouse's commands.</String>
+		<String ALIAS="KBD_BATT_INFO">Bluetooth devices must be powered and "discoverable" to be detected by your Bluetooth wireless hub. When you press the Connect buttons, your device will become "discoverable" and available for connection to your computer.</String>
+		<String ALIAS="KBD_CONFIRM_INFO">A "discoverable" Bluetooth keyboard has been found. To secure the keyboard's connection to your computer, use the keyboard to type the Passkey and press Enter. If you cannot type the Passkey, the wizard will begin to search again after a moment. If you are having trouble connecting, check if the Bluetooth Address shown matches the address on the bottom of your device; if it does not, click Search Again to search for the correct device. </String>
+		<String ALIAS="KBD_VC_UNPLUG_CONFIRM_INFO">A "discoverable" Bluetooth keyboard has been found. To secure the keyboard's connection to your computer, use the keyboard to type the Passkey and press Enter.   If you cannot type the Passkey, the wizard will begin to search again after a moment. </String>
+		<String ALIAS="KBD_DONE_INFO">Your Bluetooth keyboard has been recognized and securely connected to your system. \n\nThis process has ensured that no other computer can detect your keystrokes.</String>
+		<String ALIAS="NUMPAD_BATT_INFO">Bluetooth devices must be powered and "discoverable" to be detected by your Bluetooth wireless hub. When you press the Connect buttons, your device will become "discoverable" and available for connection to your computer.</String>
+		<String ALIAS="NUMPAD_CONFIRM_INFO">A "discoverable" Bluetooth MediaPad has been found. To secure the MediaPad's connection to your computer, use the MediaPad to type the Passkey and press Enter. If you cannot type the Passkey, the wizard will begin to search again after a moment. If you are having trouble connecting, check if the Bluetooth Address shown matches the address on the bottom of your device; if it does not, click Search Again to search for the correct device.</String>
+		<String ALIAS="NUMPAD_VC_UNPLUG_CONFIRM_INFO">A "discoverable" Bluetooth MediaPad has been found. To secure the MediaPad's connection to your computer, use the MediaPad to type the Passkey and press Enter. If you cannot type the Passkey, the wizard will begin to search again after a moment. </String>
+		<String ALIAS="NUMPAD_DONE_INFO">Your Bluetooth MediaPad has been recognized and securely connected to your system. \n\nThis process has ensured that no other computer can detect your keystrokes.</String>
+		<!-- The Connection Status page's Info pane has 3 texts -->
+		<String ALIAS="CONNECTION_STATUS_INFO">Click on the Troubleshoot Connection button to get more information on how to connect your devices.\n\nTo connect other Bluetooth devices (e.g. cell phone), please close this Bluetooth Connection Assistant and open it again from the Windows Start menu.</String>
+		<String ALIAS="CONNECTION_STATUS_CONNECT_OTHER_INFO">To connect other Bluetooth devices (e.g. cell phone), please click Connect Other Devices and follow the onscreen instructions.\n\n\n\n\n*CONNECTION PROBLEM?*\n\nClick Troubleshoot Connection and follow the onscreen instructions.</String>
+		<String ALIAS="CONNECTION_STATUS_USE_INTEGRATED_RADIO_INFO">To connect your mouse and keyboard to the Bluetooth solution integrated in your PC, click the Use Integrated Radio button and follow the onscreen instructions.</String>
+		<!-- The Connection Status page's Status button can be labeled 2 things -->
+		<String ALIAS="CONNECTION_STATUS_BUTTON_CONNECT_OTHER">Connect Other Devices</String>
+		<String ALIAS="CONNECTION_STATUS_BUTTON_USE_INTEGRATED_RADIO">Use Integrated Radio</String>
+		<String ALIAS="CHECK_CONN_INFO">Please wait while we ensure your Bluetooth device is recognized and securely connected to your system.</String>
+		<String ALIAS="CONNECTED_INFO">Your Bluetooth device has been recognized by your computer. The device is currently connected.</String>
+		<String ALIAS="DISCONNECTED_INFO">The device is disconnected and can be moved to a different system, or re-connected to this system.</String>
+		<String ALIAS="SEARCH_AGAIN_GAUGE_CAPTION">Continuing search - please wait...</String>
+		<String ALIAS="MOUSE_MAIN_HEADER">A Bluetooth mouse with Bluetooth Address %s has been found.</String>
+		<String ALIAS="KEYBOARD_MAIN_HEADER">A Bluetooth keyboard with Bluetooth Address %s has been found.</String>
+		<String ALIAS="NUMPAD_MAIN_HEADER">A Bluetooth MediaPad with Bluetooth Address %s has been found.</String>
+		<String ALIAS="PASSKEY_CONNECT_FOOTER">Passkey detected. Please wait while device is secured.</String>
+		<String ALIAS="MOUSE_CONNECT_FOOTER">Mouse detected. Please wait while device is connected.</String>
+		<String ALIAS="MOUSE_MAIN4_ALIAS">Wait for the mouse to be detected.</String>
+		<String ALIAS="KEYBOARD_MAIN4_ALIAS">Wait for the keyboard to be detected.</String>
+		<String ALIAS="NUMPAD_MAIN4_ALIAS">Wait for the MediaPad to be detected.</String>
+		<!-- Device names shown in Connection Status page, alias is DEVICE_XXXX, where XXXX is PID -->
+		<String ALIAS="DEVICE_B001">MX 900 Mouse for Bluetooth</String>
+		<String ALIAS="DEVICE_B002">V270 Bluetooth Mouse for Notebooks</String>
+		<String ALIAS="DEVICE_B003">MX 1000 Mouse for Bluetooth</String>
+		<String ALIAS="DEVICE_B004">Dell BT/XPS M2010 Mouse</String>
+		<String ALIAS="DEVICE_B007">MX Revolution Bluetooth</String>
+		<String ALIAS="DEVICE_B008">V470 Bluetooth enabled mouse</String>
+		<String ALIAS="DEVICE_B301">Cordless Keyboard for Bluetooth</String>
+		<String ALIAS="DEVICE_B302">Cordless Keyboard for Bluetooth</String>
+		<String ALIAS="DEVICE_B303">diNovo Keyboard</String>
+		<String ALIAS="DEVICE_B304">diNovo Keyboard</String>
+		<String ALIAS="DEVICE_B305">MX 5000 Keyboard</String>
+		<String ALIAS="DEVICE_B306">MX 5000 Keyboard</String>
+		<String ALIAS="DEVICE_B307">diNovo Keyboard</String>
+		<String ALIAS="DEVICE_B308">Dell BT keyboard</String>
+		<String ALIAS="DEVICE_B309">diNovo Edge keyboard</String>
+		<String ALIAS="DEVICE_B30B">MX 5500 Keyboard</String>
+		<String ALIAS="DEVICE_B3E1">MediaPad</String>
+		<String ALIAS="DEVICE_B3E2">MediaPad</String>
+		<String ALIAS="DEVICE_B3E3">MediaPad</String>
+		<!-- Inexact device names -->
+		<String ALIAS="DEVICE_B0">Mouse for Bluetooth</String>
+		<String ALIAS="DEVICE_B1">Mouse for Bluetooth</String>
+		<String ALIAS="DEVICE_B3">Keyboard for Bluetooth</String>
+		<String ALIAS="DEVICE_C71C">USB Bluetooth Mini-Receiver (%S)</String>
+		<String ALIAS="DEVICE_C70C">USB Bluetooth Mini-Receiver (%S)</String>
+		<String ALIAS="DEVICE_C70A">USB Bluetooth Mini-Receiver (%S)</String>
+		<String ALIAS="DEVICE_C7">Bluetooth Hub (%S)</String>
+		<String ALIAS="DEVICE_FFFF">Bluetooth Hub (Can be unplugged)</String>
+		<String ALIAS="DEVICE_UNKNOWN">device for Bluetooth</String>
+		<!-- Picture files for battery pages, alias is e.g. BATT_MOUSE_XXXX, where XXXX is PID -->
+		<String ALIAS="BATT_MOUSE_C71C">MX Revolution Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C71C">Adhil Keyboard.bmp</String>
+		<String ALIAS="BATT_KBD_C714">Graphite Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_C719">Dell Smurf Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C719">Dell Smurf Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_C70A">MX1000 Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C70A">Hera Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_C70C">MX1000 Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C70C">diNovo Longtom Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_C70C">diNovo Longtom Numpad.bmp</String>
+		<String ALIAS="BATT_MOUSE_C708">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C708">diNovo Refresh Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_C708">diNovo Refresh Numpad.bmp</String>
+		<String ALIAS="BATT_MOUSE_C705">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_MOUSE_C704">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C704">diNovo Refresh Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_C704">diNovo Refresh Numpad.bmp</String>
+		<String ALIAS="BATT_MOUSE_C703">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C703">Hilda Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_UNKNOWN">Default Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_UNKNOWN">Default Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_UNKNOWN">diNovo Longtom Numpad.bmp</String>
+		<!-- RFID WElcome Page Progress Step Messages -->
+		<String ALIAS="RFID_MESSAGE_0"/>
+		<String ALIAS="RFID_MESSAGE_1">Searching for receiver</String>
+		<String ALIAS="RFID_MESSAGE_2">Obtaining receiver status information</String>
+		<String ALIAS="RFID_MESSAGE_3">Initializing Bluetooth stack interface</String>
+		<String ALIAS="RFID_MESSAGE_4">Enabling the Bluetooth hub</String>
+		<String ALIAS="RFID_MESSAGE_5">Locating Bluetooth radio</String>
+		<String ALIAS="RFID_MESSAGE_6">Clearing connection to mouse %s</String>
+		<String ALIAS="RFID_MESSAGE_7">Searching for mouse %s</String>
+		<String ALIAS="RFID_MESSAGE_8">Connecting mouse %s to the Bluetooth radio</String>
+		<String ALIAS="RFID_MESSAGE_9">Clearing connection to keyboard %s</String>
+		<String ALIAS="RFID_MESSAGE_10">Searching for keyboard %s</String>
+		<String ALIAS="RFID_MESSAGE_11">Connecting keyboard %s to the Bluetooth radio</String>
+		<String ALIAS="RFID_MESSAGE_12">Clearing connection to MediaPad %s</String>
+		<String ALIAS="RFID_MESSAGE_13">Searching for MediaPad %s</String>
+		<String ALIAS="RFID_MESSAGE_14">Connecting MediaPad %s to the Bluetooth radio</String>
+		<String ALIAS="RFID_MESSAGE_15"/>
+	</StringSet>
+	<!-- Checking Connection Page -->
+	<Dialog ID="IDD_PAGE_CONNECT_CHECK" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Checking Device Connection</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">The Wizard is checking your Bluetooth connection.  Please wait....</Control>
+	</Dialog>
+	<!-- Connected Page -->
+	<Dialog ID="IDD_PAGE_CONNECTED" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Device Connected</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Your Bluetooth device is recognized and is securely connected to your system.\n\nEither click Keep Connected if you want the device to stay connected or click Disconnect to disconnect the device.</Control>
+		<Control ID="IDC_BUTTON_DISCONNECT">Disconnect</Control>
+		<Control ID="IDC_BUTTON_CANCEL">Keep Connected</Control>
+	</Dialog>
+	<!-- Disconnected Page -->
+	<Dialog ID="IDD_PAGE_DISCONNECTED" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Device successfully disconnected</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">To connect the device again, go to the Start menu, select All Programs, Mouse and keyboard, Bluetooth Connection Assistant. Then click the 'Click here to connect' link next to the disconnected Bluetooth device.\n\nAlternatively, press the Connect button on the bottom of the device and on the Bluetooth wireless hub connected to your PC.</Control>
+		<Control ID="IDC_BUTTON_FINISH">Finish</Control>
+	</Dialog>
+	<!-- Device Connection Status Page -->
+	<Dialog ID="IDD_PAGE_CONNECT_STATUS" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Device Connection Status</Control>
+		<Control ID="IDC_STATIC_LOGI_CONNECTED" SCALE="1.25" BOLD="1">The following Bluetooth device(s) are connected:</Control>
+		<Control ID="IDC_STATIC_LOGI_DISCONNECTED" SCALE="1.25" BOLD="1">The following Bluetooth device(s) are not connected:</Control>
+		<Control ID="IDC_STATIC_DISCONNECTED_MOUSE">Mouse</Control>
+		<Control ID="IDC_STATIC_DISCONNECTED_KEYBOARD">Keyboard</Control>
+		<Control ID="IDC_STATIC_DISCONNECTED_NUMPAD">MediaPad</Control>
+		<Control ID="IDC_HL_CONNECTMOUSE">Click here to connect</Control>
+		<Control ID="IDC_HL_CONNECTKBD">Click here to connect</Control>
+		<Control ID="IDC_HL_CONNECTNUMPAD">Click here to connect</Control>
+		<Control ID="IDC_BUTTON_TROUBLESHOOTING">Troubleshoot Connection</Control>
+		<Control ID="IDC_BUTTON_CLOSE">Close</Control>
+	</Dialog>
+	<!-- Welcome Page -->
+	<Dialog ID="IDD_PAGE_WELCOME" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Welcome!</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Bluetooth is an advanced wireless technology enabling protection from interference and increased data security.\n\nWe will now re-start your devices in order to enable these features.</Control>
+		<Control ID="IDC_STATIC_2_MAIN" SCALE="1.25" BOLD="1">We will now re-start your devices in order to enable these features.</Control>
+		<Control ID="IDC_STATIC_3_MAIN" SCALE="1.25" BOLD="1">We are re-starting your devices to work with your built-in Bluetooth solution. When this Wizard is over, you can unplug your Bluetooth hub.</Control>
+		<Control ID="IDC_STATIC_INFO_MAIN" SCALE="1.25">During this Connection Wizard, some windows may pop up. Please ignore them and wait until the wizard tells you to take action.</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Please wait...</Control>
+	</Dialog>
+	<!-- Welcome RFID Page -->
+	<Dialog ID="IDD_PAGE_WELCOME_RFID" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Checking Device Connection</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">SetPoint is now enabling your USB transmitter to work in a Bluetooth mode that will allow you to connect other Bluetooth devices.</Control>
+		<Control ID="IDC_STATIC_NO_ACTION" SCALE="1.25" ITALIC="1">You don't have to take any action during this step of the process.</Control>
+	</Dialog>
+  <!-- DFU Query Page -->
+  <Dialog ID="IDD_PAGE_DFU_QUERY" WIDTH="483" HEIGHT="367">
+    <Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Important firmware update</Control>
+    <Control ID="IDC_STATIC_MAIN" SCALE="1.25">SetPoint will update the firmware of your USB transmitter. We recommend this update to ensure optimal performance of your device.</Control>
+    <Control ID="IDC_STATIC_CURRENT_LABEL" SCALE="1.25">Current firmware version:</Control>
+    <Control ID="IDC_STATIC_NEW_LABEL" SCALE="1.25">New firmware version:</Control>
+    <Control ID="IDC_STATIC_CURRENT_VERSION" SCALE="1.25">x.xx.xxx</Control>
+    <Control ID="IDC_STATIC_NEW_VERSION" SCALE="1.25">y.yy.yyy</Control>
+    <Control ID="IDC_BUTTON_NEXT">Continue</Control>
+    <Control ID="IDC_BUTTON_SKIP">Skip</Control>
+    <Control ID="IDC_CHECK_SKIP">Don't ask me again</Control>
+  </Dialog>
+  <!-- DFU Page -->
+	<Dialog ID="IDD_PAGE_DFU" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Updating Firmware</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">SetPoint is now updating the firmware of your USB transmitter.</Control>
+		<Control ID="IDC_STATIC_CURRENT_LABEL" SCALE="1.25">Current firmware version:</Control>
+		<Control ID="IDC_STATIC_NEW_LABEL" SCALE="1.25">New firmware version:</Control>
+		<Control ID="IDC_STATIC_CURRENT_VERSION" SCALE="1.25">x.xx.xxx</Control>
+		<Control ID="IDC_STATIC_NEW_VERSION" SCALE="1.25">y.yy.yyy</Control>
+		<Control ID="IDC_STATIC_WAIT_FOR_UPDATE" SCALE="1.25">Your mouse and keyboard will be functional as soon as the update completes.</Control>
+		<Control ID="IDC_STATIC_PROGRESS_MESSAGE" SCALE="1.25" ITALIC="1">In progress</Control>
+		<Control ID="IDC_STATIC_IMPORTANT" SCALE="1.25" BOLD="1">IMPORTANT</Control>
+		<Control ID="IDC_STATIC_DONT_UNPLUG" SCALE="1.25" ITALIC="1">Please do not unplug the transmitter, shutdown, hibernate or put your PC in standby until the firmware update finishes!</Control>
+	</Dialog>
+	<!-- Mouse Battery Page -->
+	<Dialog ID="IDD_PAGE_MOUSE_BATT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Let's re-start your mouse</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Please check the device is switched on and powered.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Press the Connect/Reset button on the bottom of the mouse</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Press the Connect button on the Bluetooth wireless hub connected to your PC.</Control>
+		<Control ID="IDC_STATIC_MAIN4" SCALE="1.25" BOLD="1"/>
+		<Control ID="IDC_STATIC_DETECTED" BOLD="1">Mouse detected. Please wait while device is connected.</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Please wait...</Control>
+		<Control ID="IDC_CHECK_SKIPMOUSE">I don't want to connect this mouse anymore</Control>
+		<Control ID="IDC_BUTTON_SKIP">Skip</Control>
+	</Dialog>
+	<!-- Mouse Confirm Page -->
+	<Dialog ID="IDD_PAGE_MOUSE_CONFIRM" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Confirm Mouse Connection</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">A Bluetooth mouse with Bluetooth Address %s has been found.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25" BOLD="1">Use your mouse to click on the chain below.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">If you are unable to click the chain with your mouse, please wait a moment and the wizard will help you fix the problem.</Control>
+		<Control ID="IDC_BTHADDR_STATIC" SCALE="1.25" BOLD="1">Bluetooth Address</Control>
+		<Control ID="IDC_BTADDR_VAL_STATIC" SCALE="1.25" BOLD="1">00:00:00:00:00:00</Control>
+		<Control ID="IDC_BUTTON_SEARCH_AGAIN">Search Again</Control>
+	</Dialog>
+	<!-- Mouse Done Page -->
+	<Dialog ID="IDD_PAGE_MOUSE_DONE" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Mouse Connection Confirmed</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Congratulations! Your Bluetooth mouse is set up.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Click the Next button below to connect your next Bluetooth device.</Control>
+		<Control ID="IDC_BUTTON_NEXT">Next</Control>
+	</Dialog>
+	<!-- Keyboard Battery Page -->
+	<Dialog ID="IDD_PAGE_KBD_BATT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Let's re-start your keyboard</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Please check the device is switched on and powered.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Press the Connect button on the bottom of the keyboard.</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Press the Connect button on the Bluetooth wireless hub connected to your PC.</Control>
+		<Control ID="IDC_STATIC_MAIN4" SCALE="1.25" BOLD="1"/>
+		<Control ID="IDC_CHECK_SKIPKEYBOARD">I don't want to connect this keyboard anymore</Control>
+		<Control ID="IDC_BUTTON_SKIP">Skip</Control>
+	</Dialog>
+	<!-- Keyboard Confirm Page -->
+	<Dialog ID="IDD_PAGE_KBD_CONFIRM" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Confirm Keyboard Connection</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">A Bluetooth keyboard with Bluetooth Address %s has been found.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Using your keyboard, type this Passkey:</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Then press the "Enter" key on your keyboard.</Control>
+		<Control ID="IDC_STATIC_PASSKEY" SCALE="1.50" BOLD="1">Passkey:</Control>
+		<Control ID="IDC_STATIC_PASSKEY_SAMPLE" SCALE="1.75" BOLD="0">AB1298CG</Control>
+		<Control ID="IDC_EDIT_PASSKEY" SCALE="1.75" BOLD="1"/>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">If the passkey is not detected or is not correct, the wizard will help you fix the problem in a moment.</Control>
+		<Control ID="IDC_BUTTON_SEARCH_AGAIN">Search Again</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Please wait...</Control>
+	</Dialog>
+	<!-- Keyboard Done Page -->
+	<Dialog ID="IDD_PAGE_KBD_DONE" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Keyboard Connection Confirmed</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Congratulations! Your Bluetooth keyboard is set up.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Click the Next button below to connect your next Bluetooth device.</Control>
+		<Control ID="IDC_BUTTON_NEXT">Next</Control>
+	</Dialog>
+	<!-- MediaPadBattery Page -->
+	<Dialog ID="IDD_PAGE_NUMPAD_BATT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Let's re-start your MediaPad</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Please check the batteries.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Press the Connect button on the bottom of the MediaPad.</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Press the Connect button on the Bluetooth wireless hub connected to your PC.</Control>
+		<Control ID="IDC_STATIC_MAIN4" SCALE="1.25" BOLD="1"/>
+		<Control ID="IDC_CHECK_SKIPNUMPAD">I don't want to connect this MediaPad anymore</Control>
+		<Control ID="IDC_BUTTON_SKIP">Skip</Control>
+	</Dialog>
+	<!-- MediaPad Confirm Page -->
+	<Dialog ID="IDD_PAGE_NUMPAD_CONFIRM" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Confirm MediaPad Connection</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">A Bluetooth MediaPad with Bluetooth Address %s has been found.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">When "Passkey" appears on your MediaPad's display, use the MediaPad to type this Passkey:</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Then press the "Enter" key on your MediaPad.</Control>
+		<Control ID="IDC_STATIC_PASSKEY" SCALE="1.50" BOLD="1">Passkey:</Control>
+		<Control ID="IDC_STATIC_PASSKEY_SAMPLE" SCALE="1.75" BOLD="0">AB1298CG</Control>
+		<Control ID="IDC_EDIT_PASSKEY" SCALE="1.75" BOLD="1"/>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">If the passkey is not detected or is not correct, the wizard will help you fix the problem in a moment.</Control>
+		<Control ID="IDC_BUTTON_SEARCH_AGAIN">Search Again</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Please wait...</Control>
+	</Dialog>
+	<!-- MediaPad Done Page -->
+	<Dialog ID="IDD_PAGE_NUMPAD_DONE" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">MediaPad Connection Confirmed</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Congratulations! Your Bluetooth MediaPad is set up.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Click the Finish button below.</Control>
+		<Control ID="IDC_BUTTON_NEXT">Finish</Control>
+	</Dialog>
+</Source>

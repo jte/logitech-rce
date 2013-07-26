@@ -1,0 +1,122 @@
+;##############################################################################
+;#  LMouPs2K.INF for Windows 2K/XP
+;#  Copyright (c) 1999-2010 Logitech. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = LMouPs2K.cat
+Class       = Mouse
+ClassGUID   = {4D36E96F-E325-11CE-BFC1-08002BE10318}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22.0
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LMouKE.Sys = 1
+L8042mou.Sys = 1
+
+[DestinationDirs]
+DefaultDestDir      = 12    ; DIRID_DRIVERS
+
+[ControlFlags]
+ExcludeFromSelect   = *
+; ---------------------------------------------------------
+
+[Manufacturer]
+%Provider%	= Logitech
+
+[Logitech]
+;------------- PS2 ---------------------------------------
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*PNP0F0E,*PNP0F19,*MSH0002,*MSH0005
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*PNP0F03
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*PNP0F13
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*PNP0F12,*PNP0F0E,*LGI8E02,*LGI8E07,*LGI8E09,*LGI8E11
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E01,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E03,*PNP0F0E,*LGI8E08
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E06,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E0A,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E0C,*PNP0F0E,*LGI8E0B,*LGI8E05
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E0D,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E12,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E13,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E32,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E33,*PNP0F0E,*LGI8E35
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E34,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E3D,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E48,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E49,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E4A,*PNP0F0E,*LGI8E4D
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E4B,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E4C,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E4F,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E50,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E51,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E60,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E61,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E6D,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E6F,*PNP0F0E
+%*PNP0F0E.DeviceDesc%        = LogiPS2,*LGI8E70,*PNP0F0E
+
+; Install Sections
+; ---------------------------------------------------------
+[LogiPS2]
+Include     = msmouse.inf
+Needs       = PS2_Inst
+CopyFiles   = L8042mou.CopyFiles, LMouKE.CopyFiles
+
+[LogiPS2.Services]
+AddService  = L8042mou, , L8042mou_Service_Inst	; Logitech PS/2 Upper Device Filter
+AddService  = LMouKE,   , LMouKE_Service_Inst	; Mouse Class Upper Filter Driver
+Include     = msmouse.inf
+Needs       = PS2_Inst.Services
+
+[L8042mou_Service_Inst]
+DisplayName     = %L8042mou.SvcDesc%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\L8042mou.Sys
+LoadOrderGroup  = Pointer Port
+
+[LogiPS2.HW]
+AddReg      = PS2_UpperFilter, PS2_ForceFastInit
+Include     = msmouse.inf
+Needs       = PS2_Inst.HW
+
+[PS2_ForceFastInit]
+HKR,,"MouseInitializePolled",0x00010001,0
+
+[PS2_UpperFilter]
+HKR,,"UpperFilters",%REG_MULTI_SZ%,"L8042mou","LMouKE"
+
+[L8042mou.CopyFiles]
+L8042mou.Sys
+
+[LMouKE_Service_Inst]
+DisplayName    = %LMouKE.SvcDesc%
+ServiceType    = %SERVICE_KERNEL_DRIVER%
+StartType      = %SERVICE_DEMAND_START%
+ErrorControl   = %SERVICE_ERROR_NORMAL%
+ServiceBinary  = %12%\LMouKE.Sys
+LoadOrderGroup = Pointer Port
+
+[LMouKE.CopyFiles]
+LMouKE.Sys
+
+[Strings]
+Provider  = "Logitech"
+ProviderSer = "Logitech "
+DiskName  = "SetPoint Driver Disk"
+*PNP0F0E.DeviceDesc = "PS/2 Compatible Mouse"
+LMouKE.SvcDesc = "SetPoint Mouse Filter Driver"
+L8042Mou.SvcDesc = "SetPoint PS/2 Mouse Filter Driver"
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+REG_DWORD                   = 0x00010001
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

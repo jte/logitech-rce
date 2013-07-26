@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="nb-no"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Konfigurering av Solar App</String>
+    <String ID="IDS_TITLE">Konfigurering av Solar App</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Programvare for Logitechs solenergidrevne tastaturer</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Takk for at du kjøpte dette Logitech-produktet. Logitechs produkter er laget for å hjelpe deg med å bruke datamaskinen mer effektivt. Ved å installere denne programvaren, kan du benytte deg av utvidete produktfunksjoner.
+
+
+
+      Når du er klar til å begynne å installere denne Logitech-programvaren, velger du språk og trykker Neste.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"/>
+    <String ID="IDS_INSTALL_PROGRESS_INFO"/>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Konfigurering av Solar App</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Konfigurering av Solar App</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Konfigurering av Solar App</String>
+    <String ID="IDS_WARNING_OS">Beklager, denne programvaren er ikke kompatibel med operativsystemet ditt. Du kan laste ned en kompatibel versjon fra www.logitech.com.</String>
+    <String ID="IDS_WARNING_EDITION32">Denne versjonen av installeringsprogrammet krever en 32-biters utgave av operativsystemet.\nGå til www.logitech.com/downloads/Solar App for å laste ned en kompatibel versjon.</String>
+    <String ID="IDS_WARNING_EDITION64">Denne versjonen av installeringsprogrammet krever en 64-biters utgave av operativsystemet.
+Gå til www.logitech.com/downloads/Solar App for å laste ned en kompatibel versjon.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Oppdateringsverktøy for Logitech-programvare</String>
+
+  </StringSet>
+</FESetup_Strings_1>

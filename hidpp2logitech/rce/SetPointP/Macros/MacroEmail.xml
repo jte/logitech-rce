@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="MacroEmail.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<Dialog ID="IDD_SELECT_MESSENGER" WIDTH="348" HEIGHT="138">
+    Select Default Messenger
+    <Control ID="IDC_STATIC_SELECTMESSENGER">Available Messengers</Control>
+		<Control ID="IDOK">OK</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<StringSet ID="Main">
+		<String ALIAS="IDS_OE_INBOX_NAME">Inbox</String>
+		<String ALIAS="IDS_OE_INBOX_EXT">dbx</String>
+		<String ALIAS="IDS_ALERT_FILTER">" - "</String>
+		<String ALIAS="IDS_BUDDY_SIGNED_IN">"%s has just signed in."</String>
+		<String ALIAS="IDS_NEW_MESSAGES">"You have %s new message(s)."</String>
+		<String ALIAS="IDS_LOTUS_NOTES_LOGIN_ERROR">Login to Lotus Notes has failed. Lotus Notes New Mail notifications can't be supported</String>
+		<!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+	</StringSet>
+</Source>

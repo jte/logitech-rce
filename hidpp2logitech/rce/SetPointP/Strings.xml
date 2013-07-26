@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<!-- Toby MediaPad Display -->
+		<!-- Set the LCD_COUNTRY_ID according to this table:
+            English							1
+            German							2
+            French							3
+            Italian							4
+            Spanish							5
+            Dutch							6
+            Brazilian/Portuguese			7
+            Swedish							8
+            Danish							9
+            Norwegian						A
+            Finnish							B
+	  Russian							C
+	  Polish							D
+	  Greek							E
+	  Chinese Simplified(CHS)					F
+	  Chinese Traditional(CHT)					G
+	  Japanese(JPN)						H
+	  Korean (KOR)						I
+
+            For example, English is "1" and "German" is "2" and Finnish is "B" - please note that
+            this can be ONE character long only.
+    -->
+		<String ALIAS="LCD_COUNTRY_ID">1</String>
+		<!-- The following aliases should be set according to the Excel spreadsheet
+         "LCD Localization 1.3.xls" by Francois Campart. -->
+		<!-- LCD_MONTHS contains the abbreviated names of each month, separated by \n.
+         For each month, specify the 3 letter abbreviation, e.g. "January" is "Jan".
+         Put a '.' after the month if the country puts periods after the month.
+         For example, in German, there is supposed to be a '.' after the month.
+         The '.' should appear, e.g. "Jan.\nFeb.\nMrz.\n", etc.
+    -->
+		<String ALIAS="LCD_MONTHS">Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec</String>
+		<!-- If a leading 0 should be shown in the date (e.g. "Aug 03"), set to 1.  If not, set to 0. -->
+		<String ALIAS="LCD_LEAD_0_DATE">1</String>
+		<!-- If a leading 0 should be shown in the time (e.g. "09:50"), set to 1.  If not, set to 0. -->
+		<String ALIAS="LCD_LEAD_0_TIME">0</String>
+		<!-- If AM/PM time format, set to 1.  If 24 hour time format, set to 0.-->
+		<String ALIAS="LCD_TIME_FORMAT">1</String>
+		<String ALIAS="LCD_CONNECTING">Connecting</String>
+		<String ALIAS="LCD_NONETWORK">No Network</String>
+		<String ALIAS="LCD_FAILED">Failed</String>
+		<String ALIAS="LCD_CONNECTED">Connected :-)</String>
+		<!-- Smiley ":-)" must be appended -->
+		<String ALIAS="LCD_BATTERYSTATUS"/>
+		<String ALIAS="LCD_MORNING_GREETING">Good morning</String>
+		<String ALIAS="LCD_AFTERNOON_GREETING">Good afternoon</String>
+		<String ALIAS="LCD_EVENING_GREETING">Good evening</String>
+		<!-- If the dots between the time display should blink, set to 1.  If not, set to 0.-->
+		<String ALIAS="LCD_BLINK_DOTS">1</String>
+		<!-- Define the number of space to add before the time display-->
+		<String ALIAS="LCD_START_POS">3</String>
+		<!-- OSD Text -->
+		<String ALIAS="OSD_PLAYPAUSE">Play/Pause</String>
+		<String ALIAS="OSD_STOP">Stop</String>
+		<String ALIAS="OSD_NEXT_TRACK">Next</String>
+		<String ALIAS="OSD_PREV_TRACK">Previous</String>
+		<String ALIAS="OSD_FASTFORWARD">Seeking &gt;&gt;</String>
+		<String ALIAS="OSD_REWIND">&lt;&lt; Seeking</String>
+		<!-- Helpstrings -->
+		<String ALIAS="HELP_FIRSTBUTTONUSAGE">First Button Usage</String>
+		<String ALIAS="HELP_MIDDLEBUTTON">Middle Button</String>
+		<String ALIAS="HELP_RIGHTBUTTON">Right Click</String>
+		<String ALIAS="HELP_LEFTBUTTON">Left Click</String>
+		<String ALIAS="HELP_PLAYSOUND">Play Sound</String>
+		<String ALIAS="HELP_MAXIMIZE">Maximize</String>
+		<String ALIAS="HELP_MINIMIZE">Minimize</String>
+		<String ALIAS="HELP_QUICKSWITCH">Document Flip</String>
+		<String ALIAS="HELP_SEARCH">Search</String>
+		<String ALIAS="HELP_ITOUCH_SEARCH">Search</String>
+		<String ALIAS="HELP_WINDOWS_RUNKEY">Windows RunKey</String>
+		<String ALIAS="HELP_CLOSEAPP">Close</String>
+		<String ALIAS="HELP_CLIP_COPY">Copy</String>
+		<String ALIAS="HELP_CLIP_CUT">Cut</String>
+		<String ALIAS="HELP_CLIP_PASTE">Paste</String>
+		<String ALIAS="HELP_PAGEDOWN">Page Down</String>
+		<String ALIAS="HELP_PAGEUP">Page Up</String>
+		<String ALIAS="HELP_UNASSIGNED">Unassigned</String>
+    <String ALIAS="HELP_UNSUPPORTED">Unsupported Button</String>
+    <String ALIAS="HELP_UNKNOWNFEATURE">Unknown Feature</String>
+    <String ALIAS="HELP_NOTHING">Do Nothing</String>
+		<String ALIAS="HELP_WEBCAM">Webcam</String>
+		<String ALIAS="HELP_CUSTOM_MENU">Show Custom Menu</String>
+		<String ALIAS="HELP_MYCOMPUTER">My Computer</String>
+		<String ALIAS="HELP_MYDOCUMENTS">My Documents</String>
+		<String ALIAS="HELP_MYPICTURES">My Pictures</String>
+		<String ALIAS="HELP_MYMUSIC">My Music</String>
+		<String ALIAS="HELP_MYVIDEOS">My Videos</String>
+		<String ALIAS="HELP_OPENFILE">Open File</String>
+		<String ALIAS="HELP_OPENFOLDER">Open Folder</String>
+		<String ALIAS="HELP_LAUNCHPROG">Launch Program</String>
+		<String ALIAS="HELP_CALCULATOR">Calculator</String>
+		<String ALIAS="HELP_MEDIADESKTOP">Media Desktop</String>
+		<String ALIAS="HELP_CONTROLPANEL">Control Panel</String>
+		<String ALIAS="HELP_WEBPAGE">Open Web Page</String>
+		<String ALIAS="HELP_HOMEPAGE">My Home</String>
+		<String ALIAS="HELP_ITOUCH">iTouch</String>
+		<String ALIAS="HELP_SHOPPING">Shopping</String>
+		<String ALIAS="HELP_FAVORITES">Favorites</String>
+		<String ALIAS="HELP_BACK">Back</String>
+		<String ALIAS="HELP_FORWARD">Forward</String>
+		<String ALIAS="HELP_EMAIL">E-Mail</String>
+		<String ALIAS="HELP_MESSENGER">Messenger</String>
+		<String ALIAS="HELP_MEDIAPLAYER">Media Player</String>
+		<String ALIAS="HELP_MEDIA_CENTER_PLAYER">Media Center</String>
+		<String ALIAS="HELP_REMOTE_MEDIAPLAYER">MediaLife</String>
+		<String ALIAS="HELP_INAV">iNav</String>
+		<String ALIAS="HELP_INAVGO">iNav Go</String>
+		<String ALIAS="HELP_INAVBACK">iNav Back</String>
+		<String ALIAS="HELP_INAVWHEEL">iNav Wheel</String>
+		<String ALIAS="HELP_CRUISEUP">Cruise Up</String>
+		<String ALIAS="HELP_CRUISEDOWN">Cruise Down</String>
+		<String ALIAS="HELP_OFFICE_NEW">New</String>
+		<String ALIAS="HELP_OFFICE_REPLY">Reply</String>
+		<String ALIAS="HELP_OFFICE_FORWARD">Forward</String>
+		<String ALIAS="HELP_OFFICE_SEND">Send</String>
+		<String ALIAS="HELP_OFFICE_UNDO">Undo</String>
+		<String ALIAS="HELP_OFFICE_REDO">Redo</String>
+		<String ALIAS="HELP_OFFICE_PRINT">Print</String>
+		<String ALIAS="HELP_OFFICE_SAVE">Save</String>
+		<String ALIAS="HELP_DRAGLOCK">Drag Lock</String>
+		<String ALIAS="HELP_AUTOSCROLL">AutoScroll</String>
+		<String ALIAS="HELP_UNIVERSALSCROLL">Universal Scroll</String>
+		<String ALIAS="HELP_MM_VOLUP">Volume Up</String>
+		<String ALIAS="HELP_MM_VOLDOWN">Volume Down</String>
+		<String ALIAS="HELP_MM_PLAY">Play</String>
+		<String ALIAS="HELP_MM_STOP">Stop</String>
+		<String ALIAS="HELP_MM_NEXT">Next</String>
+		<String ALIAS="HELP_MM_PREV">Previous</String>
+		<String ALIAS="HELP_MM_FASTFORWARD">Seeking &gt;&gt;</String>
+		<String ALIAS="HELP_MM_REWIND">&lt;&lt; Seeking</String>
+		<String ALIAS="HELP_MM_TUNEUP">Tuning</String>
+		<String ALIAS="HELP_MM_TUNEDOWN">Tuning</String>
+		<String ALIAS="HELP_MM_SHUFFLE">Shuffle</String>
+		<String ALIAS="HELP_MM_MUTE">Mute</String>
+		<String ALIAS="HELP_ROTATE_RIGHT">Rotate Right</String>
+		<String ALIAS="HELP_ROTATE_LEFT">Rotate Left</String>
+		<String ALIAS="HELP_EJECT">Eject Drive</String>
+		<String ALIAS="HELP_KEYSTROKE">Keystroke Assignment</String>
+		<String ALIAS="HELP_PREVIOUS_APP">Previous Application</String>
+		<String ALIAS="HELP_NEXT_APP">Next Application</String>
+		<String ALIAS="HELP_HELP">Help</String>
+		<String ALIAS="HELP_SEARCH_FOR_FILES">Search For Files</String>
+    <String ALIAS="HELP_WINDOWS_LOCKPC">Lock PC</String>
+    <String ALIAS="HELP_WINDOWS_MINIMIZE">Minimize all windows</String>
+    <String ALIAS="HELP_WINDOWS_RESTORE">Restore all windows</String>
+    <String ALIAS="HELP_DOCUMENTS">Documents</String>
+		<String ALIAS="HELP_SPREADSHEETS">Spreadsheets</String>
+		<String ALIAS="HELP_CALENDAR">Calendar</String>
+		<String ALIAS="HELP_DOUBLECLICK">Double Click</String>
+		<String ALIAS="HELP_WINSWITCH">Win Switch</String>
+		<String ALIAS="HELP_STARTMENU">Start Menu</String>
+		<String ALIAS="HELP_GENERIC_MOUSE_BUTTON">Generic Button</String>
+    <String ALIAS="HELP_GENERIC_BUTTON">Generic Button</String>
+    <String ALIAS="HELP_OS_DEFAULT_MOUSE_BUTTON">OS Default</String>
+		<String ALIAS="HELP_HORZ_SCROLL_LEFT">Left Scroll</String>
+		<String ALIAS="HELP_HORZ_SCROLL_RIGHT">Right Scroll</String>
+    <String ALIAS="HELP_ZOOM_SET">Zoom</String>
+		<String ALIAS="HELP_TOGGLESTATUS">Status</String>
+		<String ALIAS="HELP_BURN">Burn</String>
+		<String ALIAS="HELP_RECORD">Record</String>
+		<String ALIAS="HELP_PRESENTATION">Presentation</String>
+    <String ALIAS="HELP_PANANDZOOM">Pan and Zoom</String>
+		<!-- Lock notification -->
+		<String ALIAS="HELP_LOCK_CAPS_ON"> Caps Lock On</String>
+		<String ALIAS="HELP_LOCK_CAPS_OFF"> Caps Lock Off</String>
+		<String ALIAS="HELP_LOCK_SCROLL_ON">Scroll Lock On</String>
+		<String ALIAS="HELP_LOCK_SCROLL_OFF">Scroll Lock Off</String>
+		<String ALIAS="HELP_LOCK_NUMS_ON">Num Lock On</String>
+		<String ALIAS="HELP_LOCK_NUMS_OFF">Num Lock Off</String>
+		<!-- Step 3A text for generic handlers -->
+		<String ALIAS="IDS_SELECT_FILE">Select File</String>
+		<String ALIAS="IDS_SELECT_PROGRAM">Select Program</String>
+		<String ALIAS="IDS_SELECT_FOLDER">Select Folder</String>
+		<!-- Playlist handlers (PresetBtns) -->
+		<String ALIAS="HELP_PLAYLIST">My Favorites</String>
+		<!-- Zoom Button handlers (ZoomBtns) -->
+		<String ALIAS="HELP_ZOOMBTN_IN"> Zoom In</String>
+		<String ALIAS="HELP_ZOOMBTN_OUT"> Zoom Out</String>
+		<String ALIAS="HELP_ZOOMBTN_RESET"> Zoom Reset</String>
+		<!-- Script handler -->
+		<String ALIAS="HELP_RUNSCRIPT"> Run Script</String>
+		<!-- iNav Scroll -->
+		<String ALIAS="HELP_SCROLL"> Scroll</String>
+		<!-- Error Message Text -->
+		<String ALIAS="IDS_SETPOINT_CAPTION">Logitech SetPoint</String>
+		<String ALIAS="SETPOINT_MISSING_FILES_ERROR">SetPoint has encountered a problem, and cannot continue.&#10;Please reinstall SetPoint to correct this.</String>
+		<String ALIAS="HELP_ONETOUCHSYNC">Easy Synchronization</String>
+		<!-- copying Calc result onto clipboard preference dialog -->
+		<String ALIAS="HELP_CLIPBOARD_PREFERENCE">Clipboard Preferences</String>
+		<String ALIAS="HELP_SENSITIVITY_INCREASE">Sensitivity Increase</String>
+		<String ALIAS="HELP_SENSITIVITY_DECREASE">Sensitivity Decrease</String>
+		<String ALIAS="HELP_NAVIGATION_WHEEL">Navigation Wheel</String>
+		<String ALIAS="HELP_SMART_KEY">My Favorites</String>
+		<!-- AppOverrides for Back and Forward Mouse Button -->
+		<String ALIAS="HELP_OUTLOOK_BACK">Back (Outlook)</String>
+		<String ALIAS="HELP_OUTLOOK_FORWARD">Forward (Outlook)</String>
+		<String ALIAS="HELP_OUTLOOK_EXPRESS_BACK">Back (Outlook Express)</String>
+		<String ALIAS="HELP_OUTLOOK_EXPRESS_FORWARD">Forward (Outlook Express)</String>
+		<String ALIAS="HELP_WORD_BACK">Back (Word)</String>
+		<String ALIAS="HELP_WORD_FORWARD">Forward (Word)</String>
+		<String ALIAS="HELP_POWERPOINT_BACK">Back (PowerPoint)</String>
+		<String ALIAS="HELP_POWERPOINT_FORWARD">Forward (PowerPoint)</String>
+		<String ALIAS="HELP_MINDMAPPER_BACK">Back (MindMapper)</String>
+		<String ALIAS="HELP_MINDMAPPER_FORWARD">Forward (MindMapper)</String>
+		<String ALIAS="HELP_EXCEL_BACK">Back (Excel)</String>
+		<String ALIAS="HELP_EXCEL_FORWARD">Forward (Excel)</String>
+		<String ALIAS="HELP_LOTUS_NOTES_BACK">Back (Notes)</String>
+		<String ALIAS="HELP_LOTUS_NOTES_FORWARD">Forward (Notes)</String>
+		<String ALIAS="HELP_EMAIL_ITEM">Launch E-Mail</String>
+		<String ALIAS="HELP_IM_ITEM">Launch Messenger</String>
+		<String ALIAS="HELP_EMAIL_NOTIFICATION">E-Mail Notification</String>
+		<String ALIAS="HELP_IM_NOTIFICATION">Messenger Notification</String>
+		<String ALIAS="HELP_EASYSYNC">Synchronize</String>
+		<String ALIAS="HELP_BROWSER_STOP">Internet Stop</String>
+		<String ALIAS="HELP_BROWSER_REFRESH">Internet Refresh</String>
+		<String ALIAS="HELP_SMART_SEARCH">One-Touch Search</String>
+		<String ALIAS="HELP_INTERNET_SEARCH">One-Touch Internet Search</String>
+		<String ALIAS="HELP_DESKTOP_SEARCH">One-Touch Desktop Search</String>
+		<String ALIAS="HELP_VOIP_SET">VoIP</String>
+		<String ALIAS="HELP_VOIP_BASIC_SET">VoIP</String>
+		<String ALIAS="HELP_VOIP_ADVANCED_SET">VoIP</String>
+		<String ALIAS="HELP_VOIP_CALL_SET">Call</String>
+		<String ALIAS="HELP_VOIP_HANGUP_SET">Hang up</String>
+		<String ALIAS="HELP_STANDBY">Sleep</String>
+		<String ALIAS="HELP_PICTURE_APP">Picture Application</String>
+		<String ALIAS="HELP_PICTURE_SEARCH">Pictures</String>
+		<String ALIAS="HELP_NEW_FOLDER">New Folder</String>
+		<String ALIAS="HELP_KEYBOARD_BEEP">LCD Alarm</String>
+		<String ALIAS="HELP_SCREEN_SAVER">Launch Screen Saver</String>
+		<String ALIAS="HELP_SENSITIVITY_TOGGLE">Sensitivity Toggle</String>
+		<String ALIAS="HELP_WINDOWS_DESKTOP">Show Desktop</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_1">Launch Favorites a</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_2">Launch Favorites b</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_3">Launch Favorites c</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_4">Launch Favorites d</String>
+		<String ALIAS="HELP_DESKTOP_SEARCH_APP">Search Computer</String>
+		<String ALIAS="HELP_STANDBY">Sleep</String>
+		<String ALIAS="HELP_RESTART">Restart</String>
+		<String ALIAS="HELP_SHUTDOWN">Shutdown</String>
+		<String ALIAS="HELP_LOGOFF">Log off</String>
+		<String ALIAS="HELP_VOIP_PRESET">Communications Preset</String>
+		<String ALIAS="HELP_VOIP_DIAL_NUMBER">Dial Number</String>
+		<String ALIAS="HELP_VOIP_CHAT">Chat</String>
+		<String ALIAS="HELP_STROMBOLI_MENU">MenuCast</String>
+		<String ALIAS="HELP_STROMBOLI_MAGNIFY">Magnify</String>
+		<String ALIAS="HELP_CURSOR_FREEZE">Freeze Air Cursor</String>
+		<String ALIAS="HELP_LAUNCH_MEDIA_CENTER">Windows Media Center</String>
+		<String ALIAS="HELP_FIVE_BUTTON_VOLUME">Volume</String>
+		<String ALIAS="HELP_FIVE_BUTTON_MEDIA">Media</String>
+		<String ALIAS="HELP_FIVE_BUTTON_MEDIA">Media</String>
+		<String ALIAS="HELP_STROMBOLI_VOL">Mute (Air Volume)</String>
+		<String ALIAS="HELP_STROMBOLI_MEDIACONTROL">Play/Pause (Air Next/Previous)</String>
+		<String ALIAS="HELP_STROMBOLI_ZOOM">Air Zoom</String>
+		<String ALIAS="HELP_ARROW_UP">Up</String>
+		<String ALIAS="HELP_ARROW_DOWN">Down</String>
+		<String ALIAS="HELP_MANUAL_SHIFT">Shift Scroll Modes</String>
+		<String ALIAS="HELP_FREEZE_BACK">Back (Freeze Air Cursor)</String>
+		<String ALIAS="IDS_TASK_DESCRIPTION">Task Description</String>
+		<String ALIAS="HELP_FIVE_BUTTON_AUTOSCROLL">AutoScroll</String>
+		<String ALIAS="HELP_FIVE_BUTTON_UNIVERSALSCROLL">Universal Scroll</String>
+		<String ALIAS="HELP_FIVE_BUTTON_THUMBSCROLL">Thumb Scroll</String>
+		<String ALIAS="HELP_FIVE_BUTTON_SEARCH">Search</String>
+		<String ALIAS="HELP_FIVE_BUTTON_KEYSTROKE">Multiple Keystrokes</String>
+		<String ALIAS="HELP_GADGETS">Gadgets</String>
+		<String ALIAS="HELP_GESTURE_RECENTER">Recenter</String>
+    <String ALIAS="HELP_BATTERY_STATUS">Battery Status</String>
+    <String ALIAS="HELP_APPLICATION_SWITCH">Application Switcher</String>
+    <String ALIAS="HELP_DPISETTINGS_SET">Mouse Sensitivity</String>
+    <String ALIAS="HELP_THREE_LEVEL_DPISETTINGS">Mouse Sensitivity</String>
+    <String ALIAS="HELP_TWOSWITCH_DPISETTINGS_SET">Mouse Sensitivity</String>
+    <String ALIAS="HELP_TWOSWITCH_CRUISE_SET">Cruise Up/Down</String>
+    <String ALIAS="HELP_TWOSWITCH_PAGE_SET">Page Up/Down</String>
+    <String ALIAS="HELP_TWOSWITCH_BACK_FORWARD_SET">Forward/Back</String>
+    <String ALIAS="HELP_TWOSWITCH_NEXT_PREVIOUS_SET">Next/Previous</String>
+    <String ALIAS="HELP_TWOSWITCH_KEYSTROKE_SET">Keystroke Assignment</String>
+    <String ALIAS="HELP_TWOSWITCH_COPY_PASTE_SET">Copy/Paste</String>
+    <String ALIAS="HELP_DPI_SWITCH">Mouse Sensitivity</String>
+    <String ALIAS="HELP_WINDOWS_METROSTARTSCREEN">Start Screen</String>
+    <String ALIAS="HELP_WINDOWS_METROCHARMS">Charms</String>
+    <String ALIAS="HELP_WINDOWS_METROAPPSWITCH">Switch Applications</String>
+    <String ALIAS="HELP_WINDOWS_METROAPPMENU">App Menu</String>
+    <String ALIAS="HELP_WINDOWS_METROSEARCH">Search</String>
+    <String ALIAS="HELP_WINDOWS_METROAPPBAR">App Bar</String>
+    <String ALIAS="HELP_WINDOWS_METROSHARE">Share</String>
+    <String ALIAS="HELP_WINDOWS_METROSETTINGS">Settings</String>
+    <String ALIAS="HELP_WINDOWS_METRODEVICES">Devices</String>
+
+    <String ALIAS="HELP_WINDOWS8_STARTSCREEN">Windows 8 Start Screen</String>
+    <String ALIAS="HELP_WINDOWS8_CHARMS">Windows 8 Charms</String>
+    <String ALIAS="HELP_WINDOWS8_APPMENU">Windows 8 App Bar</String>
+    <String ALIAS="HELP_WINDOWS8_SEARCH">Windows 8 Search</String>
+    <String ALIAS="HELP_WINDOWS8_DEVICES">Windows 8 Devices</String>
+    <String ALIAS="HELP_WINDOWS_APPSWITCHBAR">Show App Switch Bar</String>
+
+  </StringSet>
+</Source>
+

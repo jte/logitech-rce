@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+<head lang='en-us'>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+    <script type="text/javascript" src="../js/custom_ui.js"></script>
+    <script type="text/javascript" src="../js/logi_code.js"></script>
+    <script type="text/javascript" src="../js/local_code.js"></script>
+    <script type="text/javascript" src="../js/progress.js"></script>
+
+   <script>
+        var langCode = window.external.EvaluateExpression('langcode');
+        var displayVersion = window.external.EvaluateExpression('displayVersion_persistent');
+
+        document.write("<link rel='stylesheet' href='../" + langCode + "/wizpage.css' type='text/css' media='screen'>");
+
+        var currState = window.external.EvaluateExpression('SetVar(rebootrequired,0)')
+       
+        var overallCurrentProgress = 0;
+        
+        function SetStuffLater() {
+          var el = document.getElementById("productNameText");
+	  	    if (el != null) {el.innerHTML +=" "+displayVersion+""}
+    	  }
+
+        function processPropertyChange(event) {
+            if (event.propertyName == "nProgressStep") {
+                overallCurrentProgress =
+		            updateProgress('pOverallProgress', document.getElementById('tdOverallProgressBar'), document.getElementById("overallProgressBar"),
+		                           resMSetupVars.nProgressStep, resMSetupVars.nProgressTotal, overallCurrentProgress, true);
+                if (overallCurrentProgress >= 100 && resMSetupVars.nReplacementInstaller == true) {
+		            var btn = document.getElementById('btnCancel');
+			        if (btnCancel)
+			        {
+				        btn.style.display='none';
+			        }
+                }
+//				else if (overallCurrentProgress >= 100 && (resMSetupVars.nProgressPkgCount == resMSetupVars.nProgressPkgIndex))
+//				{
+//					var myVar = window.external.EvaluateExpression('SetVar(updateready,1)');
+//				}
+            }
+
+//            else if (event.propertyName == "nComponentProgressStep") {
+//                componentCurrentProgress =
+//		                updateProgress('pComponentProgress', document.getElementById('tdComponentProgressBar'), document.getElementById('componentProgressBar'),
+//		                               resMSetupVars.nComponentProgressStep, resMSetupVars.nComponentProgressTotal, componentCurrentProgress, false);
+//            }`
+//		    else if (event.propertyName == "strProgressPkgName")
+//		    {// Update package name
+//			    document.getElementById('pkgName').innerText = resMSetupVars.strProgressPkgName;
+//		    }
+            else if (event.propertyName == "nEstimatedTimeRemaining") 
+            {
+//                if (resMSetupVars.nDownloadSpeed)
+//                    document.getElementById('downloadSpeed').innerText = FormatSpeed(resMSetupVars.nDownloadSpeed);
+//                document.getElementById('estimatedTimeRemaining').innerText = FormatTime(resMSetupVars.nEstimatedTimeRemaining);
+            }
+        }
+
+
+	    function cancelClicked()
+	    {
+//		    var myVar = window.external.EvaluateExpression('SetVar(updateready,2)');
+//		    var currState = window.external.EvaluateExpression('updateready');
+	        var btnElt = document.getElementById('btnCancel');
+		    btnElt.click();
+	    }
+	    
+	    function downloadStarted()
+	    {
+//	        var currState = window.external.EvaluateExpression('updateready');
+	        var btnElt = document.getElementById('btnCancel');
+            if (btnElt != null)
+            {
+                btnElt.onclick = null;
+                btnElt.attachEvent("onclick", cancelClicked);
+            }
+		    if (currState=="1")
+		    {
+//			    var myVar = window.external.EvaluateExpression('SetVar(updateready,3)');
+			    var tdProgressBar = document.getElementById('tdProgressBar');
+			    tdProgressBar.width = "100%";
+			    tdProgressBar.filters(0).enabled = 'true';
+		    }
+		    else {
+//			    var myVar = window.external.EvaluateExpression('SetVar(updateready,3)');
+			    selectFirst(btnElt, 200);
+		    }
+		}
+    </script>
+
+
+
+</head>
+<body ondragstart="return false;" id="theBody" onload="loadStrings();setStep(3);Custom.init();SetStuffLater();downloadStarted();selectFirst(btnCancel,300);">
+    <div class="container">
+		<div class="sidebar">
+		    <div class="sidebarTitle"></div>
+			<div class="steps">
+				<table class="steps">
+					<tr class="step"><td id="stepNum_1" class="stepNum">1</td><td id="stepText_1" string="IDS_STEP_TEXT_1" class="stepText"></td></tr>
+					<tr class="step"><td id="stepNum_2" class="stepNum">2</td><td id="stepText_2" string="IDS_STEP_TEXT_3" class="stepText"></td></tr>
+					<tr class="step"><td id="stepNum_3" class="stepNum">3</td><td id="stepText_3" string="IDS_STEP_TEXT_4" class="stepText"></td></tr>
+				</table>
+			</div>
+				<!--[if lte IE 6]>
+				<div id="logo_image" style='padding-top:35px;padding-left:47px;'><img src='..\images\collateral\blank.gif' style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\logos\logo.png' sizing='scale')"></div>
+				<![endif]-->
+				<!--[if gt IE 6]>		
+				<div id="logo_image" style='padding-top:35px;padding-left:35px;'><img src='..\images\logos\logo.png'></div>
+				<![endif]-->
+		</div>
+        <div class="pageContent">
+            <div class="contentHeader" style="height:50px;">
+			  			<!--[if lte IE 6]>
+			<img id="header_image"  style="background:transparent;position:absolute; left:0px; top:0px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\header_image_1.png' sizing='scale')" 
+			src="..\images\collateral\blank.gif">
+			<![endif]-->
+
+			<!--[if gt IE 6]>
+			<img id="header_image" style="position:absolute; left:0px; top:0px;" src="..\images\collateral\header_image_1.png">
+			<![endif]-->
+
+			  <table height="100%" width="100%">
+				<tr><td valign="bottom">
+				 <span id="productNameText" string="IDS_PRODUCT_NAME"></span>
+			   </td></tr>
+				<tr><td valign="bottom">
+				 <span id="productPurposeText" string="IDS_PRODUCT_PURPOSE"></span>
+			   </td></tr>
+		       </table>
+			</div>
+            <div class="contentBody">    
+            <br/><br/>        
+                    <div style="width:400px;margin-top:30;font-size:12pt;" string="IDS_INSTALLINGSOFTWARE_DOWNLOAD_TITLE" class="leaderBoard">
+                        </div>
+					<img src="../images/collateral/download_icon.png" style="margin-left:100px;margin-top:50px;"/>
+                    <div>
+                        
+                            <!-- Second Progress Bar -->
+                            <table class="progressBarText" width="400px">
+                                <tr>
+                                    <td>
+                                        <span string="IDS_INSTALLINGSOFTWARE_TOTALPROGRESS"></span>
+                                        <span id="progress_percent"></span></td>
+                                    <td style="text-align: right">
+                                        <!--span string="IDS_DOWNLOADINGUPDATES_SPEED"></span>&nbsp;
+                                        <span id="downloadSpeed"></span-->
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="progressBar">
+                                <span id="overallProgressBar"><em id="pOverallProgress" style="left: 0px"></em></span>
+                            </div>
+                            <!-- This gradient bar is hidden -->
+                            <table class='progressBarBorder' style="visibility: hidden;" cellspacing='0' cellpadding='0'
+                                border='0' width='400px'>
+                                <tr>
+                                    <td>
+                                        <table cellspacing='1' cellpadding='1' border='0' width='101%'>
+                                            <tr>
+                                                <td id='tdOverallProgressBar' class='progressBarBar' width='0%'>
+                                                </td>
+                                                <td style='font-size: 3pt;'>
+                                                    &nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                <span id='resMSetupVars' onpropertychange='processPropertyChange(event)'></span>
+            </div>
+			<br/><br/>
+            <div class="pageNav">
+                <a href="#" tabindex="3" 
+                    class="button primary" name="btnCancel" id="btnCancel"><b string="IDS_BTN_CANCEL"></b></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

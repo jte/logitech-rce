@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">dan</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Der er nye opdateringer. Klik her for at hente dem.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klik for at færdiggøre opdateringen af Logitech-softwaren.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Opdateringerne til Logitech-softwaren bliver overført</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Der er nye opdateringer. Klik her for at installere dem.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Opdateringerne til Logitech-softwaren er ved at blive installeret</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Logitech-softwaren er up to date</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Der er ingen internetforbindelse. Derfor kan det ikke tjekkes om der er en ny version</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Der opstod en fejl</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Installationsfejl.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Installationen er annulleret.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Den ønskede handling kræver at du har administratorrettigheder</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internetforbindelsen blev nulstillet. Prøv igen senere</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internetforbindelsen blev nulstillet. Logitech Updater vil prøve igen senere</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installationen mislykkedes, fordi disken er fuld.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Udfør</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Annuller</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Skjul</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Senere</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Hent &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Fortsæt filoverførsel &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installer &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Installer alt når det er parat &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigurer indstillinger automatisk &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Vis tidligere afslåede opdateringer</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Overfører komponent %d af %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Installerer komponent %d af %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Resterende tid:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Har overført %s af %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Indstillinger for Logitech Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Vælg hvordan opdateringsprogrammet skal fungere.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Aktiver automatiske opdateringer.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Giv mig besked, men undlad at hente eller installere dem.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Hent opdateringerne, men lad mig vælge hvornår de skal installeres.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Hent automatisk opdateringer, og installer dem.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Gendan standardindstillinger</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkt</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Status</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Størrelse</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">venter på tjek</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">findes</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">klar til at blive installeret</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">beskadiget</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">annulleret</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">udført</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Nødvendig</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Anbefales</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Valgfri</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">t.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">timer</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">minutter</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sek</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sek.</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Der findes følgende opdateringer.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Du kan få mere ud af dine Logitech-produkter med de nyeste versioner af Logitechs software.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Status for overførsel</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Opdateringerne bliver hentet.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Status for installation</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Opdateringerne er klar til at blive installeret.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Status for installation</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Opdateringerne bliver installeret.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Advarsel: Denne komponent blev fravalgt fordi den ikke opfyldt følgende krav:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Vis Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Skift automatiske indstillinger...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Afslut</String>
+  </LU_Strings_1>
+</LogitechUpdater>

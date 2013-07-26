@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="LRFWiz.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="English"/>
+	<StringSet ID="English">
+		<String ALIAS="WINDOW_CAPTION">Secure Encryption Wizard</String>
+		<String ALIAS="USE_JAPANESE_LOGO">0</String>
+		<String ALIAS="INFO_TITLE">What's Going On</String>
+		<String ALIAS="FINISH_LABEL">Finish</String>
+		<String ALIAS="WIZARD_TECHNOLOGY">Keyboard Security</String>
+		<String ALIAS="WIZARD_TECHNOLOGY_KP">Keypad Security</String>
+		<String ALIAS="WIZARD_TECHNOLOGY_SCALE">1.5</String>
+		<String ALIAS="WIZARD_TECHNOLOGY_BOLD">1</String>
+		<String ALIAS="OK_LABEL">OK</String>
+		<String ALIAS="WAIT_INFO">To ensure that your keystrokes cannot be detected by any other computer, you must complete the secure encryption wizard.\n\nJust follow these simple steps. The wizard will only take a moment to complete.\n\nDo not press any keys other than keys required by the wizard.</String>
+		<String ALIAS="CLOSELOCK_INFO">To ensure that your keystrokes cannot be detected by any other computer, you must complete the secure encryption wizard.\n\nJust follow these simple steps. The wizard will only take a moment to complete.\n\nDo not press any keys other than keys required by the wizard.</String>
+		<String ALIAS="WAIT_KEY_INFO">To ensure that your keystrokes cannot be detected by any other computer, you must complete the secure encryption wizard.\n\nJust follow these simple steps. The wizard will only take a moment to complete.\n\nDo not press any keys other than keys required by the wizard.</String>
+		<String ALIAS="FINISH_INFO">To ensure that your keystrokes cannot be detected by any other computer, you must complete the secure encryption wizard.\n\nJust follow these simple steps. The wizard will only take a moment to complete.\n\nDo not press any keys other than keys required by the wizard.</String>
+		<String ALIAS="STATIC_HEADER_1OF2">Step 1 of 2:</String>
+		<String ALIAS="STATIC_HEADER_2OF2">Step 2 of 2:</String>
+		<String ALIAS="STATIC_HEADER_2OF3">Step 2 of 3:</String>
+		<String ALIAS="STATIC_HEADER_3OF3">Step 3 of 3:</String>
+		<String ALIAS="STATIC_HEADER_LOWBATT">Low Battery</String>
+		<String ALIAS="STATIC_WAIT_HEADER2_ALIAS" SCALE="1.30">Sorry, the Numeric Pad's battery level is too low to secure your Numeric Keypad. Please replace your batteries and then try again.</String>
+		<String ALIAS="STATIC_WAIT_MAIN_ALIAS" SCALE="1.30">On your Numeric Pad, hold down the Calc button for 3 seconds.</String>
+		<String ALIAS="STATIC_CLOSE_MAIN_ALIAS" SCALE="1.30">Press the connect button on the bottom of your Numeric Pad.</String>
+		<String ALIAS="STATIC_FINISH_MAIN_ALIAS" SCALE="1.30">The Numeric Pad connection is now secure. Click Finish to exit the wizard.</String>
+		<String ALIAS="IDS_LOGO_FILE" translate="0"></String>
+	</StringSet>
+	<!-- Wait Page -->
+	<Dialog ID="IDD_PAGE_WAIT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Step 1 of 3:</Control>
+		<Control ID="IDC_STATIC_HEADER2" SCALE="1.30">Sorry, the keyboard's battery level is too low to secure your keyboard. Please replace your batteries and then try again.</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">On your keyboard, press the left &lt;CTRL&gt; + left &lt;ALT&gt; + &lt;F12&gt; keys.</Control>
+	</Dialog>
+	<!-- Close Lock Page -->
+	<Dialog ID="IDD_PAGE_CLOSELOCK" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Step 2 of 3:</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">Press the connect button on the bottom of your keyboard.</Control>
+	</Dialog>
+	<!-- Wait Key Page -->
+	<Dialog ID="IDD_PAGE_WAIT_KEY" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Step 3 of 3:</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">Enter the following code in the boxes below.</Control>
+		<Control ID="IDC_STATIC_KEY1" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_STATIC_KEY2" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_STATIC_KEY3" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_STATIC_KEY4" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_EDIT_KEY1" SCALE="1.75" BOLD="1">    </Control>
+		<Control ID="IDC_EDIT_KEY2" SCALE="1.75" BOLD="1">    </Control>
+		<Control ID="IDC_EDIT_KEY3" SCALE="1.75" BOLD="1">    </Control>
+		<Control ID="IDC_EDIT_KEY4" SCALE="1.75" BOLD="1">    </Control>
+	</Dialog>
+	<!-- Finished Page -->
+	<Dialog ID="IDD_PAGE_FINISH" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Congratulations</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">The keyboard connection is now secure. Click Finish to exit the wizard.</Control>
+	</Dialog>
+</Source>

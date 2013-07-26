@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="da-dk"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Konfiguration af Solar App</String>
+    <String ID="IDS_TITLE">Konfiguration af Solar App</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Software til Logitech-solcelletastaturer</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Tak fordi du købte dette produkt fra Logitech. Logitechs produkter er designet til at give dig optimalt udbytte af din pc. Når du har installeret softwaren, kan du udnytte en række avancerede funktioner.
+
+
+
+      Når du er klar til installere softwaren fra Logitech, skal du vælge sprog og klikke på Næste.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"/>
+    <String ID="IDS_INSTALL_PROGRESS_INFO"/>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Konfiguration af Solar App</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Konfiguration af Solar App</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Konfiguration af Solar App</String>
+    <String ID="IDS_WARNING_OS">Beklager: Softwaren er ikke kompatibel med dit styresystem. Besøg Logitechs websted www.logitech.com hvor du kan hente en kompatibel version.</String>
+    <String ID="IDS_WARNING_EDITION32">Denne version af installationsprogrammet fungerer kun med en 32-bit udgave af dit styresystem.\nDu kan hente en kompatibel version på www.logitech.com/downloads/Solar App.</String>
+    <String ID="IDS_WARNING_EDITION64">Denne version af installationsprogrammet fungerer kun med en 64-bit udgave af dit styresystem.\nDu kan hente en kompatibel version på www.logitech.com/downloads/Solar App.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Opdateringsprogram til Logitech-software</String>
+
+  </StringSet>
+</FESetup_Strings_1>

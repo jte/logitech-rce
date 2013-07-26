@@ -1,0 +1,98 @@
+;##############################################################################
+;#  LfHidEqd.inf - framework HID INF for eQuad devices
+;#  Copyright (c) 1999-2012 Logitech. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = LfHidEqd.cat
+Class       = HIDClass
+ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LHidEqd.sys = 1				; KMDF version of the USB filter driver
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+; ---------------------------------------------------------
+[Manufacturer]
+%Provider%	= ForAllNT
+
+[ForAllNT]
+%LOGI_HID_DEVICE% = HidInst,{A3535E08-EB26-49A9-8AE0-786ED1242812}\LOGI_HID_DEVICE
+
+; Install Sections
+; ---------------------------------------------------------
+[CopyFilesLHidEqd]
+LHidEqd.sys
+
+[HidInst.NT]
+CopyFiles = CopyFilesLHidEqd
+
+[HidInst.NT.HW]
+AddReg = HID_LowerFilter
+
+[HID_LowerFilter]
+HKR,,"WaitWakeEnabled",0x00010001,0x1
+
+[HidInst.NT.Services]
+AddService = LHidEqd,%SPSVCINST_ASSOCSERVICE%,LHidEqd_Service_Inst
+
+[LHidEqd_Service_Inst]
+DisplayName     = %FltDisplayName%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_IGNORE%
+ServiceBinary   = %10%\System32\Drivers\LHidEqd.Sys
+LoadOrderGroup  = Extended Base
+
+;--- WDF Coinstaller installation ------
+
+[DestinationDirs]
+LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles = 11
+
+[HidInst.NT.CoInstallers]
+AddReg=LOGIUSBMOUSE_Inst_CoInstaller_AddReg
+CopyFiles=LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles
+
+[LOGIUSBMOUSE_Inst_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "LkmdfCoInst.dll,CoDeviceInstall"
+
+[LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles]
+LkmdfCoInst.dll
+
+[SourceDisksFiles]
+LkmdfCoInst.dll=1		; make sure the number matches with SourceDisksNames
+
+[HidInst.NT.Wdf]
+KmdfService = LHidEqd, HidInst_wdfsect
+
+[HidInst_wdfsect]
+KmdfLibraryVersion = 1.5
+
+;-----------------------------------------------------------
+[Strings]
+Provider                    = "Logitech"
+DiskName                    = "Logitech SetPoint Unifying HID Driver Disk"
+SvcDisplayName              = "Logitech SetPoint Unifying HID receiver Device Driver"
+SvcDescription              = "Logitech SetPoint Unifying HID receiver"
+FltDisplayName              = "Logitech SetPoint Unifying KMDF HID Filter"
+
+LOGI_HID_DEVICE = "Logitech HID-compliant Unifying device"
+
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_IGNORE        = 0x00000000
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

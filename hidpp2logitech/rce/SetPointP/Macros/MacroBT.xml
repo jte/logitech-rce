@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="MacroBT.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+	</StringSet>
+</Source>

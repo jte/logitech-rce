@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="MacroStromboli.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<Dialog ID="IDD_SELECT_MESSENGER" WIDTH="348" HEIGHT="138">
+    Select Default Messenger
+        <Control ID="IDC_STATIC_SELECTMESSENGER">Available Messengers</Control>
+		<Control ID="IDOK">OK</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<StringSet ID="Main">
+		<String ALIAS="IDS_OE_INBOX_NAME">Inbox</String>
+		<String ALIAS="IDS_OE_INBOX_EXT">dbx</String>
+		<String ALIAS="IDS_ALERT_FILTER">" - "</String>
+		<String ALIAS="IDS_BUDDY_SIGNED_IN">"%s has just signed in."</String>
+		<String ALIAS="IDS_NEW_MESSAGES">"You have %s new message(s)."</String>
+		<String ALIAS="IDS_LOTUS_NOTES_LOGIN_ERROR">Login to Lotus Notes has failed. Lotus Notes New Mail notifications can't be supported</String>
+		<!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+		<!-- Internet Menu Tooltips -->
+		<String ALIAS="INTERNET_LAUNCHER_BUTTON_TOOLTIP">Go to Launcher</String>
+		<String ALIAS="INTERNET_BACK_BUTTON_TOOLTIP">Back</String>
+		<String ALIAS="INTERNET_FORWARD_BUTTON_TOOLTIP">Forward</String>
+		<String ALIAS="INTERNET_HOME_BUTTON_TOOLTIP">Home</String>
+		<String ALIAS="INTERNET_REFRESH_BUTTON_TOOLTIP">Refresh</String>
+		<String ALIAS="INTERNET_MAX_BUTTON_TOOLTIP">Maximize</String>
+		<String ALIAS="INTERNET_ZOOMOUT_BUTTON_TOOLTIP">Zoom Out</String>
+		<String ALIAS="INTERNET_ZOOMIN_BUTTON_TOOLTIP">Zoom In</String>
+		<String ALIAS="INTERNET_STOP_BUTTON_TOOLTIP">Stop</String>
+		<!-- Photo Menu Tooltips -->
+		<String ALIAS="PHOTO_LAUNCHER_BUTTON_TOOLTIP">Go to Launcher</String>
+		<String ALIAS="PHOTO_REWIND_BUTTON_TOOLTIP">Previous Picture</String>
+		<String ALIAS="PHOTO_PLAYPAUSE_BUTTON_TOOLTIP">Play/Pause</String>
+		<String ALIAS="PHOTO_STOP_BUTTON_TOOLTIP">Stop</String>
+		<String ALIAS="PHOTO_FORWARD_BUTTON_TOOLTIP">Next Picture</String>
+		<String ALIAS="PHOTO_ROTATE_BUTTON_TOOLTIP">Rotate</String>
+		<String ALIAS="PHOTO_ENHANCE_BUTTON_TOOLTIP">Enhance</String>
+		<String ALIAS="PHOTO_THUMBVIEW_BUTTON_TOOLTIP">Thumbnail View</String>
+		<String ALIAS="PHOTO_ZOOMOUT_BUTTON_TOOLTIP">Zoom Out</String>
+		<String ALIAS="PHOTO_ZOOMIN_BUTTON_TOOLTIP">Zoom In</String>
+		<!-- Media Menu Tooltips -->
+		<String ALIAS="MEDIA_LAUNCHER_BUTTON_TOOLTIP">Go to Launcher</String>
+		<String ALIAS="MEDIA_REWIND_BUTTON_TOOLTIP">Previous/Rewind</String>
+		<String ALIAS="MEDIA_PLAYPAUSE_BUTTON_TOOLTIP">Play/Pause</String>
+		<String ALIAS="MEDIA_STOP_BUTTON_TOOLTIP">Stop</String>
+		<String ALIAS="MEDIA_FORWARD_BUTTON_TOOLTIP">Next/Fast-Forward</String>
+		<String ALIAS="MEDIA_SHUFFLE_BUTTON_TOOLTIP">Shuffle</String>
+		<String ALIAS="MEDIA_CHDOWN_BUTTON_TOOLTIP">Channel down</String>
+		<String ALIAS="MEDIA_CHUP_BUTTON_TOOLTIP">Channel up</String>
+		<String ALIAS="MEDIA_EJECT_BUTTON_TOOLTIP">Eject Disc</String>
+		<!-- Menu Tooltips -->
+		<String ALIAS="MENU_CLOSE_BUTTON_TOOLTIP">Close Application</String>
+		<String ALIAS="MENU_MAXIMIZE_BUTTON_TOOLTIP">Maximize Application</String>
+		<String ALIAS="MENU_MINIMIZE_BUTTON_TOOLTIP">Minimize Application</String>
+		<String ALIAS="SCROLLPANE_QUICKSWITCH_BUTTON_TOOLTIP">Switch between Windows</String>
+		<String ALIAS="MENU_TOGGLEMUTE_BUTTON_TOOLTIP">Mute</String>
+		<String ALIAS="SCROLLPANE_BACK_BUTTON_TOOLTIP">Browse Left</String>
+		<String ALIAS="SCROLLPANE_FORWARD_BUTTON_TOOLTIP">Browse Right</String>
+		<String ALIAS="SCROLLPANE_SETUP_BUTTON_TOOLTIP">Settings</String>
+		<String ALIAS="IDS_AIR_VOLUME">Air Volume</String>
+		<String ALIAS="IDS_MEDIACONTROL">Air Media Control</String>
+		<String ALIAS="IDS_AIR_ZOOM">Air Zoom</String>
+		<String ALIAS="IDS_MENU_SETTINGS">MenuCast Settings</String>
+		<String ALIAS="IDS_MENUCAST_SETTINGS_CAPTION">MenuCast Configuration</String>
+		<String ALIAS="IDS_LAUNCHER_PROGRAMS_FILTER">All Files (*.*)|*.*||</String>
+    <String ALIAS="IDS_MESSAGE_TITLE">Logitech SetPoint</String>
+    <String ALIAS="DOWNLOAD_MENU_IMAGES">Some of the software components for this operation need to be added to your system. Please make sure your system is connected to the Internet, and the components will be automatically installed.</String>
+  </StringSet>
+	<Dialog ID="IDD_HANDLER_AIRVOLUME_DIALOG" WIDTH="219" HEIGHT="156">
+		<Control ID="IDC_STATIC_GESTURE_ORTN">Gesture Orientation</Control>
+		<Control ID="IDC_VOLUME_HORIZONTAL">Horizontal</Control>
+		<Control ID="IDC_VOLUME_VERTICAL">Vertical</Control>
+		<Control ID="IDC_VOLUME_SOUNDFEEDBACK">Sound Feedback</Control>
+		<Control ID="IDC_AIR_VOL_TASK_DESC_BUTTON">Task Description</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_AIRMEDIACONTROL_DIALOG" WIDTH="219" HEIGHT="156">
+		<Control ID="IDC_STATIC_HELPTEXT">Help Text</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_STROMBOLI_CONFIG_DLG" WIDTH="219" HEIGHT="100">
+		<Control ID="ID_STROMBOLI_CONFIGURE_BUTTON">Configure</Control>
+		<Control ID="IDC_MENU_DESC_BUTTON">Task Description</Control>
+	</Dialog>
+	<Dialog ID="IDD_STROMBOLI_CONFIG_DIALOG" WIDTH="456" HEIGHT="286">
+		<Control ID="IDC_MENU_SIZE_STATIC">Menu Size</Control>
+		<Control ID="IDC_MENU_SIZE_SMALL_RADIO1">Small</Control>
+		<Control ID="IDC_MENU_SIZE_MEDIUM_RADIO">Medium</Control>
+		<Control ID="IDC_MENU_SIZE_LARGE_RADIO">Large</Control>
+		<Control ID="IDC_ADD_NEW_BUTTON">Add</Control>
+		<Control ID="IDC_REMOVE_BUTTON">Remove</Control>
+		<Control ID="IDC_MOVE_UP_BUTTON">Move Up</Control>
+		<Control ID="IDC_MOVE_DOWN_BUTTON">Move Down</Control>
+		<Control ID="ID_STROMBOLI_CONFIG_OK">OK</Control>
+		<Control ID="ID_STROMBOLI_CONFIG_CANCEL">Cancel</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_DESCRIPTION_DLG">
+		<Control ID="ID_CONFIGURE_LAUNCH">Task Description</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_AIRZOOM_DIALOG" WIDTH="219" HEIGHT="156">
+		<Control ID="IDC_STATIC_ZOOM_GESTURE_ORTN">Gesture Orientation</Control>
+		<Control ID="IDC_ZOOM_HORIZONTAL">Horizontal</Control>
+		<Control ID="IDC_ZOOM_VERTICAL">Vertical</Control>
+		<Control ID="IDC_ZOOM_SOUNDFEEDBACK">Sound Feedback</Control>
+		<Control ID="IDC_AIR_ZOOM_BUTTON">Task Description</Control>
+	</Dialog>
+</Source>

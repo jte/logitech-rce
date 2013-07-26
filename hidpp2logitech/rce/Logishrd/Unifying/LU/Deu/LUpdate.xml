@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">deu</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Neue Updates sind verfügbar. Klicken Sie hier, um sie herunterzuladen.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klicken Sie hier, um die Updates Ihrer Logitech-Software abzuschließen.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Updates für die neue Logitech-Software werden heruntergeladen</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Neue Updates sind verfügbar. Klicken Sie hier, um sie zu installieren.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Updates für die Logitech-Software werden installiert</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Ihre Logitech-Software ist auf dem neuesten Stand</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Da keine Internetverbindung besteht, konnte nicht geprüft werden, ob eine neue Version verfügbar ist</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Es ist ein Fehler aufgetreten</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Fehler bei der Installation.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Installation abgebrochen.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Für den angeforderten Vorgang sind Administratorrechte erforderlich.</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Die Internetverbindung wurde zurückgesetzt. Versuchen Sie es später noch einmal</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Die Internetverbindung wurde zurückgesetzt. Logitech Updater versucht es später noch einmal</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Die Installation ist fehlgeschlagen, weil der Datenträger voll ist.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Abschliessen</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Abbrechen</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Ausblenden</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Später</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Herunterladen &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Download fortsetzen &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installieren &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Alle installieren, wenn verfügbar &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Automatische Einstellungen konfigurieren &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Zeige früher abgelehnte Updates</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Komponente %d von %d wird heruntergeladen</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Komponente %d von %d wird installiert</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Restdauer:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">%s von %s heruntergeladen</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Logitech Updater-Einstellungen</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Bestimmen Sie, was der Updater für Sie tun soll.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Automatische Updates aktivieren</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Benachrichtigen, aber nicht automatisch herunterladen oder installieren.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Updates herunterladen, aber noch nicht installieren.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Updates automatisch herunterladen und installieren.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Standardeinstellungen wiederherstellen</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkt</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Status</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Größe</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">warte auf prüfung</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">verfügbar</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">bereit zur Installation</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">beschädigt</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">abgebrochen</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">fertig</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Erforderlich</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Empfohlen</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Optional</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">Std.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">Std.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">s</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">s</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Diese Updates sind verfügbar.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Holen Sie mit den neuesten Versionen der Logitech-Software das Beste aus Ihren Logitech-Produkten heraus.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Herunterlad-Status</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Ihre Updates werden heruntergeladen.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Installationsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Sie können diese Updates jetzt installieren.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Installationsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Ihre Updates werden installiert.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Warnung: Die Auswahl dieser Komponente wurde standardmäßig aufgehoben, da die folgende(n) Beschränkung(en) nicht eingehalten wurde(n):</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Logitech Updater anzeigen</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Automatische Einstellungen ändern...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Beenden</String>
+  </LU_Strings_1>
+</LogitechUpdater>

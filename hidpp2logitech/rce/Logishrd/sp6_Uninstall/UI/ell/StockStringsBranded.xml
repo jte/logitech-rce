@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="el-gr"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Ρύθμιση SetPoint™</String>
+    <String ID="IDS_TITLE">Ρύθμιση SetPoint™</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Λογισμικό για ποντίκια και πληκτρολόγια της Logitech</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Σας ευχαριστούμε που αγοράσατε αυτό το προϊόν της Logitech.  Τα προϊόντα της Logitech είναι σχεδιασμένα για να κάνουν τη χρήση του υπολογιστή σας ακόμα πιο αποτελεσματική. Αξιοποιήστε τις εξελιγμένες λειτουργίες του προϊόντος εγκαθιστώντας το παρόν λογισμικό.
+
+
+
+      Όταν είστε έτοιμοι να ξεκινήσετε την εγκατάσταση του λογισμικού, επιλέξτε γλώσσα και πατήστε το κουμπί Επόμενο.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">Αλλάξτε τις λειτουργίες που έχουν αντιστοιχιστεί στα κουμπιά του ποντικιού Logitech ή στα πλήκτρα λειτουργιών του πληκτρολογίου Logitech</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Αλλάξτε τις λειτουργίες που έχουν αντιστοιχιστεί στα κουμπιά του ποντικιού Logitech ή στα πλήκτρα λειτουργιών του πληκτρολογίου Logitech</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Αλλάξτε τις λειτουργίες που έχουν αντιστοιχιστεί στα κουμπιά του ποντικιού Logitech ή στα πλήκτρα λειτουργιών του πληκτρολογίου Logitech</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Ρύθμιση SetPoint™</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Ρύθμιση SetPoint™</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Ρύθμιση SetPoint™</String>
+    <String ID="IDS_WARNING_OS">Λυπούμαστε, αυτό το λογισμικό δεν είναι συμβατό με το λειτουργικό σας σύστημα. Επισκεφθείτε τη διεύθυνση www.logitech.com για να κατεβάσετε μια συμβατή έκδοση.</String>
+    <String ID="IDS_WARNING_EDITION32">Αυτή η έκδοση του προγράμματος εγκατάστασης απαιτεί έκδοση λειτουργικού συστήματος 32-bit.\nΕπισκεφθείτε τη διεύθυνση www.logitech.com/downloads/SetPoint για να κάνετε λήψη μιας συμβατής έκδοσης.</String>
+    <String ID="IDS_WARNING_EDITION64">Αυτή έκδοση του προγράμματος εγκατάστασης απαιτεί έκδοση λειτουργικού συστήματος 64-bit.\nΕπισκεφθείτε τη διεύθυνση www.logitech.com/downloads/SetPoint για να κάνετε λήψη μιας συμβατής έκδοσης.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Βοηθητικό πρόγραμμα ενημέρωσης για λογισμικό της Logitech</String>
+
+  </StringSet>
+</FESetup_Strings_1>

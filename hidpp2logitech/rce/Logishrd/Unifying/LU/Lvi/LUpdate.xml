@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">lvi</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Ir pieejami jauni atjauninājumi. Noklikšķiniet šeit, lai lejupielādētu.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Noklikšķiniet, lai pabeigtu Logitech programmatūras atjaunināšanu.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Tiek ielādēti Logitech programmatūras atjauninājumi</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Ir pieejami jauni atjauninājumi. Noklikšķiniet šeit, lai instalētu.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Tiek instalēti Logitech programmatūras atjauninājumi</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Logitech programmatūra ir atjaunināta</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Nav savienojuma ar internetu. Mēs nevarējām pārbaudīt jaunās versijas pieejamību</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Radās kļūda</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Instalēšanas kļūda.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Instalēšana atcelta.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Nepieciešamo darbību var veikt tikai administrators</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Savienojums ar internetu ir atjaunots. Vēlāk mēģiniet vēlreiz</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Savienojums ar internetu ir atjaunots. Logitech Updater vēlāk mēģinās vēlreiz</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installation failed because the disk is full.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">Labi</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Pabeigt</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Atcelt</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Paslēpt</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Vēlāk</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Lejupielādēt &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Atsākt lejupielādi &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Instalēt &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Instalēt visu, kad gatavs &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigurēt automātiskos iestatījumus &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Rādīt agrāk noraidītos atjauninājumus</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Notiek %d. komponenta lejupielāde no %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Notiek %d. komponenta instalēšana no %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Atlikušais laiks:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Lejupielādēts(-i) %s no %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Logitech Updater iestatījumi</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Izvēlieties atjauninātāja darbību.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Ieslēgt automātiskos atjauninājumus.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Atgādiniet man par tiem, taču automātiski neielādējiet vai neinstalējiet tos.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Lejupielādējiet atjauninājumus, taču atļaujiet man izvēlēties, kad tos instalēt.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Automātiski lejupielādējiet un instalējiet atjauninājumus.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Atjaunot noklusējuma iestatījumus</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkts</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Statuss</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Lielums</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">gaida pārbaudi</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">pieejams</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">gatavs instalēt</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">bojāts</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">atcelts</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">gatavs</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Nepieciešams</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Ieteicams</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Pēc izvēles</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">s</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">s</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Šie atjauninājumi ir pieejami.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Iegūstiet vairāk no Logitech produktiem, izmantojot Logitech programmatūras jaunākās versijas.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Lejupielādes statuss</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Jūsu atjauninājumi tiek lejupielādēti.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Instalēšanas statuss</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Šos atjauninājumus var instalēt.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Instalēšanas statuss</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Jūsu atjauninājumi tiek instalēti.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Brīdinājums: šī komponenta atlase ir noņemta pēc noklusējuma, jo tas neatbilst šādam(-iem) nosacījumam(-iem):</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Rādīt Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Mainīt automātiskos iestatījumus...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Iziet</String>
+  </LU_Strings_1>
+</LogitechUpdater>

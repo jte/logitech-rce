@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">rom</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Produse Logitech</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Software pentru produsul dvs. Logitech</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Software pentru mouse şi tastatură</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Software pentru mouse şi tastatură</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Software de productivitate pentru mouse şi tastatură</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Software de jocuri pentru mouse şi tastatură</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Software pentru camera Web</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Software pentru camera Web</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Software de comunicaţie</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Software Wireless DJ</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">Software pentru G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Software pentru tastatura pentru jocuri Logitech G15</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Software pentru Z-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Software pentru boxele Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">Software pentru G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Software pentru tastatura pentru jocuri Logitech G11</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">Software pentru G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Software pentru tastatura pentru jocuri Logitech G11</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">Software pentru GamePanel</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Software pentru tastatura pentru jocuri Logitech G15, pentru tastatura Logitech G11 şi pentru boxele Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Software avansat pentru sunet surround</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Boxe Logitech Z-5</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Software avansat pentru boxele Logitech Z-5</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Software pentru căşti cu sunet surround</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Căşti Logitech G930 fără fir pentru jocuri cu sunet Dolby Surround pentru multi-canal</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Asistent pentru căşti Logitech H760 fără fir pentru playere media</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Software pentru împerecherea dispozitivelor Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Mouse Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Actualizare firmware pentru mouse-ul dvs. Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Tastatură Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Actualizare firmware pentru tastatura dvs. Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Tastatură numerică Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Actualizare firmware pentru tastatura dvs. numerică Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Receptor Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Actualizare firmware pentru receptorul dvs. Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Software pentru cameră Web</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Software pentru camera dvs. Web Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid reprezintă modalitatea cea mai simplă pentru a menţine legătura cu prietenii şi cu familia de oriunde din lume</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Software pentru sistemul de securitate video Logitech Alert™</String>
+	</LU_Strings_1>
+</LogitechUpdater>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">sky</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Produkt od spoločnosti Logitech</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Softvér pre váš produkt od spoločnosti Logitech</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Softvér pre myš a klávesnicu</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Softvér pre myš a klávesnicu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Softvér na zvýšenie produktivity pre myš a klávesnicu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Herný softvér pre myš a klávesnicu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Softvér pre webovú kameru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Softvér pre webovú kameru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Komunikačný softvér</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Softvér Wireless DJ</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">Softvér G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Softvér s podporou klávesnice Logitech G15 pre hráčov</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Softvér Z-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Softvér s podporou reproduktorov Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">Softvér G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Softvér s podporou klávesnice Logitech G11 pre hráčov</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">Softvér G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Softvér s podporou klávesnice Logitech G11 pre hráčov</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">Softvér GamePanel</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Softvér s podporou klávesnice Logitech G15 pre hráčov, klávesnice Logitech G11 a reproduktorov Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Vylepšený softvér pre priestorový zvuk</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Reproduktory Logitech Z-5</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Vylepšený softvér pre reproduktory Logitech Z-5</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Softvér pre priestorový zvuk slúchadiel s mikrofónom</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Bezdrôtové herné slúchadlá s mikrofónom Logitech G930 s viackanálovým priestorovým zvukom Dolby</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Asistent pre bezdrôtové slúchadlá s mikrofónom Logitech H760 pre prehrávače multimédií</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Softvér na párovanie vašich zariadení Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Myš Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Aktualizácia firmvéru pre vašu myš Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Klávesnica Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Aktualizácia firmvéru pre vašu klávesnicu Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Číselná klávesnica Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Aktualizácia firmvéru pre vašu číselnú klávesnicu Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Prijímač Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Aktualizácia firmvéru pre váš prijímač Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Softvér webovej kamery</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Softvér pre vašu webovú kameru Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid predstavuje jednoduchý spôsob spojenia s rodinou a priateľmi na celom svete</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Softvér pre systém videozabezpečenia Logitech Alert™</String>
+	</LU_Strings_1>
+</LogitechUpdater>

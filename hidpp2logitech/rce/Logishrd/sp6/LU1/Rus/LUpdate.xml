@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">rus</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Доступны новые обновления. Щелкните здесь, чтобы загрузить их.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Щелкните, чтобы завершить обновление вашего программного обеспечения Logitech.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Обновления для вашего программного обеспечения Logitech загружаются</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Доступны новые обновления. Щелкните здесь, чтобы установить их.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Обновления для вашего программного обеспечения Logitech устанавливаются</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Ваше программное обеспечение Logitech обновлено</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">Установка программного обеспечения Logitech будет завершена после перезагрузки компьютера</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Щелкните для завершения установки программного обеспечения</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Отсутствует подключение к Интернету, невозможно проверить наличие новой версии</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Произошла ошибка</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Ошибка при установке.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Установка отменена.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Для запрошенной операции требуются права администратора</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Подключение к Интернету было перезапущено. Повторите попытку позднее</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Подключение к Интернету было перезапущено. Повторная попытка запуска Logitech Updater будет выполнена позднее</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Установка не удалась, так как диск заполнен.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">ОК</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Готово</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Отмена</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Скрыть</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Обновить позже</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Загрузить &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Возобновить загрузку &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Установить &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Установить все готовые обновления &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Да</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Нет</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Перезагрузить компьютер</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">Для завершения установки требуется перезагрузить компьютер</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Настройка</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Изменить автоматические настройки</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Показать ранее отклоненные обновления</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Загружается компонент %d из %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Устанавливается компонент %d из %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Осталось времени:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Загружено %s из %s</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">Для завершения установки требуется перезагрузить компьютер.</String>
+
+	<String ALIAS="IDS_UI_BANNER_CONFIG">Настройки Logitech Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Выберите, как должно работать средство обновлений.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Включить автоматические обновления.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Уведомить меня, но не загружать и не устанавливать автоматически.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Загрузить обновления, но не устанавливать их без моего разрешения.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Автоматически загрузить обновления и установить их.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Восстановить настройки по умолчанию</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Продукт</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Состояние</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Размер</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">ожидание проверки</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">доступно</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">все готово к установке</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">поврежден</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">отменен</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">выполнено</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Требуется</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Рекомендуется</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Необязательно</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">КБ</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">МБ</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">ГБ</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">ч</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">ч</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">мин</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">мин</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">сек</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">с</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Выбрать</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Загрузить</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Обзор</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Установить</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Доступны следующие обновления.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Используйте свои устройства Logitech более эффективно с новейшими версиями программного обеспечения Logitech.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Состояние загрузки</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Идет загрузка обновлений.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Состояние установки</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Все готово к установке этих обновлений.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Состояние установки</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Идет установка обновлений.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Состояние установки</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Требуется перезагрузка</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Для завершения установки программного обеспечения Logitech требуется перезагрузка компьютера. Сохраните текущие открытые документы или веб-страницы.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Перезагрузить компьютер?</String>
+
+	<String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Предупреждение. Этот компонент не выбран по умолчанию, так как не удовлетворяет следующим ограничениям:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Показать Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Изменить автоматические настройки...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Выход</String>
+  </LU_Strings_1>
+</LogitechUpdater>

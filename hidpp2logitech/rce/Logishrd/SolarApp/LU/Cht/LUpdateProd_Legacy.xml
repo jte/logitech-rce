@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">cht</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech 產品</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">用於 Logitech 產品的軟體</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">滑鼠與鍵盤軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">滑鼠與鍵盤軟體</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">滑鼠與鍵盤生產力軟體</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">滑鼠與鍵盤遊戲軟體</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Webcam 軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Webcam 軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">通信軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series 軟體</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">軟體支援 Logitech G15 遊戲鍵盤</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series 軟體</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">軟體支援 Logitech Z-10 揚聲器</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series 軟體</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">軟體支援 Logitech G11 遊戲鍵盤</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series 軟體</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">軟體支援 Logitech G11 遊戲鍵盤</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel 軟體</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">軟體支援 Logitech G15 遊戲鍵盤、Logitech G11 鍵盤與 Logitech Z-10 揚聲器</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">進階環繞聲揚聲器軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logitech Z-5 揚聲器</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Logitech Z-5 揚聲器進階軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">環繞聲耳機軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">配備多聲道 Dolby 環繞聲音效的 Logitech 無線遊戲耳機 G930</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">用於媒體播放程式的 Logitech 無線耳機 H760 助手</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">用於配對 Unifying 裝置的軟體</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying 滑鼠</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">針對 Unifying 滑鼠的韌體更新</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying 鍵盤</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">針對 Unifying 鍵盤的韌體更新</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying 數字鍵台</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">針對 Unifying 數字鍵台的韌體更新</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying 接收器</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">針對 Unifying 接收器的韌體更新</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">網路攝影機軟體</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">用於 Logitech 網路攝影機的軟體</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid 是您聯絡分佈在全球各地的親朋好友的便捷途徑</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">用於 Logitech Alert™ 視頻安全系統的軟體</String>
+	</LU_Strings_1>
+</LogitechUpdater>

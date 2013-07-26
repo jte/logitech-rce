@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogitechUpdater>
+  <LU_Strings_1>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>       
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>       
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>               
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String> 
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String> 
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series ソフトウェア</String>               
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series ソフトウェア</String>                 
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series ソフトウェア</String>           
+    		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series ソフトウェア</String>           
+    		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel ソフトウェア</String>               
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>             
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">マウスとキーボード ソフトウェア</String>       
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">マウスとキーボード ソフトウェア</String>   
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">ウェブカメラ ソフトウェア</String>       
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">ウェブカメラ ソフトウェア</String>               
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">通話ソフトウェア</String> 
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Software</String> 
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">ロジクール G15 ゲーム キーボードをサポートしているソフトウェア</String>               
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">ロジクール Z-10 スピーカーをサポートしているソフトウェア</String>                 
+    		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">ロジクール G11 ゲーム キーボードをサポートしているソフトウェア</String>           
+    		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">ロジクール G11 ゲーム キーボードをサポートしているソフトウェア</String>           
+    		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">ロジクール G15 ゲーム キーボード、ロジクール G11 キーボード、およびロジクール Z-10 スピーカーをサポートしているソフトウェア</String>  
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">アドバンスト サラウンド サウンド ソフトウェア</String>             
+
+    		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">ロジクール Z-5 スピーカー</String>             
+    		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">ロジクール Z-5 スピーカー用の先進ソフトウェア</String>   
+    
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">ロジクール G35</String>             
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">サラウンド サウンド ヘッドセット ソフトウェア</String>
+ </LU_Strings_1>
+</LogitechUpdater>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="da-dk"/>
+
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_PRODUCT">SetPoint™</String>
+    <String ID="IDS_PRODUCT_NAME">SetPoint&lt;a style="vertical-align:0.1em;font-size:85%;"&gt;™&lt;/a&gt;</String>
+    <String ID="IDS_ABORTDLG_DESC">Installationen er ikke fuldført.&lt;br/&gt;&lt;br/&gt; Hvis du afbryder den nu, bliver softwaren ikke installeret.&lt;br/&gt;Du kan køre installationsprogrammet senere hvis du vil fuldføre installationen.&lt;br/&gt;&lt;br/&gt;Klik på Fortsæt for at fortsætte programinstallationen. Klik på Afslut hvis du vil afslutte installationen.&lt;br/&gt;</String>
+
+   <String ID="IDS_IMPORTANT">Vigtigt!</String>
+ 
+    <!-- Widgets for all pages: -->
+
+   <!-- Welcome page LegacyPre  -->
+	  <String ID="IDS_WELCOME_LEGACY_INTRO">Der er registreret en tidligere version af SetPoint på computeren. Den skal fjernes først, og computeren skal genstartes inden du kan fortsætte installationen.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xOnly">Dine personlige brugerindstillinger i den nuværende version af SetPoint vil blive slettet.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xOnly">Dine egne indstillinger, makroer og profiler bliver gemt.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TITLE">Brugerindstillinger i SetPoint 5.x</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TEXT">Dine egne indstillinger, makroer og profiler bliver gemt.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TITLE">Brugerindstillinger i SetPoint 4.x</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TEXT">Dine personlige brugerindstillinger i den nuværende version vil blive slettet.</String>
+	<!--
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Some features of your device are not supported by this version of SetPoint. Click here for details.</String>
+	-->
+	
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Nogle af funktionerne for (Enhedens navn) understøttes ikke i denne version af SetPoint. Det anbefales at du beholder din nuværende version.</String>
+	<!--
+	<String ID=""></String>
+	<String ID=""></String>
+	<String ID=""></String>
+    -->
+  
+    <!-- Welcome page - installer -->
+    <String ID="IDS_WELCOME_INTRO">Velkommen til SetPoint</String>
+    <String ID="IDS_WELCOME_INTRO2">Klik på Næste for at installere SetPoint på din computer.</String>
+    <String ID="IDS_BROWSERS">Vi anbefaler at du lukker følgende webbrowsere, inden du fortsætter:</String>
+    <String ID="IDS_WELCOME_TEXT">WELCOME TEXT</String>
+    <String ID="IDS_EXPRESS_INSTALL">Hurtig installation (Anbefales)</String>
+    <String ID="IDS_EXPRESS_DESC">Hurtigt og nemt. Hvis du vælger Hurtig installation, installeres SetPoint på det nuværende sprog og i standardmappen for nye programmer.</String>
+    <String ID="IDS_CUSTOM_INSTALL">Brugerdefineret installation</String>
+    <String ID="IDS_CUSTOM_INSTALL_DESC">Hvis du vil ændre sproget eller installationsmappen, skal du vælge en brugerdefineret installation.</String>
+	<!--
+	<String ID="IDS_EULA_AGREE_PRE">By clicking on "Next" you agree to the </String>
+	<String ID="IDS_EULA_URL">Logicool User License Agreement</String>
+	<String ID="IDS_EULA_AGREE_POST">.</String>
+	-->
+	  <String ID="IDS_EULA_AGREE_TEXT">Ved at klikke på "Næste" tilkendegiver du din accept af &lt;a href="#" id="eula" onClick="fadeIn(); return false;"&gt;licensaftalen&lt;/a&gt;.</String>
+	  <String ID="IDS_EULA_TITLE">Licensaftale</String>
+	  <String ID="IDS_NOSUPPORT_DEVICES">&lt;b&gt;     Denne version af SetPoint understøtter ikke længere gamingmusene G100, G500, G700, G9, G9x og MX518.&lt;/b&gt; &lt;br&gt;&lt;br&gt;De understøttes nu i Logitech Gaming Software (LGS) version 8.4 og derover. Du vil få chancen for at installere LGS når installationen af SetPoint er fuldført.&lt;br&gt;</String>
+	  
+	<String ID="IDS_BTN_CONTINUE">Fortsæt</String>
+
+  <!-- Welcome page - un-installer -->
+	  <String ID="IDS_UNINSTALL_WELCOME_INTRO">Afinstallation af SetPoint.</String>
+    <String ID="IDS_UNINSTALL_WELCOME_TEXT">SetPoint fjernes fra computeren. Alle personlige brugerindstillinger i SetPoint vil blive slettet. </String>
+		
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page - install  -->
+    <String ID="IDS_DESTINATION_STATIC">Klik på Gennemse for at vælge hvor SetPoint skal installeres.</String>
+    <String ID="IDS_BTN_BROWSE">Gennemse</String>
+    <String ID="IDS_GETTING_STARTED_TEXT">Vælg selv:</String>
+    <String ID="IDS_SELECT_INSTALL_TEXT">Vælg indstillinger for installationen...</String>
+    <String ID="IDS_UPDATE_CHECK_TEXT">Hvis du har en internetforbindelse kan vi sørge for at du får den seneste version af softwaren.</String>
+    <String ID="IDS_CHECK_FOR_UPDATES">Tjek om der er softwareopdatering, og installer derefter.</String>
+    <String ID="IDS_LANGUAGESELECTDLG_SUBTITLE">Vælg et sprog i menuen herunder.</String>
+    <!-- Custom: Components page: -->
+    <!-- ..Third-party components for SetPoint: -->
+
+    <!-- License page: -->
+
+  <!-- Progress page: component description, use Z_ pre-fix to perform real-time localized string update -->
+   <!-- do not defined IDS_PROGRESS_COMPONENT_NAME, IDS_PROGRESS_COMPONENT_DESC -->
+ 
+ <!--  
+   <String ID="Z_IDS_PROGRESS_COMPONENT_NAME">SetPoint...</String>
+   <String ID="Z_IDS_PROGRESS_COMPONENT_DESC">Installating SetPoint. Please wait.</String>
+-->
+
+	
+    <!-- Progress page - install  -->
+   <String ID="IDS_INSTALL_PROGRESS_TITLE">Udvid din oplevelse med SetPoint </String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_2">Installationen er startet.</String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_3">Vent lidt mens filerne overføres til computeren.</String>
+
+    <!--To distinguish logitech enu and logicool enu, copy Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1 to stockstringsbranded.xml, other locale, just keep in CustomSTrings.xml to simplify the changes -->
+    <!--String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Personalize the settings of your Logitech mouse or keyboard.</String -->
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_2">Få gavn af glattere rulning i Windows 8-programmer og webbrowsere.</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_3">Se indikatorerne på skærmen når du trykker på Caps Lock og Num Lock, eller når batteriet er ved at være fladt.</String>
+
+    <String ID="Z_IDS_EMPTY_INITIAL_TEXT">Der er ca. 2 minutter tilbage... </String>
+    <String ID="Z_IDS_PRE_UPDATER_PROGRESS">Der er ca. 2 minutter tilbage... </String>
+    <String ID="Z_IDS_IMUI_PROGRESS">Der er ca. 2 minutter tilbage... </String>
+    <String ID="Z_IDS_install_progress_sp6_start">Der er ca. 2 minutter tilbage... </String>
+    <String ID="Z_IDS_install_progress_sp6_redistr">Der er ca. 2 minutter tilbage... </String>
+    <String ID="Z_IDS_install_progress_sp6_drivers">Der er ca. 1 minut tilbage... </String>
+    <String ID="Z_IDS_install_progress_sp6_gaming">Der er ca. 50 sekunder tilbage... </String>
+    <String ID="Z_IDS_install_progress_sp6_productivity">Der er ca. 50 sekunder tilbage... </String>
+    <String ID="Z_IDS_install_progress_sp6_end">Der er ca. 30 sekunder tilbage... </String>
+    <String ID="Z_IDS_POST_UPDATER_PROGRESS">Der er ca. 30 sekunder tilbage... </String>
+    <String ID="Z_IDS_EREG_PROGRESS">Der er ca. 10 sekunder tilbage... </String>
+
+    <String ID="Z_IDS_4_MINUTES">Der er ca. 4 minutter tilbage... </String>
+    <String ID="Z_IDS_3_MINUTES">Der er ca. 3 minutter tilbage... </String>
+    <String ID="Z_IDS_2_MINUTES">Der er ca. 2 minutter tilbage... </String>
+    <String ID="Z_IDS_1_MINUTE">Der er ca. 1 minut tilbage... </String>
+    <String ID="Z_IDS_50_SECONDS">Der er ca. 50 sekunder tilbage... </String>
+    <String ID="Z_IDS_40_SECONDS">Der er ca. 40 sekunder tilbage... </String>
+    <String ID="Z_IDS_30_SECONDS">Der er ca. 30 sekunder tilbage... </String>
+    <String ID="Z_IDS_20_SECONDS">Der er ca. 20 sekunder tilbage... </String>
+    <String ID="Z_IDS_10_SECONDS">Der er ca. 10 sekunder tilbage... </String>
+    <String ID="Z_IDS_SEVERAL_MINUTES">Det kan tage flere minutter... </String>
+
+    <!-- Progress page - LegacyPre  -->
+    <String ID="IDS_LEGACY_PRE_PROGRESS_TITLE"/>
+	  <String ID="Z_IDS_LEGACY_PRE_PROGRESS_INFO"/>
+	  <String ID="IDS_LEGACY_PRE_PROGRESS_TAG">De tidligere installerede filer fjernes. Vent lidt.</String>
+
+    <String ID="IDS_LEGACY_POST_PROGRESS_TITLE">Installation af SetPoint.</String>
+    <String ID="Z_IDS_LEGACY_POST_PROGRESS_INFO"/>
+    <String ID="IDS_LEGACY_POST_PROGRESS_TAG">Forbereder installationen. Det kan tage et par minutter.</String>
+
+    <!-- Progress page - un-install  -->
+    <String ID="IDS_UN_INSTALL_PROGRESS_TITLE">Afinstallation af SetPoint.</String>
+    <String ID="Z_IDS_UN_INSTALL_PROGRESS_INFO"/>
+    <String ID="IDS_UN_INSTALL_PROGRESS_TAG">Afinstallationen er i gang. Vent lidt.</String>
+
+
+    <!-- Finish page  - install -->
+    <String ID="IDS_INSTALL_FINISH_TITLE">Installationen blev gennemført.</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT">Hvis du vil konfigurere din enhed, skal du klikke på Udfør og køre SetPoint fra menuen Start.</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT_WIN8">Du ændrer indstillingerne for enheden ved at klikke på Afslut og dernæst åbne SetPoint ved at klikke på SetPoint-ikonet på Windows-startskærmbilledet.</String>
+    <String ID="IDS_CONFIGURE">Kør SetPoint, og konfigurer min enhed.</String>
+    <String ID="IDS_REGISTER">Registrer mit produkt.</String>
+    <String ID="IDS_WHY_REGISTER">(hvorfor bør jeg registrere mit produkt?)</String>
+    <!--To distinguish logitech enu and logicool enu, copy IDS_LGS_LINK to stockstringsbranded.xml, other locale, just keep in CustomSTrings.xml to simplify the changes -->
+    <!-- String ID="IDS_LGS_LINK">Click &#60;a href="http://www.logitech.com/swr_lgs" target="_blank" id="eula"&#62;here &#60;/a&#62; to get Logitech Gaming Software to customize the settings of your gaming mouse.</String -->
+    
+    <String ID="IDS_LEGACY_PRE_FINISH_TITLE"/>
+    <String ID="IDS_LEGACY_PRE_FINISH_TEXT">Klik på OK for at genstarte computeren. Installationen fortsætter bagefter.</String>
+ 
+    <!-- Finish page - un-install -->
+    <String ID="IDS_UN_INSTALL_FINISH_TITLE">Afinstallation af SetPoint.</String>
+    <String ID="IDS_UN_INSTALL_FINISH_TEXT">Afinstallationen er fuldført.</String>
+    <String ID="IDS_PS2_INFO">Dine PS/2-enheder fungerer næste gang computeren startes.</String>
+
+    <!-- Finish page - error-install -->
+    <String ID="IDS_FINISH_ERROR_TITLE">Installationen kunne ikke fuldføres</String>
+    <String ID="IDS_NO_DOWNLOAD">Der er ingen software at hente.</String>
+    <String ID="IDS_NO_CHECK">De nødvendige komponenter kunne ikke findes. </String>
+    <String ID="IDS_DOWNLOAD_FAILED">Kontroller internetforbindelsen og prøv igen.</String>
+    <String ID="IDS_DOWNLOAD_CANCELLED"/>
+    <String ID="IDS_FINISH_CANCEL_TITLE">Installationen blev annulleret af brugeren.</String>
+ 
+    <!-- download checking page -->
+    <String ID="IDS_PLEASE_WAIT"> Vent lidt, der søges efter yderligere komponenter</String>
+
+    <!-- download page -->
+    <String ID="IDS_INSTALLINGSOFTWARE_DOWNLOAD_TITLE">Henter komponenter</String>
+    <String ID="IDS_INSTALLINGSOFTWARE_TOTALPROGRESS">Status for overførsel </String>
+
+    <!-- An expression, IDSE :
+    For for '<' and '>', use the character-entity-references of &#60; and &#62; respectively. -->
+    <String ID="IDSE_PATH_TO_DESTDIR_APP">&lt;destroot&gt;\\SetPoint\\SetPoint.exe</String>
+    <String ID="IDS_ARGS_TO_DESTDIR_APP">/S</String>
+    <String ID="IDSE_PATH_TO_DESTDIR_PRODUCT_MANUAL">&lt;destroot&gt;\\SetPoint\\setpoint.chm</String>
+    
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_WARNING_IE">Microsoft Internet Explorer 6,0 eller senere skal være installeret for at SetPoint kan installeres. Opdater Internet Explorer, og prøv så igen.</String>
+
+    <!-- Warning/Error pages: -->
+    <!-- ..for SetPoint -->
+    <String ID="IDS_WARNING_OLD_SETPOINT">Der er allerede installeret en nyere version af SetPoint-softwaren på computeren. Derfor afbrydes installation.</String>
+    <String ID="IDS_WARNING_RESTART">Genstart computeren inden du afvikler denne kommando.</String>
+    <String ID="IDS_WARNING_UNIFYING_RUNNING">Unifying-softwaren kører. \nLuk programmet, og kør installationsprogrammet igen.</String>
+    <String ID="IDS_NO_VALID_PATH">Angiv en sti til programmet.</String>
+    <String ID="IDS_WARNING_INSTANCE_UNINSTALLER_RUNNING">Installationsprogrammet kører allerede. Du skal afslutte det før du forsøger at foretage en ny installation.</String>
+    <String ID="IDS_REBOOT_PENDING">Dit styresystem indikerer at computeren snart genstartes. Genstart computeren, og prøv igen.</String>
+    <String ID="IDS_WARNING_ALIENWARE">Denne version af SetPoint er ikke kompatibel med software fra Alienware. \nInstallationen kan ikke fortsættes.</String>
+    <String ID="IDS_WARNING_UNSUPPORTED_OS">Dit styresystem understøtter ikke denne version af SetPoint. Vil du fortsætte installationen alligevel?</String>
+    <String ID="IDS_WARNING_LOW_DISK">Der er ikke tilstrækkelig ledig plads til at installere SetPoint. \n\n Du skal frigøre noget plads først.</String>
+    <String ID="IDS_WARNING_REDIST">Der opstod en fejl under installationen af filerne til Visual C++.\n\nGenstart computeren, og prøv at installere softwaren igen.</String>
+    <String ID="IDS_WARNING_PREREQ4">Installationsprogrammet til SetPoint kører allerede. Fuldfør den installation inden du fortsætter.</String>
+    <String ID="IDS_WARNING_PREREQ5">Du bruger et 32-bit installationsprogram på et 64-bit styresystem. Du skal køre det rigtige installationsprogram.</String>
+    <String ID="IDS_WARNING_PREREQ6">Du bruger et 64-bit installationsprogram på et 32-bit styresystem. Du skal køre det rigtige installationsprogram.</String>
+    <String ID="IDS_WARNING_PREREQ7">Minimumskrav til systemet: Windows XP service pack 2 eller senere.</String>
+    <String ID="IDS_WARNING_PREREQ9">Minimumskrav til systemet: adgangsrettigheder til at fuldføre installationen.</String>
+    <String ID="IDS_WARNING_PREREQ12">Minimumskrav til systemet: 20 MB ledig plads på harddisken.</String>
+    <String ID="IDS_FAIL_NEED_REBOOT">SetPoint blev ikke installeret. Genstart computeren, og prøv igen.</String>
+    <String ID="IDS_EVTMGR6_ERROR">EVTMGR6 blev ikke installeret.</String>
+    <String ID="IDS_EVTMGR5_ERROR">EVTMGR5 blev ikke installeret.</String>
+    <String ID="IDS_CDDRV3_ERROR">CDDRV3 blev ikke installeret.</String>
+    <String ID="IDS_KHAL3_ERROR">KHAL3 blev ikke installeret.</String>
+    <String ID="IDS_BLUETOOTH_ERROR">Der opstod en fejl under installationen af Bluetooth.</String>
+
+    <!-- Various: -->
+	
+<!-- New for Smart Design -->
+	  <String ID="IDS_STEP_TEXT_1">Kom godt i gang</String>
+	  <String ID="IDS_STEP_TEXT_2">Indstillinger</String>	
+	  <String ID="IDS_STEP_TEXT_3">Installer</String>	
+	  <String ID="IDS_STEP_TEXT_4">Udfør</String>
+	
+	  <String ID="IDS_TIMEUNIT_SECS">Sekunder</String>
+	  <String ID="IDS_DOWNLOADSPEED_KBPS">KBPS</String>	
+	  <String ID="IDS_DOWNLOADSPEED_BPS">BPS</String>	
+	  <String ID="IDS_DOWNLOADSPEED_MBPS">MBPS</String>
+	  <String ID="IDS_FILESIZE_BYTES">BYTES</String>
+	  <String ID="IDS_FILESIZE_KBYTES">KB</String>	
+	  <String ID="IDS_FILESIZE_MBYTES">MB</String>	
+
+
+  <!-- Smart Design Widgets for all pages: -->
+
+    <String ID="IDS_BTN_CANCEL">Annuller</String>
+    <String ID="IDS_BTN_FINISH">Udfør</String>
+    <String ID="IDS_BTN_INSTALL">Installer</String>
+
+	  <String ID="IDS_BTN_QUIT">Afslut</String>
+	  <String ID="IDS_BTN_NEXT">Næste &gt;</String>
+	  <String ID="IDS_BTN_CONTINUE">Fortsæt &gt;</String>
+	  <String ID="IDS_BTN_BACK">&lt; Tilbage</String>
+	  <String ID="IDS_ABORTDLG_BTN_RESUME">Fortsæt</String>
+	  <String ID="IDS_ABORTDLG_BTN_EXIT">Afslut</String>
+	  <String ID="IDS_BTN_CLOSE">Luk</String>
+	  <String ID="IDS_BTN_OK">OK</String>
+	
+    <String ID="IDS_NEED_REBOOT">Computeren skal genstartes inden installationen kan fuldføres.</String>
+    <String ID="IDS_BROWSE_TITLE">Vælg hvor SetPoint skal installeres.</String>
+    <String ID="IDS_CURRENT_DIR_TAG">SetPoint installeres her...</String>
+
+		<String ID="IDS_REMOVING_FILES">Fjerner filer.</String>
+		<String ID="IDS_UPDATING_SYSTEM_FILES">Opdaterer systemfiler.</String>
+		<String ID="IDS_CONFIGURATION_10_MINUTES">Pga. computerens konfiguration kan det tage 10 minutter eller længere.</String>
+		<String ID="IDS_UNINSTALLER_INITIAL">Forbereder afinstallationen. Det kan tage et par minutter.</String>
+
+    <String ID="IDS_LANGUAGE_SELECTION">Sprogvalg</String>
+
+  </StringSet>
+</FESetup_Strings_1>

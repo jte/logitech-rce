@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+<head lang="en-us">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="../js/logi_code.js"></script> 
+<style>
+BODY{font-size: 9pt; font-family:verdana, arial, helvetica; text-align:center; color:#333333;{margin: 40px 70px 40px 70px;}
+H1{font-weight:normal; font-size: 18pt;}
+</style>
+<script type='text/javascript'>
+var langCode = window.external.EvaluateExpression('langcode');
+document.write("<link rel='stylesheet' href='../"+langCode+"/wizpage.css' type='text/css' media='screen'>");
+
+function HandleAutoClose() {
+  var mode = window.external.EvaluateExpression('mode');
+  if (mode=="uninstall") {
+    var el = document.getElementById("btnCancel");
+	  if (el != null) {el.click();}
+  }
+}
+
+</script>
+</head>
+<body id="theBody" ondragstart="return false;" onload="loadStrings();selectFirst(document.getElementById('btnNext'),300);HandleAutoClose();">
+<center>
+<h1 style="padding-top:50px;" string="IDS_ABORT_QUESTION"></h1>
+<br/>
+<div style="font-size:12px;font-weight:bold;width:75%;" class="messaging" string="IDS_ABORTDLG_DESC"></div>
+	<br/>
+	<br/>
+	<a href="#" onclick="this.click(); return false;" class="button secondary" id="btnCancel"><b style="width:110px;" string="IDS_ABORTDLG_BTN_EXIT"></b></a> &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="this.click(); return false;" class="button secondaryAction"  id="btnNext"><b style="width:110px;" string="IDS_ABORTDLG_BTN_RESUME"></b></a>
+</center>
+</body>
+</html>

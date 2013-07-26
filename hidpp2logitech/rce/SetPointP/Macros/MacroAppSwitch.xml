@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="MacroAppSwitch.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+		<!-- in milliseconds -->
+		<String ALIAS="MOUSE_OVER_ZOOM_DURATIOND">400</String>
+		<String ALIAS="DISPLAY_TOOL_WINDOWS">0</String>
+		<String ALIAS="WINDOW_TEXT_OVER_WINDOW">1</String>
+		<String ALIAS="DISPLAY_OVERLAY_WINDOW">1</String>
+		<String ALIAS="CAPTURE_DESKTOP_AS_IS">0</String>
+		<String ALIAS="MINIMIZE_WINDOWS_FOR_XP_TO_CAPTURE_DESKTOP">0</String>
+		<String ALIAS="IDS_APPSWITCHMODES_SELECTION">Select Application Switch Mode</String>
+		<String ALIAS="SHOW_ALL_WINDOWS">Show all windows</String>
+		<String ALIAS="SHOW_CURENT_WINDOWS">Show current application windows</String>
+	</StringSet>
+</Source>

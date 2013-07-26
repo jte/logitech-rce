@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">csy</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">K dispozici jsou nové aktualizace. Klepnutím sem je stáhnete.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klepnutím dokončíte aktualizace softwaru LifeSize.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Probíhá stahování aktualizací softwaru LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">K dispozici jsou nové aktualizace. Klepnutím sem je nainstalujete.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Probíhá instalace aktualizací softwaru LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Máte aktuální verzi softwaru LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">Instalace softwaru LifeSize bude dokončena po restartování systému</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Klepnutím dokončíte instalaci softwaru</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Připojení k Internetu není k dispozici. Nelze zjistit, zda je dostupná nová verze</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Došlo k chybě</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Chyba instalace.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Instalace byla zrušena.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Požadovaná operace vyžaduje oprávnění správce</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Připojení k Internetu bylo resetováno. Opakujte akci později</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Připojení k Internetu bylo resetováno. Nástroj LifeSize Updater zopakuje akci později</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Instalace se nezdařila, protože disk je plný.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Dokončit</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Storno</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Skrýt</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Aktualizovat později</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Stáhnout &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Pokračovat ve stahování &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Instalovat &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Po stažení vše nainstalovat &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Ano</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Ne</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Restartovat systém</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">Pro dokončení instalace je třeba restartovat systém</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigurovat</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Konfigurovat automatické nastavení</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Zobrazit dříve odmítnuté aktualizace</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Stahování součásti %d z %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Instalace součásti %d z %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Zbývající čas:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Staženo %s z %s</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">Pro dokončení instalace je třeba restartovat systém</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Nastavení nástroje LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Vyberte způsob, jakým má nástroj updater pracovat.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Zapnout automatické aktualizace.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Upozorňovat, ale automaticky nestahovat a neinstalovat.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Aktualizace stahovat, ale dobu instalace určí uživatel.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Aktualizace stahovat a instalovat automaticky.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Obnovit výchozí nastavení</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkt</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Stav</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Velikost</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">kontroluje se</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">k dispozici</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">připraveno k instalaci</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">poškozeno</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">zrušeno</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">dokončeno</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Vyžadováno</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Doporučeno</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Volitelné</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">kB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">s</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">s</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Vyberte</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Stáhnout</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Recenze</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Instalovat</String>	
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Tyto aktualizace jsou dostupné.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Pomocí nejnovějších verzí softwaru LifeSize lépe využijete vaše produkty LifeSize.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Stav stahování</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Probíhá stahování aktualizací.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Stav instalace</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Nyní můžete tyto aktualizace nainstalovat.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Stav instalace</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Probíhá instalace aktualizací.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Stav instalace</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Vyžadován restart</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Pro dokončení instalace softwaru LifeSize je třeba provést restart systému. Pokud máte otevřené webové stránky nebo rozpracované dokumenty, uložte je.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Chcete restartovat systém nyní?</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Upozornění: Výběr této součásti byl zrušen ve výchozím nastavení, protože nesplnila následující omezení:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Zobrazit nástroj LifeSize Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Změnit automatická nastavení...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Konec</String>
+  </LU_Strings_1>
+</LogitechUpdater>

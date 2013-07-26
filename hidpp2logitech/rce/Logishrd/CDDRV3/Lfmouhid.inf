@@ -1,0 +1,352 @@
+;##############################################################################
+;#  LfMouHid.inf - framework mouse INF for HID devices
+;#  Copyright (c) 1999-2012 Logitech. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = LfMouHid.cat
+Class       = Mouse
+ClassGUID   = {4D36E96F-E325-11CE-BFC1-08002BE10318}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LHidFilt.sys = 1			; KMDF version of the HID filter driver
+LMouFilt.sys = 1			; KMDF version of the mouse filter driver
+
+[DestinationDirs]
+DefaultDestDir       = 12    ; DIRID_DRIVERS
+
+[ControlFlags]
+ExcludeFromSelect   = *
+; ---------------------------------------------------------
+
+[Manufacturer]
+%Provider%	= ForAllNT
+%ProviderVista%	= VistaAndAbove,NT.6.0
+"IBM" = IBM
+
+[ForAllNT]
+;----------------- Corded Mice ------------------------
+%PID_C014.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C014
+%PID_C015.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C015
+%PID_C016.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C016
+%PID_C018.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C018
+%PID_C019.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C019
+%PID_C01A.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C01A
+%PID_C01B.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C01B
+%PID_C01D.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C01D
+%PID_C01F.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C01F
+%PID_C03D.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C03D
+%PID_C03F.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C03F
+%PID_C040.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C040
+%PID_C041.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C041&Mi_00
+%PID_C042.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C042&Mi_00
+%PID_C043.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C043
+%PID_C044.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C044
+%PID_C045.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C045
+%PID_C046.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C046
+%PID_C047.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C047
+%PID_C049.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C049&Mi_00
+%PID_C050.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C050
+%PID_C053.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C053
+%PID_C05A.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C05A
+%PID_C05B.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C05B
+%PID_C061.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C061
+%PID_C062.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C062
+%PID_C064.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C064
+%PID_C065.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C065
+%PID_C068.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C068&Mi_00
+%PID_C069.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C069
+
+%PID_C075.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C075
+%PID_C076.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C076
+%PID_C077.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C077
+%PID_C078.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C078
+%PID_C079.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C079
+%PID_C07A.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C07A
+%PID_C07B.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C07B
+
+%PID_C06D.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C06D
+
+%HPP20CordedMouse% = LOGIHIDMOUSE,HID\VID_046D&PID_C070&Mi_00
+%HPP20CordedMouse% = LOGIHIDMOUSE,HID\VID_046D&PID_C071&Mi_00
+%HPP20CordedMouse% = LOGIHIDMOUSE,HID\VID_046D&PID_C072&Mi_00
+%HPP20CordedMouse% = LOGIHIDMOUSE,HID\VID_046D&PID_C073&Mi_00
+%HPP20CordedMouse% = LOGIHIDMOUSE,HID\VID_046D&PID_C074&Mi_00
+
+
+
+%HPP20CordedKeyboard% = LOGIHIDMOUSE,HID\VID_046D&PID_C321&Mi_01&Col01
+%HPP20CordedKeyboard% = LOGIHIDMOUSE,HID\VID_046D&PID_C323&Mi_01&Col01
+%HPP20CordedKeyboard% = LOGIHIDMOUSE,HID\VID_046D&PID_C325&Mi_01&Col01
+
+%PID_0515.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_187C&PID_0515&Mi_00
+%PID_C0FF.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C0FF&Mi_00
+;------------- USB-HID TrackBalls -------------------------------------
+%PID_C404.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C404
+%PID_C408.DeviceDesc% = LOGIHIDMOUSE,HID\VID_046D&PID_C408
+%PID_C501.DeviceDesc% = LOGIHIDMOUSE,HID\VID_046D&PID_C501
+%PID_C508.DeviceDesc% = LOGIHIDMOUSE,HID\VID_046D&PID_C508
+
+;------------- Bluetooth HID Receivers ----------------
+%PID_C703.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C703&Mi_01&Col01
+%PID_C704.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C704&Mi_01&Col01
+%PID_C705.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C705&Mi_00
+%PID_C70A.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C70A&Col01
+%PID_C70C.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C70C&Col01
+%PID_C714.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C714&Col02
+%PID_C719.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C714&Col01
+%PID_C71C.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C71C&Col01
+%PID_C71F.mouse0.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C71F&Col01
+%PID_C71F.mouse1.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_C71F&Col02
+;------------- Cordless Receivers ---------------------
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C50C&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C50D
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C50E
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C510
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C512&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C513&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C516&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C517&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C518&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C51A&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C51B&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C51C&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C521&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C525&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C526&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C529&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C52E&Mi_01&Col01
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C52F&Mi_00
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C534&Mi_01&Col01
+
+
+"HID-compliant Cordless Mouse" = LOGIHIDMOUSE,HID\VID_04C5&PID_12AE&Mi_01&Col01
+
+;----------------- DJ IDs --------------------------------
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_0004
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_0006&Col02
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_000C&Col01
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_000E&Col02
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_001E&Col02
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_011C&Col01
+%HIDCordlessUnifyingMouse% = LOGIHIDMOUSE,HID\VID_046D&Class_040A&Col03
+;------------- WidComm BT IDs ----------------------------
+%PID_B001.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B001&Col01
+%PID_B002.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B002&Col01
+%PID_B003.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B003&Col01
+%PID_B004.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B004&Col01
+%PID_B006.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B006&Col01
+%PID_B007.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B007&Col01
+%PID_B008.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B008&Col01
+%PID_B309.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B309&Col01
+%PID_B30C.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B30C&Col01
+%PID_B009.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B009&Col01
+
+;------------- Microsoft BT IDs --------------------------
+%PID_B001.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B001&Col01
+%PID_B002.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B002&Col01
+%PID_B003.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B003&Col01
+%PID_B004.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B004&Col01
+%PID_B006.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B006&Col01
+%PID_B007.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B007&Col01
+%PID_B008.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B008&Col01
+%PID_B309.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B309&Col01
+%PID_B30C.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B30C&Col01
+%PID_B009.mouse.desc% = LOGIHIDMOUSE,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B009&Col01
+
+;------------- Toshiba BT IDs --------------------------
+%PID_B004.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B004&Col01
+%PID_B006.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B006&Col01
+%PID_B007.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B007&Col01
+%PID_B008.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B008&Col01
+%PID_B309.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B309&Col01
+%PID_B30C.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B30C&Col01
+%PID_B009.mouse.desc% = LOGIHIDMOUSE,HID\VID_046D&PID_B009&Col01
+
+
+
+[IBM]
+%PID_310D.Mouse.Desc% = LOGIHIDMOUSE,HID\VID_04B3&PID_310D
+
+[VistaAndAbove.NT.6.0]
+%HIDCordlessMouseReceiver% = LOGIHIDMOUSE,HID\VID_046D&PID_C505&Mi_01&Col01
+
+[LOGIHIDMOUSE.NT]
+Include     = msmouse.inf
+Needs       = HID_Mouse_Inst.NT
+CopyFiles   = LHidFilt.CopyFiles, LMouFilt.CopyFiles
+
+[LOGIHIDMOUSE.NT.HW]
+Include     = msmouse.inf
+Needs       = HID_Mouse_Inst.NT.HW
+AddReg      = Hid_LowerFilter, Hid_WaitWakeEnable
+
+[Hid_WaitWakeEnable]
+HKR,,"WaitWakeEnabled",0x00010001,1
+
+[Hid_LowerFilter]
+HKR,,"LowerFilters",%REG_MULTI_SZ%,"LHidFilt"
+HKR,,"UpperFilters",%REG_MULTI_SZ%,"LMouFilt"
+
+[LOGIHIDMOUSE.NT.Services]
+Include    = msmouse.inf
+Needs      = HID_Mouse_Inst.NT.Services
+AddService = LHidFilt, , LHidFilt_Service_Inst	; HID/USB Mouse Filter Driver
+AddService = LMouFilt, , LMouFilt_Service_Inst	; Mouse Class Upper Filter Driver
+
+[LHidFilt_Service_Inst]
+DisplayName     = %LHidFilt.SvcDesc%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\LHidFilt.Sys
+LoadOrderGroup  = Pointer Port
+
+[LHidFilt.CopyFiles]
+LHidFilt.Sys
+
+[LMouFilt_Service_Inst]
+DisplayName    = %LMouFilt.SvcDesc%
+ServiceType    = %SERVICE_KERNEL_DRIVER%
+StartType      = %SERVICE_DEMAND_START%
+ErrorControl   = %SERVICE_ERROR_NORMAL%
+ServiceBinary  = %12%\LMouFilt.Sys
+LoadOrderGroup = Pointer Port
+
+[LMouFilt.CopyFiles]
+LMouFilt.Sys
+
+;---- Coinstaller Section -------
+
+[DestinationDirs]
+LOGIHIDMOUSE_Inst_CoInstaller_CopyFiles = 11
+
+[LOGIHIDMOUSE.NT.CoInstallers]
+AddReg=LOGIHIDMOUSE_Inst_CoInstaller_AddReg
+CopyFiles=LOGIHIDMOUSE_Inst_CoInstaller_CopyFiles
+
+[LOGIHIDMOUSE_Inst_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "LkmdfCoInst.dll,CoDeviceInstall" , "LMouFiltCoInst.dll,CoDeviceInstall"
+ 
+
+[LOGIHIDMOUSE_Inst_CoInstaller_CopyFiles]
+LkmdfCoInst.dll
+LMouFiltCoInst.dll
+
+[SourceDisksFiles]
+LkmdfCoInst.dll=1 		; make sure the number matches with SourceDisksNames
+LMouFiltCoInst.dll = 1
+
+[LOGIHIDMOUSE.NT.Wdf]
+KmdfService = LMouFilt, LOGIHIDMOUSE_wdfsect
+KmdfService = LHidFilt, LOGIHIDMOUSE_wdfsect
+
+[LOGIHIDMOUSE_wdfsect]
+KmdfLibraryVersion = 1.5
+
+;--- end of Coinstaller section ---
+
+[Strings]
+Provider  = "Logitech"
+ProviderVista  = "Logitech (Vista and Above)"
+ProviderSer = "Logitech "
+DiskName  = "Logitech SetPoint Driver Disk"
+
+PID_C014.Mouse.Desc = "Logitech HID-compliant Optical Mouse"
+PID_C015.Mouse.Desc = "Logitech HID-compliant Optical Mouse"
+PID_C016.Mouse.Desc = "Logitech HID-compliant Optical Wheel Mouse"
+PID_C018.Mouse.Desc = "Logitech HID-compliant Optical Wheel Mouse"
+PID_C019.mouse.desc = "Logitech HID-compliant Optical Tilt Wheel Mouse"
+PID_C01A.Mouse.Desc = "Logitech HID-compliant UltraX Optical Mouse"
+PID_C01B.Mouse.Desc = "Logitech HID-compliant MX310 Optical Mouse"
+PID_C01D.Mouse.Desc = "Logitech HID-compliant MX510 Optical Mouse"
+PID_C01F.Mouse.Desc = "Logitech HID-compliant G1 Optical Mouse"
+PID_C03D.Mouse.Desc = "Logitech HID-compliant Optical Wheel Mouse"
+PID_C03F.Mouse.Desc = "Logitech HID-compliant UltraX Optical Mouse"
+PID_C040.Mouse.Desc = "Logitech HID-compliant Optical Wheel Mouse"
+PID_C041.Mouse.Desc = "Logitech HID-compliant G5 Laser Mouse"
+PID_C042.Mouse.Desc = "Logitech HID-compliant G3 Laser Mouse"
+PID_C043.Mouse.Desc = "Logitech HID-compliant MX320 Laser Mouse"
+PID_C044.Mouse.Desc = "Logitech HID-compliant LX3 Optical Mouse"
+PID_C045.Mouse.Desc = "Logitech HID-compliant Optical Tilt Wheel Mouse"
+PID_C046.Mouse.Desc = "Logitech HID-compliant RX1000 Laser Mouse"
+PID_C047.Mouse.Desc = "Logitech HID-compliant Laser Tilt Wheel Mouse"
+PID_C049.Mouse.Desc = "Logitech HID-compliant G5 Laser Mouse"
+PID_C050.Mouse.Desc = "Logitech HID-compliant RX250 Optical Mouse"
+PID_C053.Mouse.Desc = "Logitech HID-compliant USB Laser Mouse"
+PID_C05A.Mouse.Desc = "HID-compliant Optical Mouse"
+PID_C05B.Mouse.Desc = "HID-compliant Optical TiltWheel Mouse"
+PID_C061.Mouse.Desc = "Logitech HID-compliant RX1500 Mouse"
+PID_C062.Mouse.Desc = "Logitech HID-compliant LS1 Laser Mouse"
+PID_C064.Mouse.Desc = "HID-compliant Optical TiltWheel Mouse"
+PID_C065.Mouse.Desc = "HID-compliant Laser TiltWheel Mouse"
+PID_C068.Mouse.Desc = "Logitech HID-compliant G500 Gaming Mouse"
+PID_C069.Mouse.Desc = "Logitech HID-compliant M500 Laser Mouse"
+PID_C06D.Mouse.Desc = "HID-compliant Laser Mouse"
+
+PID_C075.Mouse.Desc = "HID-compliant Optical Mouse"
+PID_C076.Mouse.Desc = "HID-compliant Optical Mouse"
+PID_C077.Mouse.Desc = "HID-compliant Optical Wheel Mouse"
+PID_C078.Mouse.Desc = "HID-compliant Optical Tilt Wheel Mouse"
+PID_C079.Mouse.Desc = "HID-compliant Optical Wheel Mouse"
+PID_C07A.Mouse.Desc = "HID-compliant Optical Tilt Wheel Mouse"
+PID_C07B.Mouse.Desc = "HID-compliant Optical Wheel Mouse"
+
+
+
+PID_0515.Mouse.Desc = "Alienware TactX Mouse"
+PID_C0FF.Mouse.Desc = "Logitech HID-compliant Mouse"
+
+PID_C404.Mouse.Desc = "Logitech HID-compliant TrackMan Wheel Mouse"
+PID_C408.DeviceDesc = "Logitech HID-compliant Marble Mouse"
+PID_C501.DeviceDesc = "Logitech HID-compliant Cordless Trackball"
+PID_C508.DeviceDesc = "Logitech HID-compliant Cordless Trackball"
+
+PID_C703.mouse.desc = "HID-compliant Mouse"
+PID_C704.mouse.desc = "HID-compliant Mouse"
+PID_C705.mouse.desc = "HID-compliant Mouse"
+PID_C70C.mouse.desc = "HID-compliant Bluetooth Mouse"
+PID_C70A.mouse.desc = "HID-compliant Bluetooth Mouse"
+PID_C714.mouse.desc = "Logitech HID-compliant Touch Pad Mouse"
+PID_C719.mouse.desc = "HID-compliant Mouse"
+
+PID_C71C.mouse.desc = "HID-compliant Bluetooth Mouse"
+
+PID_C71F.mouse0.desc = "HID-compliant Bluetooth Mouse"
+PID_C71F.mouse1.desc = "Logitech HID-compliant Touch Pad Mouse"
+
+HPP20CordedMouse = "Logitech HID-compliant Mouse"
+HPP20CordedKeyboard = "Logitech HID-compliant Pointing Device"
+
+HIDCordlessMouseReceiver = "Logitech HID-compliant Cordless Mouse"
+HIDCordlessUnifyingMouse = "Logitech HID-compliant Unifying Mouse"
+
+PID_B001.mouse.desc = "Logitech MX900 Bluetooth Optical Mouse"
+PID_B002.mouse.desc = "Logitech Bluetooth Travel Mouse"
+PID_B003.mouse.desc = "Logitech MX1000 Bluetooth Laser Mouse"
+PID_B004.mouse.desc = "Dell HID-compliant Bluetooth Mouse"
+PID_B006.mouse.desc = "HID-compliant Bluetooth Mouse"
+PID_B007.mouse.desc = "Logitech MX Revolution Bluetooth Mouse"
+PID_B008.mouse.desc = "HID-compliant Bluetooth Mouse"
+PID_B309.mouse.desc = "Logitech HID-compliant Bluetooth Touchpad"
+PID_B30C.mouse.desc = "Logitech HID-compliant Bluetooth Touchpad"
+PID_310D.Mouse.Desc = "USB Optical Wheel Mouse"
+PID_B009.mouse.desc = "Bluetooth Laser Mouse"
+
+
+LHidFilt.SvcDesc = "Logitech SetPoint KMDF HID Filter Driver"
+LMouFilt.SvcDesc = "Logitech SetPoint KMDF Mouse Filter Driver"
+
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+REG_DWORD                   = 0x00010001
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

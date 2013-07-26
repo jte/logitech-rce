@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">hrv</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Proizvod tvrtke Logitech</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Softver za proizvod tvrtke Logitech</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Softver za miš i tipkovnicu</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Softver za miš i tipkovnicu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Softver za povećanje produktivnosti za miš i tipkovnicu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Softver za igranje za miš i tipkovnicu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Softver za web-kameru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Softver za web-kameru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Softver za komunikaciju</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Softver Wireless DJ</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">Softver G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Softver za igračku tipkovnicu Logitech G15</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Softver Z-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Softver za zvučnike Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">Softver G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Softver za igračku tipkovnicu Logitech G11</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">Softver G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Softver za igračku tipkovnicu Logitech G11</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">Softver GamePanel</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Softver za igračku tipkovnicu Logitech G15, tipkovnicu Logitech G11 i zvučnike Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Napredni softver za prostorni zvuk</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Zvučnici Logitech Z-5</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Napredni softver za zvučnike Logitech Z-5</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Softver za slušalice sa surround zvukom</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitechove bežične igračke slušalice G930 s višekanalnim Dolby Surround zvukom</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logitechov pomoćnik za bežične slušalice H760 za reproduktore medijskih sadržaja</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Softver za uparivanje Unifying uređaja</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Miš Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Ažuriranje firmvera za miš Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Tipkovnica Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Ažuriranje firmvera za tipkovnicu Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Numerička tipkovnica Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Ažuriranje firmvera za numeričku tipkovnicu Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Prijamnik Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Ažuriranje firmvera za prijamnik Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Softver web-kamere</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Softver za web-kameru tvrtke Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid omogućuje jednostavno održavanje veza s prijateljima i članovima obitelji diljem svijeta</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Softver za sigurnosni videosustav Logitech Alert™</String>
+	</LU_Strings_1>
+</LogitechUpdater>

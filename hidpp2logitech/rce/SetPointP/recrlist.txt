@@ -1,0 +1,13 @@
+0x03000016  Elvado2Receiver
+0x03000017  Koala2dReceiver
+0x03000020  Wallaby LS
+0x03000021  Wallaby FS
+0x03000029  Safari
+0x0300002B  Kigoi
+0x0300002C  Kiwi
+0x0300002E  Nano eQuad
+0x03000031  Kiwi DT Uni
+0x03000033  Gourami
+0x03000034  Bicky
+0x03000035  Kenny
+0x03000036  Pacer-X

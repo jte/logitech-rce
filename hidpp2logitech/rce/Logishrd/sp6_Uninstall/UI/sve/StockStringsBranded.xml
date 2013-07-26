@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="sv-se"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Installation av SetPoint™</String>
+    <String ID="IDS_TITLE">Installation av SetPoint™</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Programvara för möss och tangentbord</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Tack för att du valt en Logitech-produkt. Våra produkter är utformade för mer effektivt datoranvändande. Utnyttja produktens funktioner fullt ut genom att installera det här programmet. 
+
+
+
+      Om du vill installera det här Logitech-programmet väljer du språk och klickar på Nästa.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">Ändra de funktioner som kopplats till knapparna på Logitech-musen eller Logitech-tangentbordets F-tangenter.</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Ändra de funktioner som kopplats till knapparna på Logitech-musen eller Logitech-tangentbordets F-tangenter.</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Ändra de funktioner som kopplats till knapparna på Logitech-musen eller Logitech-tangentbordets F-tangenter.</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Installation av SetPoint™</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Installation av SetPoint™</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Installation av SetPoint™</String>
+    <String ID="IDS_WARNING_OS">Det här programmet är inte kompatibelt med ditt operativsystem. Gå till logitech.com och ladda ner en kompatibel version.</String>
+    <String ID="IDS_WARNING_EDITION32">Den här versionen av installationsprogrammet kräver en 64-bitarsversion av ditt operativsystem.\nGå till www.logitech.com/downloads/SetPoint och ladda ner en kompatibel version.</String>
+    <String ID="IDS_WARNING_EDITION64">Den här versionen av installationsprogrammet kräver en 32-bitars version av ditt operativsystem.\nGå till www.logitech.com/downloads/SetPoint och ladda ner en kompatibel version.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Uppdateringsverktyg för Logitech-program</String>
+
+  </StringSet>
+</FESetup_Strings_1>

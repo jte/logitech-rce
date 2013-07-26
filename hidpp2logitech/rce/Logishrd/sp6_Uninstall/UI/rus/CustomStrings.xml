@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="ru-ru"/>
+
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_PRODUCT">SetPoint™</String>
+    <String ID="IDS_PRODUCT_NAME">SetPoint&lt;a style="vertical-align:0.1em;font-size:85%;"&gt;™&lt;/a&gt;</String>
+    <String ID="IDS_ABORTDLG_DESC">Установка не завершена.&lt;br/&gt;&lt;br/&gt;Если выйти из программы установки сейчас, то программа не будет установлена.&lt;br/&gt;Для завершения установки можно будет запустить программу установки позднее.&lt;br/&gt;&lt;br/&gt;Для продолжения установки нажмите кнопку "Продолжить". Для выхода из программы установки нажмите "Выход".&lt;br/&gt;</String>
+
+   <String ID="IDS_IMPORTANT">Важно!</String>
+ 
+    <!-- Widgets for all pages: -->
+
+   <!-- Welcome page LegacyPre  -->
+	  <String ID="IDS_WELCOME_LEGACY_INTRO">На компьютере установлена предыдущая версия SetPoint. До начала установки ее нужно удалить. При этом потребуется перезагрузить компьютер.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xOnly">Все измененные пользовательские настройки из текущей версии SetPoint будут потеряны.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xOnly">Все созданные вами настройки, макросы и профили будут сохранены.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TITLE">Пользовательские настройки в SetPoint 5.x</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TEXT">Все созданные вами настройки, макросы и профили будут сохранены.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TITLE">Пользовательские настройки в SetPoint 4.x</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TEXT">Все измененные пользовательские настройки из текущей версии будут потеряны.</String>
+	<!--
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Some features of your device are not supported by this version of SetPoint. Click here for details.</String>
+	-->
+	
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Некоторые функции вашего устройства (наименование устройства) не поддерживаются этой версией SetPoint. Рекомендуется сохранить текущую версию.</String>
+	<!--
+	<String ID=""></String>
+	<String ID=""></String>
+	<String ID=""></String>
+    -->
+  
+    <!-- Welcome page - installer -->
+    <String ID="IDS_WELCOME_INTRO">Добро пожаловать в программу SetPoint!</String>
+    <String ID="IDS_WELCOME_INTRO2">Для установки программы SetPoint на компьютер нажмите кнопку "Далее".</String>
+    <String ID="IDS_BROWSERS">Перед продолжением рекомендуется закрыть следующие веб-браузеры:</String>
+    <String ID="IDS_WELCOME_TEXT">WELCOME TEXT</String>
+    <String ID="IDS_EXPRESS_INSTALL">Быстрая установка (рекомендуется)</String>
+    <String ID="IDS_EXPRESS_DESC">Быстро и просто. Если выбрать быструю установку, программа SetPoint будет установлена с текущим языком в рекомендованную по умолчанию папку на жестком диске.</String>
+    <String ID="IDS_CUSTOM_INSTALL">Выборочная установка</String>
+    <String ID="IDS_CUSTOM_INSTALL_DESC">Выборочная установка нужна, если вы хотите изменить язык или использовать другую папку на жестком диске для установки.</String>
+	<!--
+	<String ID="IDS_EULA_AGREE_PRE">By clicking on "Next" you agree to the </String>
+	<String ID="IDS_EULA_URL">Logicool User License Agreement</String>
+	<String ID="IDS_EULA_AGREE_POST">.</String>
+	-->
+	  <String ID="IDS_EULA_AGREE_TEXT">Нажимая кнопку "Далее", вы тем самым принимаете &lt;a href="#" id="eula" onClick="fadeIn(); return false;"&gt;лицензионное соглашение с пользователем&lt;/a&gt;.</String>
+	  <String ID="IDS_EULA_TITLE">Лицензионное соглашение</String>
+	  <String ID="IDS_NOSUPPORT_DEVICES">&lt;b&gt;     В данной версии SetPoint больше не поддерживаются игровые мыши G100, G500, G700, G9, G9x и MX518.&lt;/b&gt; &lt;br&gt;&lt;br&gt;Теперь они поддерживаются в ПО Logitech Gaming Software (LGS) версии 8.4 и более поздних версий. Установить ПО LGS можно будет по окончании установки SetPoint.&lt;br&gt;</String>
+	  
+	<String ID="IDS_BTN_CONTINUE">Продолжить</String>
+
+  <!-- Welcome page - un-installer -->
+	  <String ID="IDS_UNINSTALL_WELCOME_INTRO">Удаление SetPoint.</String>
+    <String ID="IDS_UNINSTALL_WELCOME_TEXT">Программное обеспечение SetPoint будет удалено с вашего компьютера. Все измененные пользовательские настройки, имеющиеся в SetPoint, будут утеряны. </String>
+		
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page - install  -->
+    <String ID="IDS_DESTINATION_STATIC">Щелкните кнопку "Обзор", чтобы изменить папку, в которую будет установлена программа SetPoint.</String>
+    <String ID="IDS_BTN_BROWSE">Обзор</String>
+    <String ID="IDS_GETTING_STARTED_TEXT">Выбирайте:</String>
+    <String ID="IDS_SELECT_INSTALL_TEXT">Выберите нужные параметры установки...</String>
+    <String ID="IDS_UPDATE_CHECK_TEXT">При наличии подключения к Интернету мы можем обеспечить установку новейшего программного обеспечения.</String>
+    <String ID="IDS_CHECK_FOR_UPDATES">Проверить наличие обновлений этого программного обеспечения, а затем установить.</String>
+    <String ID="IDS_LANGUAGESELECTDLG_SUBTITLE">Выберите нужный язык из списка ниже.</String>
+    <!-- Custom: Components page: -->
+    <!-- ..Third-party components for SetPoint: -->
+
+    <!-- License page: -->
+
+  <!-- Progress page: component description, use Z_ pre-fix to perform real-time localized string update -->
+   <!-- do not defined IDS_PROGRESS_COMPONENT_NAME, IDS_PROGRESS_COMPONENT_DESC -->
+ 
+ <!--  
+   <String ID="Z_IDS_PROGRESS_COMPONENT_NAME">SetPoint...</String>
+   <String ID="Z_IDS_PROGRESS_COMPONENT_DESC">Installating SetPoint. Please wait.</String>
+-->
+
+	
+    <!-- Progress page - install  -->
+   <String ID="IDS_INSTALL_PROGRESS_TITLE">Расширьте возможности с помощью SetPoint </String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_2">Установка началась.</String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_3">Подождите, идет копирование файлов на ваш компьютер.</String>
+
+    <!--To distinguish logitech enu and logicool enu, copy Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1 to stockstringsbranded.xml, other locale, just keep in CustomSTrings.xml to simplify the changes -->
+    <!--String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Personalize the settings of your Logitech mouse or keyboard.</String -->
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_2">Воспользуйтесь плавной прокруткой в приложениях и веб-браузерах Windows 8.</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_3">Отслеживайте экранные индикаторы нажатия клавиш Caps Lock и Num Lock, а также низкого уровня заряда батареи.</String>
+
+    <String ID="Z_IDS_EMPTY_INITIAL_TEXT">Осталось примерно 2 минуты... </String>
+    <String ID="Z_IDS_PRE_UPDATER_PROGRESS">Осталось примерно 2 минуты... </String>
+    <String ID="Z_IDS_IMUI_PROGRESS">Осталось примерно 2 минуты... </String>
+    <String ID="Z_IDS_install_progress_sp6_start">Осталось примерно 2 минуты... </String>
+    <String ID="Z_IDS_install_progress_sp6_redistr">Осталось примерно 2 минуты... </String>
+    <String ID="Z_IDS_install_progress_sp6_drivers">Осталась примерно 1 минута... </String>
+    <String ID="Z_IDS_install_progress_sp6_gaming">Осталось примерно 50 секунд... </String>
+    <String ID="Z_IDS_install_progress_sp6_productivity">Осталось примерно 50 секунд... </String>
+    <String ID="Z_IDS_install_progress_sp6_end">Осталось примерно 30 секунд... </String>
+    <String ID="Z_IDS_POST_UPDATER_PROGRESS">Осталось примерно 30 секунд... </String>
+    <String ID="Z_IDS_EREG_PROGRESS">Осталось примерно 10 секунд... </String>
+
+    <String ID="Z_IDS_4_MINUTES">Осталось примерно 4 минуты... </String>
+    <String ID="Z_IDS_3_MINUTES">Осталось примерно 3 минуты... </String>
+    <String ID="Z_IDS_2_MINUTES">Осталось примерно 2 минуты... </String>
+    <String ID="Z_IDS_1_MINUTE">Осталась примерно 1 минута... </String>
+    <String ID="Z_IDS_50_SECONDS">Осталось примерно 50 секунд... </String>
+    <String ID="Z_IDS_40_SECONDS">Осталось примерно 40 секунд... </String>
+    <String ID="Z_IDS_30_SECONDS">Осталось примерно 30 секунд... </String>
+    <String ID="Z_IDS_20_SECONDS">Осталось примерно 20 секунд... </String>
+    <String ID="Z_IDS_10_SECONDS">Осталось примерно 10 секунд... </String>
+    <String ID="Z_IDS_SEVERAL_MINUTES">Это может занять несколько минут... </String>
+
+    <!-- Progress page - LegacyPre  -->
+    <String ID="IDS_LEGACY_PRE_PROGRESS_TITLE"/>
+	  <String ID="Z_IDS_LEGACY_PRE_PROGRESS_INFO"/>
+	  <String ID="IDS_LEGACY_PRE_PROGRESS_TAG">Удаление ранее установленных файлов, подождите.</String>
+
+    <String ID="IDS_LEGACY_POST_PROGRESS_TITLE">Установка SetPoint.</String>
+    <String ID="Z_IDS_LEGACY_POST_PROGRESS_INFO"/>
+    <String ID="IDS_LEGACY_POST_PROGRESS_TAG">Подготовка программы установки. Это может занять несколько минут.</String>
+
+    <!-- Progress page - un-install  -->
+    <String ID="IDS_UN_INSTALL_PROGRESS_TITLE">Удаление SetPoint.</String>
+    <String ID="Z_IDS_UN_INSTALL_PROGRESS_INFO"/>
+    <String ID="IDS_UN_INSTALL_PROGRESS_TAG">Идет удаление, подождите.</String>
+
+
+    <!-- Finish page  - install -->
+    <String ID="IDS_INSTALL_FINISH_TITLE">Установка завершена.</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT">Для настройки вашего устройства нажмите "Готово", а затем запустите программу SetPoint из списка программ в меню "Пуск".</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT_WIN8">Для изменения настроек устройства нажмите кнопку "Готово", а затем откройте окно SetPoint, щелкнув плитку SetPoint на начальном экране Windows.</String>
+    <String ID="IDS_CONFIGURE">Запустить SetPoint и настроить мое устройство.</String>
+    <String ID="IDS_REGISTER">Зарегистрировать мое устройство.</String>
+    <String ID="IDS_WHY_REGISTER">(Зачем нужно регистрировать устройство?)</String>
+    <!--To distinguish logitech enu and logicool enu, copy IDS_LGS_LINK to stockstringsbranded.xml, other locale, just keep in CustomSTrings.xml to simplify the changes -->
+    <!-- String ID="IDS_LGS_LINK">Click &#60;a href="http://www.logitech.com/swr_lgs" target="_blank" id="eula"&#62;here &#60;/a&#62; to get Logitech Gaming Software to customize the settings of your gaming mouse.</String -->
+    
+    <String ID="IDS_LEGACY_PRE_FINISH_TITLE"/>
+    <String ID="IDS_LEGACY_PRE_FINISH_TEXT">Нажмите "OK", чтобы перезагрузить компьютер сейчас. Установка будет продолжена после перезагрузки.</String>
+ 
+    <!-- Finish page - un-install -->
+    <String ID="IDS_UN_INSTALL_FINISH_TITLE">Удаление SetPoint.</String>
+    <String ID="IDS_UN_INSTALL_FINISH_TEXT">Удаление завершено.</String>
+    <String ID="IDS_PS2_INFO">Ваши устройства PS/2 будут включены после следующей перезагрузки.</String>
+
+    <!-- Finish page - error-install -->
+    <String ID="IDS_FINISH_ERROR_TITLE">Завершение установки невозможно</String>
+    <String ID="IDS_NO_DOWNLOAD">Отсутствуют доступные для загрузки файлы .</String>
+    <String ID="IDS_NO_CHECK">Не удается найти необходимые компоненты. </String>
+    <String ID="IDS_DOWNLOAD_FAILED">Проверьте подключение к Интернету и повторите попытку.</String>
+    <String ID="IDS_DOWNLOAD_CANCELLED"/>
+    <String ID="IDS_FINISH_CANCEL_TITLE">Установка отменена пользователем</String>
+ 
+    <!-- download checking page -->
+    <String ID="IDS_PLEASE_WAIT"> Подождите, идет проверка дополнительных компонентов</String>
+
+    <!-- download page -->
+    <String ID="IDS_INSTALLINGSOFTWARE_DOWNLOAD_TITLE">Загрузка компонентов</String>
+    <String ID="IDS_INSTALLINGSOFTWARE_TOTALPROGRESS">Состояние загрузки </String>
+
+    <!-- An expression, IDSE :
+    For for '<' and '>', use the character-entity-references of &#60; and &#62; respectively. -->
+    <String ID="IDSE_PATH_TO_DESTDIR_APP">&lt;destroot&gt;\\SetPoint\\SetPoint.exe</String>
+    <String ID="IDS_ARGS_TO_DESTDIR_APP">/S</String>
+    <String ID="IDSE_PATH_TO_DESTDIR_PRODUCT_MANUAL">&lt;destroot&gt;\\SetPoint\\setpoint.chm</String>
+    
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_WARNING_IE">Установка программы SetPoint требует наличия на компьютере веб-обозревателя Microsoft Internet Explorer 6.0 или более поздней версии. Обновите Internet Explorer и повторите попытку.</String>
+
+    <!-- Warning/Error pages: -->
+    <!-- ..for SetPoint -->
+    <String ID="IDS_WARNING_OLD_SETPOINT">Программа установки обнаружила новую версию программы SetPoint в данной системе. Поэтому установка прекращается.</String>
+    <String ID="IDS_WARNING_RESTART">Перед выполнением этой команды перезагрузите компьютер.</String>
+    <String ID="IDS_WARNING_UNIFYING_RUNNING">Программа Unifying уже запущена. \nЗакройте ее и запустите снова программу установки.</String>
+    <String ID="IDS_NO_VALID_PATH">Укажите путь к файлу для приложения.</String>
+    <String ID="IDS_WARNING_INSTANCE_UNINSTALLER_RUNNING">Выполняется другой экземпляр данной программы удаления. Перед повторением попытки удаления следует выйти из уже выполняемой программы удаления.</String>
+    <String ID="IDS_REBOOT_PENDING">Операционная система сообщает об ожидании перезагрузки. Перезагрузите компьютер и повторите попытку.</String>
+    <String ID="IDS_WARNING_ALIENWARE">Данная версия SetPoint несовместима с программным обеспечением Alienware. \nНевозможно продолжить установку.</String>
+    <String ID="IDS_WARNING_UNSUPPORTED_OS">Данная версия SetPoint не поддерживается вашей операционной системой.  Продолжить установку?</String>
+    <String ID="IDS_WARNING_LOW_DISK">Недостаточно свободного места на диске для установки SetPoint. \n\n Освободите дополнительное место.</String>
+    <String ID="IDS_WARNING_REDIST">В процессе установки возникла ошибка при установке повторно распространяемых компонентов Visual C++.\n\nПерезагрузите компьютер и повторите попытку установить программное обеспечение.</String>
+    <String ID="IDS_WARNING_PREREQ4">Работает другой экземпляр программы установки SetPoint. Сначала следует завершить уже начатый процесс установки.</String>
+    <String ID="IDS_WARNING_PREREQ5">Вы используете 32-разрядную программу установки на 64-разрядной операционной системе. Воспользуйтесь правильной версией программы установки!</String>
+    <String ID="IDS_WARNING_PREREQ6">Вы используете 64-разрядную программу установки на 32-разрядной операционной системе. Воспользуйтесь правильной версией программы установки!</String>
+    <String ID="IDS_WARNING_PREREQ7">Минимальные системные требования: для установки требуется Windows версии Windows XP с пакетом обновлений 2 или более поздняя версия.</String>
+    <String ID="IDS_WARNING_PREREQ9">Минимальные системные требования: права администратора для завершения процесса установки.</String>
+    <String ID="IDS_WARNING_PREREQ12">Минимальные системные требования: 20 МБ свободного места на жестком диске.</String>
+    <String ID="IDS_FAIL_NEED_REBOOT">Не удалось установить SetPoint. Перезагрузите компьютер и повторите попытку.</String>
+    <String ID="IDS_EVTMGR6_ERROR">Не удалось установить EVTMGR6.</String>
+    <String ID="IDS_EVTMGR5_ERROR">Не удалось установить EVTMGR5.</String>
+    <String ID="IDS_CDDRV3_ERROR">Не удалось установить CDDRV3.</String>
+    <String ID="IDS_KHAL3_ERROR">Не удалось установить KHAL3.</String>
+    <String ID="IDS_BLUETOOTH_ERROR">В процессе установки Bluetooth произошла ошибка.</String>
+
+    <!-- Various: -->
+	
+<!-- New for Smart Design -->
+	  <String ID="IDS_STEP_TEXT_1">Начать работу</String>
+	  <String ID="IDS_STEP_TEXT_2">Параметры</String>	
+	  <String ID="IDS_STEP_TEXT_3">Установить</String>	
+	  <String ID="IDS_STEP_TEXT_4">Готово</String>
+	
+	  <String ID="IDS_TIMEUNIT_SECS">с</String>
+	  <String ID="IDS_DOWNLOADSPEED_KBPS">кбит/с</String>	
+	  <String ID="IDS_DOWNLOADSPEED_BPS">бит/с</String>	
+	  <String ID="IDS_DOWNLOADSPEED_MBPS">Мбит/с</String>
+	  <String ID="IDS_FILESIZE_BYTES">Б</String>
+	  <String ID="IDS_FILESIZE_KBYTES">КБ</String>	
+	  <String ID="IDS_FILESIZE_MBYTES">МБ</String>	
+
+
+  <!-- Smart Design Widgets for all pages: -->
+
+    <String ID="IDS_BTN_CANCEL">Отмена</String>
+    <String ID="IDS_BTN_FINISH">Готово</String>
+    <String ID="IDS_BTN_INSTALL">Установить</String>
+
+	  <String ID="IDS_BTN_QUIT">Выйти</String>
+	  <String ID="IDS_BTN_NEXT">Далее &gt;</String>
+	  <String ID="IDS_BTN_CONTINUE">Продолжить &gt;</String>
+	  <String ID="IDS_BTN_BACK">&lt; Назад</String>
+	  <String ID="IDS_ABORTDLG_BTN_RESUME">Продолжить</String>
+	  <String ID="IDS_ABORTDLG_BTN_EXIT">Выход</String>
+	  <String ID="IDS_BTN_CLOSE">Закрыть</String>
+	  <String ID="IDS_BTN_OK">ОК</String>
+	
+    <String ID="IDS_NEED_REBOOT">Для завершения установки нужно перезагрузить компьютер.</String>
+    <String ID="IDS_BROWSE_TITLE">Выберите путь установки SetPoint.</String>
+    <String ID="IDS_CURRENT_DIR_TAG">Сейчас программа SetPoint установлена в эту папку...</String>
+
+		<String ID="IDS_REMOVING_FILES">Удаление файлов.</String>
+		<String ID="IDS_UPDATING_SYSTEM_FILES">Обновление системных файлов.</String>
+		<String ID="IDS_CONFIGURATION_10_MINUTES">В связи с конфигурацией вашего компьютера этот процесс может занять до 10 минут и дольше.</String>
+		<String ID="IDS_UNINSTALLER_INITIAL">Подготовка программы удаления. Это может занять несколько минут.</String>
+
+    <String ID="IDS_LANGUAGE_SELECTION">выбор языка</String>
+
+  </StringSet>
+</FESetup_Strings_1>

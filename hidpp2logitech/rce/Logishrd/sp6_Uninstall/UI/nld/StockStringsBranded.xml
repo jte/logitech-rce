@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="nl-nl"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPoint™-setup</String>
+    <String ID="IDS_TITLE">SetPoint™-setup</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Software voor Logitech-muizen en -toetsenborden</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Hartelijk dank voor de aanschaf van dit Logitech-product. Logitech-producten zijn ontworpen voor effectiever gebruik van uw pc. Profiteer van uitgebreide productfuncties door deze software te installeren.
+
+
+
+      Wanneer u klaar bent om met de installatie van dit Logitech-softwareproduct te beginnen, selecteert u uw taal en klikt u op de knop Volgende.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">De functies wijzigen die toegewezen zijn aan de knoppen van uw Logitech-muis of aan de functietoetsen van uw Logitech-toetsenbord</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">De functies wijzigen die toegewezen zijn aan de knoppen van uw Logitech-muis of aan de functietoetsen van uw Logitech-toetsenbord</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">De functies wijzigen die toegewezen zijn aan de knoppen van uw Logitech-muis of aan de functietoetsen van uw Logitech-toetsenbord</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPoint™-setup</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">SetPoint™-setup</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">SetPoint™-setup</String>
+    <String ID="IDS_WARNING_OS">Deze software is helaas niet compatibel met uw besturingssysteem. Ga naar www.logitech.com om een compatibele versie te downloaden.</String>
+    <String ID="IDS_WARNING_EDITION32">Deze versie van de installer vereist een 32-bits versie van uw besturingssyteem.\nGa naar www.logitech.com/downloads/SetPoint om een compatibele versie te downloaden.</String>
+    <String ID="IDS_WARNING_EDITION64">Deze versie van de installer vereist een 64-bits versie van uw besturingssyteem.\nGa naar www.logitech.com/downloads/SetPoint om een compatibele versie te downloaden.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Update-utility voor Logitech-software</String>
+
+  </StringSet>
+</FESetup_Strings_1>

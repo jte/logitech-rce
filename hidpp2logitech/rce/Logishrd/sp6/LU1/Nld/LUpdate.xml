@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">nld</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Er zijn nieuwe updates beschikbaar. Klik hier om te downloaden.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klik om de updates van uw Logitech-software te voltooien.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">De updates voor uw Logitech-software worden gedownload</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Er zijn nieuwe updates beschikbaar. Klik hier om te installeren.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">De updates voor uw Logitech-software worden geïnstalleerd</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Uw Logitech-software is bijgewerkt</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">De installatie van uw Logitech-software wordt voltooid wanneer u uw computer opnieuw opstart</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Klik om de software-installatie te voltooien</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Er is geen internetverbinding; beschikbaarheid van nieuwe versie kan niet worden gecontroleerd</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Er is een fout opgetreden</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Installatiefout.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Installatie geannuleerd.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Voor de verzochte bewerking zijn beheerdersrechten vereist</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">De internetverbinding is opnieuw ingesteld. Probeer het later nog eens</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">De internetverbinding is opnieuw ingesteld. Logitech Updater probeert het later opnieuw</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installatie is mislukt omdat de schijf vol is.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Voltooien</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Annuleren</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Verbergen</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Later updaten</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Downloaden &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Downloaden hervatten &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installeren &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Alles installeren wanneer gereed &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Ja</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Nee</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Computer opnieuw opstarten</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">U moet uw computer opnieuw opstarten om de installatie te voltooien</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Configureren</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Automatische instellingen configureren</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Eerder afgewezen updates weergeven</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Bezig met downloaden van onderdeel %d van %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Bezig met installeren van onderdeel %d van %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Resterende tijd:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">%s van %s gedownload</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">U moet uw computer opnieuw opstarten om de installatie te voltooien.</String>
+
+	<String ALIAS="IDS_UI_BANNER_CONFIG">Logitech Updater-instellingen</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Bepaal de gewenste werkwijze voor de updater.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Automatische updates inschakelen.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Waarschuwen, maar updates niet automatisch downloaden of installeren.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Updates downloaden, maar mij laten kiezen wanneer ik ze installeer.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Updates automatisch downloaden en installeren.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Standaardinstellingen herstellen</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Product</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Status</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Grootte</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">wachten op controle</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">beschikbaar</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">klaar voor installatie</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">beschadigd</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">geannuleerd</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">gereed</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Benodigd</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Aanbevolen</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Optioneel</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">uur</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">uur</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sec</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sec</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Selecteren</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Downloaden</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Bekijken</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Installeren</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">De volgende updates zijn beschikbaar.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Haal meer uit uw Logitech-producten met de laatste versies van Logitech-software.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Downloadstatus</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Uw updates worden gedownload.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Installatiestatus</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Deze updates zijn gereed voor installatie.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Installatiestatus</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Uw updates worden geïnstalleerd.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Installatiestatus</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Opnieuw opstarten vereist</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">U moet uw computer opnieuw opstarten, zodat de installatie van uw Logitech-software voltooid kan worden. Sla documenten of webpagina's die nog open staan op om wijzigingen te behouden.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Wilt u uw computer nu opnieuw opstarten?</String>
+
+	<String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Waarschuwing: de selectie van dit onderdeel is standaard opgeheven omdat het niet aan de volgende beperking(en) voldoet:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Logitech Updater weergeven</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Automatische instellingen wijzigen...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Afsluiten</String>
+  </LU_Strings_1>
+</LogitechUpdater>

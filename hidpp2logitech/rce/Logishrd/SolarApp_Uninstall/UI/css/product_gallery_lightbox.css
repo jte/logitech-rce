@@ -1,0 +1,41 @@
+#control_overlay {  
+  background-color:#000;  
+} 
+.modal {  
+  background-color: #fff;  
+  padding: 10px;
+  border: 1px solid #333;  
+} 
+.tabbed_images {
+  list-style:none;
+  margin:0;
+  padding:0;
+  clear:both;
+}
+.tabbed_images li {
+  list-style:none;
+  float:left;
+  margin:0;
+  padding:0;
+}
+.tabbed_images li a {
+  border: 3px solid #ccc;
+  display:block;
+  float:left;
+  margin: 8px 24px;
+  _margin: 4px 12px;
+}
+.tabbed_images li a.active,
+.tabbed_images li a:hover {
+  border: 3px solid #333;
+}
+.tabbed_images li a img {
+  border: none;
+  padding: 2px;
+  margin:0;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+

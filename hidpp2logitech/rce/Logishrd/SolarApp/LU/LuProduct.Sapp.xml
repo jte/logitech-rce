@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<!-- LUpdate config file for Solar App, Logitech, production -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+    
+    <!-- Use a Productivity registry key: //-->
+    <String ALIAS="IDS_PRODUCT_NAME_KEY" translate="0">SolarAppUpdater</String>
+
+    <String ALIAS="IDS_PRODUCT_BRAND" translate="0">Logitech</String>
+    <String ALIAS="IDS_PAYLOAD_FILENAME" translate="0">solarapp</String>
+
+    <!-- Use a product abbreviation for the SolarApp software: //-->
+    <String ALIAS="IDS_PRODUCT_ABBR" translate="0">sapp</String>
+    
+    <String ALIAS="IDS_PAYLOAD_SERVER" translate="0">http://updates.logitech.com/logitech/controldevices/solarapp</String>
+
+    <String ALIAS="IDS_QS_SEND_QUERYSTRING" translate="0">1</String>
+    <String ALIAS="IDS_QS_SEND_UPDATER_GUID" translate="0">1</String>
+    <String ALIAS="IDS_PAYLOAD_SEND_LANG" translate="0">0</String>
+	</StringSet>
+</Source>

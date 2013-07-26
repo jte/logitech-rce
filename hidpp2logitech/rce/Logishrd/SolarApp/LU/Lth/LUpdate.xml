@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">lth</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Yra naujų programinės įrangos naujinių. Spustelėkite čia, kad atsisiųstumėte.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Spustelėkite, kad užbaigtumėte Logitech programinės įrangos naujinimą.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Atsisiunčiami jūsų Logitech programinės įrangos naujiniai</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Yra naujų programinės įrangos naujinių. Spustelėkite čia, kad įdiegtumėte.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Diegiami jūsų Logitech programinės įrangos naujiniai</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Jūsų Logitech programinė įranga atnaujinta</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Nėra interneto ryšio. Negalėjome patikrinti, ar yra nauja versija</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Įvyko klaida</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Diegimo klaida.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Diegimas atšauktas.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Šiam veiksmui reikia turėti administratoriaus teises</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Atkurtas interneto ryšys. Pabandykite vėliau</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Atkurtas interneto ryšys. Logitech Updater pabandys dar kartą vėliau</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">Gerai</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Baigti</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Atšaukti</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Slėpti</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Vėliau</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Atsisiųsti &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Tęsti atsisiuntimą &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Įdiegti &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Diegti viską, kai bus paruošta &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigūruoti automatinius nustatymus &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Rodyti anksčiau atmestus atnaujinimus</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Atsisiunčiama %d iš %d komponent.</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Diegiama %d iš %d komponent.</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Liko laiko:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Atsisiųsta %s iš %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Logitech Updater nustatymai</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Pasirinkite ir nurodykite, kaip naujinimo programa turi veikti</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Įjungti automatinius naujinius.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Pranešti man, bet automatiškai neatsisiųsti ir nediegti.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Atsisiųsti naujinius, bet leisti man pasirinkti, kada juos diegti.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Naujinius automatiškai atsisiųsti ir įdiegti.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Atkurti numatytuosius nustatymus</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produktas</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Būsena</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Dydis</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">laukiama, kol bus patikrinta</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">yra</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">paruošta diegti</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">sugadinta</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">atšaukta</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">baigta</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Reikalaujama</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Rekomenduojamas</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Pasirinktinis</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">val.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">val.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sek.</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sek.</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Šie naujiniai galimi.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Gaukite daugiau iš Logitech gaminių su naujausiomis Logitech programinės įrangos versijomis.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Atsisiuntimo būsena</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Jūsų naujiniai atsiunčiami.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Įdiegimo būsena</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Jūs esate pasiruošę įdiegti šiuos naujinius.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Diegimo būsena</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Jūsų naujiniai diegiami.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Perspėjimas: šis komponentas kaip numatyta nebuvo pažymėtas, nes neatitiko nustatytos (-ų) ribos (-ų)</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Rodyti Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Pakeisti automatinius nustatymus...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Išeiti</String>
+  </LU_Strings_1>
+</LogitechUpdater>

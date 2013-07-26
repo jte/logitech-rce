@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">ell</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Προϊόν Logitech</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Λογισμικό για το προϊόν σας Logitech</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Λογισμικό για ποντίκι και πληκτρολόγιο</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Λογισμικό για ποντίκι και πληκτρολόγιο</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Λογισμικό παραγωγικότητας για ποντίκι και πληκτρολόγιο</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Λογισμικό παιχνιδιών για ποντίκι και πληκτρολόγιο</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Λογισμικό κάμερας web</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Λογισμικό κάμερας web</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Λογισμικό επικοινωνίας</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">Λογισμικό G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Λογισμικό που υποστηρίζει το πληκτρολόγιο παιχνιδιών Logitech G15</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Λογισμικό Z-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Λογισμικό που υποστηρίζει τα ηχεία Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">Λογισμικό G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Λογισμικό που υποστηρίζει το πληκτρολόγιο παιχνιδιών Logitech G11</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">Λογισμικό G-Series</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Λογισμικό που υποστηρίζει το πληκτρολόγιο παιχνιδιών Logitech G11</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">Λογισμικό GamePanel</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Λογισμικό που υποστηρίζει το πληκτρολόγιο παιχνιδιών Logitech G15, το πληκτρολόγιο Logitech G11 και τα ηχεία Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Προηγμένο λογισμικό για ήχο surround</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Ηχεία Logitech Z-5</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Προηγμένο λογισμικό για ηχεία Logitech Z-5</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Λογισμικό ακουστικών για ήχο surround</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Ασύρματο σετ μικροφώνου-ακουστικού G930 της Logitech για παιχνίδια με πολυκάναλο ήχο Dolby Surround</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Οδηγός του ασύρματου σετ ακουστικού-μικροφώνου H760 της Logitech για εφαρμογές αναπαραγωγής πολυμέσων</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Λογισμικό για την αντιστοίχιση των συσκευών Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Ποντίκι Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Ενημέρωση υλικολογισμικού για το ποντίκι Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Πληκτρολόγιο Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Ενημέρωση υλικολογισμικού για το πληκτρολόγιο Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Αριθμητικό πληκτρολόγιο Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Ενημέρωση υλικολογισμικού για το αριθμητικό πληκτρολόγιο Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Δέκτης Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Ενημέρωση υλικολογισμικού για τον δέκτη Unifying</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Λογισμικό κάμερας web</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Λογισμικό για την κάμερα web</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Με το Vid μπορείτε να μείνετε συνδεδεμένοι με τους φίλους και την οικογένειά σας εύκολα από οποιοδήποτε σημείο του κόσμου</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Λογισμικό για το Σύστημα ασφαλείας βίντεο Logitech Alert™</String>
+	</LU_Strings_1>
+</LogitechUpdater>

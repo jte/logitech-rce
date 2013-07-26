@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Source>
+  <language xml:lang="en-us"/>
+  <!--  LookIn  : REGISTRY_LOCAL_MACHINE  REGISTRY_CURRENT_USER  FILE!-->
+  <!--  PATH  : path of file or registry -->
+  <!--  KEY : registry key -->
+  <!--  KEY : registry key -->
+
+
+  <PictureApplications>
+   
+    <PictureApp Name ="OIS"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\OIS.exe"  key="" HELP_STRING="Office Picture Manager" />
+    <PictureApp Name ="ACDSee8"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ACDSee8.exe"  key=""  HELP_STRING="ACDSee8" />
+    <PictureApp Name ="ACDSee9"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ACDSee9.exe"  key=""  HELP_STRING="ACDSee9" />
+    <PictureApp Name ="ACDSee10"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ACDSee10.exe"  key=""  HELP_STRING="ACDSee10" />
+    <PictureApp Name ="ACDSee11"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ACDSee11.exe"  key=""  HELP_STRING="ACDSee11" />
+    <PictureApp Name ="AdobePhotoShopElement"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\PhotoshopElementsEditor.exe"  key="" HELP_STRING="Adobe Photoshop Element" />
+    <PictureApp Name ="PhotoShopCS2"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Photoshop.exe"  key="" HELP_STRING="Adobe Photoshop" />
+    <PictureApp Name ="PhotoShopCS3"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Classes\Applications\Photoshop.exe\shell\edit\command"  key="" HELP_STRING="Adobe Photoshop" />
+    <PictureApp Name ="Picasa2"       LookIn="REGISTRY_CURRENT_USER"  path="Software\Classes\Applications\Picasa2.exe\shell\open\command"  key="" HELP_STRING="Picasa" />
+    <PictureApp Name ="Picasa3"       LookIn="REGISTRY_CURRENT_USER"  path="Software\Classes\Applications\Picasa3.exe\shell\open\command"  key="" HELP_STRING="Picasa" />
+    <PictureApp Name ="Picasa"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Classes\picasa\shell\open\command"  key="" HELP_STRING="Picasa" />
+    <PictureApp Name ="MSPAINT" LookIn="FILE" path="%WINDIR%/system32/mspaint.exe"  key=""  HELP_STRING="Paint" />
+    <PictureApp Name ="WindowsPhotoGallery" LookIn="FILE" path="$PROGRAMDIR/Windows Photo Gallery/WindowsPhotoGallery.exe"  key=""  HELP_STRING="Windows Photo Gallery" />
+  </PictureApplications>
+
+  <VOIPApplications>
+
+    <VOIPApp Name ="SKYPE"       LookIn="REGISTRY_CURRENT_USER" path="Software\Skype\Phone"  key="SkypePath" HELP_STRING="Skype" />
+    <VOIPApp Name ="AOL"       LookIn="REGISTRY_CLASSES_ROOT"  path="aim\shell\open\command"  key="" HELP_STRING="AOL Instant Messenger" />
+    <VOIPApp Name ="YAHOO"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Classes\ymsgr\shell\open\command"  key=""  HELP_STRING="Yahoo! Messenger" />
+    <VOIPApp Name ="MSN"       LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\msnmsgr.exe"  key="" HELP_STRING="MSN Messenger" />
+    <VOIPApp Name ="MESSENGER" LookIn="REGISTRY_LOCAL_MACHINE" path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\msmsgs.exe"  key=""  HELP_STRING="Windows Messenger" />    
+    <VOIPApp Name ="ICQ" 	LookIn="REGISTRY_LOCAL_MACHINE" path="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ICQLite.exe"  key=""  HELP_STRING="ICQ" />    
+    
+  </VOIPApplications>
+
+  <DesktopSearchApps>
+    <DesktopSearchApp Name ="Google"  LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Google\Google Desktop"  key="install_dir" EXE_NAME="GoogleDesktop.exe" COMMANDLINE_ARGS="/homepage"  HELP_STRING="Google Desktop" />
+    <DesktopSearchApp Name ="MSN"     LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Microsoft\RSSearch\InstallDirectory"  key=""  EXE_NAME="\WindowsSearch.exe" COMMANDLINE_ARGS="/launchsearchwindow" HELP_STRING="Windows Desktop Search" />
+    <DesktopSearchApp Name ="Yahoo"     LookIn="REGISTRY_LOCAL_MACHINE"  path="SOFTWARE\Yahoo! Desktop Search"  key="ExeLoc"  HELP_STRING="Yahoo Desktop Search" />
+  </DesktopSearchApps>
+  
+</Source>

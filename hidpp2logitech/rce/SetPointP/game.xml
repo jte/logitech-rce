@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<GameList>
+		<Game Name="Game using DirectInput">
+			<ModuleName ModuleName="dinput.dll"/>
+			<ModuleName ModuleName="dinput8.dll"/>
+		</Game>
+		<Game Name="Game using OpenGL">
+			<ModuleName ModuleName="opengl32.dll"/>
+			<ModuleName ModuleName="glaux.dll"/>
+			<ModuleName ModuleName="glib.dll"/>
+			<ModuleName ModuleName="glu32.dll"/>
+		</Game>
+		<Game Name="Game using Steam">
+			<ModuleName ModuleName="steam_api.dll"/>
+			<ModuleName ModuleName="steam.dll"/>
+
+		</Game>
+		<Game Name="WOW">
+         		<ModuleName ModuleName="WOW.EXE"/>
+      	</Game>
+    
+	</GameList>
+</Source>

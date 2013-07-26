@@ -1,0 +1,285 @@
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+
+<head lang='en-us'>
+
+  <meta http-equiv="Pragma"       content="no-cache">
+  <meta http-equiv="Expires"      content="-1">
+  <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+
+  <script type="text/javascript" src="../js/custom_ui.js"></script> 
+  <script type="text/javascript" src="../js/logi_code.js"></script> 
+
+  
+  
+	<script type='text/javascript'>
+    var langCode = window.external.EvaluateExpression('langcode');
+    document.write("<link rel='stylesheet' href='../"+langCode+"/wizpage.css' type='text/css' media='screen'>");
+    
+
+    var channel = window.external.EvaluateExpression('channel');
+    var register = window.external.EvaluateExpression('register');
+    var updater = window.external.EvaluateExpression('updater');
+    var ps2 = window.external.EvaluateExpression('ps2');
+    var showUI = window.external.EvaluateExpression('showUI');
+    var displayVersion = window.external.EvaluateExpression('displayVersion_persistent');
+
+    var showMiHints = window.external.EvaluateExpression('showMiHints');
+    showMiHints = window.external.EvaluateExpression(showMiHints);
+
+    function SetStuffLater() {
+       var el = document.getElementById("productNameText");
+	  	 if (el != null) {el.innerHTML +=" "+displayVersion+""}
+       var el = document.getElementById("Logi_checkbox_01");
+	     
+       if (el) {
+	  el.checked = window.external.EvaluateExpression('Logi_checkbox_01');
+       }
+    }
+    
+    function SetStuff() {
+    
+      if (channel == "oem") { 
+      
+        var el = document.getElementById("productPurposeText");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("logo_image");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("header_image");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_pane");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_title");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+
+        var el = document.getElementById("install_title_2");
+	  	  if (el != null) {el.style.display = "";}	  	  
+
+        var el = document.getElementById("install_title_3");
+	  	  if (el != null) {el.style.display = "";}	  	  
+	  	}  
+	  	
+	  	if (register == "no") { 
+        var el = document.getElementById("register_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (updater == "no") { 
+        var el = document.getElementById("updater_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (ps2 == "yes") { 
+        var el = document.getElementById("ps2_pane");
+	  	  if (el != null) {el.style.display = "";}
+      }
+
+      if (showUI == "no") { 
+        var el = document.getElementById("done_messaging");
+        if (el != null) {el.style.display = "none";}
+      }
+
+
+    }
+
+    function InitOptionalSections()
+{
+	var detectedLegacy  = window.external.EvaluateExpression(window.external.EvaluateExpression('detectedLegacy'));
+  var deviceName = "";
+
+	if (detectedLegacy!=0) {
+    var devices = window.external.EvaluateExpression('devices')
+    var eolIds = window.external.EvaluateExpression('eolIds')
+    var eolNames = window.external.EvaluateExpression('eolNames')
+    var dAr = devices.split(',');
+    var iAr = eolIds.split(',');
+    var nAr = eolNames.split(',');
+    
+    if ( (dAr.length>0) && (iAr.length==nAr.length) ) {
+      for (var dd=0; dd < dAr.length; dd++) {
+        for (var ii=0; ii < iAr.length; ii++) {
+          if (dAr[dd] == iAr[ii]) {
+            deviceName = nAr[ii];
+            break;
+          }
+        }   
+      }
+    }
+  }
+  
+	if (detectedLegacy==1 || detectedLegacy==4) {
+		var obj=document.getElementById('section_4xOnly');
+		if (obj) {obj.style.display='';}
+	}	
+		
+	if (detectedLegacy==2) {
+		var obj=document.getElementById('section_5xOnly');
+		if (obj) {obj.style.display='';}
+	}
+		
+	if (detectedLegacy==3 || detectedLegacy==5) {
+		var obj=document.getElementById('section_4x5xBoth');
+		if (obj) {obj.style.display='';}
+	}
+	
+  if (deviceName != "") {
+    var obj=document.getElementById('messaging_plain_eol');
+    if (obj) {
+      var s = obj.innerText;
+      var startParent = s.indexOf('(');
+      var endParent = s.indexOf(')');
+      if (startParent<endParent) {
+        s = s.substr(0,startParent) + deviceName + s.substr(endParent+1);
+        obj.innerText = s;
+      }
+      var obj=document.getElementById('section_eol');
+      if (obj) {obj.style.display='';}
+    }
+  }
+
+	
+}
+
+  
+  </script>
+
+  <style type="text/css">
+  </style>
+  
+</head>
+
+<body id="theBody" class="main_page" ondragstart="return false;" onLoad="SetStuff();loadStrings();Custom.init(); selectFirst(document.getElementById('btnNext'),300);InitOptionalSections();;SetStuffLater()"> 
+    	<div id='blanket' style='position: absolute; top: 0; left: 0; display: none; background-color: black; z-index:2; filter=progid:DXImageTransform.Microsoft.Alpha(opacity=25)'></div>
+
+	<div class="container">
+		<div class="sidebar">
+
+			<div class="sidebarTitle">
+			</div>
+
+					<div class="steps">
+			<table class="steps">
+			</table>
+		</div>
+
+
+			<!--[if lte IE 6]>
+			<div id="logo_image" style='padding-top:0px;padding-left:47px;'><img src='..\images\collateral\blank.gif' style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\logos\logo.png' sizing='scale')"></div>
+			<![endif]-->
+			<!--[if gt IE 6]>		
+			<div id="logo_image" style='padding-top:0px;padding-left:35px;'><img src='..\images\logos\logo.png'></div>
+			<![endif]-->
+		</div>
+		<div class="pageContent">
+			<div class="contentHeader" style="height:50px;">
+			  			  
+			<!--[if lte IE 6]>
+			<img class="header_image"  style="background:transparent; position:absolute;left:40px;top:25px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\header_uninst_1.png' sizing='scale')" 
+			src="..\images\collateral\blank.gif">
+			<![endif]-->
+
+			<!--[if gt IE 6]>
+			<img class="header_image" src="..\images\collateral\header_uninst_1.png">
+			<![endif]-->
+			  
+			<span class="header_important" string="IDS_IMPORTANT"></span>
+			
+               
+			  
+			  <table height="100%" width="100%">
+				<tr><td valign="bottom">
+				 <span id="productNameText" string="IDS_PRODUCT_NAME"></span>
+			   </td></tr>
+				<tr><td valign="bottom">
+				 <span id="productPurposeText" string="IDS_PRODUCT_PURPOSE"></span>
+			   </td></tr>
+		       </table>
+			  	
+			</div>
+
+			<br/>
+			<br/>
+			<br/>
+
+			<div class="contentBody" style="height:330px;">			<div class="messaging_intro"  w-style="padding-top:41px;" string="IDS_WELCOME_LEGACY_INTRO"></div>
+			<br/>
+			
+			<div id="section_4xOnly" style="display='none'">
+				<!--[if lte IE 6]>
+ 				<img style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\warning.png' sizing='scale')" src="..\images\collateral\blank.gif">
+				<![endif]-->
+ 				<!--[if gt IE 6]>
+				<img src="..\images\collateral\warning.png"/>
+				<![endif]-->
+			
+				<div class="messaging_plain" style="color:red" string="IDS_WELCOME_LEGACY_4xOnly"></div>
+				<br/>
+            </div>
+           			
+			<div id="section_5xOnly" style="display='none'">
+				<div class="messaging_plain"  string="IDS_WELCOME_LEGACY_5xOnly"></div>
+				<br/>
+            </div>
+
+			<div id="section_4x5xBoth" style="display='none'">
+				<div class="messaging_title"   string="IDS_WELCOME_LEGACY_5xBoth_TITLE"></div>
+				<div class="messaging_plain"   string="IDS_WELCOME_LEGACY_5xBoth_TEXT"></div>
+				<br/>
+
+				<!--[if lte IE 6]>
+ 				<img style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\warning.png' sizing='scale')" src="..\images\collateral\blank.gif">
+				<![endif]-->
+ 				<!--[if gt IE 6]>
+				<img src="..\images\collateral\warning.png"/>
+				<![endif]-->
+
+				<div class="messaging_title"   string="IDS_WELCOME_LEGACY_4xBoth_TITLE"></div>
+				<div class="messaging_plain" style="color:red" string="IDS_WELCOME_LEGACY_4xBoth_TEXT"></div>
+				<br/>
+			</div>
+			
+			<div id="section_eol" style="display='none'">
+
+				<!--[if lte IE 6]>
+ 				<img style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\warning.png' sizing='scale')" src="..\images\collateral\blank.gif">
+				<![endif]-->
+ 				<!--[if gt IE 6]>
+				<img src="..\images\collateral\warning.png"/>
+				<![endif]-->
+
+				<div class="messaging_plain" id="messaging_plain_eol" style="color:red" string="IDS_WELCOME_LEGACY_EOL"></div>
+				<br/>
+			</div>
+
+			
+			<div style="height:30px;">&nbsp;</div>
+		</div>
+		 
+			</div>
+
+			<div class="pageNav" style="width:80%;">			<div style="height:10px;">&nbsp;</div>
+
+		<a href="#" tabindex="3" onclick="this.click();return false;" class="button primary" id="btnCancel"><b string="IDS_BTN_QUIT"></b></a> &nbsp;&nbsp;&nbsp;
+		<a href="#" tabindex="1" onclick="this.click();return false;" class="button action"  id="btnNext"><b string="IDS_BTN_CONTINUE"></b></a>
+			<div style="height:50px;"/>&nbsp;</div>
+		</div>
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (showMiHints=="yes") { 
+		  displayLangCode();
+		}  
+	</script>	
+</body>
+</html>

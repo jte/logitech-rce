@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">lvi</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech produkts</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Jūsu Logitech produkta programmatūra</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Peles un tastatūras programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Peles un tastatūras programmatūra</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Peles un tastatūras produktivitātes programmatūra</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Peles un tastatūras spēļu programmatūra</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Tīmekļa kameras programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Tīmekļa kameras programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Sakaru programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series programmatūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Programmatūra, kas atbalsta Logitech G15 spēļu tastatūru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series programmatūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Programmatūra, kas atbalsta Logitech Z-10 skaļruņus</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series programmatūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Programmatūra, kas atbalsta Logitech G11 spēļu tastatūru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series programmatūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Programmatūra, kas atbalsta Logitech G11 spēļu tastatūru</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel programmatūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Programmatūra, kas atbalsta  Logitech G15 spēļu tastatūru, Logitech G11 tastatūru un Logitech Z-10 skaļruņus</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Uzlabotas telpiskās skaņas programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Skaļruņi Logitech Z-5</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Uzlabota skaļruņu Logitech Z-5 programmatūra</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Telpiskās skaņas programmatūra austiņām</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitech bezvadu spēļu austiņas G930 ar daudzkanālu Dolby telpisko skaņu</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logitech bezvadu austiņu H760 multivides atskaņotāju palīgs</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Programmatūra Unifying ierīču sapārošanai</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying pele</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Unifying peles aparātprogrammatūras atjauninājums</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying tastatūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Unifying tastatūras aparātprogrammatūras atjauninājums</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying ciparu tastaūra</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Unifying ciparu tastatūras aparātprogrammatūras atjauninājums</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying uztvērējs</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Unifying uztvērēja aparātprogrammatūras atjauninājums</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Tīmekļa kameras programmatūra</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Logitech tīmekļa kameras programmatūra</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid ir vienkāršs veids, kā sazināties ar ģimeni un draugiem no visas pasaules</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Programmatūra, kas paredzēta Logitech Alert™ Video drošības sistēmai</String>
+	</LU_Strings_1>
+</LogitechUpdater>

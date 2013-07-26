@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="ko-KR"/>
+
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_PRODUCT">SetPoint™</String>
+    <String ID="IDS_PRODUCT_NAME">SetPoint&lt;a style="vertical-align:0.1em;font-size:85%;"&gt;™&lt;/a&gt;</String>
+    <String ID="IDS_ABORTDLG_DESC">설치가 완료되지 않았습니다.&lt;br/&gt;&lt;br/&gt;지금 설치를 종료하면 프로그램이 설치되지 않습니다.&lt;br/&gt;나중에 설치 프로그램을 실행하여 설치를 완료할 수 있습니다.&lt;br/&gt;&lt;br/&gt;프로그램 설치를 계속하려면 [계속]을 누르고, 설치를 종료하려면 [설치 종료]를 누르십시오.&lt;br/&gt;</String>
+
+   <String ID="IDS_IMPORTANT">중요!</String>
+ 
+    <!-- Widgets for all pages: -->
+
+   <!-- Welcome page LegacyPre  -->
+	  <String ID="IDS_WELCOME_LEGACY_INTRO">SetPoint의 이전 버전이 시스템에서 감지되었습니다. 설치를 시작하려면 먼저 이전 버전을 제거해야 합니다. 이 프로세스 도중 시스템을 다시 부팅해야 합니다.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xOnly">SetPoint의 현재 버전에서 사용자 정의된 사용자 설정이 유실됩니다.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xOnly">사용자가 만든 설정, 매크로 및 프로필은 보존됩니다.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TITLE">SetPoint 5.x의 사용자 설정</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TEXT">사용자가 만든 설정, 매크로 및 프로필은 보존됩니다.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TITLE">SetPoint 4.x의 사용자 설정</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TEXT">현재 버전에서 사용자 정의된 사용자 설정이 유실됩니다.</String>
+	<!--
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Some features of your device are not supported by this version of SetPoint. Click here for details.</String>
+	-->
+	
+	  <String ID="IDS_WELCOME_LEGACY_EOL">(장치 이름)의 일부 기능은 SetPoint의 이 버전에서 지원되지 않습니다. 현재 버전을 유지하는 것이 좋습니다.</String>
+	<!--
+	<String ID=""></String>
+	<String ID=""></String>
+	<String ID=""></String>
+    -->
+  
+    <!-- Welcome page - installer -->
+    <String ID="IDS_WELCOME_INTRO">SetPoint에 오신 것을 환영합니다.</String>
+    <String ID="IDS_WELCOME_INTRO2">"다음"을 클릭하여 컴퓨터에 SetPoint를 설치하십시오.</String>
+    <String ID="IDS_BROWSERS">계속하려면 다음 웹 브라우저를 닫는 것이 좋습니다.</String>
+    <String ID="IDS_WELCOME_TEXT">WELCOME TEXT</String>
+    <String ID="IDS_EXPRESS_INSTALL">빠른 설치(권장)</String>
+    <String ID="IDS_EXPRESS_DESC">빠르고 쉽습니다. 빠른 설치 옵션을 선택하면 현재 언어 버전의 SetPoint가 하드 드라이브의 권장 기본 위치에 설치됩니다.</String>
+    <String ID="IDS_CUSTOM_INSTALL">사용자 정의 설치</String>
+    <String ID="IDS_CUSTOM_INSTALL_DESC">언어를 변경하거나 하드 드라이브의 설치 위치를 수정하려면 사용자 정의 설치 옵션을 선택하십시오.</String>
+	<!--
+	<String ID="IDS_EULA_AGREE_PRE">By clicking on "Next" you agree to the </String>
+	<String ID="IDS_EULA_URL">Logicool User License Agreement</String>
+	<String ID="IDS_EULA_AGREE_POST">.</String>
+	-->
+	  <String ID="IDS_EULA_AGREE_TEXT">"다음"을 눌러 &lt;a href="#" id="eula" onClick="fadeIn(); return false;"&gt;사용자 사용권 계약&lt;/a&gt;에 동의합니다.</String>
+	  <String ID="IDS_EULA_TITLE">사용권 계약</String>
+	  <String ID="IDS_NOSUPPORT_DEVICES">&lt;b&gt;     이 버전의 SetPoint는 더 이상 G100, G500, G700, G9, G9x 또는 MX518 게임 마우스를 지원하지 않습니다.&lt;/b&gt; &lt;br&gt;&lt;br&gt;이제 이러한 마우스는 Logitech 게임 소프트웨어 버전 8.4 이상(LGS)에서 지원됩니다. SetPoint 설치가 완료되면 LGS를 설치하는 옵션이 제공됩니다.&lt;br&gt;</String>
+	  
+	<String ID="IDS_BTN_CONTINUE">계속</String>
+
+  <!-- Welcome page - un-installer -->
+	  <String ID="IDS_UNINSTALL_WELCOME_INTRO">SetPoint 제거</String>
+    <String ID="IDS_UNINSTALL_WELCOME_TEXT">SetPoint를 시스템에서 제거합니다. SetPoint에서 사용자 정의한 모든 사용자 설정은 유실됩니다. </String>
+		
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page - install  -->
+    <String ID="IDS_DESTINATION_STATIC">SetPoint를 설치할 위치를 변경하려면 [찾아보기]를 클릭하십시오.</String>
+    <String ID="IDS_BTN_BROWSE">찾아보기</String>
+    <String ID="IDS_GETTING_STARTED_TEXT">선택하기:</String>
+    <String ID="IDS_SELECT_INSTALL_TEXT">원하는 설치 옵션을 선택합니다...</String>
+    <String ID="IDS_UPDATE_CHECK_TEXT">인터넷에 연결된 경우 최신 소프트웨어를 가져올 수 있습니다.</String>
+    <String ID="IDS_CHECK_FOR_UPDATES">이 소프트웨어의 업데이트를 확인한 다음 설치하십시오.</String>
+    <String ID="IDS_LANGUAGESELECTDLG_SUBTITLE">아래 메뉴에서 선호하는 언어를 선택합니다.</String>
+    <!-- Custom: Components page: -->
+    <!-- ..Third-party components for SetPoint: -->
+
+    <!-- License page: -->
+
+  <!-- Progress page: component description, use Z_ pre-fix to perform real-time localized string update -->
+   <!-- do not defined IDS_PROGRESS_COMPONENT_NAME, IDS_PROGRESS_COMPONENT_DESC -->
+ 
+ <!--  
+   <String ID="Z_IDS_PROGRESS_COMPONENT_NAME">SetPoint...</String>
+   <String ID="Z_IDS_PROGRESS_COMPONENT_DESC">Installating SetPoint. Please wait.</String>
+-->
+
+	
+    <!-- Progress page - install  -->
+   <String ID="IDS_INSTALL_PROGRESS_TITLE">SetPoint를 사용하여 환경 개선 </String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_2">설치가 시작되었습니다.</String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_3">시스템에 파일을 복사하는 동안 잠시 기다려 주십시오.</String>
+
+    <!--To distinguish logitech enu and logicool enu, copy Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1 to stockstringsbranded.xml, other locale, just keep in CustomSTrings.xml to simplify the changes -->
+    <!--String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Personalize the settings of your Logitech mouse or keyboard.</String -->
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_2">Windows 8 응용 프로그램 및 웹 브라우저에서 더욱 부드러운 스크롤을 제공합니다.</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_3">Caps Lock, Num Lock을 누를 때 또는 장치 배터리가 부족할 때 화면 표시기를 확인하십시오.</String>
+
+    <String ID="Z_IDS_EMPTY_INITIAL_TEXT">남은 시간 약 2분... </String>
+    <String ID="Z_IDS_PRE_UPDATER_PROGRESS">남은 시간 약 2분... </String>
+    <String ID="Z_IDS_IMUI_PROGRESS">남은 시간 약 2분... </String>
+    <String ID="Z_IDS_install_progress_sp6_start">남은 시간 약 2분... </String>
+    <String ID="Z_IDS_install_progress_sp6_redistr">남은 시간 약 2분... </String>
+    <String ID="Z_IDS_install_progress_sp6_drivers">남은 시간 약 1분... </String>
+    <String ID="Z_IDS_install_progress_sp6_gaming">남은 시간 약 50초... </String>
+    <String ID="Z_IDS_install_progress_sp6_productivity">남은 시간 약 50초... </String>
+    <String ID="Z_IDS_install_progress_sp6_end">남은 시간 약 30초... </String>
+    <String ID="Z_IDS_POST_UPDATER_PROGRESS">남은 시간 약 30초... </String>
+    <String ID="Z_IDS_EREG_PROGRESS">남은 시간 약 10초... </String>
+
+    <String ID="Z_IDS_4_MINUTES">남은 시간 약 4분... </String>
+    <String ID="Z_IDS_3_MINUTES">남은 시간 약 3분... </String>
+    <String ID="Z_IDS_2_MINUTES">남은 시간 약 2분... </String>
+    <String ID="Z_IDS_1_MINUTE">남은 시간 약 1분... </String>
+    <String ID="Z_IDS_50_SECONDS">남은 시간 약 50초... </String>
+    <String ID="Z_IDS_40_SECONDS">남은 시간 약 40초... </String>
+    <String ID="Z_IDS_30_SECONDS">남은 시간 약 30초... </String>
+    <String ID="Z_IDS_20_SECONDS">남은 시간 약 20초... </String>
+    <String ID="Z_IDS_10_SECONDS">남은 시간 약 10초... </String>
+    <String ID="Z_IDS_SEVERAL_MINUTES">몇 분 정도 걸릴 수 있습니다. </String>
+
+    <!-- Progress page - LegacyPre  -->
+    <String ID="IDS_LEGACY_PRE_PROGRESS_TITLE"/>
+	  <String ID="Z_IDS_LEGACY_PRE_PROGRESS_INFO"/>
+	  <String ID="IDS_LEGACY_PRE_PROGRESS_TAG">이전에 설치된 파일을 제거하는 중입니다. 잠시 기다려 주십시오.</String>
+
+    <String ID="IDS_LEGACY_POST_PROGRESS_TITLE">SetPoint 설치.</String>
+    <String ID="Z_IDS_LEGACY_POST_PROGRESS_INFO"/>
+    <String ID="IDS_LEGACY_POST_PROGRESS_TAG">설치 프로그램을 준비하는 중입니다. 이 작업은 몇 분 정도 걸릴 수 있습니다.</String>
+
+    <!-- Progress page - un-install  -->
+    <String ID="IDS_UN_INSTALL_PROGRESS_TITLE">SetPoint 제거</String>
+    <String ID="Z_IDS_UN_INSTALL_PROGRESS_INFO"/>
+    <String ID="IDS_UN_INSTALL_PROGRESS_TAG">제거 중입니다. 잠시 기다려 주십시오.</String>
+
+
+    <!-- Finish page  - install -->
+    <String ID="IDS_INSTALL_FINISH_TITLE">설치가 완료되었습니다.</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT">장치를 구성하려면 [마침]을 클릭한 다음 시작 메뉴의 프로그램 목록에서 SetPoint를 시작하십시오.</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT_WIN8">장치 설정을 변경하려면 마침을 클릭한 다음 Windows 시작 화면에서 SetPoint 타일을 클릭하여 SetPoint를 여십시오.</String>
+    <String ID="IDS_CONFIGURE">SetPoint를 시작하고 내 장치를 구성합니다.</String>
+    <String ID="IDS_REGISTER">내 제품을 등록합니다.</String>
+    <String ID="IDS_WHY_REGISTER">(왜 내 제품을 등록합니까?)</String>
+    <!--To distinguish logitech enu and logicool enu, copy IDS_LGS_LINK to stockstringsbranded.xml, other locale, just keep in CustomSTrings.xml to simplify the changes -->
+    <!-- String ID="IDS_LGS_LINK">Click &#60;a href="http://www.logitech.com/swr_lgs" target="_blank" id="eula"&#62;here &#60;/a&#62; to get Logitech Gaming Software to customize the settings of your gaming mouse.</String -->
+    
+    <String ID="IDS_LEGACY_PRE_FINISH_TITLE"/>
+    <String ID="IDS_LEGACY_PRE_FINISH_TEXT">확인을 눌러 지금 재부팅합니다. 재부팅 후 설치가 진행됩니다.</String>
+ 
+    <!-- Finish page - un-install -->
+    <String ID="IDS_UN_INSTALL_FINISH_TITLE">SetPoint 제거</String>
+    <String ID="IDS_UN_INSTALL_FINISH_TEXT">제거가 완료되었습니다.</String>
+    <String ID="IDS_PS2_INFO">PS/2 장치는 다음 재부팅 후 활성화됩니다.</String>
+
+    <!-- Finish page - error-install -->
+    <String ID="IDS_FINISH_ERROR_TITLE">설치를 완료할 수 없습니다.</String>
+    <String ID="IDS_NO_DOWNLOAD">사용 가능한 다운로드가 없습니다.</String>
+    <String ID="IDS_NO_CHECK">필요한 구성 요소를 찾을 수 없습니다. </String>
+    <String ID="IDS_DOWNLOAD_FAILED">인터넷 연결을 확인한 후 다시 시도하십시오.</String>
+    <String ID="IDS_DOWNLOAD_CANCELLED"/>
+    <String ID="IDS_FINISH_CANCEL_TITLE">사용자가 설치를 취소했습니다.</String>
+ 
+    <!-- download checking page -->
+    <String ID="IDS_PLEASE_WAIT"> 기다리십시오. 추가 구성 요소를 확인하는 중입니다.</String>
+
+    <!-- download page -->
+    <String ID="IDS_INSTALLINGSOFTWARE_DOWNLOAD_TITLE">구성 요소 다운로드 중</String>
+    <String ID="IDS_INSTALLINGSOFTWARE_TOTALPROGRESS">다운로드 상태 </String>
+
+    <!-- An expression, IDSE :
+    For for '<' and '>', use the character-entity-references of &#60; and &#62; respectively. -->
+    <String ID="IDSE_PATH_TO_DESTDIR_APP">&lt;destroot&gt;\\SetPoint\\SetPoint.exe</String>
+    <String ID="IDS_ARGS_TO_DESTDIR_APP">/S</String>
+    <String ID="IDSE_PATH_TO_DESTDIR_PRODUCT_MANUAL">&lt;destroot&gt;\\SetPoint\\setpoint.chm</String>
+    
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_WARNING_IE">SetPoint를 설치하려면 Microsoft Internet Explorer 6.0 이상이 필요합니다. Internet Explorer 소프트웨어를 업데이트한 후 다시 시도하십시오.</String>
+
+    <!-- Warning/Error pages: -->
+    <!-- ..for SetPoint -->
+    <String ID="IDS_WARNING_OLD_SETPOINT">설치 프로그램이 시스템에서 SetPoint 소프트웨어의 새 버전을 감지하여 설치가 중지됩니다.</String>
+    <String ID="IDS_WARNING_RESTART">이 명령을 실행하기 전에 컴퓨터를 다시 시작하십시오.</String>
+    <String ID="IDS_WARNING_UNIFYING_RUNNING">Unifying 소프트웨어가 현재 실행 중입니다. \n소프트웨어를 닫고 설치 프로그램을 다시 실행하십시오.</String>
+    <String ID="IDS_NO_VALID_PATH">응용 프로그램의 파일 경로를 선택하십시오.</String>
+    <String ID="IDS_WARNING_INSTANCE_UNINSTALLER_RUNNING">이 설치 해제 프로그램의 다른 인스턴스가 실행 중입니다. 새로운 설치 해제를 시도하기 전에 해당 설치 해제 프로그램을 종료하십시오.</String>
+    <String ID="IDS_REBOOT_PENDING">운영 체제가 재부팅이 보류 중임을 나타냅니다. 재부팅 후 다시 시도하십시오.</String>
+    <String ID="IDS_WARNING_ALIENWARE">SetPoint의 이 버전은 Alienware 소프트웨어와 호환되지 않습니다. \n설치를 계속할 수 없습니다.</String>
+    <String ID="IDS_WARNING_UNSUPPORTED_OS">이 버전의 SetPoint는 해당 운영 체제에서 지원되지 않습니다. 설치를 계속하시겠습니까?</String>
+    <String ID="IDS_WARNING_LOW_DISK">SetPoint를 설치하기 위한 디스크 공간이 부족합니다. \n\n 공간을 비우십시오.</String>
+    <String ID="IDS_WARNING_REDIST">Visual C++ 재배포물을 설치하는 중에 오류가 발생했습니다.\n\n재부팅 후 소프트웨어 설치를 다시 시도하십시오.</String>
+    <String ID="IDS_WARNING_PREREQ4">SetPoint 설치 프로그램의 다른 인스턴스가 실행 중입니다. 해당 설치를 먼저 완료하십시오.</String>
+    <String ID="IDS_WARNING_PREREQ5">64비트 운영 체제에서 32비트 설치 프로그램을 실행 중입니다. 올바른 설치 프로그램을 실행하십시오.</String>
+    <String ID="IDS_WARNING_PREREQ6">32비트 운영 체제에서 64비트 설치 프로그램을 실행 중입니다. 올바른 설치 프로그램을 실행하십시오.</String>
+    <String ID="IDS_WARNING_PREREQ7">최소 시스템 요구사항: 이 설치를 수행하려면 Windows XP 서비스 팩 2 이상의 Windows 버전이 필요합니다.</String>
+    <String ID="IDS_WARNING_PREREQ9">최소 시스템 요구사항: 이 설치를 완료할 관리 권한</String>
+    <String ID="IDS_WARNING_PREREQ12">최소 시스템 요구사항: 20MBytes의 사용 가능한 하드 드라이브 공간</String>
+    <String ID="IDS_FAIL_NEED_REBOOT">SetPoint 설치에 실패했습니다. 컴퓨터를 다시 시작한 다음 다시 시도하십시오.</String>
+    <String ID="IDS_EVTMGR6_ERROR">EVTMGR6의 설치에 실패했습니다.</String>
+    <String ID="IDS_EVTMGR5_ERROR">EVTMGR5의 설치에 실패했습니다.</String>
+    <String ID="IDS_CDDRV3_ERROR">CDDRV3의 설치에 실패했습니다.</String>
+    <String ID="IDS_KHAL3_ERROR">KHAL3의 설치에 실패했습니다.</String>
+    <String ID="IDS_BLUETOOTH_ERROR">Bluetooth를 설치하는 중 오류가 발생했습니다.</String>
+
+    <!-- Various: -->
+	
+<!-- New for Smart Design -->
+	  <String ID="IDS_STEP_TEXT_1">시작하기</String>
+	  <String ID="IDS_STEP_TEXT_2">옵션</String>	
+	  <String ID="IDS_STEP_TEXT_3">설치</String>	
+	  <String ID="IDS_STEP_TEXT_4">마침</String>
+	
+	  <String ID="IDS_TIMEUNIT_SECS">초</String>
+	  <String ID="IDS_DOWNLOADSPEED_KBPS">KBPS</String>	
+	  <String ID="IDS_DOWNLOADSPEED_BPS">BPS</String>	
+	  <String ID="IDS_DOWNLOADSPEED_MBPS">MBPS</String>
+	  <String ID="IDS_FILESIZE_BYTES">바이트</String>
+	  <String ID="IDS_FILESIZE_KBYTES">KB</String>	
+	  <String ID="IDS_FILESIZE_MBYTES">MB</String>	
+
+
+  <!-- Smart Design Widgets for all pages: -->
+
+    <String ID="IDS_BTN_CANCEL">취소</String>
+    <String ID="IDS_BTN_FINISH">마침</String>
+    <String ID="IDS_BTN_INSTALL">설치</String>
+
+	  <String ID="IDS_BTN_QUIT">종료</String>
+	  <String ID="IDS_BTN_NEXT">다음 &gt;</String>
+	  <String ID="IDS_BTN_CONTINUE">계속 &gt;</String>
+	  <String ID="IDS_BTN_BACK">&lt; 뒤로</String>
+	  <String ID="IDS_ABORTDLG_BTN_RESUME">계속</String>
+	  <String ID="IDS_ABORTDLG_BTN_EXIT">설치 종료</String>
+	  <String ID="IDS_BTN_CLOSE">닫기</String>
+	  <String ID="IDS_BTN_OK">확인</String>
+	
+    <String ID="IDS_NEED_REBOOT">설치를 완료하려면 컴퓨터를 다시 시작해야 합니다.</String>
+    <String ID="IDS_BROWSE_TITLE">SetPoint 설치 경로를 찾아봅니다.</String>
+    <String ID="IDS_CURRENT_DIR_TAG">SetPoint는 현재 여기에 설치됩니다...</String>
+
+		<String ID="IDS_REMOVING_FILES">파일을 제거하는 중.</String>
+		<String ID="IDS_UPDATING_SYSTEM_FILES">시스템 파일을 업데이트하는 중.</String>
+		<String ID="IDS_CONFIGURATION_10_MINUTES">이 작업은 시스템 구성에 따라 10분 또는 그 이상이 걸릴 수 있습니다.</String>
+		<String ID="IDS_UNINSTALLER_INITIAL">설치 해제 프로그램을 준비하는 중. 이 작업은 몇 분 정도 걸릴 수 있습니다.</String>
+
+    <String ID="IDS_LANGUAGE_SELECTION">언어 선택</String>
+
+  </StringSet>
+</FESetup_Strings_1>

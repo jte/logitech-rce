@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="el-gr"/>
+  <ResourceInclude FILE="resource_ids.txt" LOG="false"/>
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+<!--    
+    <String ID="IDS_TITLE">Master Installer</String>
+    <String ID="IDS_MASTER_STEP_TEXT">Step %d of %d</String>
+    <String ID="IDS_PRODUCT">Product</String>
+    <String ID="IDS_TAGLINE">Installation</String>
+-->
+    <!-- Widgets for all pages: -->
+<!--
+    <String ID="IDS_BTN_NEXT">&amp;Next</String>
+    <String ID="IDS_BTN_BACK">&amp;Back</String>
+    <String ID="IDS_BTN_CANCEL">&amp;Quit</String>
+    <String ID="IDS_BTN_FINISH">&amp;Done</String>
+    <String ID="IDS_BTN_INSTALL">&amp;Install</String>
+    <String ID="IDS_BTN_BROWSE">B&amp;rowse</String>
+-->
+    <!-- Welcome page: -->
+<!--
+    <String ID="IDS_WELCOME_TITLE">Welcome!</String>
+    <String ID="IDS_WELCOME_TEXT">
+      Thank you for your purchase of this product.  Our products are designed to help you use your PC more effectively.  Take advantage of enhanced product features by installing this software.
+
+
+
+      When you are ready to begin installation of this software product, please select your language and press the Next button.
+    </String>
+    <String ID="IDS_STATIC_LANGSELECT">&amp;Select installation language:</String>
+-->
+
+	  <!-- Welcome page: ..These are not used in the standard installer - but they MAY be, if a team wants to select the region too. -->
+<!--
+    <String ID="IDS_LANGUAGESELECTDLG_SUBTITLE">Please confirm your language and location.</String>
+    <String ID="IDS_LANGUAGESELECTDLG_TITLE">Language and Location Selection</String>
+-->
+    <!-- Install Type (Typical vs. Custom) page: -->
+ <!--
+    <String ID="IDS_GETTING_STARTED_TEXT">Get Started With Your Installation</String>
+    <String ID="IDS_SELECT_INSTALL_TEXT">Select the type of installation you want to perform</String>
+    <String ID="IDS_TYPICAL_INSTALL">&amp;Typical Installation (Recommended)</String>
+    <String ID="IDS_CUSTOM_INSTALL">&amp;Custom Installation (Advanced)</String>
+    <String ID="IDS_UPDATE_PROMPT">If you are connected to the internet, you can check for software updates</String>
+    <String ID="IDS_CHECK_FOR_UPDATES">C&amp;heck for the latest software</String>
+    <String ID="IDS_NOTE_TITLE">Important!</String>
+    <String ID="IDS_OPTIONS_NOTE"> </String>
+-->
+    <!-- Custom: Destination page: -->
+<!--
+    <String ID="IDS_DESTINATION_TITLE">Custom Installation</String>
+    <String ID="IDS_DESTINATION_TEXT">Configuration Options</String>
+    <String ID="IDS_DESTINATION_STATIC">&amp;Destination Folder</String>
+    <String ID="IDS_ADD_TO_START_CHECK">&amp;Add program to the start menu</String>
+-->
+    <!-- Custom: Components page: -->
+ <!--
+    <String ID="IDS_COMPONENTS_TITLE">Install Optional Components</String>
+    <String ID="IDS_COMPONENTSELECTION_SUBTITLE">Confirm Installation Components</String>
+    <String ID="IDS_COMPONENTSELECTION_TITLE">Optional Software Components</String>
+    <String ID="IDS_COMPONENTSELECTION_DESC">Confirm the components you want to install.  Clear the components you do not want to install.</String>
+    <String ID="IDS_SIZE_UNIT">Total Size: %d MB</String>
+    <String ID="IDS_WARNING_SPACE">There is not enough space to install these option(s). Please free up some disk space or modify your selections.</String>
+    <String ID="IDS_INSTALL">Please Install</String>
+    <String ID="IDS_NOTINSTALL">No Thank you</String>
+    <String ID="IDS_INSTALL1">Please enable this feature. (Recommended)</String>
+    <String ID="IDS_NOTINSTALL1">I do not want to enable this feature.</String>
+    
+ -->
+    
+    <!-- ..TBD: is this unused, or merely invisble? -->
+ <!--
+    <String ID="IDS_GROUP_DESCRIPTION"> Description </String>
+ 
+    <String ID="IDS_SUBTITLE_FONTSIZE">16</String>
+    <String ID="IDS_LISTTEXT_FONTSIZE">14</String>
+    <String ID="IDS_DESC_FONTSIZE">16</String>
+  -->
+  
+    <!-- License page: -->
+<!--
+    <String ID="IDS_LICENSE_TITLE">License Agreement</String>
+    <String ID="IDS_LICENSE_TEXT">Read the license agreement carefully, then click Next.</String>
+    <String ID="IDS_AGREE">I &amp;accept the terms in the license agreement.</String>
+    <String ID="IDS_NOTAGREE">I &amp;do not accept the terms in the license agreement.</String>
+-->    
+    <!-- Ready-to-install page: -->
+    <String ID="IDS_READY_TITLE">Έτοιμο για εγκατάσταση</String>
+    <String ID="IDS_READY_TEXT">Το σύστημα είναι έτοιμο για εγκατάσταση. Ελέγξτε τις ρυθμίσεις που έχετε κάνει και πατήστε το κουμπί Εγκατάσταση.</String>
+    <String ID="IDS_INSTALL_DESTINATION">Εγκατάσταση στο:</String>
+    <!-- ..Override resource strings on the Ready page: -->
+    <!-- ..  We want to be able to build a string e.g., "Check for newer version of SoftwareX", -->
+    <!-- ..  but without the leading word "Install ".  So override that "Install " to be blank. -->
+    <String ID="IDS_INSTALL_ITEM"/>
+    <!-- ..For the Updater component, which is fairly standard: -->
+    <String ID="IDS_UPDATER_NAME">Πραγματοποιήστε έλεγχο στο διαδίκτυο για τις πιο πρόσφατες εκδόσεις λογισμικού</String>
+    <String ID="IDS_UPDATER_DESC">Βοηθητικό πρόγραμμα ενημέρωσης λογισμικού</String>
+
+    <!-- Progress page: -->
+<!--
+    <String ID="IDS_INSTALL_PROGRESS_TITLE">Software installation</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Please wait while your software is installed</String>
+-->    
+    <!-- Finish page: -->
+<!--
+    <String ID="IDS_FINISH_NOTE"> </String>
+    <String ID="IDS_FINISH_TITLE">Thank You!</String>
+    <String ID="IDS_FINISH_TEXT">Your software is installed and ready to use.</String>
+    <String ID="IDS_FINISH_IMAGE1_TEXT">Where do you go from here?</String>
+    <String ID="IDS_FINISH_IMAGELIST_1_TEXT">Launch the application</String>
+    <String ID="IDS_FINISH_IMAGELIST_2_TEXT">View the product manual</String>
+    <String ID="IDS_FINISH_IMAGELIST_3_TEXT">Register your product</String>
+ -->   
+    
+    <String ID="IDS_REBOOTRADIO">&amp;Επανεκκίνηση του υπολογιστή μου τώρα.</String>
+    <String ID="IDS_NOREBOOTRADIO">&amp;Να μην γίνει τώρα επανεκκίνηση. Πραγματοποίηση επανεκκίνησης αργότερα.</String>
+    <!-- ..TBD, are these used or merely invisible now? -->
+    <String ID="IDS_REBOOTSTATIC">Ναι. Θέλω να γίνει επανεκκίνηση του υπολογιστή μου τώρα.</String>
+    <String ID="IDS_NOREBOOTSTATIC">Όχι. Θα επανεκκινήσω τον υπολογιστή αργότερα.</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Πρόγραμμα εγκατάστασης λογισμικού</String>
+    <String ID="IDS_ABORTDLG_DESC">Η εγκατάσταση δεν ολοκληρώθηκε. Αν κλείσετε το Πρόγραμμα εγκατάστασης τώρα, το πρόγραμμα δεν θα εγκατασταθεί.\n\nΜπορείτε να εκτελέσετε το πρόγραμμα εγκατάστασης αργότερα για να ολοκληρώσετε την εγκατάσταση. \n\nΓια να συνεχίσετε την εγκατάσταση του προγράμματος, κάντε κλικ στο κουμπί Συνέχιση. Για να κλείσετε το Πρόγραμμα εγκατάστασης, κάντε κλικ στο κουμπί Έξοδος από το Πρόγραμμα εγκατάστασης.\n</String>
+    <String ID="IDS_ABORTDLG_BTN_RESUME">&amp;Συνέχιση</String>
+    <String ID="IDS_ABORTDLG_BTN_EXIT">Έ&amp;ξοδος</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Πρόγραμμα εγκατάστασης λογισμικού</String>
+    <String ID="IDS_ABNORMALDLG_DESC">Παρουσιάστηκε σοβαρό σφάλμα κατά την εγκατάσταση και δεν είναι δυνατή η ολοκλήρωση εγκατάστασης του λογισμικού σας.\n\nΠραγματοποιήστε έξοδο από την εγκατάσταση και επαναλάβετε την εγκατάσταση του λογισμικού αργότερα.</String>
+    <String ID="IDS_ABNORMALDLG_BTN_RESUME">&amp;Συνέχιση</String>
+    <String ID="IDS_ABNORMALDLG_BTN_EXIT">Έ&amp;ξοδος</String>
+
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Πρόγραμμα εγκατάστασης λογισμικού</String>
+    <String ID="IDS_WARNING_REINSTALL">Έχει ήδη γίνει εγκατάσταση αυτού του προϊόντος. Θέλετε να γίνει επανάληψη της εγκατάστασης του προϊόντος;</String>
+    <String ID="IDS_WARNING_NEWERVERSION_DETECTED">Μια νεότερη έκδοση αυτής της εφαρμογής είναι ήδη εγκατεστημένη στον υπολογιστή σας. Εάν θέλετε να συνεχίσει η εγκατάσταση αυτής της έκδοσης του λογισμικού, απεγκαταστήστε τη νεότερη έκδοση από τον υπολογιστή σας προτού επαναλάβετε την εγκατάσταση.
+Κάντε κλικ στο OK για να πραγματοποιήσετε έξοδο από τον οδηγό.</String>
+    <String ID="IDS_WARNING_PATH">Ο καθορισμένος φάκελος :\n%s \nείναι μη έγκυρος, ημιτελώς καταχωρημένος ή με προστασία εγγραφής. Εισαγάγετε την πλήρη διαδρομή θέτοντας και το γράμμα που αντιστοιχεί στη μονάδα δίσκου, για παράδειγμα "C:\Apps". </String>
+    <String ID="IDS_WARNING_PATH_TOOLONG">Το όνομα του φακέλου προορισμού δεν πρέπει να υπερβαίνει τους 180 χαρακτήρες.</String>
+    <String ID="IDS_WARNING_OS">Λυπούμαστε, αλλά αυτό το λογισμικό δεν είναι συμβατό με το λειτουργικό σας σύστημα. Επισκεφτείτε την τοποθεσία της εταιρείας στο web για να κάνετε λήψη μιας συμβατής έκδοσης.</String>
+    <String ID="IDS_WARNING_IE">Απαιτείται Microsoft Internet Explorer 6.0 ή νεότερη έκδοση.--\n\nΕνημερώστε το λογισμικό του Internet Explorer και προσπαθήστε ξανά.</String>
+    <String ID="IDS_WARNING_ADMINRIGHTS">Δεν έχετε επαρκή δικαιώματα για να ολοκληρώσετε αυτή την εγκατάσταση.  Συνδεθείτε ως διαχειριστής και, στη συνέχεια, εκτελέστε την εγκατάσταση ξανά.</String>
+    <String ID="IDS_WARNING_INSTANCE_RUNNING">Εκτελείται μια άλλη περίοδος λειτουργίας του προγράμματος εγκατάστασης. Κλείστε το πρόγραμμα εγκατάστασης πριν επιχειρήσετε νέα εγκατάσταση.</String>
+    <String ID="IDS_ERROR_INSTALL">Απέτυχε η εγκατάσταση του %s. Επανεκκινήστε τον υπολογιστή σας και προσπαθήστε ξανά.</String>
+    <String ID="IDS_ERROR_INSTALL_RUNNING">Υπάρχει άλλη εγκατάσταση σε εξέλιξη.  Προσπαθήστε ξανά μετά την ολοκλήρωση της εγκατάστασης.</String>
+    <String ID="IDS_WARNING_NEWOS">Εντοπίστηκε το Windows 7.
+Παρόλο που αυτό το πρόγραμμα θα εκτελείται με το Windows 7, έχει πιστοποιηθεί μόνο με επίπεδο συμβατότητας Beta Test.
+
+Θέλετε να συνεχίσετε την εγκατάσταση;</String>
+
+    <!-- Various: -->
+    
+    <!-- The Steps display on the left-hand side: -->
+<!--
+    <String ID="IDS_STEP_TEXT_1">Welcome</String>
+    <String ID="IDS_STEP_TEXT_2">Install Options</String>
+    <String ID="IDS_STEP_TEXT_3">Optional Software</String>
+    <String ID="IDS_STEP_TEXT_4">License</String>
+    <String ID="IDS_STEP_TEXT_5">Review Settings</String>
+    <String ID="IDS_STEP_TEXT_6">Install</String>
+    <String ID="IDS_STEP_TEXT_7">Finish Up</String>
+
+-->
+    <!-- Language list -->
+    <String ID="IDS_LAN_BGR">Βουλγαρικά</String>
+    <String ID="IDS_LAN_CHS">Κινεζικά (Απλοποιημένα)</String>
+    <String ID="IDS_LAN_CHT">Κινεζικά (Παραδοσιακά)</String>
+    <String ID="IDS_LAN_HRV">Κροατικά</String>
+    <String ID="IDS_LAN_CZE">Τσεχικά</String>
+    <String ID="IDS_LAN_DAN">Δανικά</String>
+    <String ID="IDS_LAN_NLD">Ολλανδικά</String>
+    <String ID="IDS_LAN_ENU">Αγγλικά</String>
+    <String ID="IDS_LAN_ETI">Εσθονικά</String>
+    <String ID="IDS_LAN_FIN">Φινλανδικά</String>
+    <String ID="IDS_LAN_FRA">Γαλλικά</String>
+    <String ID="IDS_LAN_DEU">Γερμανικά</String>
+    <String ID="IDS_LAN_ELL">Ελληνικά</String>
+    <String ID="IDS_LAN_HUN">Ουγγρικά</String>
+    <String ID="IDS_LAN_ITA">Ιταλικά</String>
+    <String ID="IDS_LAN_JPN">Ιαπωνικά</String>
+    <String ID="IDS_LAN_KOR">Κορεατικά</String>
+    <String ID="IDS_LAN_LVI">Λετονικά</String>
+    <String ID="IDS_LAN_LTH">Λιθουανικά</String>
+    <String ID="IDS_LAN_NOR">Νορβηγικά</String>
+    <String ID="IDS_LAN_PLK">Πολωνικά</String>
+    <String ID="IDS_LAN_PTB">Πορτογαλικά (Βραζιλίας)</String>
+    <String ID="IDS_LAN_PTG">Πορτογαλικά (Πορτογαλίας)</String>
+    <String ID="IDS_LAN_ROM">Ρουμανικά</String>
+    <String ID="IDS_LAN_RUS">Ρωσικά</String>
+    <String ID="IDS_LAN_SRB">Σερβικά</String>
+    <String ID="IDS_LAN_SKY">Σλοβακικά</String>
+    <String ID="IDS_LAN_SLV">Σλοβενικά</String>
+    <String ID="IDS_LAN_ESN">Ισπανικά (Ισπανίας)</String>
+	<String ID="IDS_LAN_ESP">Ισπανικά</String>
+    <String ID="IDS_LAN_ESM">Ισπανικά (Άλλα)</String>
+    <String ID="IDS_LAN_SVE">Σουηδικά</String>
+    <String ID="IDS_LAN_TRK">Τουρκικά</String>
+    <String ID="IDS_LAN_UKR">Ουκρανικά</String>
+    <!-- region sets -->
+    <String ID="IDS_LOC_1052">Αλβανία</String>
+    <String ID="IDS_LOC_5121">Αλγερία</String>
+    <String ID="IDS_LOC_11274">Αργεντινή</String>
+    <String ID="IDS_LOC_3081">Αυστραλία</String>
+    <String ID="IDS_LOC_3079">Αυστρία</String>
+    <String ID="IDS_LOC_15361">Μπαχρέιν</String>
+    <String ID="IDS_LOC_1059">Λευκορωσία</String>
+    <String ID="IDS_LOC_2067">Βέλγιο (Ολλανδικά)</String>
+    <String ID="IDS_LOC_2060">Βέλγιο (Γαλλικά)</String>
+    <String ID="IDS_LOC_10249">Μπελίσε</String>
+    <String ID="IDS_LOC_16394">Βολιβία</String>
+    <String ID="IDS_LOC_1046">Βραζιλία</String>
+    <String ID="IDS_LOC_1026">Βουλγαρία</String>
+    <String ID="IDS_LOC_4105">Καναδάς (Αγγλικά)</String>
+    <String ID="IDS_LOC_3084">Καναδάς (Γαλλικά)</String>
+    <String ID="IDS_LOC_13322">Χιλή</String>
+    <String ID="IDS_LOC_2052">Κίνα</String>
+    <String ID="IDS_LOC_9226">Κολομβία</String>
+    <String ID="IDS_LOC_5130">Κόστα Ρίκα</String>
+    <String ID="IDS_LOC_1050">Κροατία</String>
+    <String ID="IDS_LOC_1029">Δημοκρατία της Τσεχίας</String>
+    <String ID="IDS_LOC_1030">Δανία</String>
+    <String ID="IDS_LOC_12298">Ισημερινός</String>
+    <String ID="IDS_LOC_3073">Αίγυπτος</String>
+    <String ID="IDS_LOC_17418">Ελ Σαλβαδόρ</String>
+    <String ID="IDS_LOC_1061">Εσθονία</String>
+    <String ID="IDS_LOC_1080">Νησιά Φερόες</String>
+    <String ID="IDS_LOC_1035">Φινλανδία</String>
+    <String ID="IDS_LOC_2077">Φινλανδία (Σουηδικά)</String>
+    <String ID="IDS_LOC_1036">Γαλλία</String>
+    <String ID="IDS_LOC_1031">Γερμανία</String>
+    <String ID="IDS_LOC_1032">Ελλάδα</String>
+    <String ID="IDS_LOC_4106">Γουατεμάλα</String>
+    <String ID="IDS_LOC_18442">Ονδούρα</String>
+    <String ID="IDS_LOC_3076">Χονγκ Κονγκ Ε.Δ.Π.</String>
+    <String ID="IDS_LOC_1038">Ουγγαρία</String>
+    <String ID="IDS_LOC_1039">Ισλανδία</String>
+    <String ID="IDS_LOC_1057">Ινδονησία</String>
+    <String ID="IDS_LOC_2049">Ιράκ</String>
+    <String ID="IDS_LOC_6153">Ιρλανδία</String>
+    <String ID="IDS_LOC_1037">Ισραήλ</String>
+    <String ID="IDS_LOC_1040">Ιταλία</String>
+    <String ID="IDS_LOC_8201">Τζαμάικα</String>
+    <String ID="IDS_LOC_1041">Ιαπωνία</String>
+    <String ID="IDS_LOC_11265">Ιορδανία</String>
+    <String ID="IDS_LOC_1042">Κορέα</String>
+    <String ID="IDS_LOC_13313">Κουβέιτ</String>
+    <String ID="IDS_LOC_12289">Λίβανος</String>
+    <String ID="IDS_LOC_4097">Λιβύη</String>
+    <String ID="IDS_LOC_5127">Λιχτενστάιν</String>
+    <String ID="IDS_LOC_5132">Λουξεμβούργο (Γαλλικά)</String>
+    <String ID="IDS_LOC_4103">Λουξεμβούργο (Γερμανικά)</String>
+    <String ID="IDS_LOC_2058">Μεξικό</String>
+    <String ID="IDS_LOC_6145">Μαρόκο</String>
+    <String ID="IDS_LOC_1043">Ολλανδία</String>
+    <String ID="IDS_LOC_5129">Νέα Ζηλανδία</String>
+    <String ID="IDS_LOC_19466">Νικαράγουα</String>
+    <String ID="IDS_LOC_1044">Νορβηγία (Bokmal)</String>
+    <String ID="IDS_LOC_2068">Νορβηγία (Nynorsk)</String>
+    <String ID="IDS_LOC_8193">Ομάν</String>
+    <String ID="IDS_LOC_6154">Παναμάς</String>
+    <String ID="IDS_LOC_15370">Παραγουάη</String>
+    <String ID="IDS_LOC_10250">Περού</String>
+    <String ID="IDS_LOC_1045">Πολωνία</String>
+    <String ID="IDS_LOC_2070">Πορτογαλία</String>
+    <String ID="IDS_LOC_20490">Πουέρτο Ρίκο</String>
+    <String ID="IDS_LOC_16385">Κατάρ</String>
+    <String ID="IDS_LOC_1048">Ρουμανία</String>
+    <String ID="IDS_LOC_1049">Ρωσία</String>
+    <String ID="IDS_LOC_1025">Σαουδική Αραβία</String>
+    <String ID="IDS_LOC_4100">Σιγκαπούρη</String>
+    <String ID="IDS_LOC_1051">Σλοβακία</String>
+    <String ID="IDS_LOC_1060">Σλοβενία</String>
+    <String ID="IDS_LOC_7177">Νότια Αφρική (Αγγλικά)</String>
+    <String ID="IDS_LOC_1078">Νότια Αφρική (Αφρικάανς)</String>
+    <String ID="IDS_LOC_1034">Ισπανία</String>
+    <String ID="IDS_LOC_1053">Σουηδία</String>
+    <String ID="IDS_LOC_4108">Ελβετία (Γαλλικά)</String>
+    <String ID="IDS_LOC_2055">Ελβετία (Γερμανικά)</String>
+    <String ID="IDS_LOC_2064">Ελβετία (Ιταλικά)</String>
+    <String ID="IDS_LOC_1114">Συρία</String>
+    <String ID="IDS_LOC_1028">Ταϊβάν</String>
+    <String ID="IDS_LOC_1054">Ταϊλάνδη</String>
+    <String ID="IDS_LOC_11273">Τρινιντάντ και Τομπάγκο</String>
+    <String ID="IDS_LOC_7169">Τυνησία</String>
+    <String ID="IDS_LOC_1055">Τουρκία</String>
+    <String ID="IDS_LOC_1058">Ουκρανία</String>
+    <String ID="IDS_LOC_14337">Ηνωμένα Αραβικά Εμιράτα</String>
+    <String ID="IDS_LOC_2057">Ηνωμένο Βασίλειο</String>
+    <String ID="IDS_LOC_1033">Ηνωμένες Πολιτείες</String>
+    <String ID="IDS_LOC_14346">Ουρουγουάη</String>
+    <String ID="IDS_LOC_8202">Βενεζουέλα</String>
+    <String ID="IDS_LOC_1066">Βιετνάμ</String>
+    <String ID="IDS_LOC_9217">Υεμένη</String>
+    <String ID="IDS_LOC_1000">Άλλο (δεν περιλαμβάνεται)</String>
+
+  </StringSet>
+</FESetup_Strings_1>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LogicoolUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogicoolUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">jpn</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logicool アップデータ</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logicool アップデータ</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">新しいアップデートが入手できます。ここをクリックしてダウンロードしてください。</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">クリックして、Logicool ソフトウェアのアップデートを完了します。</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Logicool ソフトウェアのアップデートがダウンロード中です。</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">新しいアップデートが入手できます。ここをクリックしてインストールしてください。</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Logicool ソフトウェアのアップデートがインストール中です</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Logicool ソフトウェアは最新のものになりました。</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">システムを再起動すると、Logicool ソフトウェアのインストールが完了します</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">クリックしてソフトウェアのインストールを完了します</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">インターネット接続がありません。新しいバージョンが入手できるかどうかをチェックできませんでした</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">エラーが発生しました</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">インストール エラー。</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">インストールがキャンセルされました。</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">この操作を実行するためには管理者権限が必要です</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">インターネット接続がリセットされました。後で再び試してください</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">インターネット接続がリセットされました。Logicool アップデータは後で再試行します</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">ディスクがいっぱいなので、インストールに失敗しました。</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">完了</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">キャンセル</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">非表示</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">後でアップデート</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">ダウンロード &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">ダウンロードの再開 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">インストール &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">準備ができならすべてインストールする &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">はい</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">いいえ</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">システムを再起動</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">システムを再起動して、インストールを完了する必要があります</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">設定</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">自動設定を設定する</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">以前に否定されたアップデートを表示する</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">コンポーネントのダウンロード中： %d/%d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">コンポーネントのインストール中： %d/%d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">残り時間：</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">ダウンロード済み %s/%s</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">システムを再起動して、インストールを完了する必要があります。</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Logicool アップデータ設定</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">アップデータの動作を選択してください。</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">自動アップデートを有効にする。</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">自動的にダウンロードまたはインストールしないで確認を求める。</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">アップデートをダウンロードするが、インストールは自分で行う。</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">自動的にダウンロードとインストールを行う。</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">既定の設定に戻す</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">製品</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">ステータス</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">サイズ</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">チェックを待機しています</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">入手できます</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">インストールの準備ができました</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">破損しています</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">キャンセルされました</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">完了</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">必須</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">推奨</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">オプション</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">時</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">時</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">分</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">分</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">秒</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">秒</String>
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">選択</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">ダウンロード</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">リビューする</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">インストール</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">これらのアップデートが入手できます。</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">最新バージョンの Logicool ソフトウェアを使用して Logicool 製品を活用してください。</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">ダウンロードのステータス</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">アップデートがダウンロード中です。</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">インストールのステータス</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">これらのアップデートをインストールする準備ができました。</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">インストールのステータス</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">アップデートがインストール中です。</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">インストールのステータス</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">再起動が必要</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Logicool ソフトウェアのインストールを完了するためには、再起動が必要です。開いている文書やウェブ ページがあれば、作業内容を保存してください。</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">今すぐシステムを再起動してもよろしいですか？</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logicool アップデータ</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">警告： このコンポーネントは、次の制限に失敗したので、既定では選択されませんでした：</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Logicool アップデータを表示する</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">自動設定を変更する...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">終了</String>
+	</LU_Strings_1>
+</LogicoolUpdater>

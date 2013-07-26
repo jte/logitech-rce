@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="KEMUI.xmlres"/>
+	<!-- String Sets  -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<String ALIAS="WINDOW_CAPTION" FONT="Arial">SetPoint^&#84;^&#77;</String>
+		<String ALIAS="MYMOUSE">My Mouse</String>
+		<String ALIAS="MYKEYBOARD">My Keyboard</String>
+		<String ALIAS="MYMEDIAPAD">My NumPad</String>
+		<String ALIAS="TOOLS">Tools</String>
+		<String ALIAS="IDS_SCROLLLINE_SCREEN">Screen</String>
+		<String ALIAS="IDS_SCROLLLINE_NONE">None</String>
+		<String ALIAS="IDS_SCROLLLINE">Line</String>
+		<String ALIAS="IDS_SCROLLLINES">Lines</String>
+		<String ALIAS="IDS_CONNECT_MOUSE" FONT="Arial">Mouse Connection</String>
+		<String ALIAS="IDS_CONNECT_KEYBOARD" FONT="Arial">Keyboard Connection</String>
+		<String ALIAS="IDS_CONNECT_MEDIAPAD" FONT="Arial">MediaPad Connection</String>
+		<String ALIAS="IDS_CONNECT_REMOTE" FONT="Arial">Number Pad Connection</String>
+		<String ALIAS="IDS_DEVICE_CONNECT_DESC" FONT="Arial">If you need to re-connect your %s or connect another Bluetooth&#174; device, click the Connect button.</String>
+		<String ALIAS="IDS_MOUSE">Mouse</String>
+		<String ALIAS="IDS_KEYBOARD">Keyboard</String>
+		<String ALIAS="IDS_MEDIAPAD">Number Pad</String>
+		<String ALIAS="IDS_SELECT_HOTKEY" FONT="Arial">Select Hot Key</String>
+		<String ALIAS="IDS_SELECT_FKEY" FONT="Arial">Select F Key</String>
+		<String ALIAS="IDS_RESTORE_DEFAULT" FONT="Arial">Default Task</String>
+		<String ALIAS="IDS_OTHER" FONT="Arial">Other</String>
+		<String ALIAS="IDS_SELECT_MOUSE" FONT="Arial">Select Mouse</String>
+		<String ALIAS="IDS_SELECT_KEYBOARD" FONT="Arial">Select Keyboard</String>
+		<String ALIAS="IDS_SELECT_MEDIAPAD" FONT="Arial">Select MediaPad</String>
+		<String ALIAS="IDS_SELECT_REMOTE" FONT="Arial">Select Number Pad</String>
+		<String ALIAS="KODIAK_SETTINGS">SetPoint Settings</String>
+		<String ALIAS="IDS_APPLY_BUTTON" FONT="Arial">Apply</String>
+		<String ALIAS="IDS_CANCEL_BUTTON" FONT="Arial">Cancel</String>
+		<String ALIAS="IDS_OK_BUTTON" FONT="Arial">OK</String>
+		<String ALIAS="WINDOW_CAPTION_FONTHEIGHT">16</String>
+		<String ALIAS="TAB_CAPTION_FONTHEIGHT">9</String>
+		<String ALIAS="USE_JAPANESE_LOGO">0</String>
+		<String ALIAS="TOOLS_INFORMATION_TOOLTIP" FONT="Arial">Tools Information Settings</String>
+		<String ALIAS="MOUSE_BUTTONSETTINGS_TOOLTIP" FONT="Arial">Mouse Button Settings</String>
+    <String ALIAS="MOUSE_MOVEMENT_TOOLTIP" FONT="Arial">Pointer and Scrolling Settings</String>
+    <String ALIAS="MOUSE_GAMING_TOOLTIP" FONT="Arial">Mouse Game Settings</String>
+		<String ALIAS="MOUSE_CONNECTION_TOOLTIP" FONT="Arial">Mouse Connection</String>
+		<String ALIAS="MOUSE_BATTERIES_TOOLTIP" FONT="Arial">Mouse Batteries</String>
+		<String ALIAS="KEYBOARD_HOTKEYSETTINGS_TOOLTIP" FONT="Arial">Keyboard Hot Key Settings</String>
+		<String ALIAS="KEYBOARD_FKEYSETTINGS_TOOLTIP" FONT="Arial">Keyboard F Key Settings</String>
+		<String ALIAS="KEYBOARD_INAVSETTINGS_TOOLTIP" FONT="Arial">Keyboard iNav Settings</String>
+		<String ALIAS="KEYBOARD_CONNECTION_TOOLTIP" FONT="Arial">Keyboard Connection</String>
+		<String ALIAS="KEYBOARD_BATTERIES_TOOLTIP" FONT="Arial">Keyboard Batteries</String>
+		<String ALIAS="MEDIAPAD_PREFERENCES_TOOLTIP" FONT="Arial">Number Pad Preferences</String>
+		<String ALIAS="MEDIAPAD_MEDIAPLAYER_TOOLTIP" FONT="Arial">Number Pad Button Settings</String>
+		<String ALIAS="MEDIAPAD_CONNECTION_TOOLTIP" FONT="Arial">Number Pad Connection</String>
+		<String ALIAS="MEDIAPAD_BATTERIES_TOOLTIP" FONT="Arial">Number Pad Batteries</String>
+		<String ALIAS="TOOLS_INFO_RESOURCES_TOOLTIP" FONT="Arial">Information Resources</String>
+		<String ALIAS="TOOLS_BT_INFO_RESOURCES_TOOLTIP">Bluetooth&#174; Resources</String>
+		<String ALIAS="TOOLS_INDICATOR_TOOLTIP">SetPoint Options</String>
+		<String ALIAS="TOOLS_TOOLTIP">General Settings</String>
+		<String ALIAS="MEDIAPAD_TOOLTIP">Number Pad Settings</String>
+		<String ALIAS="MYKEYBOARD_TOOLTIP">Keyboard Settings</String>
+		<String ALIAS="MYMOUSE_TOOLTIP">Mouse Settings</String>
+		<String ALIAS="KEYBOARD_MUSICLISTMGMT_TOOLTIP">Music List Management</String>
+		<String ALIAS="KEYBOARD_PREFERENCES_TOOLTIP">LCD Keyboard Display Settings</String>
+    <String ALIAS="DJ_INFORMATION_TOOLTIP">Unifying Settings</String>
+    <String ALIAS="MOUSE_ADVANCED_SETTINGS_TOOLTIP">Advanced Settings</String>
+    <String ALIAS="ILLUMINATION_SETTINGS_TOOLTIP">Illumination Settings</String>
+    <String ALIAS="NEW_FEATURE_SETTINGS_TOOLTIP">New Feature Settings</String>
+    <String ALIAS="SOLAR_DASHBOARD_SETTINGS_TOOLTIP">Solar App Settings</String>
+    <String ALIAS="DEVICE_TRACKPAD_TOOLTIP">Touchpad Settings</String>
+    <String ALIAS="MOUSE_GESTURE_CONTENT_NAV_TOOLTIP">Scroll</String>
+    <String ALIAS="MOUSE_GESTURE_SCROLLZOOM_NAV_TOOLTIP">Scroll and Zoom</String>
+    <String ALIAS="MOUSE_GESTURE_POINTCLICK_TOOLTIP">Point and Click</String>
+    <String ALIAS="MOUSE_GESTURE_WINDOWS_NAV_TOOLTIP">Navigate Windows</String>
+    <String ALIAS="IDS_KEYBOARD_SECURE_CONNECT_DESC">To securely encrypt your keyboard so that your keystrokes cannot be detected by any other computer, click the Secure button.</String>
+		<String ALIAS="IDS_CONNECT">Connect</String>
+		<String ALIAS="IDS_SECURE">Secure</String>
+		<String ALIAS="IDS_SECURED">Your keyboard is secured</String>
+		<String ALIAS="IDS_UNSECURED">Your keyboard is not secured</String>
+		<String ALIAS="IDS_SCROLLINGSIZE">Scrolling Size</String>
+		<String ALIAS="IDS_KEYBOARD_ON_CHANNEL_1">Connected on channel 1</String>
+		<String ALIAS="IDS_KEYBOARD_ON_CHANNEL_2">Connected on channel 2</String>
+		<String ALIAS="IDS_RESTORE_BUTTON">Restore Defaults</String>
+		<String ALIAS="IDS_BROWSE_BUTTON">Browse</String>
+		<String ALIAS="IDS_REMOVE_BUTTON">Remove</String>
+		<String ALIAS="IDS_ADVANCED_GAMING_BUTTON">Advanced Game Settings...</String>
+		<String ALIAS="IDS_MOUSE_BATTERIES">Mouse Batteries</String>
+		<String ALIAS="IDS_KEYBOARD_BATTERIES">Keyboard Batteries</String>
+		<String ALIAS="IDS_MEDIAPAD_BATTERIES">MediaPad Batteries</String>
+		<String ALIAS="IDS_REMOTE_BATTERIES">Number Pad Batteries</String>
+		<String ALIAS="IDS_RECHARGE_MOUSE_HELPTEXT">If you need help recharging your mouse, click the Online Help link below.</String>
+		<String ALIAS="IDS_RECHARGE_KEYBOARD_HELPTEXT">If you need help recharging your keyboard, click the Online Help link below.</String>
+		<String ALIAS="IDS_CHANGE_BATTERY_HELPTEXT">If you need help changing your batteries, click the Online Help link below.</String>
+		<String ALIAS="IDS_GAME_BROWSE_FILTER">Exe Files (*.exe)|*.exe||</String>
+		<String ALIAS="IDS_GAME_BROWSE_TITLE">Select your game</String>
+    <String ALIAS="IDC_DJ_RECEIVER_INFO">You have a Logitech Unifying receiver plugged into your computer. You can pair up to six compatible wireless mice, keyboards, and Number Pads with one single Logitech Unifying receiver.</String>
+    <String ALIAS="IDC_DJ_NUMPAD_INFO">Your Number Pad uses a Unifying receiver. You can pair up to six compatible wireless mice, keyboards, and Number Pads with one single Logitech Unifying receiver.</String>
+    <String ALIAS="IDC_DJ_MOUSE_INFO">Your mouse uses a Unifying receiver. You can pair up to six compatible wireless mice, keyboards, and Number Pads with one single Logitech Unifying receiver.</String>
+    <String ALIAS="IDC_DJ_KEYBOARD_INFO">Your keyboard uses a Unifying receiver. You can pair up to six compatible wireless mice, keyboards, and Number Pads with one single Logitech Unifying receiver.</String>
+    <String ALIAS="IDS_PS2_WARNING_MSG">This will install the PS/2 drivers for your Logitech PS/2 devices. System needs to be rebooted after installing the drivers for SetPoint software to recognize the devices.</String>
+    <!-- for Manage Programs -->
+    <String ALIAS="IDS_ALL_PROGRAMS">All Programs</String>
+		<String ALIAS="IDS_ALL_OTHER_PROGRAMS">All Other Programs</String>
+		<String ALIAS="IDS_EXECUTABLE_FILES">Executable files</String>
+		<String ALIAS="MEDIAPAD_NOTIFICATIONS_TOOLTIP">Number Pad Notifications Settings</String>
+		<String ALIAS="KEYBOARD_NOTIFICATIONS_TOOLTIP">Keyboard Notifications Settings</String>
+		<String ALIAS="MOUSE_NOTIFICATIONS_TOOLTIP">Mouse Notifications Settings</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_20SEC">For 20 seconds</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_1MIN">For 1 minute</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_5MIN">For 5 minutes</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_10MIN">For 10 minutes</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_15MIN">For 15 minutes</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_30MIN">For 30 minutes</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_1HR">For 1 hour</String>
+		<String ALIAS="IDS_ALL_FILES">All files</String>
+		<String ALIAS="IDS_MUSICLIST_MAX_ERR">Maximum Allowed MusicList entries are %s. Please Remove some entries from the Music List Management page</String>
+		<String ALIAS="SMARTWHEEL_TOOLTIP">SmartShift Settings</String>
+		<String ALIAS="SMARTWHEEL_MXAIR_TOOLTIP">Scroll Panel Settings</String>
+
+		<String ALIAS="ADVANCEDZOOM_TOOLTIP">Zoom Settings</String>
+		<String ALIAS="IDS_YES">Yes</String>
+		<String ALIAS="IDS_NO">No</String>
+		<String ALIAS="IDS_PROGRAM">Program</String>
+		<String ALIAS="IDS_FREEWHEEL">Free Spin</String>
+		<String ALIAS="IDS_MANUAL_SHIFT">Manual Shift</String>
+		<String ALIAS="IDS_ORIENT_MOVEMOUSE">Move the pointer in the direction of the clouds</String>
+		<String ALIAS="IDS_ORIENT_CANCEL">Press the ESC key to cancel this process</String>
+		<String ALIAS="IDS_ORIENT_MAINTEXT">Use this feature to set up your device in a new position.  It is especially designed to change the position of a portable trackball, but you can also use it to indicate a more comfortable angle to hold a mouse.</String>
+		<String ALIAS="IDS_ORIENT_STARTPROMPT">Click the Set Orientation button to start.</String>
+		<String ALIAS="IDS_WARNING">Warning</String>
+		<String ALIAS="IDS_ORIENT_NOTSTRAIGHT_ERROR">The device did not move in a straight enough line to set the orientation.  Do you wish to retry setting the orientation?</String>
+		<String ALIAS="IDS_ORIENT_SET">Orientation Set!</String>
+		<String ALIAS="IDS_ORIENT_NOMOVEMENT">No movement detected.  Do you wish to retry setting the orientation?</String>
+		<String ALIAS="ORIENTATION_TOOLTIP">Orientation Settings</String>
+		<String ALIAS="COMMUNICATION_MGR_TOOLTIP">Communication Manager Settings</String>
+		<String ALIAS="IDS_INSTALLED">Installed Properly</String>
+		<String ALIAS="IDS_NOT_INSTALLED">Not Installed</String>
+		<String ALIAS="IDS_DOWNLOAD">Download Application</String>
+		<String ALIAS="IDS_LAUNCH">Launch Application</String>
+		<String ALIAS="DEVICE_TOUCHPAD_TOOLTIP">TouchDisc Movement</String>
+		<String ALIAS="TOUCHPAD_SCROLLSETTINGS_TOOLTIP">TouchDisc Scroll Settings</String>
+		<String ALIAS="IDS_SKYPE_DOWNLOAD_URL">www.logitech.com/setpoint/skype</String>
+		<String ALIAS="IDS_AOL_DOWNLOAD_URL">www.logitech.com/setpoint/aol</String>
+		<String ALIAS="IDS_YIM_DOWNLOAD_URL">www.logitech.com/setpoint/yahoo</String>
+		<String ALIAS="IDC_STATIC_TOUCHPAD_SCROLL_DESC">The TouchDisc allows you to scroll vertically or horizontally at high speed.</String>
+		<String ALIAS="IDS_SKYPE_VERSION">Skype (version 2.0 and above)</String>
+		<String ALIAS="IDS_AIM_VERSION">AIM Triton (version 1.2 and above)</String>
+		<String ALIAS="IDS_YIM_VERSION">Yahoo! Messenger (version 7.5 and above)</String>
+		<String ALIAS="IDS_MICROGEAR_PRECISION_WHEEL">SmartShift Settings</String>
+		<String ALIAS="IDS_SCROLL_PANEL">Scroll Panel Settings</String>
+		<String ALIAS="KEYBOARD_INACTIVE_KEYS_TOOLTIP">Keyboard Inactive Key Settings</String>
+		<String ALIAS="IDS_SETPOINT_SUPPORT_DOWNLOAD">http://www.logitech.com/support_downloads</String>
+		<String ALIAS="IDS_BEEP_CAPSLOCK">Beep when I press Caps Lock</String>
+		<String ALIAS="IDS_TOUCHDISC_SETTINGS">TouchDisc Scroll Settings</String>
+		<String ALIAS="IDS_TOUCHDISC_SETTINGS_DESC">Do you know that your TouchDisc behaves as a real mouse? To change the TouchDisc Setting, click the button below:</String>
+		<String ALIAS="IDS_TOUCHDISC_CONFIGURE">Configure TouchDisc</String>
+		<String ALIAS="IDS_CLICKPAD_SETTINGS">ClickPad Settings</String>
+		<String ALIAS="IDS_CLICKPAD_SETTINGS_DESC">Do you know that your ClickPad behaves as a real mouse? To change the ClickPad settings, click the button below:</String>
+		<String ALIAS="IDS_CLICKPAD_CONFIGURE">Configure ClickPad</String>
+    <String ALIAS="IDS_DJUNIFY_DOWNLOAD">www.logitech.com/sw/unifying</String>
+    <String ALIAS="IDS_SOLAR_DASHBOARD_DOWNLOAD">www.logitech.com/K750/solarapp</String>
+    <String ALIAS="IDS_SETPOINT_USER_EXPERIENCE">www.logitech.com/index.cfm/support_downloads/articles/4509&amp;cl=us,en</String>
+    <String ALIAS="IDS_OSD_POSITION_BOTTOM_CENTER">bottom, center</String>
+    <String ALIAS="IDS_OSD_POSITION_CENTER_CENTER">center, center</String>
+    <String ALIAS="IDS_OSD_POSITION_TOP_CENTER">top, center</String>
+    <String ALIAS="IDS_OSD_POSITION_LEFT_CENTER">left, center</String>
+    <String ALIAS="IDS_OSD_POSITION_RIGHT_CENTER">right, center</String>
+
+    <String ALIAS="IDS_HEADER_HOTKEY" FONT="Arial">Hot Key Settings</String>
+    <String ALIAS="IDS_HEADER_FKEY" FONT="Arial">F Key Settings</String>
+    <String ALIAS="IDS_FUTURE_DEVICE_WARNING" FONT="Arial">If your device has features that require software, you will need to get an updated version of SetPoint to support those features. Basic functions of your device will work without installing new software. Click "Check for Updates" to see if an update is available.</String>
+    <String ALIAS="IDS_NO_SOFTWARE_NEEDED" FONT="Arial">No Software Needed</String>
+
+    <String ALIAS="IDS_SETPOINT_CAPTION">Logitech SetPoint</String>
+    <String ALIAS="IDS_TOOLS_SETTINGS">Tools Settings</String>
+    <String ALIAS="IDS_CHECK_APPSETTINGS_PREDEFINED">Enable pre defined application-specific button settings.</String>
+    <String ALIAS="IDS_CHECK_APPSETTINGS_NONPREDEFINED">Enable application-specific button settings.\nCreate custom button assignments for individual appilcations</String>
+    <String ALIAS="IDS_CHECK_WHEEL_SETTINGS">Enable application-specific wheel settings</String>
+    <String ALIAS="IDS_CHECK_SCROLL_SETTINGS">Enable application-specific scroll settings</String>
+
+
+    <!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+		<!-- OEM Customization Settings -->
+		<String ALIAS="IDS_SETPOINT_HELP_URL"/>
+		<String ALIAS="IDS_SETPOINT_ERGO_URL"/>
+		<String ALIAS="IDS_SETPOINT_BLUETOOTH_URL"/>
+		<String ALIAS="IDS_LOGO_FILE"/>
+		<String ALIAS="IDS_LOGOWHITE_FILE"/>
+    <String ALIAS="IDS_ONLINE_HELP_URL">www.logitech.com/index.cfm/utilities/redirect/</String>
+    <String ALIAS="IDS_ONLINE_HELP_PARAM1">DevID</String>
+    <String ALIAS="IDS_ONLINE_HELP_PARAM2">LangID</String>
+    <String ALIAS="IDS_SELECT_DEVICE_BUTTON_FONT_SIZE">13</String>
+    <String ALIAS="IDS_SELECT_DEVICE_MENU_FONT_SIZE">11</String>
+    <String ALIAS="IDS_SELECT_DEVICE_BORDER_COLOR"></String>
+    <String ALIAS="IDS_SELECT_DEVICE_MENU_HIGHLIGHT_COLOR">RGB(0,190,190)</String>
+    <String ALIAS="IDS_SELECT_DEVICE_USE_GRADIENT">1</String>
+    <!-- Featurestrings -->
+    <String ALIAS="IDS_NEW_FEATURE_POPUPTEXT">Your Logitech devices are working normally. If you would like to enhance their functionality with the new software features listed below, click the 'Install Updates' button. These features are supported by one or more of the following device(s): %s</String>
+    <String ALIAS="IDS_NEWFEATURE">SetPoint Update</String>
+    <String ALIAS="IDS_HYBRID_PROBING">SetPoint</String>
+
+    <String ALIAS="FEATURE_0001">Feature Set</String>
+    <String ALIAS="FEATUREDESC_0001">Allows SetPoint to detect the features supported by your device.</String>
+    <String ALIAS="FEATURE_0002">Feature Info</String>
+    <String ALIAS="FEATUREDESC_0002">Allows SetPoint to detect how features are implemented by your device.</String>
+    <String ALIAS="FEATURE_0003">Firmware Version</String>
+    <String ALIAS="FEATUREDESC_0003">Displays the version of firmware in your device.</String>
+    <String ALIAS="FEATURE_0004">Serial Number</String>
+    <String ALIAS="FEATUREDESC_0004">Displays the serial number of your device.</String>    
+    <String ALIAS="FEATURE_0005">Device Name and Type</String>
+    <String ALIAS="FEATUREDESC_0005">Displays the name and type of your device.</String>
+    <String ALIAS="FEATURE_00C0">Firmware Update</String>
+    <String ALIAS="FEATUREDESC_00C0">Allows the firmware in your device to be updated.</String>
+    <String ALIAS="FEATURE_1000">Battery Information</String>
+    <String ALIAS="FEATUREDESC_1000">Displays the current battery level and warns you when the batteries need to be replaced or your device needs to be recharged.</String>
+    <String ALIAS="FEATURE_1900">Sound Notification</String>
+    <String ALIAS="FEATUREDESC_1900">Update to enhance the sound notification options of your device.</String>
+    <String ALIAS="FEATURE_1920">Audio Controls</String>
+    <String ALIAS="FEATUREDESC_1920">Update to enhance the audio capabilities of your device.</String>
+    <String ALIAS="FEATURE_1940">Internet Telephony</String>
+    <String ALIAS="FEATUREDESC_1940">Update to improve the phone-over-the-internet (VOIP) capability of your device.</String>
+    <String ALIAS="FEATURE_1960">Video Calling</String>
+    <String ALIAS="FEATUREDESC_1960">Update to improve the video calling capability of your device.</String>
+    <String ALIAS="FEATURE_1980">Backlighting</String>
+    <String ALIAS="FEATUREDESC_1980">Update to improve the backlighting feature on your device.</String>
+    <String ALIAS="FEATURE_1B00">Button Customization</String>
+    <String ALIAS="FEATUREDESC_1B00">Enables you to assign new features to some of the buttons on your device.</String>
+    <String ALIAS="FEATURE_1B01">Button Customization</String>
+    <String ALIAS="FEATUREDESC_1B01">Enables you to assign new features to some of the buttons on your device.</String>
+    <String ALIAS="FEATURE_1D4B">Wireless Update</String>
+    <String ALIAS="FEATUREDESC_1D4B">Improves how SetPoint manages the configuration of your wireless device.</String>
+    <String ALIAS="FEATURE_2000">Pointing Device Feature</String>
+    <String ALIAS="FEATUREDESC_2000">Update to enhance the functionality of your pointing device.</String>
+    <String ALIAS="FEATURE_2100">Scroll Settings</String>
+    <String ALIAS="FEATUREDESC_2100">Enhanced settings for adjusting the scrolling behavior of your device.</String>
+    <String ALIAS="FEATURE_2120">Smooth Scrolling</String>
+    <String ALIAS="FEATUREDESC_2120">Enables a smoother scrolling experience in some applications.</String>
+    <String ALIAS="FEATURE_2200">Pointer Settings</String>
+    <String ALIAS="FEATUREDESC_2200">Enhanced settings for adjusting the pointing behavior of your device.</String>
+    <String ALIAS="FEATURE_2510">Profile Management</String>
+    <String ALIAS="FEATUREDESC_2510">Update to improve how profiles are managed on your device.</String>
+    <String ALIAS="FEATURE_4000">Keyboard Feature</String>
+    <String ALIAS="FEATUREDESC_4000">Update to enhance the functionality of your keyboard.</String>
+    <String ALIAS="FEATURE_40A0">FN Key Inversion</String>
+    <String ALIAS="FEATUREDESC_40A0">Toggles the functionality of FN keys between the standard FN functions and the enhanced key functions.</String>
+    <String ALIAS="FEATURE_4100">Encryption</String>
+    <String ALIAS="FEATUREDESC_4100">Displays information about the encryption capability of your device.</String>
+    <String ALIAS="FEATURE_4301">Solar App</String>
+    <String ALIAS="FEATUREDESC_4301">Launches a utility to monitor the power reserve level of your solar powered device and measure the light intensity in your room.</String>
+    <String ALIAS="FEATURE_4400">Display Feature</String>
+    <String ALIAS="FEATUREDESC_4400">Update to enhance the functionality of the display on your device.</String>
+    <String ALIAS="FEATURE_4520">Inactive Key</String>
+    <String ALIAS="FEATUREDESC_4520">Option to disable a key so it will not do anything if is accidently pressed.</String>
+    <String ALIAS="FEATURE_5500">Slider Controls</String>
+    <String ALIAS="FEATUREDESC_5500">Enhanced configuration settings for the slider controls on your device.Enhanced configuration settings for the slider controls on your device.</String>
+    <String ALIAS="FEATURE_6000">Touchpad Feature</String>
+    <String ALIAS="FEATUREDESC_6000">Update to enhance the functionality of your touchpad.</String>
+    <String ALIAS="FEATURE_6010">Basic Touchpad Settings</String>
+    <String ALIAS="FEATUREDESC_6010">Settings to enable basic gestures like Tap-to-Click.</String>
+    <String ALIAS="FEATURE_6011">Enhanced Touchpad Settings</String>
+    <String ALIAS="FEATUREDESC_6011">Enhanced settings to enable gestures like two, three or four fingers swipe.</String>
+    <String ALIAS="FEATURE_6020">Tap to Select</String>
+    <String ALIAS="FEATUREDESC_6020">Option to left-click by tapping on your touchpad.</String>
+    <String ALIAS="FEATURE_6030">Disable Pointer Acceleration</String>
+    <String ALIAS="FEATUREDESC_6030">Disables pointer acceleration and allows the operating system to control the pointing behavior of your device.</String>
+    <String ALIAS="FEATURE_6300">Handwriting Recognition</String>
+    <String ALIAS="FEATUREDESC_6300">Update to improve the handwriting recognition capability of your device.</String>
+    <String ALIAS="FEATURE_FFFF">Unknown Feature</String>
+    <String ALIAS="FEATUREDESC_FFFF">New feature that this version of software is not able to identify.</String>
+    <String ALIAS="IDC_KEYBOARD_LAUNCH_SOLAR_DASHBOARD2" FONT="Arial">Download Solar App</String>
+    <String ALIAS="IDS_2_SECS">2 sec</String>
+    <String ALIAS="IDS_5_SECS">5 sec</String>
+    <String ALIAS="IDS_10_SECS">10 sec</String>
+    <String ALIAS="IDS_20_SECS">20 sec</String>
+    <String ALIAS="IDS_1_MIN">1 min</String>
+    <String ALIAS="IDS_3_MIN">3 min</String>
+    <String ALIAS="IDS_10_SECS">10 sec</String>
+    <String ALIAS="IDS_20_SECS">20 sec</String>
+    <String ALIAS="IDS_30_SECS">30 sec</String>
+    <String ALIAS="IDS_1_MIN">1 min</String>
+    <String ALIAS="IDS_5_MINS">5 mins</String>
+    <String ALIAS="IDS_10_MINS">10 mins</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_START_SCREEN" FONT="Arial">Start screen</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_START_MENU" FONT="Arial">Start menu</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_HORZ_SCROLL" FONT="Arial">Horizontal scrolling</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_CHAUSEY_HORZ_SCROLL" FONT="Arial">Horizontal scrolling in all apps</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_BACK_FORWARD" FONT="Arial">Back/forward</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_CHAUSEY_BACK_FORWARD" FONT="Arial">Back/forward in browsers; horizontal scrolling in other apps</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_ONE_FINGER" FONT="Arial">Swipe up and down with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_ONE_OR_TWO_FINGERS" FONT="Arial">Swipe up and down with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_ONE_OR_MORE_FINGERS" FONT="Arial">Swipe up and down with 1 or more fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_TWO_FINGERS" FONT="Arial">Swipe up and down with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_TWO_OR_MORE_FINGERS" FONT="Arial">Swipe up and down with 2 or more fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_THREE_FINGERS" FONT="Arial">Swipe up and down with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_THREE_OR_MORE_FINGERS" FONT="Arial">Swipe up and down with 3 or more fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_OR_TAP_THREE_FINGERS" FONT="Arial">Swipe up or tap with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_THREE_FINGERS" FONT="Arial">Swipe up 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_FOUR_FINGERS" FONT="Arial">Swipe up with 4 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_DOWN_THREE_FINGERS" FONT="Arial">Swipe down with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_FOUR_FINGERS" FONT="Arial">Swipe up and down with 4 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_DOWN_FOUR_FINGERS" FONT="Arial">Swipe down with 4 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_ONE_FINGER" FONT="Arial">Swipe left and right with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_ONE_OR_TWO_FINGERS" FONT="Arial">Swipe left and right with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_ONE_OR_MORE_FINGERS" FONT="Arial">Swipe left and right with 1 or more fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_TWO_FINGERS" FONT="Arial">Swipe left and right with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_THREE_FINGERS" FONT="Arial">Swipe left and right with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_THREE_OR_MORE_FINGERS" FONT="Arial">Swipe left and right with 3 or more fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_TWO_OR_MORE_FINGERS" FONT="Arial">Swipe left and right with 2 or more fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_FOUR_FINGERS" FONT="Arial">Swipe left and right with 4 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_THUMB_SWIPE" FONT="Arial">Thumb swipe</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_ONE_FINGER" FONT="Arial">Tap with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_TWO_FINGERS" FONT="Arial">Tap with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_THREE_FINGERS" FONT="Arial">Tap with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_FOUR_FINGERS" FONT="Arial">Tap with 4 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_ONE_FINGER" FONT="Arial">Click or tap with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_TWO_FINGERS" FONT="Arial">Click or tap with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_THREE_FINGERS" FONT="Arial">Click or tap with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_BUTTON_OR_TOUCH_STRIP_FRONT" FONT="Arial">Click on left mouse button or front of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_BOTTOM_LEFT_CORNER" FONT="Arial">Click or tap in bottom left corner</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_BOTTOM_RIGHT_CORNER" FONT="Arial">Click or tap in bottom right corner</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Click or tap in lower left corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Click or tap in lower right corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_TWO_FINGERS_OR_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Click or tap anywhere with 2 fingers or in lower left corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_TWO_FINGERS_OR_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Click or tap anywhere with 2 fingers or in lower right corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TOUCH_STRIP_FRONT" FONT="Arial">Double-tap the touch zone front</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TOUCH_STRIP_BACK" FONT="Arial">Double-tap the touch zone back</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_ONE_FINGER" FONT="Arial">Double-tap anywhere on touch surface with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_TWO_FINGERS" FONT="Arial">Double-tap anywhere on touch surface with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_LOWER_ZONE_ONE_FINGER" FONT="Arial">Double-tap lower 2/3 of touch surface with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_LOWER_ZONE_TWO_FINGERS" FONT="Arial">Double-tap lower 2/3 of touch surface with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_EDGE_ONE_FINGER" FONT="Arial">Swipe from left edge with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_TOP_EDGE_ONE_FINGER" FONT="Arial">Swipe from top edge with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_RIGHT_EDGE_ONE_FINGER" FONT="Arial">Swipe from right edge with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_ROTATE_FINGER_ABOUT_THUMB" FONT="Arial">Rotate finger about thumb</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_ROTATE_TWO_FINGERS" FONT="Arial">Rotate with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_PINCH_TWO_FINGERS" FONT="Arial">Spread or pinch with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_KEYPLATE_BACK" FONT="Arial">Click on back of keyplate</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_BUTTON_OR_TOUCH_STRIP_FRONT" FONT="Arial">Click on left mouse button or front of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_RIGHT_BUTTON" FONT="Arial">Click on right mouse button</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_ONE_FINGER" FONT="Arial">Click with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Click in lower left corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Click in lower right corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_TWO_FINGERS" FONT="Arial">Click lower 2/3 of touch surface with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS" FONT="Arial">Click with 2 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS_OR_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Click anywhere with 2 fingers or in lower left corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS_OR_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Click anywhere with 2 fingers or in lower right corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_THREE_FINGERS" FONT="Arial">Click with 3 fingers</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_BUTTON" FONT="Arial">Click on left mouse button</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_RIGHT_BUTTON_OR_TOUCH_STRIP_FRONT" FONT="Arial">Click on right mouse button or front of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TOUCH_STRIP_FRONT" FONT="Arial">Click on front of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TOUCH_STRIP_BACK" FONT="Arial">Click on rear of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TOUCH_STRIP_ANYWHERE" FONT="Arial">Click anywhere on touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TOUCH_STRIP_ANYWHERE" FONT="Arial">Double-tap on front and rear of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_ENABLE_TAP_AND_DRAG" FONT="Arial">Double-tap to drag</String>
+    
+
+    <String ALIAS="IDS_NINJA_GESTURE_ACTION_NAME_SWIPE_LEFT_EDGE_ONE_FINGER" FONT="Arial">Swipe from left edge of mouse with 1 finger</String>
+    <String ALIAS="IDS_NINJA_GESTURE_ACTION_NAME_SWIPE_TOP_EDGE_ONE_FINGER" FONT="Arial">Swipe from top edge of mouse with 1 finger</String>
+    <String ALIAS="IDS_NINJA_GESTURE_ACTION_NAME_SWIPE_RIGHT_EDGE_ONE_FINGER" FONT="Arial">Swipe from right edge of mouse with 1 finger</String>
+    
+
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_RIGHT_LOWER_CORNER" FONT="Arial">Click in the lower right corner with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_LOWER_CORNER" FONT="Arial">Click in the lower left corner with 1 finger</String>
+
+    <String ALIAS="IDS_CHECK_REVERSE_SCROLL_DIRECTION_PLURAL" FONT="Arial">Content moves in same direction as fingers</String>
+    <String ALIAS="IDS_CHECK_REVERSE_SCROLL_DIRECTION_SINGULAR" FONT="Arial">Content moves in same direction as finger</String>
+    <String ALIAS="IDS_STATIC_REVERSE_SCROLL_DIRECTION_SYNCHRONIZED" FONT="Arial">Synchronized scroll direction</String>
+
+    <!--Extra Strings-->
+    <String ALIAS="IDC_STATIC_SWAP_BUTTONS_GESTURE_ACTION_1" FONT="Arial">Click with right mouse button</String>
+    <String ALIAS="IDC_STATIC_SWAP_BUTTONS_GESTURE_ACTION_2" FONT="Arial">Click with right mouse button or front of touch zone</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_ONE_FINGER_1" FONT="Arial">Double-tap with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_TWO_FINGERS_1" FONT="Arial">Double-tap with 2 fingers</String>
+    <String ALIAS="IDC_GESTURE_ACTION_SWITCH_NEXT_APP" FONT="Arial">Switch to next application</String>
+    <String ALIAS="IDC_GESTURE_ACTION_SWITCH_PREV_APP" FONT="Arial">Switch to previous application</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_LEFT_CORNER_ONE_FINGER_1" FONT="Arial">Click lower left corner of touchpad with 1 finger</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_RIGHT_CORNER_ONE_FINGER_1" FONT="Arial">Click lower right corner of touchpad with 1 finger</String>
+    <String ALIAS="IDS_SCROLLTAB_TITLE_NAVIGATE_1" FONT="Arial">Navigate</String>
+    <String ALIAS="IDS_SCROLLTAB_TITLE_NAVIGATE_2" FONT="Arial">Scroll and Zoom</String>
+    <String ALIAS="IDS_NAVIGATEWINDOWSTAB_TITLE_NAVIGATE_1" FONT="Arial">Control Windows</String>
+    <String ALIAS="IDS_CHECK_MAXIMIZE_MINIMIZE_WINDOWS_1" FONT="Arial">Maximize/minimize Windows</String>
+    <String ALIAS="IDS_ERROR_VIDEOS_UNAVAILABLE_1" FONT="Arial">Videos not available</String>
+    <String ALIAS="IDS_ERROR_VIDEOS_UNAVAILABLE_2" FONT="Arial">No videos available in this version of software.</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_DOUBLE_TAP_TO_DRAG" FONT="Arial">Double-tap to drag</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TO_DRAG" FONT="Arial">Double-tap with 1 finger and drag without lifting your finger</String>
+
+
+  </StringSet>
+  
+	<Dialog ID="IDD_KEYBOARD_BUTTONSETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_KEYBOARD_BUTTON_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Hot Key Settings</Control>
+    <Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1"/>
+    <Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Select Task</Control>
+		<Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_KEYBOARD_BUTTONS_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_SELECT_FUNCTION" FONT="Arial">Select Function</Control>
+    <!--<Control ID="IDC_CHECK_F_FN_KEY_BEHAVIOUR" FONT="Arial">When this box is checked, press F1, F2... F12 keys to use the enhanced functions printed on the keys, and press and hold the Fn key to use the standard function keys.</Control>-->
+    <Control ID="IDC_CHECK_F_FN_KEY_BEHAVIOUR" FONT="Arial" SCALE="1.2" BOLD="1">Swap F key functions</Control>
+    <Control ID="IDC_KEYBOARD_STATIC_FUTURE_DEVICE" FONT="Arial">If your device has features that require software, you will need to get an updated version of SetPoint to support those features. Basic functions of your device will work without installing new software. Click "Check for Updates" to see if an update is available.</Control>
+    <Control ID="IDC_KEYBOARD_CHECKUPDATES_BUTTON" FONT="Arial">Check for updates</Control>
+		<Control ID="IDC_KEYBOARD_EOL_STATIC_LINK" FONT="Arial">Click here for details.</Control>
+		<Control ID="IDC_KEYBOARD_EOL_WARNING_STATIC_TEXT" FONT="Arial">Some feature of this device are not supported by this version of SetPoint.</Control>
+
+  </Dialog>
+	<Dialog ID="IDD_MEDIAPAD_BUTTONSETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_MEDIAPAD_BUTTON_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Button Settings</Control>
+		<Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1">Select Button</Control>
+		<Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Select Task</Control>
+		<Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_MEDIAPAD_BUTTONS_RESTORDEFAULTS">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_SELECT_FUNCTION">Select Function</Control>
+    <Control ID="IDC_MEDIAPAD_STATIC_FUTURE_DEVICE" FONT="Arial">If your device has features that require software, you will need to get an updated version of SetPoint to support those features. Basic functions of your device will work without installing new software. Click "Check for Updates" to see if an update is available.</Control>
+    <Control ID="IDC_MEDIAPAD_CHECKUPDATES_BUTTON" FONT="Arial">Check for updates</Control>
+		<Control ID="IDC_MEDIAPAD_EOL_STATIC_LINK" FONT="Arial">Click here for details.</Control>
+		<Control ID="IDC_MEDIAPAD_EOL_WARNING_STATIC_TEXT" FONT="Arial">Some feature of this device are not supported by this version of SetPoint.</Control>
+
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_BUTTONSETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_MOUSE_BUTTON_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Button Settings</Control>
+		<Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1">Select Button</Control>
+		<Control ID="IDC_CONTROL_SWAPHAND" FONT="Arial">Swap Buttons</Control>
+		<Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Select Task</Control>
+		<Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_MOUSE_BUTTONS_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_SELECT_FUNCTION" FONT="Arial">Select Function</Control>
+		<Control ID="IDC_STATIC_MS_SWAPBUTTONS_STATUS" FONT="Arial">Buttons are swapped in your Windows Mouse Control Panel</Control>
+    <Control ID="IDC_STATIC_FUTURE_DEVICE" FONT="Arial">If your device has features that require software, you will need to get an updated version of SetPoint to support those features. Basic functions of your device will work without installing new software. Click "Check for Updates" to see if an update is available.</Control>
+    <Control ID="IDC_CHECKUPDATES_BUTTON" FONT="Arial">Check for updates</Control>
+		<Control ID="IDC_MOUSE_EOL_STATIC_LINK" FONT="Arial">Click here for details.</Control>
+		<Control ID="IDC_MOUSE_EOL_WARNING_STATIC_TEXT" FONT="Arial">Some feature of this device are not supported by this version of SetPoint.</Control>
+
+  </Dialog>
+	<Dialog ID="IDD_DEVICE_BATTERYSETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_DEVICE_BATTERIES" FONT="Arial" SCALE="1.4" BOLD="1"/>
+		<Control ID="IDC_STATIC_BATTERYLEVEL" FONT="Arial" SCALE="1.2" BOLD="1">Battery Level</Control>
+		<Control ID="IDC_STATIC_LOWBATNOTIFICAITON" FONT="Arial" SCALE="1.2" BOLD="1">Low Battery Notification</Control>
+		<Control ID="IDC_STATIC_LOWBATWARNING" FONT="Arial" SCALE="1.2" BOLD="1">Low Battery Warning</Control>
+		<Control ID="IDC_STATIC_BATTERYLEVEL_DISPLAY" FONT="Arial" SCALE="1.1" BOLD="1"/>
+		<Control ID="IDC_STATIC_MOUSE_BATTERYLEVEL_HELP" FONT="Arial">If you need help changing the batteries, click the Help button.</Control>
+<Control ID="IDC_STATIC_CHARGINGTIP1" FONT="Arial" SCALE="1.2" BOLD="1">Want to charge faster?</Control>
+		<Control ID="IDC_STATIC_CHARGINGTIP2" FONT="Arial">You can reduce charging time by turning off your keyboard or by ordering a power supply available at logitech.com/support</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_STATIC_LOWBATSLIDER_HELP" FONT="Arial">Use the slider to select when SetPoint and your mouse should warn you of low battery.</Control>
+		<Control ID="IDC_BATTERYREMAIN_STATIC" FONT="Arial" SCALE="1.1" BOLD="1"/>
+		<Control ID="IDC_BATTERYREMAIN_PREFIX" FONT="Arial" SCALE="1.1" BOLD="1"/>
+    <Control ID="IDC_STATIC_LOWBATNOTIFICATION_HELP" FONT="Arial">SetPoint will inform you through messages displayed on your screen that your device batteries are low and should be changed/charged.</Control>
+  </Dialog>
+	<Dialog ID="IDD_DEVICE_CONN_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_DEVICE_CONN" FONT="Arial" SCALE="1.4" BOLD="1"/>
+		<Control ID="IDC_STATIC_DEVICE_CONN_DESC" FONT="Arial">Click Connect</Control>
+    <Control ID="IDC_STATIC_DEVICE_CONN_CHANNEL_NO" FONT="Arial" SCALE="1.1">Keyboard Connected on Channel 1</Control>
+    <Control ID="IDC_STATIC_DEVICE_CONN_DESC_CORDLESS" FONT="Arial" SCALE="1.1">Click Connect</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_STATIC_SECURESTATUS" FONT="Arial" SCALE="1.2" BOLD="1">Keyboard Security</Control>
+		<Control ID="IDC_STATIC_SECURESTATUS_DISPLAY" FONT="Arial" SCALE="1.1" BOLD="1"/>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_INAVSETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_INAV_SETTING" FONT="Arial" SCALE="1.4" BOLD="1">iNav Settings</Control>
+		<Control ID="IDC_STATIC_INAVWHEEL" FONT="Arial" SCALE="1.2" BOLD="1">iNav Wheel</Control>
+		<Control ID="IDC_STATIC_SCROLLINGSIZE">Scrolling Size</Control>
+		<Control ID="IDC_KEYBOARD_INAV_RESTORDEFAULTS">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_STATIC_INAV_HORZ_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_INAV_HORZ_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_INAV_CRUISE_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_INAV_CRUISE_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_INAV_HORZ_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Side-to-side Scrolling Speed</Control>
+		<Control ID="IDC_STATIC_INAV_CRUISE_CONTROL" FONT="Arial" SCALE="1.2" BOLD="1">Cruise Control Speed</Control>
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_CURSORSETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_MOUSE_MOVEMENT" FONT="Arial" SCALE="1.4" BOLD="1">Pointer and Scrolling Settings</Control>
+		<Control ID="IDC_STATIC_SCROLLINGSIZE" FONT="Arial" SCALE="1.2" BOLD="1">Scrolling Size</Control>
+    <Control ID="IDC_STATIC_SURFACE_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">On the Desk</Control>
+    <Control ID="IDC_STATIC_SURFACE_SETTINGS2" FONT="Arial" SCALE="1.2" BOLD="1">Pointer Settings</Control>
+		<Control ID="IDC_STATIC_AIR_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">In the Air</Control>
+		<Control ID="IDC_CHECK_CURSORTRAIL" FONT="Arial">Enable Pointer Trails</Control>
+		<Control ID="IDC_CHECK_SMARTMOVE" FONT="Arial">Enable Smart Move</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Online Help</Control>
+		<Control ID="IDC_STATIC_SURFACE_CURSORSPEED" FONT="Arial">Pointer Speed</Control>
+		<Control ID="IDC_STATIC__SURFACE_CURSORACCELERATION" FONT="Arial">Pointer Acceleration</Control>
+		<Control ID="IDC_STATIC_AIR_CURSORSPEED" FONT="Arial">Pointer Speed</Control>
+		<Control ID="IDC_STATIC_AIR_CURSORACCELERATION" FONT="Arial">Pointer Acceleration</Control>
+		<Control ID="IDC_STATIC_CURSOR_SPEEDSLOW" FONT="Arial">Slow</Control>
+		<Control ID="IDC_STATIC_CURSOR_SPEEDFAST" FONT="Arial">Fast</Control>
+		<Control ID="IDC_STATIC_CURSOR_TRAILSLOW" FONT="Arial">Short</Control>
+		<Control ID="IDC_STATIC_CURSOR_TRAILFAST" FONT="Arial">Long</Control>
+		<Control ID="IDC_STATIC_AIR_CURSOR_SPEEDSLOW" FONT="Arial">Slow</Control>
+		<Control ID="IDC_STATIC_AIR_CURSOR_SPEEDFAST" FONT="Arial">Fast</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_NO" FONT="Arial">None</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_MEDIUM" FONT="Arial">Medium</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_LOW" FONT="Arial">Low</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_HIGH" FONT="Arial">High</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_NO" FONT="Arial">None</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_MEDIUM" FONT="Arial">Medium</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_LOW" FONT="Arial">Low</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_HIGH" FONT="Arial">High</Control>
+		<Control ID="IDC_CHECK_DISTINCT_AIRCURSOR" FONT="Arial">Distinct air cursor</Control>
+    <Control ID="IDC_CHECK_ENABLE_SMOOTH_SCROLL" FONT="Arial">Enable Smooth Scrolling</Control>
+  </Dialog>
+	<Dialog ID="IDD_MOUSE_GAME_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_MOUSE_GAME" FONT="Arial" SCALE="1.4" BOLD="1">Game Settings</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+		<Control ID="IDC_STATIC_MOUSE_GAME_DETECTION" FONT="Arial" SCALE="1.2" BOLD="1">Game Detection</Control>
+		<Control ID="IDC_CHECK_GAME_DETECTION" FONT="Arial">Enabled</Control>
+		<Control ID="IDC_STATIC_MOUSE_GAME_MODE_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">Game Mode Settings</Control>
+		<Control ID="IDC_CHECK_KEEP_ACCELERATION" FONT="Arial">Keep mouse acceleration</Control>
+		<Control ID="IDC_CHECK_KEEP_SPEED" FONT="Arial">Keep mouse speed</Control>
+		<Control ID="IDC_CHECK_KEEP_RIGHT_LEFT" FONT="Arial">Keep right/left hand button assignments</Control>
+		<Control ID="IDC_CHECK_KEEP_KEYPRESS" FONT="Arial">Keep keypress button assignments</Control>
+		<Control ID="IDC_CHECK_KEEP_OTHER" FONT="Arial">Keep other button assignments (Double-Click, AutoScroll...)</Control>
+		<Control ID="IDC_STATIC_GAME_MOUSE_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Speed and Acceleration</Control>
+		<Control ID="IDC_RADIO_SPEED_SETPOINT" FONT="Arial">SetPoint implementation</Control>
+		<Control ID="IDC_RADIO_SPEED_OS" FONT="Arial">OS implementation</Control>
+    <Control ID="IDC_CHECK_CURSOR_COHABITAT" FONT="Arial">Retain OS Settings</Control>
+    <Control ID="IDC_CHECK_PARTICIPATE" FONT="Arial">Apply Game Settings when a game is detected</Control>
+		<Control ID="IDC_BUTTON_MANAGE_GAME_LIST" FONT="Arial">Advanced Game Settings</Control>
+	</Dialog>
+	<Dialog ID="IDD_NUMPAD_PREFENCESETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_KEYBOARD_PREF_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">LCD Keyboard Display Settings</Control>
+		<Control ID="IDC_STATIC_KEYBOARD_PREF" FONT="Arial" SCALE="1.2" BOLD="1">Keyboard Preferences</Control>
+		<Control ID="IDC_CHECK_BEEP_CAPSLOCK_FMODE" FONT="Arial">Beep when I press Caps Lock and Mode F Keys</Control>
+		<Control ID="IDC_CHECK_ENABLE_TOUCH_MEDIA" FONT="Arial">Enable Touch Sensitive Media Controls</Control>
+		<Control ID="IDC_STATIC_ALERT_PREFS" FONT="Arial" SCALE="1.2" BOLD="1">Alert Preferences</Control>
+		<Control ID="IDC_STATIC_ALERT_PREFS_DESC" FONT="Arial">When I receive a new email:</Control>
+		<Control ID="IDC_CHECK_BLINK_NUMPAD_LIGHT" FONT="Arial">Blink the MediaPad&apos;s LED light</Control>
+		<Control ID="IDC_CHECK_PLAY_ALERTSOUND" FONT="Arial">Play a sound</Control>
+		<Control ID="IDC_BUTTON_TEST_ALERTSOUND" FONT="Arial">Test Sound</Control>
+		<Control ID="IDC_STATIC_GREETING_PREFERNCE" FONT="Arial" SCALE="1.2" BOLD="1">LCD Name Preferences</Control>
+		<Control ID="IDC_CHECK_GREETING_PREFERENCE" FONT="Arial">Change my name on the LCD Display</Control>
+		<Control ID="IDC_STATIC_DISPLAYNAME" FONT="Arial">Display name:</Control>
+		<Control ID="IDC_STATIC_CLIPBOARD_PREFERENCE" FONT="Arial" SCALE="1.2" BOLD="1">Calculator Preferences</Control>
+		<Control ID="IDC_CHECK_CLIPBOARD_PREFERENCE" FONT="Arial">Put the result into Windows Clipboard when I press the Enter key</Control>
+		<Control ID="IDC_NUMPAD_PREFERENCES_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Online Help</Control>
+		<Control ID="IDC_STATIC_SET_LCD_PREFERENCES" FONT="Arial" SCALE="1.2" BOLD="1">LCD Priorities</Control>
+		<Control ID="IDC_RADIO_NEVER_INTERRUPT_MEDIA" FONT="Arial">Never interrupt media with messages</Control>
+		<Control ID="IDC_RADIO_ALWAYS_INTERRUPT_MEDIA" FONT="Arial">Always interrupt media with messages</Control>
+		<Control ID="IDC_STATIC_LAUNCH_CP_CALCFORMAT" FONT="Arial">Open Control Panel to change the Calculator format</Control>
+		<Control ID="IDC_BUTTON_LAUNCH_CP_CALCFORMAT" FONT="Arial">Change</Control>
+		<Control ID="IDC_STATIC_TEMP_PREF" FONT="Arial" SCALE="1.2" BOLD="1">Temperature Format</Control>
+		<Control ID="IDC_RADIO_CELCIUS" FONT="Arial">Celsius</Control>
+		<Control ID="IDC_RADIO_FAHRENHEIT" FONT="Arial">Fahrenheit</Control>
+	</Dialog>
+	<Dialog ID="IDD_TOOLS_INDICATOR" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_SETPOINTOPTIONS" FONT="Arial" SCALE="1.4" BOLD="1">SetPoint Options</Control>
+		<Control ID="IDC_STATIC_KEYBOARD_INDICATORS" FONT="Arial" SCALE="1.2" BOLD="1">Status Indicators</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_SETTINGS" FONT="Arial">Show status setting changes (such as Caps Lock) on screen</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_BEEP_SETTINGS" FONT="Arial">Signal status setting changes (such as Caps Lock) with a sound</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_TRAY_SETTINGS" FONT="Arial">Show Keyboard Settings (such as Caps Lock) in notification area</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_POPUP_SETTINGS" FONT="Arial">Show Keyboard Settings (such as Caps Lock) above notification area</Control>
+		<Control ID="IDC_STATIC_SOFTWARE_ACCESS" FONT="Arial" SCALE="1.2" BOLD="1">Software Access</Control>
+		<Control ID="IDC_CHECK_SHOW_SYSTRAY_ICON" FONT="Arial">Show SetPoint icon in notification area</Control>
+		<Control ID="IDC_TOOLS_INDICATOR_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+		<Control ID="IDC_STATIC_WEB_UPDATE" FONT="Arial" SCALE="1.2" BOLD="1">Web Updates</Control>
+		<Control ID="IDC_WEB_UPDATE_CHECK" FONT="Arial">When an unknown Logitech mouse or keyboard is detected, check the Logitech website for software updates.</Control>
+		<Control ID="IDC_UPDATE_CHECKNOW" FONT="Arial">Check Now...</Control>
+		<Control ID="IDC_UPDATE_CONFIGURE" FONT="Arial">Configure...</Control>
+    <Control ID="IDC_STATIC_OSD_POSITION" FONT="Arial">Where do you want the message to appear on the screen?</Control>
+    <Control ID="IDC_CHECK_OSD_NOTIFICATION_SETTINGS" FONT="Arial">Tell me when the following happens:</Control>
+    <Control ID="IDC_CHECK_OSD_BATTERY_SETTINGS" FONT="Arial">One of my devices battery becomes too low</Control>
+    <Control ID="IDC_CHECK_OSD_VOLUME_SETTINGS" FONT="Arial">My computer volume changes</Control>
+    <Control ID="IDC_CHECK_OSD_KEY_SETTINGS" FONT="Arial">A lock key is pressed (for example Caps lock)</Control>
+    <Control ID="IDC_CHECK_OSD_DEVIC_CONNECTION_SETTINGS" FONT="Arial">A devide is connect or disconnected</Control>
+    <Control ID="IDC_CHECK_OSD_FUNCTION_KEY_SETTINGS" FONT="Arial">A keyboad function is launched</Control>
+	</Dialog>
+	<Dialog ID="IDD_TOOLS_INFORMATION" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_INFORMATION_RESOURCES" FONT="Arial" SCALE="1.4" BOLD="1">Information Resources</Control>
+		<Control ID="IDC_STATIC_KODIAKTOUR" FONT="Arial" SCALE="1.2" BOLD="1">QuickTour</Control>
+		<Control ID="IDC_STATIC_KODIAKTOUR_DESC" FONT="Arial">Click QuickTour button to experience how this software helps you get the most from your device.</Control>
+		<Control ID="IDC_BUTTON_VIEWTOUR" FONT="Arial">QuickTour</Control>
+    <Control ID="IDC_STATIC_PS2INSTALL" FONT="Arial" SCALE="1.2" BOLD="1">PS/2 Install</Control>
+    <Control ID="IDC_STATIC_PS2INSTALL_DESC" FONT="Arial">Click here to enable PS/2 support.</Control>
+    <Control ID="IDC_BUTTON_PS2INSTALL" FONT="Arial">Install PS/2 Driver</Control>
+		<Control ID="IDC_STATIC_ABOUTKODIAK" FONT="Arial" SCALE="1.2" BOLD="1">About SetPoint&#8482;</Control>
+		<Control ID="IDC_STATIC_ABOUTKODIAK_DESC" BOLD="1" FONT="Arial">SetPoint Control Center</Control>
+		<Control ID="IDC_STATIC_CONTROLCENTER_VERSION_DESC" FONT="Arial">Control Center version:</Control>
+		<Control ID="IDC_STATIC_CONTROLCENTER_VERSION"/>
+		<Control ID="IDC_STATIC_MOUSEDRIVER_VERSION_DESC" FONT="Arial">Driver version:</Control>
+		<Control ID="IDC_STATIC_MOUSEDRIVER_VERSION"/>
+		<Control ID="IDC_STATIC_COPYRIGHT" SCALE="0.9">&#169; 1987 - 2013 Logitech.  All rights reserved.\nLogitech, the Logitech logo, and other Logitech marks are owned by Logitech and may be registered.  All other trademarks are the property of their respective owners.</Control>
+		<Control ID="IDC_STATIC_KODIAKHELPCENTER" FONT="Arial" SCALE="1.2" BOLD="1">SetPoint Help Center</Control>
+		<Control ID="IDC_STATIC_KODIAK_HELPCENTER_DESC" FONT="Arial">The Help Center can answer many questions and provide detailed explanations.</Control>
+    <Control ID="IDC_STATIC_USER_EXPERIENCE" FONT="Arial" SCALE="1.2" BOLD="1">Logitech User Experience Program</Control>
+    <Control ID="IDC_STATIC_KODIAKERGO" FONT="Arial" SCALE="1.2" BOLD="1">Support</Control>
+		<Control ID="IDC_STATIC_KODIAKERGO_DESC" FONT="Arial">Our web site lets you get information on using your device and update your drivers.</Control>
+		<Control ID="IDC_BUTTON_VIEWHELP" FONT="Arial">Help Center</Control>
+		<Control ID="IDC_STATIC_KODIAKERGO_DESC2" FONT="Arial">If you&apos;d like more information on using your device and ergonomics, visit our website.</Control>
+		<Control ID="IDC_BUTTON_LOGITECHSUPPORT" FONT="Arial">Logitech Support</Control>
+		<Control ID="IDC_BUTTON_VIEW_ERGO_HELP" FONT="Arial">Support</Control>
+		<Control ID="IDC_BUTTON_VIEW_ERGO_WEB" FONT="Arial">Website</Control>
+    <Control ID="IDC_STATIC_USER_EXPERIENCE_DESC" FONT="Arial">Join the Logitech User Experience Program and help us improve our next generation of products</Control>
+    <Control ID="IDC_BUTTON_USER_EXPERIENCE" FONT="Arial">Learn More</Control>
+    <Control ID="IDC_STATIC_SAVE_SYSTEM_REPORT" FONT="Arial" SCALE="1.2" BOLD="1">Save System Report</Control>
+    <Control ID="IDC_STATIC_SAVE_SYSTEM_REPORT_DESC" FONT="Arial">
+Click here to save system reports.</Control>
+    <Control ID="IDC_BUTTON_SAVE_SYSTEM_REPORT" FONT="Arial">Save System Reports</Control>
+  </Dialog>
+  <Dialog ID="IDD_TOOLS_BT_INFORMATION" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_BLUETOOTH_RESOURCE" FONT="Arial" SCALE="1.4" BOLD="1">Resources for Using Bluetooth&#174;</Control>
+    <Control ID="IDC_STATIC_CONNECT_HELP" FONT="Arial" SCALE="1.2" BOLD="1" >Assistance Using Bluetooth</Control>
+    <Control ID="IDC_STATIC_BLUETOOTH_TROUBLESHOOT_DESC" FONT="Arial">If you want to connect other Bluetooth devices or if you have problems with the Bluetooth connection, click Bluetooth Connection Assistant</Control>
+		<Control ID="IDC_BUTTON_CONNECTHELP" FONT="Arial">Bluetooth Connection Assistant</Control>
+	</Dialog>
+	<Dialog ID="IDD_SELECT_OTHER_FUNCTION" WIDTH="348" HEIGHT="138">Select Other Task
+ 		<Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Select Task</Control>
+		<Control ID="IDOK">OK</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<Dialog ID="IDD_GAMELIST" >List of games recognized
+ 		<Control ID="IDC_STATIC_GAME_LIST" FONT="Arial" SCALE="1.2" BOLD="1">This list shows you what applications are seen as "games".</Control>
+		<Control ID="IDC_STATIC_ADD_GAME" FONT="Arial" SCALE="1.0" BOLD="1">To add a game, press and hold the wheel while inside the game.</Control>
+		<Control ID="IDC_RENAME_GAME">Rename</Control>
+		<Control ID="IDC_REMOVE_GAME">Remove</Control>
+		<Control ID="IDOK">Close</Control>
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_GAME_ADVANCED_SETTINGS"  WIDTH="747" HEIGHT="500">
+		<Control ID="IDC_STATIC_AGAMES_RESOLUTION" FONT="Arial" SCALE="1.2" BOLD="1">Mouse Sensitivity Settings</Control>
+		<Control ID="IDC_STATIC_AGAMES_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Recognized Games</Control>
+		<Control ID="IDC_AGAME_BROWSE" FONT="Arial" SCALE="1.2" BOLD="1">Browse</Control>
+		<Control ID="IDC_AGAME_REMOVE" FONT="Arial" SCALE="1.2" BOLD="1">Remove</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial" SCALE="1.2" BOLD="1">Restore Defaults</Control>
+		<Control ID="IDOK" FONT="Arial" SCALE="1.2" BOLD="1">OK</Control>
+		<Control ID="IDCANCEL" FONT="Arial" SCALE="1.2" BOLD="1">Cancel</Control>
+		<Control ID="IDC_STATIC_AGAMES_TITLE" FONT="Arial" SCALE="2.4" BOLD="1">Advanced Game Settings</Control>
+		<Control ID="IDC_STATIC_AGAMES_NOTIFICATION" FONT="Arial" SCALE="1.2" BOLD="1">Enable Notification</Control>
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_GAME_ADVANCED_XY_SETTINGS" WIDTH="747" HEIGHT="500">
+		<Control ID="IDC_STATIC_AGAMES_RESOLUTION" FONT="Arial" SCALE="1.2" BOLD="1">Mouse Sensitivity Settings</Control>
+		<Control ID="IDC_STATIC_AGAMES_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Recognized Games</Control>
+		<Control ID="IDC_AGAME_BROWSE" FONT="Arial" SCALE="1.2" BOLD="1">Browse</Control>
+		<Control ID="IDC_AGAME_REMOVE" FONT="Arial" SCALE="1.2" BOLD="1">Remove</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial" SCALE="1.2" BOLD="1">Restore Defaults</Control>
+		<Control ID="IDOK" FONT="Arial" SCALE="1.2" BOLD="1">OK</Control>
+		<Control ID="IDCANCEL" FONT="Arial" SCALE="1.2" BOLD="1">Cancel</Control>
+		<Control ID="IDC_STATIC_AGAMES_TITLE" FONT="Arial" SCALE="2.4" BOLD="1">SetPoint Advanced Game Settings</Control>
+		<Control ID="IDC_STATIC_AGAMES_NOTIFICATION" FONT="Arial" SCALE="1.2" BOLD="1">Enable Notification</Control>
+		<Control ID="IDC_STATIC_AGAMES_LINK" FONT="Arial" SCALE="1.2" BOLD="1">Link X/Y resolution settings</Control>
+		<Control ID="IDC_STATIC_AGAMES_RRATE_TITLE" FONT="Arial" SCALE="1.2" BOLD="1">Report Rate (reports per second)</Control>
+		<Control ID="IDC_STATIC_AGAMES_RRATE_WARNING" FONT="Arial" SCALE="1.0" BOLD="1">As report rate increases, resource utilization also increases</Control>
+	</Dialog>
+	<Dialog ID="IDD_MANAGE_PROGRAMS">Manage Programs
+ 		<Control ID="IDC_STATIC_PROGRAMS">Programs</Control>
+		<Control ID="IDC_BUTTON_ADD">Add ...</Control>
+		<Control ID="IDC_BUTTON_REMOVE">Remove</Control>
+		<Control ID="IDOK">OK</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<Dialog ID="IDD_DEVICE_NOTIFICATIONS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_DEVICENOTIFICATIONS_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">Keyboard Notification Settings</Control>
+    <Control ID="IDC_STATIC_NOTIFICATION_PREFERENCES" FONT="Arial" SCALE="1.2" BOLD="1">Notification Preferences</Control>
+		<Control ID="IDC_STATIC_NOTN_BUDDY_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Notifications Buddy List</Control>
+		<Control ID="IDC_STATIC_NOTIFICATION_DURATION" FONT="Arial" SCALE="1.2" BOLD="1">Notification Duration</Control>
+		<Control ID="IDC_DEVICE_NOTIFICATIONS_RESTORDEFAULTS">Restore Defaults</Control>
+		<Control ID="IDC_CHECK_EMAIL_PREFERENCES">Enable E-Mail notifications</Control>
+		<Control ID="IDC_CHECK_MESSENGER_PREFERENCES">Enable IM notifications</Control>
+		<Control ID="IDC_CHECK_USE_BUDDY_LIST">Use buddy list to filter notifications</Control>
+		<Control ID="IDC_STATIC_SETUP_BUDDY_LIST_DESC">Use the buttons below to manage your buddy list. To remove or modify a buddy's name, first highlight the name in the list then click the button.</Control>
+		<Control ID="IDC_BUDDY_ADD">Add</Control>
+		<Control ID="IDC_BUDDY_REMOVE">Remove</Control>
+		<Control ID="IDC_BUDDY_MODIFY">Modify</Control>
+		<Control ID="IDC_STATIC_NOTIFICATION_DURATION_DESC">When a new message arrives from someone on the buddy list, notify me :</Control>
+		<Control ID="IDC_STATIC_DEFAULT_APPLICATIONS" FONT="Arial" SCALE="1.2" BOLD="1">Default Applications</Control>
+		<Control ID="IDC_STATIC_EMAIL">E-mail:</Control>
+		<Control ID="IDC_STATIC_IM">IM:</Control>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_MUSICLIST_MGMT" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_MUSICLIST_MGMT" FONT="Arial" SCALE="1.4" BOLD="1">Music List Management</Control>
+		<Control ID="IDC_STATIC_MUSICLIST_MGMT_DESC">Use this screen to manage the playlists and radio stations that are displayed on your LCD Digital Display.\nStart by selecting either Playlist or Radio from the options below:</Control>
+		<Control ID="IDC_RADIO_PLAYLIST" FONT="Arial" SCALE="1.2" BOLD="1">Playlist</Control>
+		<Control ID="IDC_RADIO_RADIO_STATION" FONT="Arial" SCALE="1.2" BOLD="1">Radio</Control>
+		<Control ID="IDC_STATIC_SELECT_MEDIAPLAYER">Select Media Player:</Control>
+		<Control ID="IDC_STATIC_MUSICLIST_DESC">Only the first 9 items in the selected media player are displayed on the LCD Keyboard Display. Highlight an item to remove it or change its position in the list. To add an item, either click Add or play the item in the selected media player and choose the Save option on your LCD Keyboard Display.</Control>
+		<Control ID="IDC_BUTTON_LAUNCH_ADD">Add...</Control>
+		<Control ID="IDC_BUTTON_REMOVE">Remove</Control>
+		<Control ID="IDC_BUTTON_MOVE_UP">Move Up</Control>
+		<Control ID="IDC_BUTTON_MOVE_DOWN">Move Down</Control>
+		<Control ID="IDC_KEYBOARD_MUSICLIST_RESTORDEFAULTS">Restore Defaults</Control>
+	</Dialog>
+	<Dialog ID="IDD_ADD_MUSICLIST" WIDTH="348" HEIGHT="433">Add Music List
+ 		<Control ID="IDC_STATIC_SELECT_MUSICLIST">Select the item below and click Add.</Control>
+		<Control ID="IDC_BUTTON_ADD">Add</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<Dialog ID="IDD_MANAGE_BUDDYLIST" WIDTH="348" HEIGHT="138">Manage Buddy
+ 		<Control ID="IDC_STATIC_SELECTBUDDY">Enter buddy name or email address</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<Dialog ID="IDD_SMARTWHEEL_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_SMART_WHEEL_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">SmartShift Settings</Control>
+		<Control ID="IDC_STATIC_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Select Program</Control>
+		<Control ID="IDC_STATIC_VERTICAL_SCROLLING" FONT="Arial" SCALE="1.2" BOLD="1">Vertical Scroll</Control>
+		<Control ID="IDC_STATIC_HORIZONTAL_SCROLLING" FONT="Arial" SCALE="1.2" BOLD="1">Horizontal Scroll</Control>
+		<Control ID="IDC_STATIC_SMARTSHIFT_TECHNOLOGY" FONT="Arial" SCALE="1.2" BOLD="1">SmartShift Technology</Control>
+    <Control ID="IDC_CHECK_APPSETTINGS_WHEEL" FONT="Arial">Enable application-specific wheel settings</Control>
+    <Control ID="IDC_MANAGEPROGRAMS" FONT="Arial">Manage Programs</Control>
+		<Control ID="IDC_SMARTWHEEL_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+		<Control ID="IDC_BUTTON_CONFIGURE_APP_OVERRIDES_WHEEL" FONT="Arial">Configure</Control>
+	</Dialog>
+	<Dialog ID="IDD_ADVANCEDZOOM_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_ADVANCEDZOOM_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Zoom Settings</Control>
+		<Control ID="IDC_STATIC_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Select Program</Control>
+		<Control ID="IDC_STATIC_ADVANCEDZOOM" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_MANAGEPROGRAMS">Manage Programs</Control>
+		<Control ID="IDC_ADVANCEDZOOM_RESTORDEFAULTS">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+	</Dialog>
+	<Dialog ID="IDD_TOOLS_VOIP_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_COMMUNICATION_MANAGER_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Logitech Communication Manager Settings</Control>
+		<Control ID="IDC_GROUP_ICA" FONT="Arial" SCALE="1.2" BOLD="1">Internet Communication Application</Control>
+		<Control ID="IDC_STATIC_ADVANCED_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">Advanced Settings</Control>
+		<Control ID="IDC_GROUP_AUDIO_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">Audio Settings</Control>
+		<Control ID="IDC_STATIC_ICA_DESC">Logitech Communication Manager offers enhanced capabilities with the following applications:</Control>
+		<Control ID="IDC_STATIC_AUDIO_SETTINGS__DESC">To change your Internet Communication settings, launch the wizard by clicking the button below:</Control>
+		<Control ID="IDC_CHECK_SILENCE_MUSIC">Silence music when I answer a call</Control>
+		<Control ID="IDC_CHECK_ENABLE_LOGITECH_COMM_MGR">Enable Logitech Communication Manager</Control>
+		<Control ID="IDC_TOOLS_COMM_MGR_RESTORDEFAULTS">Restore Defaults</Control>
+		<Control ID="IDC_BUTTON_START_WIZARD">Start Wizard</Control>
+		<Control ID="IDC_STATIC_LAUNCH_AUDIO_CP">To change all your audio settings on your computer, (advanced user only)</Control>
+		<Control ID="IDC_STATIC_HL_LAUNCH_AUDIO_CP">Click Here</Control>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_TOUCHPAD_MOVEMENT" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_TOUCHPAD_MOVEMENT" FONT="Arial" SCALE="1.4" BOLD="1">TouchDisc Scroll Settings</Control>
+		<Control ID="IDC_STATIC__TOUCHPAD_MOVEMENT_DESC">Do you know that your TouchDisc behaves as a real mouse? To change the TouchDisc Setting, click the button below:</Control>
+		<Control ID="IDC_KEYBOARD_TOUCHPAD_CONFIG">Configure TouchDisc</Control>
+		<Control ID="IDC_KEYBOARD_TOUCHPAD_RESTORDEFAULTS">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+	</Dialog>
+  <Dialog ID="IDD_TOUCHPAD_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_TOUCHPAD_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Touchpad Settings</Control>
+    <Control ID="IDC_STATIC_ONEFINGER" FONT="Arial" SCALE="1.2" BOLD="1">One Finger</Control>
+    <Control ID="IDC_CHECK_XY_TRACK">Pointer Movement</Control>
+    <Control ID="IDC_CHECK_TAP_TO_CLICK">Tap-to-Click</Control>
+    <Control ID="IDC_STATIC_TWOFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Two Fingers</Control>
+    <Control ID="IDC_CHECK_2FINGER_VERTICAL">Swipe up and down to scroll vertically</Control>
+    <Control ID="IDC_CHECK_2FINGER_HORIZONTAL">Swipe left and right to scroll horizontally</Control>
+    <Control ID="IDC_CHECK_INERTIA_SCROLL">Scroll with Inertia</Control>
+    <Control ID="IDC_STATIC_THREEFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Three Fingers</Control>
+    <Control ID="IDC_CHECK_3FINGER_PAGEUPDOWN">Swipe Up/Down for Page Up/Down</Control>
+    <Control ID="IDC_CHECK_3FINGER_BACKFORWARD">Swipe Left/Right for Browser Back/Forward</Control>
+    <Control ID="IDC_STATIC_FOURFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Four Fingers</Control>
+    <Control ID="IDC_CHECK_4FINGER_APP_SWITCH">Swipe Up/Down to Switch Applications and Show Desktop</Control>
+    <Control ID="IDC_CHECK_4FINGER_EDGE_SNAP">Swipe Left/Right for Windows Snap</Control>
+    <Control ID="IDC_STATIC_EDGE_GESTURES" FONT="Arial" SCALE="1.2" BOLD="1">Edge Gestures</Control>
+    <Control ID="IDC_CHECK_ENABLE_LEFTEDGE_GESTURE">Swipe from left edge to switch applications</Control>
+    <Control ID="IDC_CHECK_ENABLE_RIGHTEDGE_GESTURE">Swipe from right edge to show Charms</Control>
+    <Control ID="IDC_CHECK_ENABLE_TOPEDGE_GESTURE">Swipe from top edge to show App Bar</Control>
+    <Control ID="IDC_CHECK_ENABLE_ZOOM_GESTURE">Spread or pinch with 2 fingers to zoom</Control>
+    <Control ID="IDC_CHECK_2FINGER_TAP">Tap with 2 fingers to right-click</Control>
+    <Control ID="IDC_TOUCHPAD_RESTORDEFAULTS">Restore Defaults</Control>
+  </Dialog>
+	<Dialog ID="IDD_MOUSE_TOUCHPAD_SCROLL_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_TOUCHPAD_SCROLL_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">TouchDisc Scroll Settings</Control>
+		<Control ID="IDC_STATIC_TOUCHPAD_SCROLL_DESC">The TouchDisc allows you to scroll vertically or horizontally at high speed.</Control>
+		<Control ID="IDC_STATIC_HORZ_SCROLL_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Horizontal Scroll</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Vertical Scroll</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_NO_ACC">No Acceleration</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_MAX_ACC">Max. Acceleration</Control>
+		<Control ID="IDC_MOUSE_TOUCHPAD_SCROLL_RESTORDEFAULTS">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+	</Dialog>
+	<Dialog ID="IDD_ORIENTATION" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_ORIENTATION_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Orientation Settings</Control>
+		<Control ID="IDC_ORIENT_DESCRIPTION_TEXT">Use this feature to set up your device to function in a new position.  It is especially designed to change the position of a portable trackball, but you can also use it to indicate a more comfortable angle to hold a mouse.</Control>
+		<Control ID="IDC_ORIENT_SETUP_BUTTON">Set Orientation</Control>
+		<Control ID="IDC_ORIENTATION_RESTORDEFAULTS">Restore Defaults</Control>
+	</Dialog>
+	<Dialog ID="IDD_SAVECHANGES_PROMPT">Save Changes
+    <Control ID="IDC_STATIC_SAVECHANGES_PROMPT">Settings might have changed. Do you want to save changes by clicking OK or Apply?</Control>
+		<Control ID="IDC_CHECK_DONT_ASK">Do not ask again</Control>
+		<Control ID="IDOK">Yes</Control>
+		<Control ID="IDCANCEL">No</Control>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_INACTIVE_KEYS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_INACTIVE_KEYS" FONT="Arial" SCALE="1.4" BOLD="1">Keyboard Inactive Keys</Control>
+		<Control ID="IDC_STATIC_INACTIVE_KEYS_DESC" FONT="Arial">You can disable certain keys you accidentally press or never use. To do so, select your keyboard and then check the appropriate boxes:</Control>
+		<Control ID="IDC_CHECK_DISABLE_CAPSLOCK_KEY" FONT="Arial">Disable Caps Lock key (recommended)</Control>
+		<Control ID="IDC_CHECK_DISABLE_WINDOWS_KEY" FONT="Arial">Disable Windows Start key (recommended for gamers only)</Control>
+		<Control ID="IDC_CHECK_DISABLE_SCROLLLOCK_KEY" FONT="Arial">Disable Scroll Lock key (recommended)</Control>
+		<Control ID="IDC_CHECK_DISABLE_NUMLOCK_KEY" FONT="Arial">Disable Num Lock key </Control>
+		<Control ID="IDC_CHECK_DISABLE_INSERT_KEY" FONT="Arial">Disable Insert key </Control>
+		<Control ID="IDC_KEYBOARD_INACTIVEKEYS_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial" >Online Help</Control>
+	</Dialog>
+  <Dialog ID="IDD_TOOLS_DJ_TOOLS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_DJ_TAB_FIRST_LINE" FONT="Arial" SCALE="1.2" BOLD="1">Plug it. Forget it. Add to it.</Control>
+    <Control ID="IDC_STATIC_DJ_INFORMATION_RESOURCES">You have a Logitech Unifying receiver plugged into your computer. One Unify receiver allows to use up to six Unify mice and keyboards.</Control>
+    <Control ID="IDC_STATIC_DJ_LAUNCH_RESOURCES">Adding more devices is easy using the Unifying software:</Control>
+    <Control ID="IDC_BUTTON_DJ_UNIFY_SOFTWARE">Open Unifying Software</Control>
+    <Control ID="IDC_STATIC_HL_LOGIHOME">Learn More</Control>
+  </Dialog>
+  <Dialog ID="IDD_NEW_FEATURE" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_NEWFEATURE_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">New Features</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE" FONT="Arial" SCALE="1.2" BOLD="1">New software features are available for Logitech SetPoint</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE4" FONT="Arial">Your Logitech devices are working normally. If you would like to enhance their functionality with the new software features listed below, click the 'Install Updates' button.</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE2" FONT="Arial" SCALE="1.2" BOLD="1">Feature:</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE3" FONT="Arial" SCALE="1.2" BOLD="1">Description:</Control>
+    <Control ID="IDC_BUTTON_INSTALL_NOW" FONT="Arial">Install Updates</Control>
+  </Dialog>
+  <Dialog ID="IDD_NEW_FEATUREPOPUP" WIDTH="735" HEIGHT="500">
+    <Control ID="IDC_STATIC_NEWFEATURE" FONT="Arial" SCALE="1.2" BOLD="1">New software features are available for Logitech SetPoint</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE2" FONT="Arial" SCALE="1.2" BOLD="1">Feature:</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE3" FONT="Arial" SCALE="1.2" BOLD="1">Description:</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE4" FONT="Arial">Your Logitech devices are working normally. If you would like to enhance their functionality with the new software features listed below, click the 'Install Updates' button. These features are supported by one or more of the following device(s): %s</Control>
+    <Control ID="IDC_BUTTON_INSTALL_NOW" FONT="Arial">Install Updates</Control>
+    <Control ID="IDC_EXIT">Exit</Control>
+  </Dialog>
+  <Dialog ID="IDD_HYBRIDPOPUP" WIDTH="735" HEIGHT="324">
+    <Control ID="IDC_STATIC_NEWFEATURE" FONT="Arial" SCALE="1.2" BOLD="1">Unsupported Device</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE4" FONT="Arial">This version of Logitech SetPoint does not support all your device(s). Click below to download an update.</Control>
+    <Control ID="IDC_BUTTON_INSTALL_NOW">Install Updates</Control>
+    <Control ID="IDC_EXIT">Exit</Control>
+  </Dialog>
+
+  <!--//RMC_UI_CHANGES
+  <Dialog ID="IDD_DEVICE_SELECTION" WIDTH="778" HEIGHT="23">
+    <Control ID="IDC_STATIC_SELECTDEVICE" FONT="Arial" SCALE="1.2" BOLD="1">Select Device</Control>
+  </Dialog>
+  //RMC_UI_CHANGES-->
+  <Dialog ID="IDD_DEVICE_SELECTION" WIDTH="720" HEIGHT="39">
+    <Control ID="IDC_STATIC_SELECTDEVICE" FONT="Arial" SCALE="1.2" BOLD="1">Select Device</Control>
+    <Control ID="IDC_STATIC_SINGLEDEVICE_NAME" FONT="Arial" SCALE="1.6" BOLD="1">DeviceName</Control>
+    <Control ID="IDC_BATTERYREMAIN_STATIC" FONT="Arial" SCALE="1.1" BOLD="1"/>
+  </Dialog>
+  
+  
+  <Dialog ID="IDD_MOUSE_ADVANCED_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_ADVANCED_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Advanced Settings</Control>
+    <Control ID="IDC_CHECK_APPSETTINGS" FONT="Arial" >Enable application-specific button settings.\nCreate custom button assignments for individual appilcations</Control>
+    <Control ID="IDC_BUTTON_CONFIGURE_APP_OVERRIDES" FONT="Arial">Configure</Control>
+    <Control ID="IDC_MOUSE_ADV_SETTINGS_RESTOREDEFAULTS" FONT="Arial">Restore Defaults</Control>
+  </Dialog>
+  <Dialog ID="IDD_MOUSE_APP_OVERRIDE_SETTINGS" WIDTH="747" HEIGHT="570">Application-Specific Button Settings
+    <Control ID="IDC_STATIC_MOUSE_NAME_TITLE" FONT="Arial" SCALE="1.6" BOLD="1"></Control>
+    <Control ID="IDC_STATIC_STEP1" FONT="Arial" SCALE="1.4" BOLD="1">1.</Control>
+    <Control ID="IDC_STATIC_MOUSE_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Select application</Control>
+    <Control ID="IDC_STATIC_STEP2" FONT="Arial" SCALE="1.4" BOLD="1">2.</Control>
+    <Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1">Select Button</Control>
+    <Control ID="IDC_STATIC_STEP3" FONT="Arial" SCALE="1.2" BOLD="1">3.</Control>
+    <Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Select Task</Control>
+    <Control ID="IDC_STATIC_STEP3A" FONT="Arial" SCALE="1.2" BOLD="1">3a.</Control>
+    <Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+    <Control ID="IDC_MOUSE_BUTTONS_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_SELECT_FUNCTION" FONT="Arial">Select Function</Control>
+    <Control ID="IDC_STATIC_APP_OVERRIDE_EXISTS_LEGEND" FONT="Arial">Indicates application specific settings exists for the button.</Control>
+    <Control ID="IDC_MOUSE_BUTTONS_CLOSE" FONT="Arial">Close</Control>
+    <Control ID="IDC_BUTTON_ADD_PROGRAM" FONT="Arial">Add...</Control>
+    <Control ID="IDC_BUTTON_REMOVE_PROGRAM" FONT="Arial">Remove...</Control>
+    <Control ID="IDC_STATIC_APP_OVERRIDE_NOT_ALLOWED" FONT="Arial">This button cannot be configured for application-specific behavior.</Control>
+    <Control ID="IDC_MOUSE_RADIO__NO_APPOVERRIDE" FONT="Arial">No Application Specific Task</Control>
+    <Control ID="IDOK">OK</Control>
+    <Control ID="IDCANCEL">Cancel</Control>
+  </Dialog>
+  <Dialog ID="IDD_SMART_WHEEL_APP_OVERRIDE_SETTINGS" WIDTH="747" HEIGHT="570">Application-Specific Wheel Settings
+    <Control ID="IDC_STATIC_MOUSE_NAME_TITLE" FONT="Arial" SCALE="1.6" BOLD="1"></Control>
+    <Control ID="IDC_STATIC_MOUSE_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Select application</Control>
+    <Control ID="IDC_MOUSE_WHEEL_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_STATIC_SMARTSHIFT_TECHNOLOGY" FONT="Arial" SCALE="1.2" BOLD="1">SmartShift Technology</Control>
+    <Control ID="IDC_MOUSE_SMART_WHEEL_APP_OVERRIDES_CLOSE" FONT="Arial">Close</Control>
+    <!--<Control ID="IDC_STATIC_APP_SPECIFIC_MOUSE_NAME_TITLE" FONT="Arial">Application specific button settings for :</Control>-->
+    <Control ID="IDC_BUTTON_ADD_PROGRAM" FONT="Arial">Add...</Control>
+    <Control ID="IDC_BUTTON_REMOVE_PROGRAM" FONT="Arial">Remove...</Control>
+    <Control ID="IDOK">OK</Control>
+    <Control ID="IDCANCEL">Cancel</Control>
+  </Dialog>
+  <Dialog ID="IDD_KEYBOARD_ILLUMINATION_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_ILLUMINATION_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Keyboard Illumination Settings</Control>
+    <Control ID="IDC_RADIO_HAND_DETECTION" FONT="Arial">Activate illumination with hand detection. (Recommended)</Control>
+    <Control ID="IDC_RADIO_ENABLE_ILLUMINATION" FONT="Arial" >Activate illumination only when I start typing</Control>
+    <Control ID="IDC_STATIC_ILLUMINATION_TIMEOUT" FONT="Arial">Turn off illumination when keyboard is not used for :</Control>
+    <Control ID="IDC_RADIO_DISABLE_ILLUMINATION" FONT="Arial">Disable keyboard illumination</Control>
+    <Control ID="IDC_CHECK_ENABLE_ILLUMINATION_OSD" FONT="Arial">Display visual notifications on my screen when I manually adjust illumination intensity.</Control>
+    <Control ID="IDC_STATIC_OSD_NOTIFICATION" FONT="Arial">Contextual help for illumination OSD settings</Control>
+    <Control ID="IDC_KEYBOARD_ILLUMINATION_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+  </Dialog>
+  <Dialog ID="IDD_KEYBOARD_SOLAR_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_SOLARDASHBOARD_TITLE_DISPLAY" FONT="Arial" SCALE="1.4" BOLD="1">Logitech Solar App</Control>
+    <Control ID="IDC_STATIC_SOLARDASHBOARD_DISPLAY2" FONT="Arial">Use the Logitech Solar App to check your keyboard power reserve level. You can measure the light intensity in your room, check the current power status of your keyboard, and get status updates if your power reserve is getting low.</Control>
+    <Control ID="IDC_KEYBOARD_LAUNCH_SOLAR_DASHBOARD" FONT="Arial">Open Solar App</Control>
+  </Dialog>
+  <Dialog ID="IDD_HYBRID_PROBING_DLG" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_PROBING_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">Device being Initialized</Control>
+    <Control ID="IDC_STATIC_PROBING_MSG" FONT="Arial">Your device is being initialized. If this appears to take longer than a minute, please turn your device OFF and back ON to re-initiate the sequence.</Control>
+    <Control ID="IDC_CLOSE">Close</Control>
+  </Dialog>
+
+  <Dialog ID="IDD_MOUSE_GESTURE_POINTCLICK" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_POINTCLICK" FONT="Arial" SCALE="1.4" BOLD="1">Point and Click</Control>
+    <Control ID="IDC_CHECK_LEFT_CLICK" FONT="Arial">Primary click</Control>
+    <Control ID="IDC_CHECK_MIDDLE_CLICK" FONT="Arial">Middle click</Control>
+    <Control ID="IDC_CHECK_RIGHT_CLICK" FONT="Arial">Right click</Control>
+    <Control ID="IDC_CHECK_SMARTMOVE" FONT="Arial">Enable Smart Move</Control>
+    <Control ID="IDC_CHECK_START_SCREEN" FONT="Arial">Start screen</Control>
+    <Control ID="IDC_CHECK_APP_SWITCH" FONT="Arial">Online Help</Control>
+    <Control ID="IDC_CHECK_SHOW_HIDE_DESKTOP" FONT="Arial">Show desktop</Control>
+    <Control ID="IDC_STATIC_SURFACE_CURSORSPEED" FONT="Arial">Pointer Speed</Control>
+    <Control ID="IDC_STATIC_CURSOR_SPEEDSLOW" FONT="Arial">Slow</Control>
+    <Control ID="IDC_STATIC_CURSOR_SPEEDFAST" FONT="Arial">Fast</Control>
+    <Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_CHECK_ENABLE_POINTER_MOVEMENT" FONT="Arial">Pointer Movement</Control>
+    <Control ID="IDC_CONTROL_SWAPHAND" FONT="Arial">Swap left and right mouse buttons</Control>
+    <Control ID="IDC_STATIC_POINTER_MOVEMENT_GESTURE_ACTION" FONT="Arial">Uncheck to disable pointing</Control>
+    <Control ID="IDC_STATIC_SWAP_BUTTONS_GESTURE_ACTION" FONT="Arial">Primary click with right mouse button</Control>
+    <Control ID="IDC_CHECK_ENABLE_DRAGGING" FONT="Arial">Enable Dragging</Control>
+    <Control ID="IDC_STATIC_ENABLE_DRAGGING_GESTURE_ACTION" FONT="Arial">Double-tap to drag</Control>
+  </Dialog>
+
+  <Dialog ID="IDD_MOUSE_GESTURE_WINDOWS_NAV" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_GESTURE_WINDOWS_NAV" FONT="Arial" SCALE="1.4" BOLD="1">Navigate Windows</Control>
+    <Control ID="IDC_CHECK_SWITCH_APPS" FONT="Arial">Switch applications</Control>
+    <Control ID="IDC_CHECK_SHOW_CHARMS" FONT="Arial">Show Charms</Control>
+    <Control ID="IDC_CHECK_SHOW_HIDE_DESKTOP" FONT="Arial">Show/hide desktop</Control>
+    <Control ID="IDC_STATIC_SHOW_CHARM_GESTURE_ACTION" FONT="Arial">Swipe from right edge of mouse with 1 finger</Control>
+    <Control ID="IDC_STATIC_SHOW_HIDE_DESKTOP_GESTURE_ACTION" FONT="Arial">Double-tap on back of keyplate with 3 fingers</Control>
+    <Control ID="IDC_CHECK_SNAP_WINDOWS_LEFTRIGHT" FONT="Arial">Snap desktop windows left or right</Control>
+    <Control ID="IDC_STATIC_SNAP_WINDOWS_LEFTRIGHT_GESTURE_ACTION2" FONT="Arial">Horizontal swipe with three fingers</Control>
+    <Control ID="IDC_STATIC_MIDDLE_CLICK_GESTURE_ACTION" FONT="Arial">Click on back of Keyplate</Control>
+    <Control ID="IDC_CHECK_START_SCREEN" FONT="Arial">Start Screen</Control>
+    <Control ID="IDC_CHECK_MAXIMIZE_MINIMIZE_WINDOWS" FONT="Arial">Maximize/minimize desktop windows</Control>
+    <Control ID="IDC_STATIC_MIDDLE_CLICK_GESTURE_ACTION" FONT="Arial">Start Screen</Control>
+    <Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_CHECK_SHOW_APP_MENU" FONT="Arial">Show Windows 8 App Bar</Control>
+    <Control ID="IDC_CHECK_ZOOM_IN_OUT" FONT="Arial">Zoom in and out</Control>
+  </Dialog>
+
+  <Dialog ID="IDD_MOUSE_GESTURE_CONTENT_NAV" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_GESTURE_CONTENT_NAV" FONT="Arial" SCALE="1.4" BOLD="1">Scroll</Control>
+    <Control ID="IDC_CHECK_SCROLL_HORIZONTAL" FONT="Arial">Horizontal scrolling</Control>
+    <Control ID="IDC_STATIC_START_SCREEN_GESTURE_ACTION" FONT="Arial">Double-tap with 4 fingers</Control>
+    <Control ID="IDC_CHECK_BACK_FORWARD" FONT="Arial">Back/forward</Control>
+    <Control ID="IDC_CHECK_SEMANTIC_ZOOM" FONT="Arial">Semantic Zoom</Control>
+    <Control ID="IDC_STATIC_SHOW_CHARM_GESTURE_ACTION" FONT="Arial">Swipe from right edge of mouse with 1 finger</Control>
+    <Control ID="IDC_STATIC_SHOW_HIDE_DESKTOP_GESTURE_ACTION" FONT="Arial">Double-tap on back of keyplate with 3 fingers</Control>
+    <Control ID="IDC_CHECK_ROTATE" FONT="Arial">Rotate</Control>
+    <Control ID="IDC_STATIC_ROTATE_GESTURE_ACTION2" FONT="Arial">Horizontal swipe with 3 fingers</Control>
+    <Control ID="IDC_CHECK_SCROLL_VERTICAL" FONT="Arial">Vertical scrolling</Control>
+    <Control ID="IDC_STATIC_START_SCREEN_GESTURE_ACTION2" FONT="Arial">Vertical swipe with 1 or more fingers</Control>
+    <Control ID="IDC_CHECK_ZOOM_IN_OUT" FONT="Arial">Zoom in and out</Control>
+    <Control ID="IDC_STATIC_ZOOM_IN_OUT_GESTURE_ACTION" FONT="Arial">Horizontal swipe with 3 fingers</Control>
+    <Control ID="IDC_MOUSE_SCROLL_OPTIONS" FONT="Arial">Scroll Options</Control>
+    <Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Restore Defaults</Control>
+    <Control ID="IDC_CHECK_PAGE_UP_DOWN" FONT="Arial">Page up/down</Control>    
+  </Dialog>
+  <Dialog ID="IDD_SCROLL_OPTIONS" WIDTH="438" HEIGHT="338">Scroll Options
+    <Control ID="IDC_STATIC_SCROLL_SPEED" FONT="Arial" >Speed Increment</Control>
+    <Control ID="IDC_CHECK_REVERSE_SCROLL_DIRECTION" FONT="Arial" >Synchronize scroll direction</Control>
+    <Control ID="IDC_STATIC_REVERSE_SCROLL_DIRECTION" FONT="Arial" >Content moves in same direction as finger</Control>
+    <Control ID="IDC_CHECK_SMOOTH_SCROLL" FONT="Arial" >Smooth Scrolling</Control>
+    <Control ID="IDC_STATIC_SMOOTH_SCROLLING" FONT="Arial" >Content moves smoothly</Control>
+    <Control ID="IDC_CHECK_INERTIA_SCROLL" FONT="Arial" >Scroll with Inertia</Control>
+    <Control ID="IDC_STATIC_SCROLL_WITH_INERTIA" FONT="Arial" >Flick finger to scroll long distances</Control>
+    <Control ID="IDOK">OK</Control>
+    <Control ID="IDCANCEL">Cancel</Control>
+    <Control ID="IDC_STATIC_SCROLL_SENSITIVITY">Scroll Sensitivity</Control>
+    <Control ID="IDC_STATIC_SCROLL_SENSITIVITY_SLOW">Slow</Control>
+    <Control ID="IDC_STATIC_SCROLL_SENSITIVITY_FAST">Fast</Control>
+  </Dialog>
+</Source>
+

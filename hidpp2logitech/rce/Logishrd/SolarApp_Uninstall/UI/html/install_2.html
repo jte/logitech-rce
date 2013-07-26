@@ -1,0 +1,341 @@
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+
+<head lang='en-us'>
+
+  <meta http-equiv="Pragma"       content="no-cache">
+  <meta http-equiv="Expires"      content="-1">
+  <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+
+  <script type="text/javascript" src="../js/custom_ui.js"></script> 
+  <script type="text/javascript" src="../js/logi_code.js"></script> 
+
+    <script src="../js/prototype.js" type="text/javascript"></script>
+  <script src="../js/effects.js" type="text/javascript"></script>
+
+  
+	<script type='text/javascript'>
+    var langCode = window.external.EvaluateExpression('langcode');
+    document.write("<link rel='stylesheet' href='../"+langCode+"/wizpage.css' type='text/css' media='screen'>");
+    
+
+    var channel = window.external.EvaluateExpression('channel');
+    var register = window.external.EvaluateExpression('register');
+    var updater = window.external.EvaluateExpression('updater');
+    var ps2 = window.external.EvaluateExpression('ps2');
+    var showUI = window.external.EvaluateExpression('showUI');
+    var displayVersion = window.external.EvaluateExpression('displayVersion_persistent');
+
+    var showMiHints = window.external.EvaluateExpression('showMiHints');
+    showMiHints = window.external.EvaluateExpression(showMiHints);
+
+    function SetStuffLater() {
+       var el = document.getElementById("productNameText");
+	  	 if (el != null) {el.innerHTML +=" "+displayVersion+""}
+       var el = document.getElementById("Logi_checkbox_01");
+	     
+       if (el) {
+	  el.checked = window.external.EvaluateExpression('Logi_checkbox_01');
+       }
+    }
+    
+    function SetStuff() {
+    
+      if (channel == "oem") { 
+      
+        var el = document.getElementById("productPurposeText");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("logo_image");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("header_image");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_pane");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_title");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+
+        var el = document.getElementById("install_title_2");
+	  	  if (el != null) {el.style.display = "";}	  	  
+
+        var el = document.getElementById("install_title_3");
+	  	  if (el != null) {el.style.display = "";}	  	  
+	  	}  
+	  	
+	  	if (register == "no") { 
+        var el = document.getElementById("register_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (updater == "no") { 
+        var el = document.getElementById("updater_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (ps2 == "yes") { 
+        var el = document.getElementById("ps2_pane");
+	  	  if (el != null) {el.style.display = "";}
+      }
+
+      if (showUI == "no") { 
+        var el = document.getElementById("done_messaging");
+        if (el != null) {el.style.display = "none";}
+      }
+
+
+    }
+
+    // If you switch this to 'step' mode it will attempt to light each LED in sequence.  The graphic must be setup to allow an even step
+// as the top image is clipped to show the bottom image.
+
+var progressMode='analog';	
+var currentProgress=0;
+var progressStep=7;
+
+var MaxWidth=400;
+
+	function incProgress(step)
+	{
+		if (document.getElementById("resMSetupVars") == null)
+			return;
+
+		if (resMSetupVars.nProgressStep == null)
+		{
+			resMSetupVars.nProgressTotal = 100;
+			resMSetupVars.nProgressStep = 0;
+		}
+			
+		resMSetupVars.nProgressStep += step;
+	}
+
+	function processPropertyChange(event)
+	{
+		// Update progress bar
+		if (event.propertyName == "nProgressStep")
+		{
+			// Make the assumption that nProgressTotal has already been initialized.
+			// Be sure to initialize first prior to modifying nProgressStep.
+		
+			// NOTE: Setting width to "0%" will produce an "Invalid argument" Javascript error.
+			if (resMSetupVars.nProgressStep != 0 && resMSetupVars.nProgressTotal != 0)
+			{
+				var barWidth = parseInt(parseInt(resMSetupVars.nProgressStep) * 100 / parseInt(resMSetupVars.nProgressTotal));
+				if (progressMode=='step')
+				{
+					var currPix=barWidth*(MaxWidth/100);
+					if (currPix>(currentProgress+progressStep))
+					{
+						currentProgress=(currPix/progressStep)*progressStep;
+						barWidth=currentProgress;
+					}
+					else
+					{
+						return;
+					}
+				}
+				if (barWidth > 0)
+				{
+					if (progressMode=='step')
+					{
+						barWidth += "px";
+					}
+					else
+					{
+						barWidth += "%";
+					}
+					
+					var testBar=document.getElementById('pdone');
+					if (testBar)
+					{
+					    var testBar1=document.getElementById('ptest')
+						testBar1.style.clip='rect(auto,auto,auto,'+barWidth+')';
+					}
+				}
+				
+			}
+
+		}
+        else if (event.propertyName == "strProgressPkgName")
+        {
+            var elem=document.getElementById('installerMsg');
+            if (elem)
+           {
+               var ids_string = resMSetupVars.strProgressPkgName;
+               if (ids_string.indexOf("IDS_") != 0) {
+                 // original behavior 
+                 elem.innerHTML=resMSetupVars.strProgressPkgName;
+               } else {
+                 var converted_string = getString("Z_"+ids_string);
+                 if (converted_string.length != 0) {
+                   elem.innerHTML=converted_string;
+                 }
+               }
+            }
+        }
+	}
+
+  function InitRotation ()
+  {
+    setInterval("RotateMessage()", 20000)
+  }
+
+  var rotationIndex = 1;
+  
+  function RotateMessage () 
+  {
+    var el = document.getElementById("messaging_progress_"+rotationIndex);
+  	if (el) {
+      el.style.display = "none";
+    }
+  	
+  	rotationIndex += 1;
+  	if (rotationIndex==4) {rotationIndex=1;}
+  	
+    var el = document.getElementById("messaging_progress_"+rotationIndex);
+  	if (el) {
+      el.style.display = "";
+    }
+ 
+  }
+
+
+  
+  </script>
+
+  <style type="text/css">  .homepage_splash {
+  height: 245px;
+}
+.Slideshow {
+  height: 245px;
+}
+.Pane {
+  height: 100%;
+  width: 100%;
+}
+
+/* SINGLE PROGRESS BAR */
+
+.progressBar{
+	width:416px;
+	height:41px;
+	/*background:url(bg_bar.gif) no-repeat 0 0;*/
+	position:relative;
+}
+.progressBar span{
+	position:absolute;
+	display:block;
+	width:400px;
+	height:25px;
+	background:url(../images/controls/pbar.jpg) no-repeat 0 -25px;
+	top:0px;
+	left:0px;
+}
+.progressBar em{
+	position:absolute;
+	display:block;
+	width:400px;
+	height:25px;
+	background:url(../images/controls/pbar.jpg) no-repeat 0 0;
+	top:0;
+}
+
+  </style>
+  
+</head>
+
+<body id="theBody" class="main_page" ondragstart="return false;" onLoad="SetStuff();loadStrings();setStep(2);InitRotation();;SetStuffLater()"> 
+    	<div id='blanket' style='position: absolute; top: 0; left: 0; display: none; background-color: black; z-index:2; filter=progid:DXImageTransform.Microsoft.Alpha(opacity=25)'></div>
+
+	<div class="container">
+		<div class="sidebar">
+
+			<div class="sidebarTitle">
+			</div>
+
+					<div class="steps">
+			<table class="steps">
+			<!--[if lte IE 6]>
+				<tr class="step"><td>
+					<img class="header_image"  style="background:transparent; position:absolute;left:46px;top:129px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\step_num_complete.png' sizing='scale')" src="..\images\collateral\blank.gif"/></td><td id="stepText_1" string="IDS_STEP_TEXT_1" class="stepText"></td>
+				</tr>
+			<![endif]-->			
+			<!--[if gt IE 6]>		
+				<tr class="step"><td id="stepNum_1" class="stepNum">1</td><td id="stepText_1" string="IDS_STEP_TEXT_1" class="stepText"></td></tr>
+			<![endif]-->
+				<tr class="step"><td id="stepNum_2" class="stepNum">2</td><td id="stepText_2" string="IDS_STEP_TEXT_3" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_3" class="stepNum">3</td><td id="stepText_3" string="IDS_STEP_TEXT_4" class="stepText"></td></tr>
+				</table>
+		</div>
+			<!--[if lte IE 6]>
+			<div id="logo_image" style='padding-top:0px;padding-left:47px;'><img src='..\images\collateral\blank.gif' style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\logos\logo.png' sizing='scale')"></div>
+			<![endif]-->
+			<!--[if gt IE 6]>		
+			<div id="logo_image" style='padding-top:0px;padding-left:35px;'><img src='..\images\logos\logo.png'></div>
+			<![endif]-->
+		</div>
+		<div class="pageContent">
+			<div class="contentHeader" style="height:50px;">
+			  			<!--[if lte IE 6]>
+			<img id="header_image"  style="background:transparent;position:absolute; left:0px; top:0px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\header_image_3.png' sizing='scale')" 
+			src="..\images\collateral\blank.gif">
+			<![endif]-->
+
+			<!--[if gt IE 6]>
+			<img id="header_image" style="position:absolute; left:0px; top:0px;" src="..\images\collateral\header_image_3.png">
+			<![endif]-->
+
+			  
+			  <table height="100%" width="100%">
+				<tr><td valign="bottom">
+				 <span id="productNameText" string="IDS_PRODUCT_NAME"></span>
+			   </td></tr>
+				<tr><td valign="bottom">
+				 <span id="productPurposeText" string="IDS_PRODUCT_PURPOSE"></span>
+			   </td></tr>
+		       </table>
+			  	
+			</div>
+
+			<br/>
+			<br/>
+			<br/>
+
+			<div class="contentBody" style="height:330px;">			
+				<div id="install_title" style="width:400px;" string="IDS_INSTALL_PROGRESS_TITLE" class="leaderBoard_small"></div>
+				<div id="install_title_2" style="padding-top:25px;width:400px;display:none" string="IDS_INSTALL_PROGRESS_TITLE_2" class="leaderBoard_mini2"></div>
+				<div id="install_title_3" style="width:400px;display:none" string="IDS_INSTALL_PROGRESS_TITLE_3" class="leaderBoard_mini2"></div>
+				<div id="install_pane" class="installingPane">
+				  <div class="messaging_progress" id="messaging_progress_1" style="width:250px;color:#fff;float:right;padding-right:20px;" string="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"></div>
+				  <div class="messaging_progress" id="messaging_progress_2" style="display:none;width:250px;color:#fff;float:right;padding-right:20px;" string="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_2"></div>
+				  <div class="messaging_progress" id="messaging_progress_3" style="display:none;width:250px;color:#fff;float:right;padding-right:20px;" string="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_3"></div>
+				</div>
+
+				<div class="instruction_light" id="installerMsg" string="IDS_INSTALL_PROGRESS_TAG"></div>
+				<p class="progressBar">
+					<span id="pdone"><em id="ptest" style="left:0px"></em></span>
+				</p>
+				<span id='resMSetupVars' onpropertychange='processPropertyChange(event)'></span>	
+				<div style="height:30px;">&nbsp;</div>
+ 
+			</div>
+
+			<div class="pageNav" style="width:80%;">		
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (showMiHints=="yes") { 
+		  displayLangCode();
+		}  
+	</script>	
+</body>
+</html>

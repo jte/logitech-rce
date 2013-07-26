@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">kor</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech 제품</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Logitech 제품용 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">마우스 및 키보드 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">마우스 및 키보드 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">마우스 및 키보드 생산성 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">마우스 및 키보드 게임 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">웹캠 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">웹캠 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">통신 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Software</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Logitech G15 게임 키보드 지원 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Logitech Z-10 스피커 지원 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Logitech G11 게임 키보드 지원 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Logitech G11 게임 키보드 지원 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Logitech G-Series 키보드 및 게임보드 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">게임 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Logitech 조이스틱, 게임패드 및 휠 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">게임 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">대부분의 Logitech G-Series 마우스, 키보드, 게임보드 및 헤드셋용 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">고급 서라운드 사운드 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logitech Z-5 스피커</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Logitech Z-5 스피커용 고급 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">서라운드 사운드 헤드셋 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">멀티 채널 Dolby Srround Sound 지원 Logitech 무선 게임용 헤드셋 G930</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">미디어 플레이어용 Logitech 무선 헤드셋 길잡이</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">미디어 플레이어용 Logitech Wireless Headset H800 길잡이</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Unifying 장치의 페어링을 위한 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying 마우스</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Unifying 마우스에 대한 펌웨어 업데이트</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying 키보드</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Unifying 키보드에 대한 펌웨어 업데이트</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying 숫자 패드</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Unifying 숫자 패드에 대한 펌웨어 업데이트</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying 리시버</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Unifying 리시버에 대한 펌웨어 업데이트</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">웹캠 소프트웨어</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Logitech 웹캠용 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid를 사용하면 전세계의 친구 및 가족과 쉽게 연결할 수 있습니다</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Logitech Alert™ 비디오 보안 시스템용 소프트웨어</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">LifeSize Connections는 세계 각지의 동료와 고객과 소통하는 간단한 방법입니다.</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Logitech Solar App</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Logitech 무선 태양광 키보드 K750 모니터링 및 관리 소프트웨어</String>
+  </LU_Strings_1>
+</LogitechUpdater>

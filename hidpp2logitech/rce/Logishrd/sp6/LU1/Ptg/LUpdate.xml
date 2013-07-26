@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">ptg</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Estão disponíveis novas actualizações. Clique aqui para transferir.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Clique para concluir as actualizações do seu software Logitech.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Estão a ser transferidas actualizações para o software Logitech</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Estão disponíveis novas actualizações. Clique aqui para instalar.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">As actualizações para o software Logitech estão a ser instaladas</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">O software Logitech está actualizado</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">O software da Logitech irá concluir a instalação quando reiniciar o sistema</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Clique para concluir a instalação do software</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Não existe ligação à Internet. Não conseguimos verificar a disponibilidade de uma nova versão</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Ocorreu um erro</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Erro de instalação.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Instalação cancelada.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">A operação solicitada requer privilégios de administrador</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">A ligação à Internet foi restaurada. Tente novamente mais tarde</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">A ligação à Internet foi restaurada. O Logitech Updater irá tentar novamente mais tarde</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">A instalação falhou, porque o disco está cheio.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Terminar</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Cancelar</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Ocultar</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Actualizar mais tarde</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Transferir &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Continuar a transferência &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Instalar &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Instalar tudo quando estiver pronto &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Sim</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Não</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Reiniciar o sistema</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">É necessário reiniciar o sistema para concluir a instalação</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Configurar</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Configurar as definições automáticas</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Mostrar actualizações anteriormente recusadas</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">A transferir componente %d de %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">A instalar componente %d de %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Tempo restante:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Transferido %s de %s</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">É necessário reiniciar o sistema para concluir a instalação.</String>
+
+	<String ALIAS="IDS_UI_BANNER_CONFIG">Definições do Logitech Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Escolha como deseja que o actualizador funcione.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Ligar as actualizações automáticas.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Notificar-me, mas não transferir nem instalá-las automaticamente.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Transferir as actualizações, mas deixar escolher a sua instalação.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Transferir e instalar as actualizações automaticamente.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Repor as predefinições</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produto</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Estado</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Tamanho</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">a aguardar verificação</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">disponível</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">pronto a instalar</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">corrupto</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">cancelado</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">concluído</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Requerido</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Recomendado</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Opcional</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">seg</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">seg</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Seleccionar</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Transferir</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Revisão</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Instalar</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Estão disponíveis estas actualizações.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Obtenha mais dos produtos da Logitech com as versões mais recentes do software Logitech.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Estado da transferência</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">As actualizações estão a ser transferidas.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Estado da instalação</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Está pronto para instalar estas actualizações.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Estado da instalação</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">As actualizações estão a ser instaladas.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Estado da instalação</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Reinicialização necessária</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Uma reinicialização é necessária para o software da Logitech concluir a instalação. Salve o seu trabalho em qualquer documento ou página da Web que estejam abertos.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Deseja reiniciar o seu sistema agora?</String>
+
+	<String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Aviso: por predefinição, este componente não está seleccionado porque falhou o(s) seguinte(s) limite(s):</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Mostrar Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Alterar as definições automáticas...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Sair</String>
+  </LU_Strings_1>
+</LogitechUpdater>

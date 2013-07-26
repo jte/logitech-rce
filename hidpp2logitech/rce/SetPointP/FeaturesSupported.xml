@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Source>
+  <language xml:lang="en-us" />
+  <Features>
+    <Feature Name="LD_FID_ROOT"                       Id="0x0000" />
+    <Feature Name="LD_FID_FEATURE_SET"                Id="0x0001" />
+    <Feature Name="LD_FID_FEATURE_INFO"               Id="0x0002" />
+    <Feature Name="LD_FID_DEVICE_FW_VERSION"          Id="0x0003" />
+    <Feature Name="LD_FID_DEVICE_NAME"                Id="0x0005" />
+    <Feature Name="LD_FID_BATTERY_STATUS"             Id="0x1000" />
+    <Feature Name="LD_FID_REPROG_CONTROLS"            Id="0x1B00" />
+    <Feature Name="LD_FID_REPROG_CONTROLS_V2"         Id="0x1B01" />
+    <Feature Name="LD_FID_REPROG_CONTROLS_V3"         Id="0x1B03" />
+    <Feature Name="LD_FID_WIRELESS_DEVICE_STATUS"     Id="0x1D4B" />
+    <Feature Name="LD_FID_VERTICAL_SCROLLING"         Id="0x2100" />
+    <Feature Name="LD_FID_HI_RES_SCROLLING"           Id="0x2120" />
+    <Feature Name="LD_FID_MOUSE_POINTER"              Id="0x2200" />
+    <Feature Name="LD_FID_FN_INVERSION"               Id="0x40A0" />
+    <Feature Name="LD_FID_ENCRYPTION"                 Id="0x4100" />
+    <Feature Name="LD_FID_SOLAR_DASHBOARD"            Id="0x4301" />
+    <Feature Name="LD_FID_KEYBOARD_LAYOUT"            Id="0x4520" />
+    <Feature Name="LD_FID_DFUCONTROL"                 Id="0x00C0" />
+    <Feature Name="LD_FID_TOUCHPAD_FW_ITEMS"          Id="0x6010" />
+    <Feature Name="LD_FID_TOUCHPAD_SW_ITEMS"          Id="0x6011" />
+    <Feature Name="LD_FID_LEFT_RIGHT_SWAP"            Id="0x2001" />
+    <Feature Name="LD_FID_BACKLIGHT"                  Id="0x1981" />
+    <Feature Name="LD_FID_TOUCHPAD_WIN8_FW_ITEMS"     Id="0x6012" />
+    <Feature Name="LD_FID_NEW_FN_INVERSION"           Id="0x40A2" />
+    <Feature Name="LD_FID_TOUCHPAD_RAW_XY"            Id="0x6100" />
+    <Feature Name="LD_FID_TOUCHMOUSE_RAW_POINTS"      Id="0x6110" />
+    <Feature Name="LD_FID_DEVICE_GROUPS"      	    Id="0x0006" />
+
+
+
+  </Features>
+</Source>

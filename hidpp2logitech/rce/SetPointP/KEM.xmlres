@@ -1,0 +1,108 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by KEM.rc
+//
+#define VER_FILEFLAGS                   0
+#define IDR_MANIFEST                    1
+#define VFFF_ISSHAREDFILE               0x0001
+#define VFF_CURNEDEST                   0x0001
+#define VIFF_FORCEINSTALL               0x0001
+#define DRIVER_STATIC                   1
+#define VFF_FILEINUSE                   0x0002
+#define VIFF_DONTDELETEOLD              0x0002
+#define VFF_BUFFTOOSMALL                0x0004
+#define IDD_ABOUTBOX                    100
+#define IDP_OLE_INIT_FAILED             100
+#define VS_USER_DEFINED                 100
+#define IDC_BUTTON_GOTOWEB              100
+#define IDR_MAINFRAME                   128
+#define IDR_KEMTYPE                     129
+#define IDR_TRAY_MENU                   130
+#define ID_TRAYICON_EXIT                131
+#define ID_TRAYICON_CONFIGUREKODIAK     132
+#define IDB_ALERT                       133
+#define IDR_MAINFRAME_JAPANESE          134
+#define IDI_BATTERY_LEVEL_BASE          138
+#define IDI_BATTERY_LEVEL_LOW           198
+#define IDI_BATTERY_LEVEL_GOOD          201
+#define IDI_BATTERY_LEVEL_UNKNOWN       202
+#define IDI_BATTERY_LEVEL_FAIR          204
+#define IDB_BATTERY_ALERT               205
+#define IDX_LOGITECH                    206
+#define IDD_DIALOG_PCPS3SWITCH          211
+#define IDI_DEVICE_BATTERY_LEVEL_LOW    212
+#define IDI_DEVICE_BATTERY_LEVEL_GOOD   213
+#define IDI_DEVICE_BATTERY_LEVEL_CRITICAL 214
+#define IDI_DEVICE_BATTERY_LEVEL_FAIR   215
+#define ID_TRAYICON_HELPCENTER          1000
+#define ID_TRAYICON_MEDIADESKTOP        1002
+#define ID_TRAYICON_QUICKTOUR           1003
+#define ID_TRAYICON_MYBLUETOOTHPLACES   1004
+#define ID_TRAYICON_MEDIALIFE           1005
+#define IDI_SETPOINT_SHORTCUT           1006
+#define IDI_BATTERY_LEVEL_CHARGING      1007
+#define IDI_BATTERY_LEVEL_FULL          1008
+#define IDI_DEVICE_BATTERY_LEVEL_CHARGING 1009
+#define IDI_BATTERY_LEVEL_CRITICAL      1010
+#define IDI_DEVICE_BATTERY_LEVEL_OK     1011
+#define IDI_DEVICE_BATTERY_LEVEL_FULL   1012
+#define LGLANG_CHINESE_TRADITIONAL      0x404
+#define LGLANG_DANISH                   0x406
+#define LGLANG_GERMAN                   0x407
+#define LGLANG_GREEK                    0x408
+#define LGLANG_ENGLISH_US               0x409
+#define LGLANG_SPANISH                  0x40A
+#define LGLANG_FINNISH                  0x40B
+#define LGLANG_FRENCH                   0x40C
+#define LGLANG_ITALIAN                  0x410
+#define LGLANG_JAPANESE                 0x411
+#define LGLANG_KOREAN                   0x412
+#define LGLANG_DUTCH                    0x413
+#define LGLANG_NORWEGIAN                0x414
+#define LGLANG_PORTUGUESE_BRAZIL        0x416
+#define LGLANG_SWEDISH                  0x41D
+#define LGLANG_THAI                     0x41E
+#define CODE_PAGE                       1252
+#define IDC_STATIC_WELCOME              2003
+#define IDC_STATIC_1                    2004
+#define IDC_STATIC_2                    2005
+#define IDC_STATIC_3                    2006
+#define IDC_YAHOO_VER                   2007
+#define IDC_AIM_VER                     2008
+#define IDC_STATIC_YAHOO                2010
+#define IDC_STATIC_AIM                  2011
+#define IDC_AIM_STATIC                  2014
+#define IDC_BUTTON_CANCEL               2015
+#define IDC_WARNING_IMG                 2016
+#define IDC_CHECK_PCPS3_DONTSHOW        2017
+#define IDC_STATIC_PCPS3SWITCH_MSG      2018
+#define IDC_STATIC_PCPS3SWITCH_TITLE    2020
+#define IDC_STATIC_DEVICEENUMERATING_MSG 2021
+#define LGLANG_CHINESE_SIMPLIFIED       0x804
+#define LGLANG_ENGLISH_UK               0x809
+#define LGLANG_PORTUGUESE               0x816
+#define LGLANG_FRENCH_CANADA            0xC0C
+#define IDC_BUTTON_HELP                 6176
+#define IDD_RECOMMEND_SKYPE             6242
+#define IDD_RECOMMEND_YAHAIM            6243
+#define IDD_DIALOG_PCPS3SWITCH1         6244
+#define IDD_DIALOG_DEVICEINITIALIZING   6244
+#define IDC_STATIC_ICA_LOGO             8139
+#define IDC_STATIC_KNOW_SKYPE           8166
+#define IDC_STATIC_SKYPE_1              8168
+#define IDC_STATIC_SKYPE_2              8169
+#define IDC_STATIC_SKYPE_3              8170
+#define IDC_STATIC_SKYPE_0              8172
+#define ID_TRAY_DEBUG_LOG_INCREASE      300
+#define ID_TRAY_DEBUG_LOG_DECREASE      301
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        212
+#define _APS_NEXT_COMMAND_VALUE         1007
+#define _APS_NEXT_CONTROL_VALUE         2022
+#define _APS_NEXT_SYMED_VALUE           3000
+#endif
+#endif

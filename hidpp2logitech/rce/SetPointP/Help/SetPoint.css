@@ -1,0 +1,73 @@
+/* Cascading Style Sheet for Logitech HTML Help*/
+
+body	{ font-size: 10pt; font-family: Arial, Tahoma, Verdana, MS Sans Serif, Helvetica; background-color: #D9D9D9; border-width: 0.1px; border-style: solid; border-color: #000000; margin: 46px 50px 50px 50px; }
+
+a:link				{ color: #3DAEAF; text-decoration: underline; } 
+
+a:hover				{ color: #6D6F6E; text-decoration: underline; }
+
+a:visited 			{ color: #3DAEAF; text-decoration: underline;  }
+
+a:visited:hover			{ color: #6D6F6E; text-decoration: underline; } 
+
+ol		{ font-size: 10pt; margin-top: .6em; margin-bottom: 0em; margin-left: 3.9em }	
+	
+ul		{ font-size: 10pt; margin-top: .6em; margin-bottom: 0em; margin-left: 2.9em; }	
+
+ol ul	{ font-size: 10pt; list-style: disc; margin-top: .6em }
+
+ol ol	{ font-size: 10pt; list-style: lower-roman; margin-top: .6em }
+
+ul ul	{ font-size: 10pt; list-style: disc; margin-left: 3.5em; margin-bottom: .2em }
+
+ol ul ul	{ font-size: 10pt; list-style: disc; margin-top: .6em; margin-left: 2.9em;}
+
+li		{ font-size: 10pt; margin-bottom: .5em; margin-left: -1.6em }
+
+li.nested	{ font-size: 10pt; margin-bottom: .5em; margin-left: -0.9em }
+
+
+strong { font-weight: bold; color: #043B3C;}
+
+
+p	{ margin-top:5pt; margin-bottom:5pt; margin-left:0cm; margin-right:0cm; text-indent:0cm; font-size: 10pt; align:left }
+
+p.margin	{ font-size: 10pt; margin-left:1.2em;}
+
+p.note	{ font-size: 10pt; margin-top:9pt; margin-bottom:-3pt; font-weight:bold; color:#000000; }
+
+p.emphasis	{ font-size: 10pt; margin-top:6pt; font-weight:bold; color:#009999; }
+
+p.title	{ font-size: 10pt; margin-top:-1pt; margin-bottom:-4pt; font-weight:bold; text-indent: -0.15in;
+	margin-left: 12pt;}
+
+
+H2	{ margin-top:0pt; margin-bottom:12pt; margin-left:0cm; margin-right:0cm; text-indent:0cm; font-family:"Arial"; font-size:16pt; font-weight:bold; color: #333333;}
+
+H3	{ margin-top:0pt; margin-bottom:12pt; margin-left:0cm; margin-right:0cm; text-indent:0cm; font-family:"Arial"; font-size:13pt; font-weight:bold; color: #333333;}
+
+H4	{ margin-top:0pt; margin-bottom:12pt; margin-left:0cm; margin-right:0cm; text-indent:0cm; font-family:"Arial"; font-size:11pt; font-weight:bold; color: #333333;}
+
+
+		
+/*	TABLE TAGS	*/
+
+
+table.notopspace	{ font-size: 100%; margin-top: 0em; margin-bottom: 1em }
+
+table	{ font-size: 10pt; margin-top: 1em; margin-bottom: 1em }
+		
+th		{ text-align: left;	vertical-align: bottom; background: #bbbbbb }
+
+th.white	{ text-align: left;	vertical-align: bottom;	background: #ffffff	}		
+		
+th.grey		{ text-align: left; vertical-align: bottom; background: #dddddd	}
+		
+tr		{ vertical-align: top }
+
+td		{ vertical-align: top }
+
+td.white	{ vertical-align: top; background: #ffffff }
+
+td.grey	{ vertical-align: top; background: #eeeeee }
+

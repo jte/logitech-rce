@@ -1,0 +1,473 @@
+.linksm {
+	FONT-FAMILY: arial,lucida,helvetica,sans-serif; COLOR: #2c9bca; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.linksm {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.linksm:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.linksm:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.linksm:active {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.linksm:hover:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.smlabel {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.label {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.smlabel:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.label:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+.linkmdb {
+	FONT-FAMILY: arial,lucida,helvetica,sans-serif; COLOR: #2c9bca; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.linkmd {
+	FONT-FAMILY: arial,lucida,helvetica,sans-serif; COLOR: #2c9bca; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.linkmd {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.linkmd:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.linkmd:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.linkmd:hover:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.tab {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.tabbtn {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.subtab {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.tab:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.tabbtn:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.subtab:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.tab:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.tabbtn:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.subtab:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.tab:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.tabbtn:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.subtab:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.seltab {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.seltabbtn {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.selsubtab {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.seltab:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.seltabbtn:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.selsubtab:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+A.seltab:active {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.seltabbtn:active {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.selsubtab:active {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.seltab:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.seltabbtn:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.selsubtab:visited {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.plain {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A.plain:hover {
+	COLOR: #2c9bca; TEXT-DECORATION: underline
+}
+BODY {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: arial, lucida, helvetica, sans-serif; BACKGROUND: url(http://www.logitech.com/3rd_party/images/body_bg.gif) #098c7e repeat-x left top; COLOR: #4f5455; FONT-SIZE: 62.5%; PADDING-TOP: 0px
+}
+#container {
+	POSITION: relative; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 947px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.logitech.com/3rd_party/images/container_bg.gif) #fff no-repeat left top; FONT-SIZE: 1em; PADDING-TOP: 4px
+}
+#main {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#secondary_nav {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.logitech.com/3rd_party/images/secondary_nav_bg.gif) #fff repeat-y right top; OVERFLOW: hidden; PADDING-TOP: 0px; _height: 1%
+}
+#secondary_nav A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+#secondary_nav A:hover {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+#secondary_nav UL {
+	PADDING-BOTTOM: 9px; LINE-HEIGHT: 1.8em !important; PADDING-LEFT: 135px; WIDTH: 380px; PADDING-RIGHT: 0px; FLOAT: left; FONT-SIZE: 0.9em; PADDING-TOP: 12px; _width: 553px; _line-height: 1.9em
+}
+*:first-child + HTML #secondary_nav UL {
+	LINE-HEIGHT: 1.9em !important
+}
+#secondary_nav LI {
+	BORDER-LEFT: #3fa79c 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 3px; DISPLAY: inline; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+#container LI.first {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+#utility_nav {
+	PADDING-BOTTOM: 9px; LINE-HEIGHT: 1.8em; PADDING-LEFT: 0px; WIDTH: 430px; PADDING-RIGHT: 0px; FLOAT: right; FONT-SIZE: 0.9em; PADDING-TOP: 12px
+}
+#location {
+	LINE-HEIGHT: 1.9em; MARGIN: 0px 15px 0px 0px; FLOAT: right; VERTICAL-ALIGN: middle
+}
+#location A {
+	FLOAT: left; VERTICAL-ALIGN: middle
+}
+#location A IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0.3em 5px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; VERTICAL-ALIGN: middle; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#location .select_language {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0px 0px 10px; FLOAT: left; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; FONT-SIZE: 1.1em; BORDER-LEFT-WIDTH: 1px
+}
+*:first-child + HTML #search {
+	MARGIN-TOP: 1px
+}
+#logo {
+	Z-INDEX: 40; POSITION: absolute; TOP: 19px; LEFT: 35px
+}
+#logo SPAN {
+	BACKGROUND-IMAGE: url(http://www.logitech.com/3rd_party/images/logo.gif); BACKGROUND-COLOR: transparent; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top
+}
+#logo A {
+	POSITION: relative; TEXT-INDENT: -200em; MARGIN: 0px; WIDTH: 70px; DISPLAY: block; HEIGHT: 56px; TEXT-DECORATION: none
+}
+#primary_nav {
+	Z-INDEX: 30; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 120px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/primary_nav_bg.gif) no-repeat left top; HEIGHT: 42px; CLEAR: both; PADDING-TOP: 0px
+}
+UL#nav {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+#nav A {
+	TEXT-INDENT: -200em; DISPLAY: block; TEXT-DECORATION: none
+}
+#nav LI LI SPAN {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 4px; PADDING-LEFT: 0px; WIDTH: 170px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/drop_down_bg_on.gif) #5ebbaf no-repeat left bottom; PADDING-TOP: 0px
+}
+#nav LI LI A {
+	PADDING-BOTTOM: 5px; TEXT-INDENT: 0px; MARGIN: 0px; PADDING-LEFT: 7px; WIDTH: 153px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/drop_down_bg.gif) #f8fafb no-repeat left bottom; HEIGHT: auto; COLOR: #474747; FONT-SIZE: 1.1em; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 3px
+}
+#nav LI#nav6 LI A {
+	BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/drop_down_blk_bg.gif) #313131 no-repeat left bottom; COLOR: #fff
+}
+#nav LI LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff; TEXT-DECORATION: none
+}
+#nav LI#nav6 LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff; TEXT-DECORATION: none
+}
+#nav LI {
+	POSITION: relative; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#nav LI DIV A {
+	MARGIN-BOTTOM: 3px; HEIGHT: 32px
+}
+#nav LI UL {
+	Z-INDEX: 50; POSITION: absolute; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 178px; PADDING-RIGHT: 0px; DISPLAY: none; BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/nav_drop_btm.gif) no-repeat left bottom; TOP: 100%; PADDING-TOP: 0px; _margin-top: 1px
+}
+#nav LI LI {
+	BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/nav_drop_bg.gif) repeat-y left top; FLOAT: none
+}
+#nav LI LI.first {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.logitech.com/3rd_party/images/nav/nav_drop_top.gif) no-repeat left top; PADDING-TOP: 3px
+}
+#nav LI LI.first A {
+	PADDING-TOP: 4px
+}
+#nav LI:hover UL {
+	DISPLAY: block
+}
+#nav LI.over UL {
+	DISPLAY: block
+}
+#nav LI#nav1:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav1 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI#nav2:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav2 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI#nav3:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav3 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI#nav4:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav4 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI#nav5:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav5 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI#nav6:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav6 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI#nav7:hover DIV A {
+	BACKGROUND-IMAGE: none
+}
+#nav LI.over#nav7 DIV A {
+	BACKGROUND-IMAGE: none
+}
+#breadcrumb {
+	Z-INDEX: 10; BORDER-BOTTOM: #3fa79c 1px solid; POSITION: absolute; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 21px; WIDTH: 926px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 1.1em; TOP: 0px; PADDING-TOP: 6px; LEFT: 0px
+}
+#breadcrumb UL {
+	POSITION: relative; PADDING-LEFT: 116px
+}
+#breadcrumb LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; DISPLAY: inline; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#breadcrumb A {
+	POSITION: relative; MARGIN: 0px; COLOR: #fff; FONT-WEIGHT: normal
+}
+#breadcrumb LI A:after {
+	WHITE-SPACE: pre; CONTENT: '  >'
+}
+HTML > BODY #breadcrumb {
+	BACKGROUND-IMAGE: url(http://www.logitech.com/3rd_party/images/transp_teal_bg.png); BACKGROUND-REPEAT: repeat
+}
+* HTML #breadcrumb {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.logitech.com/3rd_party/images/transp_teal_bg.png',sizingMethod='scale')
+}
+#header {
+	Z-INDEX: 3; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #3fa79c 1px solid; TOP: 78px; PADDING-TOP: 0px; LEFT: 0px
+}
+#header .wrap {
+	MARGIN: 1px 0px 0px; WIDTH: 947px; BACKGROUND-REPEAT: repeat
+}
+HTML > BODY #header .wrap {
+	BACKGROUND-IMAGE: url(http://www.logitech.com/3rd_party/images/transp_teal_bg.png)
+}
+* HTML #header .wrap {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.logitech.com/3rd_party/images/transp_teal_bg.png',sizingMethod='scale')
+}
+#hero {
+	Z-INDEX: 0; POSITION: relative; MARGIN: 0px; HEIGHT: 150px
+}
+#hero IMG {
+	DISPLAY: block
+}
+.sub_category #header {
+	TOP: 78px
+}
+.sub_category #hero {
+	HEIGHT: 150px
+}
+#content {
+	POSITION: static; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.2em; PADDING-TOP: 0px
+}
+#content_body {
+	PADDING-BOTTOM: 35px; PADDING-LEFT: 10px; WIDTH: 922px; PADDING-RIGHT: 15px; PADDING-TOP: 0px
+}
+#content_body UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: disc; MARGIN: 0px 0px 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#action_links {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 23px; FONT-SIZE: 1em; PADDING-TOP: 10px
+}
+#action_links LI {
+	BORDER-LEFT: #bebfc2 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#action_links LI.first {
+	PADDING-LEFT: 0px
+}
+#footer {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f0f2f4; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; COLOR: #7e868d; FONT-SIZE: 0.91em; OVERFLOW: hidden; BORDER-TOP: #cfd7dd 1px solid; PADDING-TOP: 15px; _height: 1%
+}
+#footer P {
+	FLOAT: left
+}
+#footer UL {
+	MARGIN: 0px 0px 0px 25px; FLOAT: left
+}
+#footer LI {
+	BORDER-LEFT: #7e868d 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 15px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#footer LI A {
+	COLOR: #7e868d
+}
+#footer LI A:hover {
+	COLOR: #7e868d
+}
+P {
+	PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; FONT-SIZE: 9pt
+
+}
+P.sub_header {
+	FONT-SIZE: 1.16em
+}
+P.contacttable {
+	PADDING-TOP: 4px; PADDING-BOTTOM: 3px
+}
+
+H1 {
+	PADDING-BOTTOM: 0.1em; LINE-HEIGHT: 1.9em; MARGIN: 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 20px; LETTER-SPACING: 0.05em; COLOR: #fff; FONT-SIZE: 3em; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0.3em; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.33em; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #3fa79c; FONT-SIZE: 1.25em; PADDING-TOP: 0px; _font-weight: bold
+}
+:unknown H3 {
+	FONT-SIZE: 1.33em; FONT-WEIGHT: normal
+}
+*:first-child + HTML H3 {
+	FONT-SIZE: 1.33em; FONT-WEIGHT: normal
+}
+H4 {
+	PADDING-BOTTOM: 0.1em; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.08em; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0.1em; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1em; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+A {
+	COLOR: #2c9bca; TEXT-DECORATION: none
+}
+A:visited {
+	
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A:active {
+	TEXT-DECORATION: underline
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.links {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.links LI {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG A {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-BOTTOM: 0px hidden; BORDER-LEFT: 0px hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px hidden; BORDER-RIGHT: 0px hidden; PADDING-TOP: 0px
+}
+SELECT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: arial, lucida, helvetica, sans-serif; COLOR: #333333; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: arial, lucida, helvetica, sans-serif; COLOR: #333333; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: arial, lucida, helvetica, sans-serif; COLOR: #333333; PADDING-TOP: 0px
+}
+#main:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+#primary_nav:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+#content:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+#main {
+	DISPLAY: inline-block
+}
+#primary_nav {
+	DISPLAY: inline-block
+}
+#content {
+	DISPLAY: inline-block
+}
+#main {
+	DISPLAY: block
+}
+#primary_nav {
+	DISPLAY: block
+}
+#content {
+	DISPLAY: block
+}
+* HTML #main {
+	HEIGHT: 1% !important
+}
+* HTML #product_nav {
+	HEIGHT: 1% !important
+}
+* HTML #content {
+	HEIGHT: 1% !important
+}

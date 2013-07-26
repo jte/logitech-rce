@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">ukr</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Виріб Logitech</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Програмне забезпечення для виробу Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Програмне забезпечення для миші та клавіатури</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Програмне забезпечення для миші та клавіатури</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Програмне забезпечення для миші та клавіатури</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Ігрове програмне забезпечення для миші та клавіатури</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Програмне забезпечення Webcam</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Програмне забезпечення Webcam</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Комунікаційне програмне забезпечення</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Програмне забезпечення Wireless DJ</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">Програмне забезпечення G-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Програмне забезпечення з підтримкою ігрової клавіатури Logitech G15</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Програмне забезпечення Z-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Програмне забезпечення з підтримкою динаміків Logitech Z-10</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">Програмне забезпечення G-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Програмне забезпечення з підтримкою ігрової клавіатури Logitech G11</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">Програмне забезпечення G-Series</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Програмне забезпечення з підтримкою ігрової клавіатури Logitech G11</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">Програмне забезпечення GamePanel</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Програмне забезпечення для клавіатур та ігрових панелей Logitech G-Series</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">Ігрове програмне забезпечення</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Програмне забезпечення для джойстиків, геймпадів і керм Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">Ігрове програмне забезпечення</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">Програмне забезпечення для клавіатур та ігрових панелей Logitech G-Series</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Розширене програмне забезпечення системи оточуючого звуку</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Динаміки Logitech Z-5</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Розширене програмне забезпечення для динаміків Logitech Z-5</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Програмне забезпечення для навушників із об'ємним звучанням</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Бездротові ігрові навушники Logitech G930 з багатоканальним звуком Dolby Surround Sound</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Програма Assistant для роботи бездротових навушників Logitech H760 з медіапрогравачами</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">Logitech wireless Headset H800 Assistant for media players</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Програмне забезпечення для підключення пристроїв Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Миша Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Оновлення мікропрограмного забезпечення для миші Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Клавіатура Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Оновлення мікропрограмного забезпечення для клавіатури Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Цифрова клавіатура Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Оновлення мікропрограмного забезпечення для цифрової клавіатури Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Приймач Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Оновлення мікропрограмного забезпечення для приймача Unifying</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Програмне забезпечення для веб-камери</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Програмне забезпечення для веб-камери Logitech</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid – це легкий спосіб залишатися на зв’язку з друзями та родиною зі всього світу</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Програмне забезпечення для системи відеоспостереження Logitech Alert™</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">LifeSize Connections - це простий спосіб спілкуватися з колегами та клієнтами в усьому світі</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Logitech Solar App</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Програмне забезпечення для контролю та керування бездротовою клавіатурою з використанням сонячних елементів Logitech K750</String>
+  </LU_Strings_1>
+</LogitechUpdater>

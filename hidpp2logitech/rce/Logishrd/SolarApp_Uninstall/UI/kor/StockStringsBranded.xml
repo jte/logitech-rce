@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="ko-KR"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Solar App 설정</String>
+    <String ID="IDS_TITLE">Solar App 설정</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Logitech 태양광 키보드용 소프트웨어</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Logitech 제품을 구입해 주셔서 감사합니다. Logitech 제품은 PC를 보다 효율적으로 사용하는 데 도움이 되도록 설계되었습니다. 이 소프트웨어를 설치하여 향상된 제품 기능을 활용하시기 바랍니다.
+
+
+
+      Logitech 소프트웨어 제품을 설치하려면 원하는 언어를 선택한 후 다음 단추를 누르십시오.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"/>
+    <String ID="IDS_INSTALL_PROGRESS_INFO"/>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Solar App 설정</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Solar App 설정</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Solar App 설정</String>
+    <String ID="IDS_WARNING_OS">죄송합니다. 이 소프트웨어는 사용자의 운영 체제와 호환되지 않습니다. www.logitech.com을 방문하여 호환되는 버전을 다운로드하십시오.</String>
+    <String ID="IDS_WARNING_EDITION32">이 버전의 설치 프로그램은 32비트 운영 체제 에디션이 필요합니다.\nwww.logitech.com/downloads/Solar App를 방문해서 호환 가능한 버전을 다운받으시기 바랍니다.</String>
+    <String ID="IDS_WARNING_EDITION64">이 버전의 설치 프로그램은 64비트 운영 체제 에디션이 필요합니다.\nwww.logitech.com/downloads/Solar App를 방문해서 호환 가능한 버전을 다운받으시기 바랍니다.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Logitech 소프트웨어용 업데이트 유틸리티</String>
+
+  </StringSet>
+</FESetup_Strings_1>

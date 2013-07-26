@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">nor</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Oppdateringstjeneste for LifeSize</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Oppdateringstjeneste for LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Nye oppdateringer er tilgjengelige. Klikk her for å laste dem ned.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klikk for å fullføre programvareoppdateringen for LifeSize.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Laster ned oppdateringer for LifeSize-programvaren</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Nye oppdateringer er tilgjengelige. Klikk her for å installere dem.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Installerer oppdateringer for LifeSize-programvaren</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">LifeSize-programvaren er oppdatert</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Finner ingen Internett-tilkopling. Kan ikke se etter ny versjon</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Det oppsto en feil</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Installasjonsfeil.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Installasjon avbrutt.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Denne handlingen krever administratorprivilegier</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internett-tilkoplingen ble tilbakestilt. Prøv igjen senere</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internett-tilkoplingen ble tilbakestilt. Oppdateringstjenesten for LifeSize kommer til å prøve på nytt senere.</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installasjon mislyktes fordi disken er full.</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Fullfør</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Avbryt</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Skjul</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Senere</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Last ned &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Fortsett nedlasting &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installer &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Installer alt når det er klart &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigurer automatiske innstillinger &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Vis oppdateringer som tidligere ble avvist</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Laster ned komponent %d av %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Installerer komponent %d av %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Tid som gjenstår:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Har lastet ned %s av %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Innstillinger for oppdateringstjenesten for LifeSize</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Velg hvordan du vil at oppdateringsprogrammet skal fungere.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Slå på automatisk oppdatering.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Gi meg beskjed, men ikke last ned eller installer oppdateringer automatisk.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Last ned oppdateringer, men la meg velge når de skal installeres.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Last ned og installer oppdateringer automatisk.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Gjenopprett standardinnstillingene</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkt</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Status</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Størrelse</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">venter på kontroll</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">tilgjengelig</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">klar for installasjon</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">skadet</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">avbrutt</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">ferdig</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Nødvendig</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Anbefalt</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Valgfritt</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">kB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">t</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">t</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sek</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sek</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Disse oppdateringene er tilgjengelige.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Du får mer ut av LifeSize-produktene med de nyeste versjonene av LifeSize-programvaren.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Status for nedlasting</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Oppdateringene lastes ned.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Installeringsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Du kan installere disse oppdateringene.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Installeringsstatus</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Oppdateringene installeres.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Oppdateringstjeneste for LifeSize</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Advarsel: denne komponenten ble som standard valgt vekk, fordi den ikke oppfylte følgende grense(r):</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Vis oppdateringstjenesten for LifeSize</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Endre automatiske innstillinger...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Avslutt</String>
+  </LU_Strings_1>
+</LogitechUpdater>

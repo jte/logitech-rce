@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">fra</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Programme de mise à jour de LifeSize</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Programme de mise à jour de LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">De nouvelles mises à jour sont disponibles. Cliquez ici pour les télécharger.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Cliquez pour terminer la mise à jour de votre logiciel LifeSize.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Les mises à jour pour votre logiciel LifeSize sont en cours de téléchargement</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">De nouvelles mises à jour sont disponibles. Cliquez ici pour les installer.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Les mises à jour pour votre logiciel LifeSize sont en cours d'installation</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Votre logiciel LifeSize est à jour</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">La connexion Internet est introuvable. Il est impossible de vérifier la disponibilité d'une nouvelle version du logiciel</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Une erreur s'est produite</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Erreur d'installation.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Installation annulée.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Pour effectuer cette opération, vous devez posséder les droits d'administrateur</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">La connexion Internet a été réinitialisée. Réessayez ultérieurement</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">La connexion Internet a été réinitialisée. Le programme de mise à jour de LifeSize fera une nouvelle tentative ultérieurement</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">L'installation a échoué car le disque est plein.</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Terminer</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Annuler</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Masquer</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Plus tard</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Télécharger &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Reprendre le téléchargement &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installer &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Installer lorsque les fichiers sont prêts &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Configurer les paramètres automatiques &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Afficher les mises à jour ignorées précédemment</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Téléchargement du composant %d sur %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Installation du composant %d sur %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Durée restante:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Téléchargé: %s sur %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Paramètres du programme de mise à jour LifeSize</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Définissez les paramètres de fonctionnement de Logitech Updater.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Activer les mises à jour automatiques.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">M'avertir mais ne pas télécharger ni installer les mises à jour automatiquement.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Télécharger les mises à jour mais me laisser les installer.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Télécharger et installer les mises à jour automatiquement.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Réinitialiser les paramètres par défaut</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produit</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Etat</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Taille</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">vérification en attente</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">disponible</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">prêt à l'installation</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">corrompu</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">annulé</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">terminé</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Requis</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Recommandé</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Facultatif</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">Ko</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">Mo</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">Go</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">s</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">s</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Ces mises à jour sont disponibles.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Profitez au mieux de vos produits LifeSize avec les dernières versions du logiciel LifeSize.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Etat du téléchargement</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Les mises à jour sont en cours de téléchargement.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Etat de l'installation</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Les mises à jour sont prêtes à être installées.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Etat de l'installation</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Les mises à jour sont en cours d'installation.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Programme de mise à jour de LifeSize</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Avertissement: ce composant a été désélectionné par défaut car il n'est pas conforme aux limitations suivantes:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Afficher le programme de mise à jour de LifeSize</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Modifier les paramètres automatiques...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Quitter</String>
+  </LU_Strings_1>
+</LogitechUpdater>

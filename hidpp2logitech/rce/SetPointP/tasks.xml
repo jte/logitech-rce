@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Source>
+  <language xml:lang="en-us" />
+  <Tasks>
+    <Task Name="VOLUME_UP_REPEAT"          Id="1" DefaultHandler="VOLUMEUPRepeat" HandlerGroup="SmrkndVolumeUpKbMs" />
+    <Task Name="VOLUME_DOWN_REPEAT"        Id="2" DefaultHandler="VOLUMEDOWNRepeat" HandlerGroup="SmrkndVolumeDownKbMs" />
+    <Task Name="MUTE"                      Id="3" DefaultHandler="VOLUMEMUTE" HandlerGroup="SmrkndVolumeMuteKb" />
+    <Task Name="PLAYPAUSE"                 Id="4" DefaultHandler="MM PLAY" HandlerGroup="SmrkndPlayTrackKbMs" />
+    <Task Name="MM NEXT_FF"                Id="5" DefaultHandler="MM NEXT_FF" HandlerGroup="SmrkndNextFFTrackKbMs" />
+    <Task Name="MM PREVIOUS_REWIND"        Id="6" DefaultHandler="MM PREVIOUS_REWIND" HandlerGroup="SmrkndPreviousRewindTrackKbMs" />
+    <Task Name="STOP"                      Id="7" DefaultHandler="MM STOP" HandlerGroup="SmrkndStopTrackKb" />
+    <Task Name="APP_SWITCH"                Id="8" DefaultHandler="ApplicationSwitch" HandlerGroup="SmrkndAppSwitchKbMs" />
+    <Task Name="BURN"                      Id="9" DefaultHandler="BurnMediaPlayer" HandlerGroup="SmrkndMediaBurnKb" />
+    <Task Name="CALCULATOR"                Id="10" DefaultHandler="Calculator" HandlerGroup="SmrkndCalculatorKb" />
+    <Task Name="CALENDAR"                  Id="11" DefaultHandler="Calendar" HandlerGroup="SmrkndCalendarKb" />
+    <Task Name="CLOSE"                     Id="12" DefaultHandler="CloseApplication" HandlerGroup="SmrkndCloseApplicationKbMs" />
+    <Task Name="EJECT"                     Id="13" DefaultHandler="Eject" HandlerGroup="SmrkndEjectKb" />
+    <Task Name="EMAIL"                     Id="14" DefaultHandler="Email" HandlerGroup="SmrkndEmailKb" />
+    <Task Name="HELP_AS_F1"                Id="15" DefaultHandler="Help" HandlerGroup="SmrkndHelpKb" />
+    <Task Name="LAUNCH_WORD_PROC"          Id="16" DefaultHandler="OffDocument" HandlerGroup="SmrkndOfficeDocumentKbMs" />
+    <Task Name="LAUNCH_SPREADSHEET"        Id="17" DefaultHandler="OffSpreadsheet" HandlerGroup="SmrkndOfficeSpreadsheetKbMs" />
+    <Task Name="LAUNCH_PRESENTATION"       Id="18" DefaultHandler="OffPowerpnt" HandlerGroup="SmrkndOfficePowerPointKb" />
+    <Task Name="UNDO_AS_CTRL_Z"            Id="19" DefaultHandler="Undo" HandlerGroup="SmrkndOfficeCommandUndoKb" />
+    <Task Name="REDO_AS_CTRL_Y"            Id="20" DefaultHandler="Redo" HandlerGroup="SmrkndOfficeCommandRedoKb" />
+    <Task Name="PRINT_AS_CTRL_P"           Id="21" DefaultHandler="Print" HandlerGroup="SmrkndOfficeCommandPrintKb" />
+    <Task Name="SAVE_AS_CTRL_S"            Id="22" DefaultHandler="Save" HandlerGroup="SmrkndOfficeCommandSaveKb" />
+    <Task Name="PRESET_A_B_C_D"            Id="23" DefaultHandler="SmartKeySet" HandlerGroup="SmrkndSmartKeySetKb" />
+    <Task Name="FAVORITES"                 Id="24" DefaultHandler="Favorites" HandlerGroup="SmrkndBrowserFavoritesKbMs" />
+    <Task Name="GADGETS"                   Id="25" DefaultHandler="GadgetsSet" HandlerGroup="SmrkndGadgetsSetKbMs" />
+    <Task Name="MY_HOME"                   Id="26" DefaultHandler="HomePage" HandlerGroup="SmrkndHomePageKb" />
+    <Task Name="MAXIMIZE_AS_HID"           Id="27" DefaultHandler="WindowsRestore" HandlerGroup="SmrkndWindowsRestoreKbMs" />
+    <Task Name="MINIMIZE_AS_HID"           Id="28" DefaultHandler="WindowsMinimize" HandlerGroup="SmrkndWindowsMinimizeKbMs" />
+    <Task Name="MEDIA_PLAYER"              Id="29" DefaultHandler="MediaPlayer" HandlerGroup="SmrkndMediaPlayerKbMs" />
+    <Task Name="MEDIA_CENTER_LOGI"         Id="30" DefaultHandler="MediaCenterSet" HandlerGroup="SmrkndMediaCenterSetKb" />
+    <Task Name="MEDIA_CENTER_MSFT"         Id="31" DefaultHandler="MediaCenterSet" HandlerGroup="SmrkndMediaCenterSetKb" />
+    <Task Name="CUSTOM_MENU"               Id="32" DefaultHandler="UserMenu" HandlerGroup="SmrkndUserMenuKb" />
+    <Task Name="MESSENGER"                 Id="33" DefaultHandler="Messenger" HandlerGroup="SmrkndMessengerKbMs" />
+    <Task Name="MY_DOCUMENTS"              Id="34" DefaultHandler="PersonalFolders" HandlerGroup="SmrkndPersonalFoldersKb" />
+    <Task Name="MY_MUSIC"                  Id="35" DefaultHandler="MyMusic" HandlerGroup="SmrkndMyMusicKb" />
+    <Task Name="WEBCAM"                    Id="36" DefaultHandler="Webcam" HandlerGroup="SmrkndWebcamKb" />
+    <Task Name="MY_PICTURES"               Id="37" DefaultHandler="PicturesFolder" HandlerGroup="SmrkndPicturesFolderKb" />
+    <Task Name="MY_VIDEOS"                 Id="38" DefaultHandler="MyVideos" HandlerGroup="SmrkndMyVideosKb" />
+    <Task Name="MY_COMPUTER_AS_HID"        Id="39" DefaultHandler="My Computer" HandlerGroup="SmrkndMyComputerKb" />
+    <Task Name="LAUNC_PICTURE_VIEWER"      Id="40" DefaultHandler="PictureAppSet" HandlerGroup="SmrkndPictureAppSetKb" />
+    <Task Name="ONE_TOUCH_SEARCH"          Id="41" DefaultHandler="AdvSmartSearch" HandlerGroup="SmrkndAdvSmartSearchKbMs" />
+    <Task Name="RECORD"                    Id="42" DefaultHandler="RecordMediaPlayer" HandlerGroup="SmrkndMediaRecordKb" />
+    <Task Name="INTERNET_REFRESH"          Id="43" DefaultHandler="BrowserRefresh" HandlerGroup="SmrkndBrowserRefreshKbMs" />
+    <Task Name="ROTATE_RIGHT"              Id="44" DefaultHandler="RotateRight" HandlerGroup="SmrkndRotateRightKb" />
+    <Task Name="SEARCH"                    Id="45" DefaultHandler="SearchForFiles" HandlerGroup="SmrkndSearchForFilesKb" />
+    <Task Name="SHUFFLE"                   Id="46" DefaultHandler="MM SHUFFLE" HandlerGroup="SmrkndShuffleTrackKb" />
+    <Task Name="SLEEP"                     Id="47" DefaultHandler="StandBySet" HandlerGroup="SmrkndStandBySetKb" DoNotAddOthers="1"/>
+    <Task Name="INTERNET_STOP"             Id="48" DefaultHandler="BrowserStop" HandlerGroup="SmrkndBrowserStopKbMs" />
+    <Task Name="SYNCHRONIZE"               Id="49" DefaultHandler="OneTouchSync" HandlerGroup="SmrkndOneTouchSyncKb" />
+    <Task Name="ZOOM"                      Id="50" DefaultHandler="ZoomSet" HandlerGroup="SmrkndZoomSetKbMs" />
+    <Task Name="ZOOM_IN_REPATER"           Id="51" DefaultHandler="ZoomBtnInSet2" HandlerGroup="SmrkndZoomBtnInSet2KbMs" />
+    <Task Name="ZOOM_IN"                   Id="52" DefaultHandler="ZoomBtnInSet" HandlerGroup="SmrkndZoomBtnInSetKbMs" />
+    <Task Name="ZOOM_OUT_REPEATER"         Id="53" DefaultHandler="ZoomBtnOutSet2" HandlerGroup="SmrkndZoomBtnOutSet2KbMs" />
+    <Task Name="ZOOM_OUT"                  Id="54" DefaultHandler="ZoomBtnOutSet" HandlerGroup="SmrkndZoomBtnOutSetKbMs" />
+    <Task Name="ZOOM_RESET"                Id="55" DefaultHandler="ZoomBtnResetSet" HandlerGroup="SmrkndZoomBtnResetSetKbMs" />
+    <Task Name="LEFT_CLICK"                Id="56" DefaultHandler="LeftClick" />
+    <Task Name="RIGHT_CLICK"               Id="57" DefaultHandler="RightClick" />
+    <Task Name="MIDDLE_BUTTON"             Id="58" DefaultHandler="MiddleMouseButton" HandlerGroup="SmrkndMiddleMouseBtnMs" />
+    <Task Name="BACK"                      Id="59" DefaultHandler="Back" HandlerGroup="SmrkndBrowserBackKbMs" />
+    <Task Name="BACK_APP_OVERRIDE_EX"      Id="60" DefaultHandler="BackEx" HandlerGroup="SmrkndBrowserBackExKbMs" />
+    <Task Name="FORWARD"                   Id="61" DefaultHandler="BrowserForward" HandlerGroup="SmrkndBrowserForwardKbMs" />
+    <Task Name="FORWARD_APP_OVERRIDE_EX"   Id="62" DefaultHandler="BrowserForwardEx" HandlerGroup="SmrkndBrowserForwardExKbMs" />
+    <Task Name="LEFT_SCROLL"               Id="63" DefaultHandler="HorzScrollLeftSet" HandlerGroup="SmrkndHorzScrollLeftSetMs" />
+    <Task Name="RIGHT_SCROLL"              Id="64" DefaultHandler="HorzScrollRightSet" HandlerGroup="SmrkndHorzScrollRightSetMs" />
+    
+    <Task Name="QUICK_SWITCH"              Id="65" DefaultHandler="QuickSwitch" HandlerGroup="SmrkndQuickSwitchKbMs" />
+    <Task Name="BATTERY_STATUS"            Id="66" DefaultHandler="BatteryStatus" HandlerGroup="SmrkndBatteryStatusKb" />
+    <Task Name="SHOW_DESKTOP"              Id="67" DefaultHandler="ShowDesktop" HandlerGroup="SmrkndShowDesktopdKb" />
+    <Task Name="WINDOWS_LOCK"              Id="68" DefaultHandler="WindowsLock" HandlerGroup="SmrkndWindowsLockKb" />
+    <Task Name="OPEN_FILE"                 Id="69" DefaultHandler="FileLauncher" HandlerGroup="SmrkndFileLauncherKb" />
+    <Task Name="OPEN_FOLDER"               Id="70" DefaultHandler="FolderLauncher" HandlerGroup="SmrkndFolderLauncherKb" />
+    <Task Name="OPEN_WEB_PAGE"             Id="71" DefaultHandler="GotoWebAddress" HandlerGroup="SmrkndGotoWebAddressKb" />
+    <Task Name="GENERIC_MOUSE_BUTTON"      Id="72" DefaultHandler="GenericMouseButton" HandlerGroup="SmrkndGenericMouseBtnMs" />
+    <Task Name="KEYSTROKE_ASSIGNMENT"      Id="73" DefaultHandler="KeystrokeAssignment" HandlerGroup="SmrkndKeystrokeKbMs" />
+    <Task Name="OPEN_PROGRAM"              Id="74" DefaultHandler="LaunchProgram" HandlerGroup="SmrkndLaunchProgramKb" />
+    <Task Name="WINDOW_MIN_MAX_TOGGLE"     Id="75" DefaultHandler="MinMaxWindow" HandlerGroup="SmrkndMinMaxWindowToggleKbMs" />
+    <Task Name="VOLUME_MUTE_NO_OSD"        Id="76" DefaultHandler="VOLUMEMUTE NoOSD" HandlerGroup="SmrkndVolumeMuteNoOsdKb" />
+    <Task Name="OFFICE_COMMAND_NEW"        Id="77" DefaultHandler="New" HandlerGroup="SmrkndOfficeCommandNewKb" />
+    <Task Name="OFFICE_COMMAND_COPY"       Id="78" DefaultHandler="Copy" HandlerGroup="SmrkndCopyKbMs" />
+    <Task Name="CRUISE_DOWN"               Id="79" DefaultHandler="CruiseDown" HandlerGroup="SmrkndCruiseDownKbMs" />
+    <Task Name="CRUISE_UP"                 Id="80" DefaultHandler="CruiseUp" HandlerGroup="SmrkndCruiseUpKbMs" />
+    <Task Name="OFFICE_COMMAND_CUT"        Id="81" DefaultHandler="Cut" HandlerGroup="SmrkndCutKbMs" />
+    <Task Name="DO_NOTHING"                Id="82" DefaultHandler="Do Nothing" HandlerGroup="SmrkndDoNothingKbMs" />
+    <Task Name="PAGE_DOWN"                 Id="83" DefaultHandler="PageDown" HandlerGroup="SmrkndPageDownKbMs" />
+    <Task Name="PAGE_UP"                   Id="84" DefaultHandler="PageUp" HandlerGroup="SmrkndPageUpKbMs" />
+    <Task Name="OFFICE_COMMAND_PASTE"      Id="85" DefaultHandler="Paste" HandlerGroup="SmrkndOfficeCommandPasteKbMs" />
+    <Task Name="SEARCH_PICTURE"            Id="86" DefaultHandler="SearchPicture" HandlerGroup="SmrkndSearchPictureKb" />
+    <Task Name="OFFICE_COMMAND_REPLY"      Id="87" DefaultHandler="Reply" HandlerGroup="SmrkndOfficeCommandReplyKb" />
+    <Task Name="PHOTO_GALLERY"             Id="88" DefaultHandler="PhotoGallerySet" HandlerGroup="SmrkndPhotoGallerySetKb" />
+    <Task Name="TRACK_REWIND"              Id="89" DefaultHandler="MM REWIND" HandlerGroup="SmrkndTrackRewindKbMs" />
+    <Task Name="TRACK_FAST_FORWARD"        Id="90" DefaultHandler="MM FASTFORWARD" HandlerGroup="SmrkndTrackFastForwardKbMs" />
+    <Task Name="OFFICE_COMMAND_SEND"       Id="91" DefaultHandler="Send" HandlerGroup="SmrkndOfficeCommandSendKb" />
+    <Task Name="CONTROL_PANEL"             Id="92" DefaultHandler="ControlPanel" HandlerGroup="SmrkndControlPanelKb" />
+    <Task Name="UNIVERSAL_SCROLL"          Id="93" DefaultHandler="UniversalScroll" HandlerGroup="SmrkndUniversalScrollMs" />
+    <Task Name="AUTO_SCROLL"               Id="94" DefaultHandler="AutoScroll" HandlerGroup="SmrkndAutoScrollMs" />
+    <Task Name="GENERIC"                   Id="95" DefaultHandler="GenericButton" HandlerGroup="SmrkndGenericBtnKbMs" />
+    <Task Name="NEXT"                      Id="96" DefaultHandler="MM NEXT" HandlerGroup="SmrkndNextTrackKbMs" />
+    <Task Name="PREVIOUS"                  Id="97" DefaultHandler="MM PREVIOUS" HandlerGroup="SmrkndPreviousTrackKbMs" />
+    <Task Name="DO_NOTHING_ONE"            Id="98" DefaultHandler="Do Nothing" HandlerGroup="SmrkndDoNothingOneKb" />
+    <Task Name="SNAP_LEFT"                 Id="99" DefaultHandler="SnapLeft" HandlerGroup="SmrkndSnapLeft" />
+    <Task Name="SNAP_RIGHT"                Id="100" DefaultHandler="SnapRight" HandlerGroup="SmrkndSnapRight" />
+    <Task Name="WIN_MIN_RESTORE"           Id="101" DefaultHandler="WinMinRestore" HandlerGroup="SmrkndWinMinRestore" />
+    <Task Name="WIN_MAX_RESTORE"           Id="102" DefaultHandler="WinMaxRestore" HandlerGroup="SmrkndWinMaxRestore" />
+    <Task Name="WIN_STRETCH"               Id="103" DefaultHandler="WinStretch" HandlerGroup="SmrkndWinStretch" />
+    <Task Name="SWITCH_MONITOR_LEFT"       Id="104" DefaultHandler="SwitchMonitorLeft" HandlerGroup="SmrkndSwitchMonitorLeft" />
+    <Task Name="SWITCH_MONITOR_RIGHT"      Id="105" DefaultHandler="SwitchMonitorRight" HandlerGroup="SmrkndSwitchMonitorRight" />
+    <Task Name="SHOW_PRESENTATION"         Id="106" DefaultHandler="ShowPresentation" HandlerGroup="SmrkndShowPresentation" />
+    <Task Name="SHOW_MOBILITY_CENTER"      Id="107" DefaultHandler="ShowMobilityCenter" HandlerGroup="SmrkndShowMobilityCenter" />
+    <Task Name="TOUCH_ANALOG_SCROLL"       Id="108" DefaultHandler="HorzScrollNoRepeatSet" HandlerGroup="SmrkndTouchHorzScroll" />
+    <Task Name="TOUCH_HSCROLL"             Id="119" DefaultHandler="TouchBackForwardHorzScroll" HandlerGroup="SmrkndControlPanelKb" />
+    <Task Name="METRO_APPSWITCH"           Id="120" DefaultHandler="MetroAppSwitch" HandlerGroup="SmrkndMetroAppSwitch" />
+    <Task Name="METRO_APPBAR"              Id="121" DefaultHandler="MetroAppBar" HandlerGroup="SmrkndMetroAppBar" />
+    <Task Name="METRO_APPBAR"              Id="122" DefaultHandler="MetroCharms" HandlerGroup="SmrkndMetroCharms" />
+    <Task Name="CALC_VKEY"                 Id="123" DefaultHandler="Calculator" HandlerGroup="SmrkndCalculatorKb" />
+    <Task Name="METRO_SEARCH"              Id="124" DefaultHandler="MetroSearch" HandlerGroup="SmrkndMetroSearch" />
+    <Task Name="METRO_START_SCREEN"        Id="128" DefaultHandler="MetroStartScreen" HandlerGroup="SmrkndMetroStartScreen" />
+    <Task Name="METRO_SHARE"               Id="125" DefaultHandler="MetroShare" HandlerGroup="SmrkndMetroShare" />
+    <Task Name="METRO_SETTINGS"            Id="126" DefaultHandler="MetroSettings" HandlerGroup="SmrkndMetroSettings" />
+    <Task Name="METRO_DEVICES"             Id="127" DefaultHandler="MetroDevices" HandlerGroup="SmrkndMetroDevices" />
+    <Task Name="HORZ_LEFT_BACK"            Id="130" DefaultHandler="MetroBackLeftHorz" HandlerGroup="SmrkndMetroBackLeftHorz" />
+    <Task Name="HORZ_RIGHT_BACK"           Id="131" DefaultHandler="MetroForwRightHorz" HandlerGroup="SmrkndMetroForwRightHorz" />
+    <Task Name="Win8BACK"                  Id="132"  DefaultWin8Handler="MetroCharms" DefaultHandler="Back" HandlerGroup="SmrkndBrowserBackKbMs" HandlerGroupWin8="SmrkndWin8MetroCharms" />
+    <Task Name="Win8FORWARD"               Id="133" DefaultWin8Handler="AppSwitchBar" DefaultHandler="BrowserForward" HandlerGroup="SmrkndBrowserForwardKbMs" HandlerGroupWin8="SmrkndWin8AppSwitchBarKbMs" />
+
+
+
+  </Tasks>
+</Source>

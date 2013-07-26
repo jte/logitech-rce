@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">chs</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">现已推出新的更新。请单击此处下载.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">请单击以完成 LifeSize 软件更新。</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">正在下载 LifeSize 软件更新</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">现已推出新的更新。请单击此处以进行安装。</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">正在安装 LifeSize 软件更新</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">LifeSize 软件已更新至最新版本</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">没有 Internet 连接。我们无法检查是否推出了新的版本</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">出现错误</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">安装错误。</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">安装已取消。</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">执行请求的操作需要管理员权限</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internet 连接已重设。请稍后再试</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internet 连接已重设。LifeSize Updater 将在稍后重试</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">安装失败，因为磁盘已满。</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">确定</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">完成</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">取消</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">隐藏</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">以后</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">下载 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">继续下载 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">安装 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">准备好后安装所有更新 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">配置自动设置 &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">显示以前被拒绝的更新</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">正在下载 %d 的组件 (%d)</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">正在安装 %d 的组件 (%d)</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">剩余时间：</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">已下载 %s (%s)</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">LifeSize Updater 设置</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">选择您喜好的更新程序操作方式.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">开启自动更新。</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">推出新的更新时通知我但并不自动下载或安装更新.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">为我下载更新，但何时安装则由我确定.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">自动下载和安装更新.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">恢复默认设置</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">产品</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">状态</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">大小</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">等待检查</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">可用</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">已做好安装准备</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">已损坏</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">已取消</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">完成</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">要求</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">推荐</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">可选</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">小时</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">小时</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">分钟</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">分钟</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">秒</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">秒</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">这些更新可用。</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">获得最新版本的 LifeSize 软件，以更好地利用您的 LifeSize 产品。</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">下载状态</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">正在下载更新。</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">安装状态</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">已做好安装这些更新的准备。</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">安装状态</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">正在安装更新。</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">警告：此组件预设为不被选取，因为组件未能通过以下限制：</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">显示 LifeSize Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">更改自动设置...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">退出</String>
+  </LU_Strings_1>
+</LogitechUpdater>

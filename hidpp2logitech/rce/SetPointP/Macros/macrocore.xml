@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="MacroCore.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<String ALIAS="IDS_FONT_SIZE">48</String>
+		<String ALIAS="IDS_FONT">Arial</String>
+		<String ALIAS="IDS_TRACK88">Track88</String>
+		<String ALIAS="IDS_FONT_COLOR">RGB(0, 255, 0)</String>
+		<String ALIAS="IDS_CRUISE_CONTROL">Cruise Control Speed</String>
+		<String ALIAS="IDS_ZOOM_CONTROL">Zoom Speed</String>
+		<String ALIAS="IDS_AUTOSCROLL_CONTROL">AutoScroll Setting</String>
+		<String ALIAS="IDS_UNIVERSALSCROLL_CONTROL">Universal Scroll Setting</String>
+		<String ALIAS="IDS_HORZ_SCROLL_SETTINGS">Horizontal Scroll</String>
+		<String ALIAS="IDS_FILE_SELECTION">Select File</String>
+		<String ALIAS="IDS_URL_SELECTION">Select Web Page</String>
+		<String ALIAS="IDS_USERMENU">Custom Menu</String>
+		<String ALIAS="IDS_OSDTEXT">OnScreen Display Text</String>
+		<String ALIAS="IDS_BROWSE_TITLE">Logitech Browse</String>
+		<String ALIAS="IDS_SUFFIXES">HTML Files|*.HTM;*.HTML|Text Files|*.txt;*.text|GIF Files|*.GIF|JPEG Files|*.jpg;*.jpeg|PNG Files|*.PNG|ART Files|*.ART|AU Files|*.AU|AIFF Files|*.AIFF;*.AIF|XBM Files|*.XBM|All Files|*.*|</String>
+		<String ALIAS="IDS_EMAIL_SELECTION">Select E-Mail</String>
+		<String ALIAS="IDS_CALENDAR_SELECTION">Select Calendar</String>
+    <String ALIAS="IDS_UNSUPPORTED_SELECTION">Unsupported Button</String>
+    <String ALIAS="IDS_MESSENGER_SELECTION">Select Messenger</String>
+		<String ALIAS="IDS_SPECIFY_KEYSTROKE">Specify Keystroke</String>
+		<String ALIAS="IDS_ROTATE_OPTION">Rotate Option</String>
+		<String ALIAS="IDS_BIGFOOT">Media Desktop</String>
+		<String ALIAS="IDS_BROWSE_FOLDER_TITLE">Select the folder location.</String>
+		<String ALIAS="IDS_FILE">File:</String>
+		<String ALIAS="IDS_PROGRAM">Program:</String>
+		<String ALIAS="IDS_FOLDER">Folder:</String>
+		<String ALIAS="IDS_BF_PROGRAMS_FILTER">Executable Files (*.exe)|*.exe|All Files (*.*)|*.*||</String>
+		<String ALIAS="IDS_BF_FILES_FILTER">All Files (*.*)|*.*||</String>
+		<String ALIAS="IDS_NAME_ERROR">The Name field can not be blank. Please enter a name.</String>
+		<String ALIAS="IDS_LOCATION_ERROR">The Location field can not be blank. Please enter a valid location.</String>
+		<String ALIAS="IDS_SF_URI_ERROR">Please select/enter a valid web address.</String>
+		<String ALIAS="IDS_UNIVERSAL_SCROLL">Scroll Options</String>
+		<String ALIAS="IDS_SLOW">Slow</String>
+		<String ALIAS="IDS_NORMAL">Normal</String>
+		<String ALIAS="IDS_FAST">Fast</String>
+		<String ALIAS="IDS_SCREEN">Screen</String>
+		<String ALIAS="IDS_NONE">None</String>
+		<String ALIAS="IDS_OE_INBOX_NAME">Inbox</String>
+		<String ALIAS="IDS_OE_INBOX_EXT">dbx</String>
+		<String ALIAS="IDS_QUICKSWITCH_CAPTION">Document Flip</String>
+		<String ALIAS="IDS_ALERT_FILTER">&quot; - &quot;</String>
+		<String ALIAS="IDS_OSD_ENHANCED_FKEYS">Enhanced F Keys</String>
+		<String ALIAS="IDS_OSD_STANDARD_FKEYS">Standard F Keys</String>
+		<String ALIAS="IDS_MYMUSIC">My Music</String>
+		<String ALIAS="IDS_MYPICTURES">My Pictures</String>
+		<String ALIAS="IDS_MYVIDEOS">My Videos</String>
+		<String ALIAS="IDS_SELECT_MYMUSIC_PATH">Please select the path to My Music.</String>
+		<String ALIAS="IDS_SELECT_MYPICTURES_PATH">Please select the path to My Pictures.</String>
+		<String ALIAS="IDS_SELECT_MYVIDEOS_PATH">Please select the path to My Videos.</String>
+		<String ALIAS="IDS_EJECT_DRIVE_SELECTION">Select Drive to Eject</String>
+    <String ALIAS="IDS_ADJUST_DPI_SETTINGS">DPI Sensitivity</String>
+    <String ALIAS="IDS_MENU_SELECTION">Logitech Custom Menu</String>
+		<String ALIAS="IDS_NO_DISC">No Disc in Drive</String>
+		<String ALIAS="IDS_ONLINE_STATUS">Online Status Settings</String>
+		<String ALIAS="IDS_MESSENGER_STATUS_NOT_AVAILABLE">Please login to this messenger service</String>
+		<String ALIAS="IDS_NOT_ASSIGNED">No function has been assigned to this button.\nClick Yes if you want to assign a function to this button.</String>
+		<String ALIAS="IDS_UNASSIGNED_KEY_CAPTION">SetPoint-Programmable Buttons</String>
+		<String ALIAS="IDS_SCROLL_ACCELERATION">Scroll Acceleration</String>
+		<!-- Custom menu Add Item -->
+		<String ALIAS="IDS_ADD_PROGRAM">Program</String>
+		<String ALIAS="IDS_ADD_WEBSITE">WebSite</String>
+		<String ALIAS="IDS_INVALID_PROGRAM">%s was not found.  You may need to enter the full path.</String>
+		<!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+		<!-- From PresetBtns.h -->
+		<String ALIAS="IDS_PLAYLIST">SetPoint</String>
+		<String ALIAS="IDS_WMP_LAUNCHED">Windows Media Player Launched</String>
+		<String ALIAS="IDS_MC_LAUNCHED">Windows Media Center Launched</String>
+		<String ALIAS="IDS_MM_LAUNCHED">MusicMatch Launched</String>
+		<String ALIAS="IDS_ML_LAUNCHED">Media Life Launched</String>
+		<String ALIAS="IDS_MEDIAPLAYER_LAUNCHED">Media Player Launched</String>
+		<String ALIAS="IDS_PRESET_NOT_SAVED">Preset is not saved</String>
+		<String ALIAS="IDS_WA_LAUNCHED">Winamp Launched</String>
+		<String ALIAS="IDS_PRESET_SAVED">Saved</String>
+		<String ALIAS="IDS_PRESET_PLAYING">Playing</String>
+		<String ALIAS="IDS_EJECT_LONGPRESS_DESC">To select a different drive, hold the Eject key down.</String>
+		<String ALIAS="IDS_SPECIFY_SCRIPTFILE">Select the Script File</String>
+		<String ALIAS="IDS_NO_ACTIVE_MESSENGER_TOAST">Please log on to Windows Live Messenger before using this button.</String>
+		<String ALIAS="IDS_NO_MESSENGER_INSTALLED">Please install a messenger service</String>
+		<!-- From SmartKey.h -->
+		<String ALIAS="IDS_SMARTKEY_NOT_SAVED">Your Preset Hot Key is currently not saved. To assign a function to a this key, please press it for 2 seconds while:\n\t- In your media player to preset the current playlist or current radio.\n\t- In your web browser to preset the current URL.\n\t- In Windows Explorer to preset the current folder.\n\t- In any other type of application to preset the application</String>
+		<String ALIAS="IDS_COMPANY">Logitech</String>
+		<!-- Error Message Text -->
+		<String ALIAS="IDS_SETPOINT_CAPTION">Logitech SetPoint</String>
+		<String ALIAS="MEDIA_PLAYER_MISSING"> Sorry, no supported Media Players are installed.&#10;Please install a supported player or use the &#10;SetPoint &quot;Launch Program&quot; function to use this button.</String>
+		<String ALIAS="REMOTE_MEDIA_PLAYER_MISSING"> Sorry, no supported Remote Media Players are installed.&#10;Please install a supported player or use the &#10;SetPoint &quot;Launch Program&quot; function to use this button.</String>
+		<!-- copying Calc result onto clipboard preference dialog -->
+		<String ALIAS="IDS_CALC_RESULT_OPTION">Calculator Preferences</String>
+		<!-- Easy Sync Dialog -->
+		<String ALIAS="IDS_EASY_SYNC_SELECTION">Sync or Search</String>
+		<!-- Media Player Shuffle -->
+		<String ALIAS="OSD_SHUFFLE_ON">Shuffle On</String>
+		<String ALIAS="OSD_SHUFFLE_OFF">Shuffle Off</String>
+		<String ALIAS="OSD_SHUFFLE_TOGGLED">Shuffle Toggled</String>
+		<String ALIAS="OSD_SHUFFLE_PLAYLIST">Playlist Shuffled</String>
+    <String ALIAS="IDS_OSD_EJECT">Eject</String>
+    <!-- Smart Key -->
+		<String ALIAS="IDS_SMARTKEY_ITEMCANNOTBEPRESET">Unable to preset selected item. Selected item may not be a folder. Make sure that the folder options are set to display full path in the address bar or title bar in order to use this feature.</String>
+		<String ALIAS="IDS_SMARTKEY_ITEMNOTAFOLDER">Unable to preset selected item. Selected item is not a folder.</String>
+		<String ALIAS="IDS_NEWFOLDER_ITEMNOTAFOLDER">Unable to create folder. Selected item is not a folder.</String>
+		<!-- Prepopulated Menus -->
+		<String ALIAS="IDS_START_MENU">Start Menu</String>
+		<!-- Easy Sync Handler error message -->
+		<String ALIAS="IDS_EASY_SYNC_ERROR">The Sync hot key currently has no function on your computer because during the SetPoint installation you chose to not install Easy Synchronization. \nIf you want to install Easy Synchronization, insert the CD-ROM provided with your product or download software from the Logitech web site. \nAlternatively, you can assign a different function to this hot key using the SetPoint software. Launch SetPoint from the Start menu, by selecting All Programs, Logitech, Mouse and Keyboard, Settings.</String>
+		<!-- VOLUME OSD  -->
+    <String ALIAS="IDS_VOLUMEUP_OSD">Volume +</String>
+    <String ALIAS="IDS_VOLUMEDOWN_OSD">Volume -</String>
+ 		<String ALIAS="IDS_COMMUNICATION_VOLUME_OSD">Communications Volume</String>
+		<!-- MUTE VOLUME OSD  -->
+		<String ALIAS="IDS_MUTE_OSD">Mute</String>
+    <String ALIAS="IDS_UNMUTE_OSD">Unmute</String>
+    <String ALIAS="IDS_COMMUNICATION_MUTE_OSD">Microphone Mute</String>
+		<String ALIAS="IDS_RECOMMENDED">Recommended</String>
+		<String ALIAS="IDS_INTERNET_SEARCH">Search Internet</String>
+		<String ALIAS="IDS_DESKTOP_SEARCH">Search Computer</String>
+		<String ALIAS="IDS_YAHOO_IQ_INTERNETSEARCH">Yahoo! LiveWords</String>
+		<String ALIAS="IDS_YAHOO_INTERNETSEARCH">Yahoo! Search</String>
+		<String ALIAS="IDS_GOOGLE_INTERNETSEARCH">Google Search</String>
+		<String ALIAS="IDS_AOL_INTERNETSEARCH">AOL Search</String>
+		<String ALIAS="IDS_MSN_INTERNETSEARCH">MSN Search</String>
+		<String ALIAS="IDS_ASKJEEVES_INTERNETSEARCH">Ask Jeeves</String>
+      <String ALIAS="IDS_LIVE_DOT_COM_INTERNETSEARCH">Bing.com Search</String>      
+      <String ALIAS="IDS_GOOGLE_DESKTOP">Google Desktop Search</String>
+		<String ALIAS="IDS_YAHOO_DESKTOP">Yahoo! Desktop Search</String>
+		<String ALIAS="IDS_WINXP_DESKTOP">XP Desktop Search</String>
+		<String ALIAS="IDS_VISTA_DESKTOP">Vista Desktop Search</String>
+		<String ALIAS="IDS_X1_DESKTOP">X1 Desktop Search</String>
+		<String ALIAS="IDS_SEARCH_SETTINGS_SELECTION">Logitech SetPoint</String>
+		<String ALIAS="IDS_BASIC_SEARCH_SETTINGS_DESC">Highlight a word or phrase and press the button to instantly display results from your favorite search engine</String>
+		<String ALIAS="IDS_BASIC_SEARCH_SETTINGS_DESC_FIRST_TIME_USE">Highlight a word or phrase and press the button to instantly display results from your favorite search engine</String>
+		<String ALIAS="IDS_ADVANCED_SEARCH_SETTINGS_DESC">Highlight a word or phrase and press the button to instantly display results from your favorite search engine</String>
+		<String ALIAS="IDS_ADVANCED_SEARCH_SETTINGS_DESC_FIRST_TIME_USE">Highlight a word or phrase and press the button to instantly display results from your favorite search engine</String>
+		<String ALIAS="IDS_SEARCH_APP_NOPREFERENCE">No Preference</String>
+		<String ALIAS="IDS_VERTICALSCROLL">Vertical Scroll</String>
+		<String ALIAS="IDS_SMARTSHIFT_TECHNOLOGY">Logitech SmartShift Technology</String>
+		<String ALIAS="OSD_PICTURE">Picture</String>
+		<String ALIAS="IDS_OPTION_STANDBY">Sleep</String>
+		<String ALIAS="IDS_OPTION_RESTART">Restart</String>
+		<String ALIAS="IDS_OPTION_SHUTDOWN">Shut down</String>
+		<String ALIAS="IDS_OPTION_LOGOFF">Log off</String>
+		<String ALIAS="IDS_OPTION_DONOTHING">Do Nothing</String>
+		<String ALIAS="IDS_POWER_MANAGEMENT">Power Options</String>
+		<String ALIAS="IDS_STATIC_GEOGRAPHIC_PREFERENCE">Choose a region/language preference</String>
+		<String ALIAS="IDS_STATIC_FAVORITE_SEARCH_ENGINE">Choose your favorite search utility</String>
+		<String ALIAS="IDS_VOIP_SELECTION">Select VoIP Application</String>
+		<String ALIAS="IDS_SEARCH_CONFIGURE">Select Search Engine</String>
+		<String ALIAS="IDS_PICTURE_SELECTION">Select Application</String>
+		<String ALIAS="IDS_START_SMOOTH">Free Spin</String>
+		<String ALIAS="IDS_START_NOTCHED">Click-to-Click</String>
+		<String ALIAS="IDS_NEWFOLDER_CAPTION">Logitech SetPoint</String>
+		<String ALIAS="IDS_VOIP_CONTACT">Select Contact</String>
+		<String ALIAS="IDS_VOIP_DIAL_NO">Type Number</String>
+		<String ALIAS="IDS_VOIP_DIAL_NUMBER">Dial Number</String>
+		<String ALIAS="IDS_VOIP_CONTACT_DESC">To select a contact:\n1- Open Skype\n2- Select the Contact in the list\n3- Press the key simultaneously with Fn key for 2 seconds</String>
+    <String ALIAS="IDS_VOIP_DIAL_DESC">Enter a phone number,with the\ncountry code, in the box below:</String>
+		<String ALIAS="IDS_CALL_CONTACT">Call Computer</String>
+		<String ALIAS="IDS_OPEN_CHAT">Chat</String>
+		<!-- Skype Status -->
+		<String ALIAS="IDS_SKYPE_VERSION">Skype (version 2.0 and above)</String>
+		<String ALIAS="IDS_AIM_VERSION">AIM Triton (version 1.2 and above)</String>
+		<String ALIAS="IDS_YIM_VERSION">Yahoo! Messenger (version 7.5 and above)</String>
+		<String ALIAS="IDS_SKYPE_OFFLINE">Offline</String>
+		<String ALIAS="IDS_SKYPE_AWAY">Away</String>
+		<String ALIAS="IDS_SKYPE_NOTAVAILABLE">Not Available</String>
+		<String ALIAS="IDS_SKYPE_DONOTDISTURB">Do Not Disturb</String>
+		<String ALIAS="IDS_SKYPE_INVISIBLE">Invisible</String>
+    <String ALIAS="IDS_DPI_SENSITIVITY">DPI Sensitivity</String>
+    <String ALIAS="IDC_STATIC_UNSUPPORTED_FEATURE">Unknown Feature</String>
+    <String ALIAS="IDC_STATIC_UNSUPPORTED_BUTTON">Unsupported Button</String>
+    <String ALIAS="IDC_STATIC_UNSUPPORTED_CONTROL">The selected button is not supported by this version of software. Click below to install an update.</String>
+    <String ALIAS="IDS_DPI_3LEVEL">DPI Sensitivity</String>
+  </StringSet>
+	<Dialog ID="IDD_TEST_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_STATIC_TEXT">Name:</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_FILELAUNCHER_DIALOG" WIDTH="218" HEIGHT="120">
+		<Control ID="ID_FILELAUNCHER_BROWSE_BUTTON">Browse...</Control>
+		<Control ID="IDC_STATIC_NAME">Name:</Control>
+	</Dialog>
+	<Dialog ID="IDD_USERMENU_HANDLER_DIALOG" WIDTH="219" HEIGHT="109">
+		<Control ID="ID_USERMENU_ADD">Add</Control>
+		<Control ID="ID_USERMENU_REMOVE_BUTTON">Remove</Control>
+		<Control ID="IDC_HANDLER_USERMENU_MODIFY_BUTTON">Modify</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_URLLAUNCHER_DIALOG" WIDTH="219" HEIGHT="100">Select Web Page
+      <Control ID="IDC_HANDLER_URL_NAME_TEXT">Name:</Control>
+		<Control ID="IDC_HANDLER_URLLAUNCHER_NAME"/>
+		<Control ID="IDC_HANDLER_URL_URI_TEXT">Location:</Control>
+		<Control ID="IDC_HANDLER_URLLAUNCHER_URI"/>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_CRUISECONTROL_DIALOG" WIDTH="260" HEIGHT="159">
+		<Control ID="IDC_STATIC_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_ACCELERATION">Acceleration</Control>
+		<Control ID="IDC_RADIO_ACCEL_NO">None</Control>
+		<Control ID="IDC_RADIO_ACCEL_LOW">Low</Control>
+		<Control ID="IDC_RADIO_ACCEL_MEDIUM">Medium</Control>
+		<Control ID="IDC_RADIO_ACCEL_HIGH">High</Control>
+	</Dialog>
+  <Dialog ID="IDD_HANDLER_TWOSWITCH_CRUISECONTROL_DIALOG" WIDTH="219" HEIGHT="159">
+    <Control ID="IDC_STATIC_FAST">Fast</Control>
+    <Control ID="IDC_STATIC_SLOW">Slow</Control>
+    <Control ID="IDC_STATIC_ACCELERATION">Acceleration</Control>
+    <Control ID="IDC_RADIO_ACCEL_NO">None</Control>
+    <Control ID="IDC_RADIO_ACCEL_LOW">Low</Control>
+    <Control ID="IDC_RADIO_ACCEL_MEDIUM">Medium</Control>
+    <Control ID="IDC_RADIO_ACCEL_HIGH">High</Control>
+  </Dialog>
+	<Dialog ID="IDD_HANDLER_HORZ_SCROLL" WIDTH="260" HEIGHT="140">
+		<Control ID="IDC_STATIC_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_LINEAR">No Acceleration</Control>
+		<Control ID="IDC_STATIC_ACCELERATED">Max. Acceleration</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_ZOOM_DIALOG" WIDTH="260" HEIGHT="140">
+		<Control ID="IDC_STATIC_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_ACCELERATION">No Acceleration</Control>
+		<Control ID="IDC_STATIC_ACCELERATED">Max. Acceleration</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_VERT_SCROLL" WIDTH="244" HEIGHT="140">
+		<Control ID="IDC_STATIC_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_LINEAR">No Acceleration</Control>
+		<Control ID="IDC_STATIC_ACCELERATED">Max. Acceleration</Control>
+		<Control ID="IDC_CHECK_ALLOW_SMOOTH_SCROLLING">Allow Super Smooth Scrolling</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_ADDMENU_DIALOG" WIDTH="431" HEIGHT="229">Menu Item
+      <Control ID="IDC_STATIC_SELECT_FUNCTION">Select the web site or function you want for this menu item:</Control>
+		<Control ID="IDC_STATIC_NAME">Name</Control>
+		<Control ID="IDC_STATIC_LOCATION">Location</Control>
+		<Control ID="IDC_HANDLER_ADDMENU_BROWSE_BUTTON">Browse</Control>
+		<Control ID="IDOK">OK</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+	<Dialog ID="IDD_TASKLIST">Logitech Application Switch Selector</Dialog>
+	<Dialog ID="IDD_HANDLER_KEYSTROKE_ASSIGNMENT" WIDTH="260" HEIGHT="109">
+		<Control ID="IDC_STATIC_KEYSTROKE">Keystroke:</Control>
+		<Control ID="IDC_STATIC_INSTRUCTIONS">Click in the Keystroke box. Type either a single key or a combination of (e.g. Ctrl, Ctrl+Alt, or Alt) plus another key.</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_ROTATE" WIDTH="219" HEIGHT="109">
+		<Control ID="IDC_STATIC_INSTRUCTIONS">To rotate in the opposite direction, press CTRL key + rotate.</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_EMAIL_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_STATIC_TEXT">Choose Email</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_MESSENGER_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_STATIC_TEXT">Choose Messenger</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_UNIVERSALSCROLL_DIALOG" WIDTH="219" HEIGHT="166">
+		<Control ID="IDC_STATIC_UNIVERSALSCROLL_SPEED">Scroll Speed</Control>
+		<Control ID="IDC_STATIC_UNIVERSALSCROLL_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_UNIVERSALSCROLL_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_UNIVERSALSCROLL_ZOOM_SPEED">Zoom Speed</Control>
+		<Control ID="IDC_STATIC_UNIVERSALSCROLL_ZOOM_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_UNIVERSALSCROLL_ZOOM_FAST">Fast</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_AUTOSCROLL_DIALOG" WIDTH="219" HEIGHT="166">
+		<Control ID="IDC_STATIC_AUTOSCROLL_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_AUTOSCROLL_FAST">Fast</Control>
+		<Control ID="IDC_STATIC_AUTOSCROLL_SPEED">Scroll Speed</Control>
+		<Control ID="IDC_STATIC_ZOOM_SPEED">Zoom Speed</Control>
+		<Control ID="IDC_STATIC_ZOOM_SLOW">Slow</Control>
+		<Control ID="IDC_STATIC_ZOOM_FAST">Fast</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_MEDIA_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_COMBO_MEDIAPROGRAMS" Scale="1.0"/>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_EJECT_DIALOG" WIDTH="219" HEIGHT="33"/>
+	<Dialog ID="IDD_HANDLER_MESSENGER_STATUS_DLG" WIDTH="219" HEIGHT="166">
+		<Control ID="IDC_STATIC_SELECT_MESSENGER" Tip="">Select Messenger Service</Control>
+		<Control ID="IDC_LIST_MSGRSTATUSPROGRAMS" Tip="Select an Instant Messenger Service to configure..."/>
+		<Control ID="IDC_COMBO_MSGR_OFFSTATUS" Tip="This shows the available offline status settings.\nPlease login to this Messenger service to see the status settings."/>
+		<Control ID="IDC_MESSENGER_LOGIN">Please login to this messenger service</Control>
+		<Control ID="IDC_STATIC_SELECT_MSGR_OFFSTATUS" Tip="">Select Offline Setting</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_SCRIPT_EXECUTOR">
+   </Dialog>
+	<Dialog ID="IDD_CALC_RESULT_OPTION_DIALOG" WIDTH="219" HEIGHT="120">
+		<Control ID="IDC_STATIC_CALC_RESULT_OPTION" Tip="">When I press the Enter key to get the \n result of a Calculation</Control>
+		<Control ID="IDC_CHECK_CALC_RESULT_OPTION" Tip="">Put the result into Windows Clipboard</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_NAVIGATION_WHEEL" WIDTH="219" HEIGHT="63">
+		<Control ID="IDC_RADIO_ON">On</Control>
+		<Control ID="IDC_RADIO_OFF">Off</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_SMARTSHIFT_DLG" WIDTH="290" HEIGHT="250">
+		<Control ID="IDC_RADIOSMARTSHIFT_ENABLED">Auto-shift to free-spin when speed is:</Control>
+		<Control ID="IDC_STATIC_LOWFORCE">Slow</Control>
+		<Control ID="IDC_STATIC_HIGHFORCE">Fast</Control>
+		<Control ID="IDC_RADIO_ALWAYS_NOTCHED">Always click-to-click</Control>
+		<Control ID="IDC_RADIO_ALWAYS_SMOOTH">Always free-spin</Control>
+		<Control ID="IDC_RADIO_ALWAYS_MANUAL">Shift modes by pressing wheel (overrides button 3 setting on the Buttons page)</Control>
+	</Dialog>
+  <Dialog ID="IDD_HANDLER_SMARTSHIFT_DLG2" WIDTH="290" HEIGHT="250">
+    <Control ID="IDC_CHECK_INERTIA">Allow Inertia Scrolling</Control>
+  </Dialog>
+  <Dialog ID="IDD_NEWFOLDER_DIALOG" WIDTH="219" HEIGHT="153">
+		<Control ID="IDC_CREATE_FOLDER_BUTTON">Create</Control>
+		<Control ID="IDC_BUTTON_CANCEL">Cancel</Control>
+		<Control ID="IDC_STATIC_TEXT_FOLDER_NAME">Enter the new folder name:</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_POWERMANAGEMENT_DIALOG" WIDTH="219" HEIGHT="120">
+		<Control ID="IDC_RADIO_STANDBY">Sleep</Control>
+		<Control ID="IDC_RADIO_RESTART">Restart</Control>
+		<Control ID="IDC_RADIO_SHUTDOWN">Shut down</Control>
+		<Control ID="IDC_RADIO_LOGOFF">Log off</Control>
+		<Control ID="IDC_RADIO_DONOTHING">Do nothing</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_VOIP_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_COMBO_VOIPOPTIONS" Scale="1.0"/>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_CALENDAR_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_COMBO_CALENDARPROGRAMS" Scale="1.0"/>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_SEARCH_DLG" WIDTH="219" HEIGHT="120">
+		<Control ID="ID_SEARCH_CONFIGURE">Select</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_SEARCH_SETTINGS_DLG">
+		<Control ID="IDOK">OK</Control>
+		<Control ID="IDCANCEL">Cancel</Control>
+	</Dialog>
+  <Dialog ID="IDD_HANDLER_DESCRIPTION_DLG">
+    <Control ID="ID_CONFIGURE_LAUNCH">Task Description</Control>    
+  </Dialog>
+	<Dialog ID="IDD_HANDLER_MULTI_KEYSTROKE_ASSIGNMENT" WIDTH="219" HEIGHT="139">
+		<Control ID="IDC_STATIC_KEYSTROKE1">Keystroke 1:</Control>
+		<Control ID="IDC_STATIC_KEYSTROKE2">Keystroke 2:</Control>
+		<Control ID="IDC_STATIC_KEYSTROKE3">Keystroke 3:</Control>
+		<Control ID="ID_CONFIGURE_LAUNCH">Task Description</Control>
+	</Dialog>
+	<Dialog ID="IDD_HANDLER_SEARCH_PLUS_DLG" WIDTH="219" HEIGHT="109">
+		<Control ID="ID_SEARCH_CONFIGURE">Select</Control>
+		<Control ID="ID_CONFIGURE_LAUNCH">Task Description</Control>
+	</Dialog>
+  <Dialog ID="IDD_HANDLER_DPI_SETTINGS_DLG" WIDTH="221" HEIGHT="156">
+    <Control ID="IDC_STATIC_PLUS_BUTTON">+ Button :</Control>
+    <Control ID="IDC_STATIC_MINUS_BUTTON">- Button :</Control>
+  </Dialog>
+  <Dialog ID="IDD_DIALOG_3LEVEL_DPI" WIDTH="221" HEIGHT="156">
+    <Control ID="ID_CONFIGURE_3LEVEL_DPI">DPI Settings...</Control>
+  </Dialog>
+  <Dialog ID="IDD_DIALOG_3LVL_DPI" WIDTH="600" HEIGHT="400">
+    <Control ID="IDC_STATIC_DP_3DESC" FONT="Arial" SCALE="1.2" BOLD="1">Set DPI Levels:</Control>
+    <Control ID="IDC_STATIC_3PLUS_BUTTON">Level 1:</Control>
+    <Control ID="IDC_STATIC_MINUS_BUTTON">Level 2:</Control>
+    <Control ID="IDC_STATIC_PLUS_BUTTON5">Level 3:</Control>
+    <Control ID="IDC_STATIC_DPI_3_250">250</Control>
+    <Control ID="IDC_STATIC_DPI_3_2500">2500</Control>
+    <Control ID="IDC_STATIC_DPI_3_250_2">250</Control>
+    <Control ID="IDC_STATIC_DPI_3_2500_2">2500</Control>
+    <Control ID="IDC_STATIC_DPI_3_250_3">250</Control>
+    <Control ID="IDC_STATIC_DPI_3_2500_3">2500</Control>
+    <Control ID="IDOK">OK</Control>
+    <Control ID="IDCANCEL">Cancel</Control>
+    <Control ID="IDC_DPI3LVL_RESTORDEFAULTS">Restore Defaults</Control>
+  </Dialog>
+  <Dialog ID="IDD_HANDLER_TWOSWITCH_KEYSTROKE_ASSIGNMENT" WIDTH="219" HEIGHT="156">
+    <Control ID="IDC_STATIC_KEYSTROKE1">Keystroke 1:</Control>
+    <Control ID="IDC_STATIC_KEYSTROKE2">Keystroke 2:</Control>
+    <Control ID="IDC_STATIC_INSTRUCTIONS">Click in the Keystroke box. Type either a single key or a combination of (e.g. Ctrl, Ctrl+Alt, or Alt) plus another key.</Control>    
+  </Dialog>
+
+  <Dialog ID="IDD_HANDLER_DPI_SWITCHER" WIDTH="219" HEIGHT="156">
+    <Control ID="IDC_STATIC_HIGH_DPI">Level 1 </Control>
+    <Control ID="IDC_STATIC_DEFAULT_DPI_SWITCHER">(Default)</Control>
+    <Control ID="IDC_STATIC_LOW_DPI">Level 2 </Control>
+    <Control ID="IDC_STATIC_HIGHLEVEL_LOW">100</Control>
+    <Control ID="IDC_STATIC_HIGHLEVEL_HIGH">1500</Control>
+    <Control ID="IDC_STATIC_LOWLEVEL_LOW">100</Control>
+    <Control ID="IDC_STATIC_LOWLEVEL_HIGH">1500</Control>
+  </Dialog>
+  <Dialog ID="IDD_HANDLER_UNSUPPORTED_DLG" WIDTH="219" HEIGHT="109">
+    <Control ID="IDC_STATIC_UNSUPPORTED">SetPoint does not recognize the default task assigned to this button. Depending on the task, this button may have limited functionality. Click below to install an update.</Control>
+    <Control ID="ID_UNSUPPORTED_DOWNLOAD">Install Updates</Control>
+  </Dialog>
+</Source>

@@ -1,0 +1,374 @@
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+
+<head lang='en-us'>
+
+  <meta http-equiv="Pragma"       content="no-cache">
+  <meta http-equiv="Expires"      content="-1">
+  <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+
+  <script type="text/javascript" src="../js/custom_ui.js"></script> 
+  <script type="text/javascript" src="../js/logi_code.js"></script> 
+
+  
+  
+	<script type='text/javascript'>
+    var langCode = window.external.EvaluateExpression('langcode');
+    document.write("<link rel='stylesheet' href='../"+langCode+"/wizpage.css' type='text/css' media='screen'>");
+    
+
+    var channel = window.external.EvaluateExpression('channel');
+    var register = window.external.EvaluateExpression('register');
+    var updater = window.external.EvaluateExpression('updater');
+    var ps2 = window.external.EvaluateExpression('ps2');
+    var showUI = window.external.EvaluateExpression('showUI');
+    var displayVersion = window.external.EvaluateExpression('displayVersion_persistent');
+
+    var showMiHints = window.external.EvaluateExpression('showMiHints');
+    showMiHints = window.external.EvaluateExpression(showMiHints);
+
+    function SetStuffLater() {
+       var el = document.getElementById("productNameText");
+	  	 if (el != null) {el.innerHTML +=" "+displayVersion+""}
+       var el = document.getElementById("Logi_checkbox_01");
+	     
+       if (el) {
+	  el.checked = window.external.EvaluateExpression('Logi_checkbox_01');
+       }
+    }
+    
+    function SetStuff() {
+    
+      if (channel == "oem") { 
+      
+        var el = document.getElementById("productPurposeText");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("logo_image");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("header_image");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_pane");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_title");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+
+        var el = document.getElementById("install_title_2");
+	  	  if (el != null) {el.style.display = "";}	  	  
+
+        var el = document.getElementById("install_title_3");
+	  	  if (el != null) {el.style.display = "";}	  	  
+	  	}  
+	  	
+	  	if (register == "no") { 
+        var el = document.getElementById("register_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (updater == "no") { 
+        var el = document.getElementById("updater_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (ps2 == "yes") { 
+        var el = document.getElementById("ps2_pane");
+	  	  if (el != null) {el.style.display = "";}
+      }
+
+      if (showUI == "no") { 
+        var el = document.getElementById("done_messaging");
+        if (el != null) {el.style.display = "none";}
+      }
+
+
+    }
+
+    var alreadyInstalled = window.external.EvaluateExpression('InstallBaseLocation');
+alreadyInstalled=window.external.EvaluateExpression(alreadyInstalled);
+
+var userSelectedLocation=window.external.EvaluateExpression('UserSelectedLocation');
+
+var strOriginalPath;
+	
+	
+function MakeDestTagReadonly () {
+		var dest_tag_element = document.getElementById("Logi_edit_01");
+		if (dest_tag_element != null) {
+        dest_tag_element.readOnly = true;
+    }    
+}	
+
+	function OnBrowseForFolder()
+	{
+		var browseinfo = window.external.GetBrowseInfo();
+		browseinfo.rootFolder = Logi_edit_01.value;
+		browseinfo.displayName = "System32";
+		browseinfo.title = getString('IDS_BROWSE_TITLE');
+		// BIF_RETURNONLYFSDIRS = 0x0001
+		// BIF_STATUSTEXT = 0x0004
+		// BIF_NEWDIALOGSTYLE = 0x0040
+		// See MSDN documentation of BROWSEINFO structure (or shlobj.h) for more values
+		browseinfo.flags = 0x45;
+		
+		var path = window.external.BrowseForFolder(browseinfo);
+		// path will be null if user cancels
+		if (path != null && path != "")
+		{
+			Logi_edit_01.value = path;
+      var expr =  'SetVar(UserSelectedLocation,"'+path+'")';
+      var res = window.external.EvaluateExpression(expr);  
+		}
+	}
+	
+	function SaveOriginalPath()
+	{
+    Logi_edit_01.value = window.external.EvaluateExpression('Logi_edit_01');
+		strOriginalPath = Logi_edit_01.value;
+	}
+	
+	function RevertToOriginalPath()
+	{
+		Logi_edit_01.value = strOriginalPath;
+	}
+
+	
+	function EvalBrowseEdit()
+	{
+	    if (Logi_edit_01.value.indexOf('"')==-1)
+		{
+			Logi_edit_01.value='"'+Logi_edit_01.value+'"';
+		}
+		Logi_edit_01.value = window.external.EvaluateExpression(Logi_edit_01.value);
+		return;
+		if (Logi_edit_01.value == "")
+		{
+			RevertToOriginalPath();
+			// Assumption: original path is not empty
+			Logi_edit_01.value = window.external.EvaluateExpression(Logi_edit_01.value);
+		}
+	}
+	
+	function OnBtnNext()
+	{
+		// don't allow to leave the page and display error message
+		// if the user does not choose any installation path
+		noPathErrorMsg.style.visibility = "hidden";
+		if (Logi_edit_01.value==null || Logi_edit_01.value=="")
+		{
+			noPathErrorMsg.style.visibility = "visible";
+			RevertToOriginalPath();
+			// Assumption: original path is not empty
+			if (Logi_edit_01.value.indexOf('"')==-1)
+			{
+				Logi_edit_01.value='"'+Logi_edit_01.value+'"';
+			}
+			Logi_edit_01.value = window.external.EvaluateExpression(Logi_edit_01.value);
+		}
+		else
+		{
+			document.getElementById("btnNext").click();		
+		}
+	}
+	
+	function ChangeOnClickHandlers()
+	{
+		var btnElt = document.getElementById("btnNext");
+		if (btnElt == null)
+			return;
+			
+		btnElt.onclick = null;
+		btnElt.attachEvent("onclick", OnBtnNext);
+		
+		
+	}
+
+	function handleOverInstall() {
+		if (alreadyInstalled  != '') {
+			var el = document.getElementById("Logi_edit_01");
+			if (el) {
+ 			  el.value=alreadyInstalled;
+                        }
+		}
+  	if (userSelectedLocation  != '') {
+			var el = document.getElementById("Logi_edit_01");
+			if (el) {
+ 			  el.value=userSelectedLocation;
+      }
+		}
+
+	}
+	
+	function onSelectLang(obj)
+	{
+		// 1031:  IDC_LANGSELECT_COMBO
+		var hWnd = window.external.GetDlgItem(1031);
+		
+		// 0x014E: CB_SETCURSEL
+		window.external.SendMessage(hWnd, 0x014E, obj.selectedIndex, 0);
+		
+		lparam = MAKEDWORD(1, 1031);	// 1: notification code for CBN_SELCHANGE
+		window.external.PostMessage(0x111, lparam, hWnd);	// 0x111 : WM_COMMAND		
+	}
+	
+  function onSelectUpdate(obj)
+	{
+	  var el = document.getElementById("Logi_checkbox_01");
+	  if (el) {
+	    var checked = el.checked ? "1" : "0";
+      var expr =  'SetVar(Logi_checkbox_01,"'+checked+'")';
+      var res = window.external.EvaluateExpression(expr);  
+    }  
+	}
+
+	function initSelectLang()
+	{
+		var selObj = document.getElementById("langselect");
+		if (selObj == null)
+			return;
+		// 1031:  IDC_LANGSELECT_COMBO
+		var hWnd = window.external.GetDlgItem(1031);
+		if (hWnd == null)
+			return;
+		// 0x0146: CB_GETCOUNT                 
+		// 0x0147: CB_GETCURSEL
+		// 0x0148: CB_GETLBTEXT         
+		// 0x0149: CB_GETLBTEXTLEN
+		
+		// initialize the languge dropdown list: ask the windows language combo box for its strings
+		var numItems = window.external.SendMessage(hWnd, 0x0146, 0, 0);
+                    if (numItems == 0)
+                       return;
+                    for (i=0; i < numItems; i++)
+                    {
+                       var elt = document.createElement("option");
+                       elt.text = window.external.SendMessage(hWnd, 0x0148, i, 0);
+                       selObj.options.add(elt);
+                    }
+                    // Select current language
+		selObj.selectedIndex = window.external.SendMessage(hWnd, 0x0147, 0, 0);
+
+           }
+	  
+  </script>
+
+  <style type="text/css">
+  </style>
+  
+</head>
+
+<body id="theBody" class="main_page" ondragstart="return false;" onLoad="SetStuff();loadStrings();initSelectLang();setStep(1);Custom.init();SaveOriginalPath(); EvalBrowseEdit();ChangeOnClickHandlers();handleOverInstall();MakeDestTagReadonly();
+SetStuffLater();selectFirst(document.getElementById('btnNext'),200);"> 
+    	<div id='blanket' style='position: absolute; top: 0; left: 0; display: none; background-color: black; z-index:2; filter=progid:DXImageTransform.Microsoft.Alpha(opacity=25)'></div>
+
+	<div class="container">
+		<div class="sidebar">
+
+			<div class="sidebarTitle">
+			</div>
+
+					<div class="steps">
+			<table class="steps">
+				<tr class="step"><td id="stepNum_1" class="stepNum">1</td><td id="stepText_1" string="IDS_STEP_TEXT_1" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_2" class="stepNum">2</td><td id="stepText_2" string="IDS_STEP_TEXT_3" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_3" class="stepNum">3</td><td id="stepText_3" string="IDS_STEP_TEXT_4" class="stepText"></td></tr>
+			</table>
+		</div>
+			<!--[if lte IE 6]>
+			<div id="logo_image" style='padding-top:0px;padding-left:47px;'><img src='..\images\collateral\blank.gif' style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\logos\logo.png' sizing='scale')"></div>
+			<![endif]-->
+			<!--[if gt IE 6]>		
+			<div id="logo_image" style='padding-top:0px;padding-left:35px;'><img src='..\images\logos\logo.png'></div>
+			<![endif]-->
+		</div>
+		<div class="pageContent">
+			<div class="contentHeader" style="height:50px;">
+			  			<!--[if lte IE 6]>
+			<img id="header_image"  style="background:transparent;position:absolute; left:0px; top:0px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\header_image_2.png' sizing='scale')" 
+			src="..\images\collateral\blank.gif">
+			<![endif]-->
+
+			<!--[if gt IE 6]>
+			<img id="header_image" style="position:absolute; left:0px; top:0px;" src="..\images\collateral\header_image_2.png">
+			<![endif]-->
+
+			  
+			  <table height="100%" width="100%">
+				<tr><td valign="bottom">
+				 <span id="productNameText" string="IDS_PRODUCT_NAME"></span>
+			   </td></tr>
+				<tr><td valign="bottom">
+				 <span id="productPurposeText" string="IDS_PRODUCT_PURPOSE"></span>
+			   </td></tr>
+		       </table>
+			  	
+			</div>
+
+			<br/>
+			<br/>
+			<br/>
+
+			<div class="contentBody" style="height:330px;">			<div style="width:350px;" string="IDS_GETTING_STARTED_TEXT" class="leaderBoard"></div>
+			<div class="messaging"  string="IDS_SELECT_INSTALL_TEXT"></div>
+			<br/>
+			<div class="instruction_light_left" style="padding-bottom:3px;"string="IDS_LANGUAGESELECTDLG_SUBTITLE"></div>
+			<select id="langselect" tabindex="2" class="styled" size="1" onchange='onSelectLang(this);'>
+			</select>
+			<div height:30px;">&nbsp;</div>
+			<div class="instruction_light_left" id="destTag" string="IDS_DESTINATION_STATIC"></div>
+				<table cellspacing=0 cellpadding=0 border=0 id="browseBox">
+					<tr>
+						<td>
+							<img style="position:relative;top:2px;" src="../images/controls/edit_left.gif">
+						</td>
+						<td>
+							<input id="Logi_edit_01" name="Logi_edit_01" type="text" onBlur="EvalBrowseEdit();" class="bigEdit">
+						</td>
+						<td>
+							<a href="#" style="color:#00bebe;position:relative;top:-0.5px;" onclick="OnBrowseForFolder();return false;" class="formbutton browse" id="browse"><b string="IDS_BTN_BROWSE"><b></a>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<div id="currentDirectory" style="display:none;">
+				  <span style="width:100%;font-size:13px;" id="installDir"></span>
+				</div>
+				<div id="noPathErrorMsg" style="visibility:hidden;" string="IDS_NO_VALID_PATH"></div>
+            <span id='resMSetupVars'></span>
+			<br/>
+			
+			<div id="updater_pane">
+			
+
+			<table>
+			  <tr>
+			    <td style="vertical-align:top"><input type="checkbox" id="Logi_checkbox_01" onclick='onSelectUpdate(this);'></td>
+			    <td style="vertical-align:top;padding-top:6px"><span class="instruction_light_left" ><label string="IDS_CHECK_FOR_UPDATES"  for="Logi_checkbox_01"></label></span></td>
+			  </tr>
+			</table>
+			</div>
+ 
+			</div>
+
+			<div class="pageNav" style="width:80%;">		<a href="#" onclick="this.click(); return false;" class="button primary" id="btnCancel"><b string="IDS_BTN_QUIT"></b></a> &nbsp;&nbsp;&nbsp;
+		<a href="#" onclick="this.click(); return false;" class="button primary" id="btnPrev"><b string="IDS_BTN_BACK"></b></a> &nbsp;&nbsp;&nbsp;
+		<a href="#" onclick="this.click(); return false;" class="button action"  id="btnNext"><b string="IDS_BTN_NEXT"></b></a>
+		</div>
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (showMiHints=="yes") { 
+		  displayLangCode();
+		}  
+	</script>	
+</body>
+</html>

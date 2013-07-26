@@ -1,0 +1,193 @@
+;##############################################################################
+;#  JfHidHid.inf - framework HID INF for HID devices
+;#  Copyright (c) 1999-2012 Logicool. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = JfHidHid.cat
+Class       = HIDClass
+ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LHidFilt.sys = 1				; KMDF version of the USB filter driver
+
+[DestinationDirs]
+DefaultDestDir       = 12    ; DIRID_DRIVERS
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+; ---------------------------------------------------------
+[Manufacturer]
+%Provider%	= Logicool
+
+; ----------------For XP and later 64-bit--------------
+[Logicool]
+; Corded
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C30F&Mi_01&COL01  ; cc
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C316&Mi_01&COL01  ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C317&Mi_01&COL01  ; power
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C317&Mi_01&COL02  ; cc
+%HIDCompliantDescriptor%         = HIDFiltInstNK,HID\VID_046D&PID_C71F&COL05        ; HID-compliant device
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C31B&Mi_01&COL01  ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C31B&Mi_01&COL02  ; power
+; Legacy receivers
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C512&Mi_01&COL02  ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C512&Mi_01&COL03  ; power
+%HIDScrollingWheelDescritor%     = HIDFiltInstNK,HID\VID_046D&PID_C512&Mi_01&COL04  ; nav
+%HIDCompliantDescriptor%         = HIDFiltInstNK,HID\VID_046D&PID_C529&Mi_01&COL04  ; infrared remote								
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C52E&MI_01&Col02 ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C52E&MI_01&Col03 ; power
+"HID Keyboard Consumer Controls" = HIDFiltInstHIDC,HID\VID_04C5&PID_12AE&MI_01&Col02 ; cc
+"HID Keyboard Power Key"         = HIDFiltInstNK,HID\VID_04C5&PID_12AE&MI_01&Col03 ; power
+
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C534&MI_01&Col02 ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C534&MI_01&Col03 ; power
+
+; HID++2.0
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C072&Mi_01&COL01  ; cc
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C073&Mi_01&COL02  ; cc
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C074&Mi_01&COL02  ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C074&Mi_01&COL03  ; power
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C322&Mi_01&COL01  ; cc
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C323&Mi_01&COL02  ; cc
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C324&Mi_01&COL01  ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C324&Mi_01&COL02  ; power
+%HIDConsumerKeyDescriptor%       = HIDFiltInstHIDC,HID\VID_046D&PID_C325&Mi_01&COL02  ; cc
+%HIDSystemPowerButtonDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_C325&Mi_01&COL03  ; power
+; Unifying Devices without filters
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstPlainHIDC,HID\Vid_046D&Qid_2006&Col02 ; cc
+%HIDCompliantUnifyingCCKeys%     = HIDFiltInstPlainHIDC,HID\Vid_046D&Qid_2007&Col02 ; cc
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstPlainNK,HID\Vid_046D&Qid_2007&Col03   ; power
+%HIDCompliantUnifyingCCKeys%     = HIDFiltInstPlainHIDC,HID\Vid_046D&Qid_2008&Col02 ; cc
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstPlainNK,HID\Vid_046D&Qid_2008&Col03   ; power
+%HIDCompliantUnifyingCCKeys%     = HIDFiltInstPlainHIDC,HID\Vid_046D&Qid_200A&Col02 ; cc
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstPlainNK,HID\Vid_046D&Qid_200A&Col03   ; power
+%HIDCompliantUnifyingCCKeys%     = HIDFiltInstPlainHIDC,HID\Vid_046D&Qid_200D&Col02 ; cc
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstPlainNK,HID\Vid_046D&Qid_200D&Col03   ; power
+; Unifying Devices with filters
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\VID_046D&Class_000A&Col02	; cc
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\VID_046D&Class_000E&Col03	; cc
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\VID_046D&Class_001A&Col02	; cc
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstNK,HID\VID_046D&Class_001A&Col03		; power
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstNK,HID\VID_046D&Class_001E&Col04		; power
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\VID_046D&Class_001E&Col03	; cc
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\VID_046D&Class_011A&Col02	; cc
+%HIDCompliantUnifyingPowerKey%   = HIDFiltInstNK,HID\VID_046D&Class_011A&Col03		; power
+%HIDCompliantUnifyingDescriptor% = HIDFiltInstNK,HID\VID_046D&Class_011A&COL04      ; infrared remote (DJ)
+%HIDCompliantUnifyingDescriptor% = HIDFiltInstNK,HID\VID_046D&Class_011C&COL04      ; infrared remote (DJ)
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\VID_046D&Class_040A&Col02	; cc
+;Bluetooth devices
+%HIDCompliantUnifyingCCKeys%	 = HIDFiltInstHIDC,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&B319&Col02	; cc
+
+
+;---------------------- BT transceivers ------------------
+;------------- WidComm BT IDs ----------------------------
+%HIDCompliantDescriptor% = HIDFiltInstNK,HID\{00001124-0000-1000-8000-00805f9b34fb}&VID_046D&PID_B30C&Col08     ; HID-compliant device
+;------------- Microsoft BT IDs --------------------------
+%HIDCompliantDescriptor% = HIDFiltInstNK,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046D_PID&B30C&Col08 ; HID-compliant device
+;------------- Toshiba BT IDs ----------------------------
+%HIDCompliantDescriptor% = HIDFiltInstNK,HID\VID_046D&PID_B30C&Col08                                            ; HID-compliant device
+
+[HIDFiltInstNK.NT]
+CopyFiles   = LHidFilt_Service_Inst.CopyFiles
+
+[HIDFiltInstNK.NT.Services]
+AddService = LHidFilt, %SPSVCINST_ASSOCSERVICE%, LHidFilt_Service_Inst
+
+[HIDFiltInstHIDC.NT]
+Include = hidserv.inf
+Needs = HIDSystemConsumer ; For copying and starting HidServ on XP
+CopyFiles = LHidFilt_Service_Inst.CopyFiles
+
+[HIDFiltInstHIDC.NT.Services]
+Include = hidserv.inf
+Needs = HIDSystemConsumer.Services ; For starting HidServ on Vista
+AddService = LHidFilt, %SPSVCINST_ASSOCSERVICE%, LHidFilt_Service_Inst
+
+[HIDFiltInstPlainHIDC.NT]
+Include = hidserv.inf
+Needs = HIDSystemConsumer
+
+[HIDFiltInstPlainHIDC.NT.Services]
+Include = hidserv.inf
+Needs = HIDSystemConsumer.Services
+AddService = ,%SPSVCINST_ASSOCSERVICE% ; null service install
+
+[HIDFiltInstPlainNK.NT]
+
+[HIDFiltInstPlainNK.NT.Services]
+Include = input.inf
+Needs = HID_Raw_Inst.NT.Services
+AddService = ,%SPSVCINST_ASSOCSERVICE% ; null service install
+
+[LHidFilt_Service_Inst.CopyFiles]
+LHidFilt.Sys
+
+[LHidFilt_Service_Inst]
+DisplayName     = %LHidFilt.SvcDesc%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\LHidFilt.Sys
+
+;--- WDF Coinstaller installation ------
+
+[HIDFiltInstNK.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstNK.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFiltInstHIDC.NT.CoInstallers]
+AddReg=HIDFltrInstall_Inst_CoInstaller_AddReg
+CopyFiles=HIDFltrInstall_Inst_CoInstaller_CopyFiles
+
+[HIDFiltInstHIDC.NT.Wdf]
+KmdfService = LHidFilt, HIDFltrInstall_wdfsect
+
+[HIDFltrInstall_Inst_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "LmdfCoInst.dll,CoDeviceInstall"
+
+[HIDFltrInstall_Inst_CoInstaller_CopyFiles]
+LkmdfCoInst.dll
+
+[SourceDisksFiles]
+LkmdfCoInst.dll=1		; make sure the number matches with SourceDisksNames
+
+[DestinationDirs]
+HIDFltrInstall_Inst_CoInstaller_CopyFiles = 11
+
+[HIDFltrInstall_wdfsect]
+KmdfLibraryVersion = 1.5
+
+;-----------------------------------------------------------
+[Strings]
+Provider                    = "Logicool"
+ProviderVista               = "Logicool (Vista and Above)"
+DiskName                    = "Logicool SetPoint Driver Disk"
+
+HIDConsumerKeyDescriptor = "Logicool HID Keyboard Consumer Controls"
+HIDSystemPowerButtonDescriptor = "Logicool HID Keyboard Power Key"
+HIDScrollingWheelDescritor = "Logicool HID Keyboard Wheel"
+HIDCompliantDescriptor = "HID-Compliant device"
+HIDCompliantUnifyingDescriptor = "Logicool HID-compliant Unifying device"
+HIDCompliantUnifyingCCKeys = "HID-compliant consumer control device"
+HIDCompliantUnifyingPowerKey = "HID-compliant device"
+
+LHidFilt.SvcDesc = "Logicool SetPoint KMDF HID Filter Driver"
+
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_IGNORE        = 0x00000000
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

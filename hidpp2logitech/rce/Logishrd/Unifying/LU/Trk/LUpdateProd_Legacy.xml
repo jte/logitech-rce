@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">trk</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech Ürünü</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Logitech ürününüz için yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Fare ve klavye yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Fare ve klavye yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Fare ve klavye üretkenlik yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Fare ve klavye oyun yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Web kamerası yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Web kamerası yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">İletişim yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Logitech G15 Oyun Klavyesini destekleyen yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Logitech Z-10 Hoparlörlerini destekleyen yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Logitech G11 Oyun Klavyesini destekleyen yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Logitech G11 Oyun Klavyesini destekleyen yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Logitech G-Serisi klavyeler ve Gameboard'lar için yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">Oyun Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Logitech joysticks, gamepad ve direksiyonlar için yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">Oyun Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">Logitech G-Serisi klavyeler ve Gameboard'lar için yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Gelişmiş Surround Ses Yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logitech Z-5 Hoparlörleri</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Logitech Z-5 Hoparlörleri için Gelişmiş Yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Surround ses kulaklık birimi yazılımı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitech kablosuz oyun kulaklığı G930, çok kanallı Dolby Surround Ses özellikli</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Medya çalarlar için Logitech Wireless Headset H760 Yardımcısı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">Medya çalarlar için Logitech Wireless Headset H800 Yardımcısı</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Unifying aygıtlarınızı eşlemek için yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying Faresi</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Unifying fareniz için üretici yazılımı güncelleştirmesi</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying Klavyesi</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Unifying klavyeniz için üretici yazılımı güncelleştirmesi</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying Sayı Tuş Takımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Unifying sayı tuş takımınız için üretici yazılımı güncelleştirmesi</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying Alıcısı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Unifying alıcınız için üretici yazılımı güncelleştirmesi</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Web Kamerası Yazılımı</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Logitech web kameranız için yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid, tüm dünyadaki arkadaşlarınızla ve ailenizle bağlantıda kalmanın en kolay yolu</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Logitech Alert™ Video Güvenlik Sisteminize yönelik yazılım</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">LifeSize Connections, dünyanın dört bir yanındaki iş arkadaşlarınızla ve müşterilerinizle basit yoldan iletişim kurmanızı sağlar.</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Logitech Solar App</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Logitech Wireless Solar Keyboard K750'yi izlemek ve yönetmek için yazılım</String>
+  </LU_Strings_1>
+</LogitechUpdater>

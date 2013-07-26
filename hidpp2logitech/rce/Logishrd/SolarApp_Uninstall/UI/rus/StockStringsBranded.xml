@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="ru-ru"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Настройка Solar App</String>
+    <String ID="IDS_TITLE">Настройка Solar App</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Программное обеспечение для клавиатур Logitech Solar</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Благодарим вас за приобретение данного продукта Logitech. Устройства Logitech помогают более эффективно использовать компьютер.  Воспользуйтесь усовершенствованными функциями устройств, установив это программное обеспечение.
+      Чтобы начать установку программного обеспечения Logitech, выберите язык и нажмите кнопку "Далее".
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"/>
+    <String ID="IDS_INSTALL_PROGRESS_INFO"/>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Настройка Solar App</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Настройка Solar App</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Настройка Solar App</String>
+    <String ID="IDS_WARNING_OS">К сожалению, данное программное обеспечение несовместимо с вашей операционной системой. Посетите веб-сайт www.logitech.com, чтобы загрузить совместимую версию.</String>
+    <String ID="IDS_WARNING_EDITION32">Для данного варианта программы установки требуется 32-разрядная версия операционной системы.\nПосетите веб-сайт www.logitech.com/downloads/Solar App, чтобы загрузить совместимую версию.</String>
+    <String ID="IDS_WARNING_EDITION64">Для данного варианта программы установки требуется 64-разрядная версия операционной системы.\nПосетите веб-сайт www.logitech.com/downloads/Solar App, чтобы загрузить совместимую версию.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Служебная программа обновления для программного обеспечения Logitech</String>
+
+  </StringSet>
+</FESetup_Strings_1>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="ru-ru"/>
+  <ResourceInclude FILE="resource_ids.txt" LOG="false"/>
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+<!--    
+    <String ID="IDS_TITLE">Master Installer</String>
+    <String ID="IDS_MASTER_STEP_TEXT">Step %d of %d</String>
+    <String ID="IDS_PRODUCT">Product</String>
+    <String ID="IDS_TAGLINE">Installation</String>
+-->
+    <!-- Widgets for all pages: -->
+<!--
+    <String ID="IDS_BTN_NEXT">&amp;Next</String>
+    <String ID="IDS_BTN_BACK">&amp;Back</String>
+    <String ID="IDS_BTN_CANCEL">&amp;Quit</String>
+    <String ID="IDS_BTN_FINISH">&amp;Done</String>
+    <String ID="IDS_BTN_INSTALL">&amp;Install</String>
+    <String ID="IDS_BTN_BROWSE">B&amp;rowse</String>
+-->
+    <!-- Welcome page: -->
+<!--
+    <String ID="IDS_WELCOME_TITLE">Welcome!</String>
+    <String ID="IDS_WELCOME_TEXT">
+      Thank you for your purchase of this product.  Our products are designed to help you use your PC more effectively.  Take advantage of enhanced product features by installing this software.
+
+
+
+      When you are ready to begin installation of this software product, please select your language and press the Next button.
+    </String>
+    <String ID="IDS_STATIC_LANGSELECT">&amp;Select installation language:</String>
+-->
+
+	  <!-- Welcome page: ..These are not used in the standard installer - but they MAY be, if a team wants to select the region too. -->
+<!--
+    <String ID="IDS_LANGUAGESELECTDLG_SUBTITLE">Please confirm your language and location.</String>
+    <String ID="IDS_LANGUAGESELECTDLG_TITLE">Language and Location Selection</String>
+-->
+    <!-- Install Type (Typical vs. Custom) page: -->
+ <!--
+    <String ID="IDS_GETTING_STARTED_TEXT">Get Started With Your Installation</String>
+    <String ID="IDS_SELECT_INSTALL_TEXT">Select the type of installation you want to perform</String>
+    <String ID="IDS_TYPICAL_INSTALL">&amp;Typical Installation (Recommended)</String>
+    <String ID="IDS_CUSTOM_INSTALL">&amp;Custom Installation (Advanced)</String>
+    <String ID="IDS_UPDATE_PROMPT">If you are connected to the internet, you can check for software updates</String>
+    <String ID="IDS_CHECK_FOR_UPDATES">C&amp;heck for the latest software</String>
+    <String ID="IDS_NOTE_TITLE">Important!</String>
+    <String ID="IDS_OPTIONS_NOTE"> </String>
+-->
+    <!-- Custom: Destination page: -->
+<!--
+    <String ID="IDS_DESTINATION_TITLE">Custom Installation</String>
+    <String ID="IDS_DESTINATION_TEXT">Configuration Options</String>
+    <String ID="IDS_DESTINATION_STATIC">&amp;Destination Folder</String>
+    <String ID="IDS_ADD_TO_START_CHECK">&amp;Add program to the start menu</String>
+-->
+    <!-- Custom: Components page: -->
+ <!--
+    <String ID="IDS_COMPONENTS_TITLE">Install Optional Components</String>
+    <String ID="IDS_COMPONENTSELECTION_SUBTITLE">Confirm Installation Components</String>
+    <String ID="IDS_COMPONENTSELECTION_TITLE">Optional Software Components</String>
+    <String ID="IDS_COMPONENTSELECTION_DESC">Confirm the components you want to install.  Clear the components you do not want to install.</String>
+    <String ID="IDS_SIZE_UNIT">Total Size: %d MB</String>
+    <String ID="IDS_WARNING_SPACE">There is not enough space to install these option(s). Please free up some disk space or modify your selections.</String>
+    <String ID="IDS_INSTALL">Please Install</String>
+    <String ID="IDS_NOTINSTALL">No Thank you</String>
+    <String ID="IDS_INSTALL1">Please enable this feature. (Recommended)</String>
+    <String ID="IDS_NOTINSTALL1">I do not want to enable this feature.</String>
+    
+ -->
+    
+    <!-- ..TBD: is this unused, or merely invisble? -->
+ <!--
+    <String ID="IDS_GROUP_DESCRIPTION"> Description </String>
+ 
+    <String ID="IDS_SUBTITLE_FONTSIZE">16</String>
+    <String ID="IDS_LISTTEXT_FONTSIZE">14</String>
+    <String ID="IDS_DESC_FONTSIZE">16</String>
+  -->
+  
+    <!-- License page: -->
+<!--
+    <String ID="IDS_LICENSE_TITLE">License Agreement</String>
+    <String ID="IDS_LICENSE_TEXT">Read the license agreement carefully, then click Next.</String>
+    <String ID="IDS_AGREE">I &amp;accept the terms in the license agreement.</String>
+    <String ID="IDS_NOTAGREE">I &amp;do not accept the terms in the license agreement.</String>
+-->    
+    <!-- Ready-to-install page: -->
+    <String ID="IDS_READY_TITLE">Все готово к установке</String>
+    <String ID="IDS_READY_TEXT">Все готово к установке. Проверьте правильность заданных параметров и нажмите кнопку "Установить".</String>
+    <String ID="IDS_INSTALL_DESTINATION">Установить в:</String>
+    <!-- ..Override resource strings on the Ready page: -->
+    <!-- ..  We want to be able to build a string e.g., "Check for newer version of SoftwareX", -->
+    <!-- ..  but without the leading word "Install ".  So override that "Install " to be blank. -->
+    <String ID="IDS_INSTALL_ITEM"/>
+    <!-- ..For the Updater component, which is fairly standard: -->
+    <String ID="IDS_UPDATER_NAME">Проверить наличие новых версий программ</String>
+    <String ID="IDS_UPDATER_DESC">Служебная программа обновления программного обеспечения</String>
+
+    <!-- Progress page: -->
+<!--
+    <String ID="IDS_INSTALL_PROGRESS_TITLE">Software installation</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Please wait while your software is installed</String>
+-->    
+    <!-- Finish page: -->
+<!--
+    <String ID="IDS_FINISH_NOTE"> </String>
+    <String ID="IDS_FINISH_TITLE">Thank You!</String>
+    <String ID="IDS_FINISH_TEXT">Your software is installed and ready to use.</String>
+    <String ID="IDS_FINISH_IMAGE1_TEXT">Where do you go from here?</String>
+    <String ID="IDS_FINISH_IMAGELIST_1_TEXT">Launch the application</String>
+    <String ID="IDS_FINISH_IMAGELIST_2_TEXT">View the product manual</String>
+    <String ID="IDS_FINISH_IMAGELIST_3_TEXT">Register your product</String>
+ -->   
+    
+    <String ID="IDS_REBOOTRADIO">&amp;Перезагрузить компьютер сейчас.</String>
+    <String ID="IDS_NOREBOOTRADIO">Н&amp;е перезагружать сейчас. Компьютер будет перезагружен позже.</String>
+    <!-- ..TBD, are these used or merely invisible now? -->
+    <String ID="IDS_REBOOTSTATIC">Да. Перезагрузить компьютер сейчас.</String>
+    <String ID="IDS_NOREBOOTSTATIC">Нет, компьютер будет перезагружен позже.</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Установщик программ</String>
+    <String ID="IDS_ABORTDLG_DESC">Установка не завершена. Если выйти из программы установки сейчас, то программа не будет установлена.\n\n Для завершения установки можно будет запустить программу установки позднее. \n\nДля продолжения установки нажмите кнопку "Продолжить". Для выхода из программы установки нажмите "Выход".\n</String>
+    <String ID="IDS_ABORTDLG_BTN_RESUME">&amp;Продолжить</String>
+    <String ID="IDS_ABORTDLG_BTN_EXIT">В&amp;ыход</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Установщик программы</String>
+    <String ID="IDS_ABNORMALDLG_DESC">В процессе установки возникла серьезная ошибка, в результате которой невозможно завершить установку программного обеспечения.\n\nВыйдите из программы установки и повторите попытку установить программное обеспечение позднее.</String>
+    <String ID="IDS_ABNORMALDLG_BTN_RESUME">&amp;Продолжить</String>
+    <String ID="IDS_ABNORMALDLG_BTN_EXIT">В&amp;ыход</String>
+
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Установщик программы</String>
+    <String ID="IDS_WARNING_REINSTALL">Этот продукт уже установлен. Установить продукт повторно?</String>
+    <String ID="IDS_WARNING_NEWERVERSION_DETECTED">На вашем компьютере уже установлена более поздняя версия данного приложения. Если вы хотите продолжить установку данной версии программного обеспечения, прежде чем запускать процесс установки нужно удалить более позднюю версию с вашего компьютера.
+Нажмите "ОК" для завершения работы мастера.</String>
+    <String ID="IDS_WARNING_PATH">Указанная папка:\n%s \n неправильная, неполная или защищена от записи. Укажите полный путь с именем диска, например: "C:\Apps". </String>
+    <String ID="IDS_WARNING_PATH_TOOLONG">Имя папки назначения не может иметь длину более 180 знаков.</String>
+    <String ID="IDS_WARNING_OS">Это программное обеспечение несовместимо с вашей операционной системой. Посетите веб-узел данной компании и загрузите совместимую версию.</String>
+    <String ID="IDS_WARNING_IE">Необходим веб-обозреватель Microsoft Internet Explorer версии 6.0 или более поздней версии.--\n\nОбновите Internet Explorer и повторите попытку.</String>
+    <String ID="IDS_WARNING_ADMINRIGHTS">У вас недостаточно прав для выполнения установки.  Войдите в систему как администратор и повторите попытку.</String>
+    <String ID="IDS_WARNING_INSTANCE_RUNNING">Выполняется другой экземпляр программы установки. Перед повторной попыткой установки завершите работу другого установщика.</String>
+    <String ID="IDS_ERROR_INSTALL">Не удалось установить %s. Перезагрузите компьютер и повторите попытку.</String>
+    <String ID="IDS_ERROR_INSTALL_RUNNING">Выполняется другой процесс установки.  Повторите попытку после окончания уже запущенного процесса установки.</String>
+    <String ID="IDS_WARNING_NEWOS">Обнаружена ОС Windows 7.
+Данная программа будет работать на операционной системе Windows 7, однако полученный ею уровень совместимости - бета-тестирование.
+
+Продолжить установку?</String>
+
+    <!-- Various: -->
+    
+    <!-- The Steps display on the left-hand side: -->
+<!--
+    <String ID="IDS_STEP_TEXT_1">Welcome</String>
+    <String ID="IDS_STEP_TEXT_2">Install Options</String>
+    <String ID="IDS_STEP_TEXT_3">Optional Software</String>
+    <String ID="IDS_STEP_TEXT_4">License</String>
+    <String ID="IDS_STEP_TEXT_5">Review Settings</String>
+    <String ID="IDS_STEP_TEXT_6">Install</String>
+    <String ID="IDS_STEP_TEXT_7">Finish Up</String>
+
+-->
+    <!-- Language list -->
+    <String ID="IDS_LAN_BGR">Болгарский</String>
+    <String ID="IDS_LAN_CHS">Китайский (упрощенное письмо)</String>
+    <String ID="IDS_LAN_CHT">Китайский (традиционное письмо)</String>
+    <String ID="IDS_LAN_HRV">Хорватский</String>
+    <String ID="IDS_LAN_CZE">Чешский</String>
+    <String ID="IDS_LAN_DAN">Датский</String>
+    <String ID="IDS_LAN_NLD">Голландский</String>
+    <String ID="IDS_LAN_ENU">Английский</String>
+    <String ID="IDS_LAN_ETI">Эстонский</String>
+    <String ID="IDS_LAN_FIN">Финский</String>
+    <String ID="IDS_LAN_FRA">Французский</String>
+    <String ID="IDS_LAN_DEU">Немецкий</String>
+    <String ID="IDS_LAN_ELL">Греческий</String>
+    <String ID="IDS_LAN_HUN">Венгерский</String>
+    <String ID="IDS_LAN_ITA">Итальянский</String>
+    <String ID="IDS_LAN_JPN">Японский</String>
+    <String ID="IDS_LAN_KOR">Корейский</String>
+    <String ID="IDS_LAN_LVI">Латышский</String>
+    <String ID="IDS_LAN_LTH">Литовский</String>
+    <String ID="IDS_LAN_NOR">Норвежский</String>
+    <String ID="IDS_LAN_PLK">Польский</String>
+    <String ID="IDS_LAN_PTB">Португальский (Бразилия)</String>
+    <String ID="IDS_LAN_PTG">Португальский (Португалия)</String>
+    <String ID="IDS_LAN_ROM">Румынский</String>
+    <String ID="IDS_LAN_RUS">Русский</String>
+    <String ID="IDS_LAN_SRB">Сербский</String>
+    <String ID="IDS_LAN_SKY">Словацкий</String>
+    <String ID="IDS_LAN_SLV">Словенский</String>
+    <String ID="IDS_LAN_ESN">Испанский (Испания)</String>
+	<String ID="IDS_LAN_ESP">Испанский</String>
+    <String ID="IDS_LAN_ESM">Испанский (другие страны)</String>
+    <String ID="IDS_LAN_SVE">Шведский</String>
+    <String ID="IDS_LAN_TRK">Турецкий</String>
+    <String ID="IDS_LAN_UKR">Украинский</String>
+    <!-- region sets -->
+    <String ID="IDS_LOC_1052">Албания</String>
+    <String ID="IDS_LOC_5121">Алжир</String>
+    <String ID="IDS_LOC_11274">Аргентина</String>
+    <String ID="IDS_LOC_3081">Австралия</String>
+    <String ID="IDS_LOC_3079">Австрия</String>
+    <String ID="IDS_LOC_15361">Бахрейн</String>
+    <String ID="IDS_LOC_1059">Беларусь</String>
+    <String ID="IDS_LOC_2067">Бельгия (голландский)</String>
+    <String ID="IDS_LOC_2060">Бельгия (французский)</String>
+    <String ID="IDS_LOC_10249">Белиз</String>
+    <String ID="IDS_LOC_16394">Боливия</String>
+    <String ID="IDS_LOC_1046">Бразилия</String>
+    <String ID="IDS_LOC_1026">Болгария</String>
+    <String ID="IDS_LOC_4105">Канада (английский)</String>
+    <String ID="IDS_LOC_3084">Канада (французский)</String>
+    <String ID="IDS_LOC_13322">Чили</String>
+    <String ID="IDS_LOC_2052">Китай</String>
+    <String ID="IDS_LOC_9226">Колумбия</String>
+    <String ID="IDS_LOC_5130">Коста-Рика</String>
+    <String ID="IDS_LOC_1050">Хорватия</String>
+    <String ID="IDS_LOC_1029">Чешская Республика</String>
+    <String ID="IDS_LOC_1030">Дания</String>
+    <String ID="IDS_LOC_12298">Эквадор</String>
+    <String ID="IDS_LOC_3073">Египет</String>
+    <String ID="IDS_LOC_17418">Сальвадор</String>
+    <String ID="IDS_LOC_1061">Эстония</String>
+    <String ID="IDS_LOC_1080">Фарерские острова</String>
+    <String ID="IDS_LOC_1035">Финляндия</String>
+    <String ID="IDS_LOC_2077">Финляндия (шведский)</String>
+    <String ID="IDS_LOC_1036">Франция</String>
+    <String ID="IDS_LOC_1031">Германия</String>
+    <String ID="IDS_LOC_1032">Греция</String>
+    <String ID="IDS_LOC_4106">Гватемала</String>
+    <String ID="IDS_LOC_18442">Гондурас</String>
+    <String ID="IDS_LOC_3076">Гонконг</String>
+    <String ID="IDS_LOC_1038">Венгрия</String>
+    <String ID="IDS_LOC_1039">Исландия</String>
+    <String ID="IDS_LOC_1057">Индонезия</String>
+    <String ID="IDS_LOC_2049">Ирак</String>
+    <String ID="IDS_LOC_6153">Ирландия</String>
+    <String ID="IDS_LOC_1037">Израиль</String>
+    <String ID="IDS_LOC_1040">Италия</String>
+    <String ID="IDS_LOC_8201">Ямайка</String>
+    <String ID="IDS_LOC_1041">Япония</String>
+    <String ID="IDS_LOC_11265">Иордания</String>
+    <String ID="IDS_LOC_1042">Корея</String>
+    <String ID="IDS_LOC_13313">Кувейт</String>
+    <String ID="IDS_LOC_12289">Ливан</String>
+    <String ID="IDS_LOC_4097">Ливия</String>
+    <String ID="IDS_LOC_5127">Лихтенштейн</String>
+    <String ID="IDS_LOC_5132">Люксембург (французский)</String>
+    <String ID="IDS_LOC_4103">Люксембург (немецкий)</String>
+    <String ID="IDS_LOC_2058">Мексика</String>
+    <String ID="IDS_LOC_6145">Марокко</String>
+    <String ID="IDS_LOC_1043">Нидерланды</String>
+    <String ID="IDS_LOC_5129">Новая Зеландия</String>
+    <String ID="IDS_LOC_19466">Никарагуа</String>
+    <String ID="IDS_LOC_1044">Норвегия (букмол)</String>
+    <String ID="IDS_LOC_2068">Норвегия (нюнорск)</String>
+    <String ID="IDS_LOC_8193">Оман</String>
+    <String ID="IDS_LOC_6154">Панама</String>
+    <String ID="IDS_LOC_15370">Парагвай</String>
+    <String ID="IDS_LOC_10250">Перу</String>
+    <String ID="IDS_LOC_1045">Польша</String>
+    <String ID="IDS_LOC_2070">Португалия</String>
+    <String ID="IDS_LOC_20490">Пуэрто-Рико</String>
+    <String ID="IDS_LOC_16385">Катар</String>
+    <String ID="IDS_LOC_1048">Румыния</String>
+    <String ID="IDS_LOC_1049">Россия</String>
+    <String ID="IDS_LOC_1025">Саудовская Аравия</String>
+    <String ID="IDS_LOC_4100">Сингапур</String>
+    <String ID="IDS_LOC_1051">Словакия</String>
+    <String ID="IDS_LOC_1060">Словения</String>
+    <String ID="IDS_LOC_7177">ЮАР (английский)</String>
+    <String ID="IDS_LOC_1078">ЮАР (африкаанс)</String>
+    <String ID="IDS_LOC_1034">Испания</String>
+    <String ID="IDS_LOC_1053">Швеция</String>
+    <String ID="IDS_LOC_4108">Швейцария (французский)</String>
+    <String ID="IDS_LOC_2055">Швейцария (немецкий)</String>
+    <String ID="IDS_LOC_2064">Швейцария (итальянский)</String>
+    <String ID="IDS_LOC_1114">Сирия</String>
+    <String ID="IDS_LOC_1028">Тайвань</String>
+    <String ID="IDS_LOC_1054">Таиланд</String>
+    <String ID="IDS_LOC_11273">Тринидад и Тобаго</String>
+    <String ID="IDS_LOC_7169">Тунис</String>
+    <String ID="IDS_LOC_1055">Турция</String>
+    <String ID="IDS_LOC_1058">Украина</String>
+    <String ID="IDS_LOC_14337">Объединенные Арабские Эмираты</String>
+    <String ID="IDS_LOC_2057">Великобритания</String>
+    <String ID="IDS_LOC_1033">США</String>
+    <String ID="IDS_LOC_14346">Уругвай</String>
+    <String ID="IDS_LOC_8202">Венесуэла</String>
+    <String ID="IDS_LOC_1066">Вьетнам</String>
+    <String ID="IDS_LOC_9217">Йемен</String>
+    <String ID="IDS_LOC_1000">Другая страна (не из списка)</String>
+
+  </StringSet>
+</FESetup_Strings_1>

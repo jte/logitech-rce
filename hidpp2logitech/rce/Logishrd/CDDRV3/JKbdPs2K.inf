@@ -1,0 +1,128 @@
+;##############################################################################
+;#  JKbdPs2K.Inf for Windows 2K/XP - JAPANESE VERSION
+;#  PS/2 Keyboards
+;#  Copyright (c) 1999-2010 Logicool. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = JKbdPs2K.cat
+Class       = Keyboard
+ClassGUID   = {4D36E96B-E325-11CE-BFC1-08002BE10318}
+Provider    = %Logicool%
+DriverVer   = 01/03/2013,5.52.22.0
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[DestinationDirs]
+DefaultDestDir = 12    ;Must be the same as in KEYBOARD.INF
+PS2Copy        = 12
+
+[SourceDisksFiles]
+L8042Kbd.sys = 1
+
+[Manufacturer]
+%Logicool% = LogicoolMfg
+
+[LogicoolMfg]
+%LogicoolPS2KeyboardCC%    = PS2JPNCInstall,*PNP0303,*PNP0320,PS2_KEYBOARD
+%LogicoolPS2KeyboardCC%    = PS2JPNCInstall,*PNP030B,*PNP0320,PS2_KEYBOARD
+
+%LogicoolPS2Keyboard106%   = PS2JPNInstall,*PNP0303,*PNP0320,PS2_KEYBOARD
+%LogicoolPS2Keyboard106%   = PS2JPNInstall,*PNP030B,*PNP0320,PS2_KEYBOARD
+
+%LogicoolPS2Keyboard%      = PS2Install,*PNP0303,*PNP0320,PS2_KEYBOARD
+%LogicoolPS2Keyboard%      = PS2Install,*PNP030B,*PNP0320,PS2_KEYBOARD
+
+; Device IDs to exclude from Setup pick list
+[ControlFlags]
+ExcludeFromSelect.NTx86=*PNP0303,*PNP030B,*PNP0320; Special default ID
+
+;------------------- PS/2 common ------------------------------------
+[PS2Copy]
+L8042Kbd.sys
+
+;------------------- PS/2 non-Japanese ------------------------------
+[PS2Install.NTx86]
+Include   = KEYBOARD.INF
+Needs     = STANDARD_Inst
+CopyFiles = PS2Copy
+
+[PS2Install.NTx86.Services]
+AddService = L8042Kbd,,L8042Kbd_Service_Inst
+Include    = KEYBOARD.INF
+Needs      = STANDARD_Inst.Services
+
+[L8042Kbd_Service_Inst]
+DisplayName    = %L8042Kbd.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Keyboard Port
+ServiceBinary  = %12%\L8042Kbd.sys
+
+[PS2Install.NTx86.HW]
+AddReg  = PS2Install.HW.AddReg
+Include = KEYBOARD.INF
+Needs   = STANDARD_Inst.HW
+;
+
+[PS2Install.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"L8042Kbd"
+HKR,,"PowerCapabilities",0x10001,0x2
+HKR,,"WaitWakeEnabled",0x10001,1
+
+;------------------- PS/2 Japanese ---------------------------------
+[PS2JPNInstall.NTx86]
+Include   = KEYBOARD.INF
+Needs     = 106_TYPE_Inst
+CopyFiles = PS2Copy
+
+[PS2JPNInstall.NTx86.Services]
+AddService = L8042Kbd,,L8042Kbd_Service_Inst
+Include    = KEYBOARD.INF
+Needs      = 106_TYPE_Inst.Services
+
+[PS2JPNInstall.NTx86.HW]
+AddReg  = PS2JPNInstall.HW.AddReg
+Include = KEYBOARD.INF
+Needs   = 106_TYPE_Inst.HW
+
+[PS2JPNInstall.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"L8042Kbd"
+HKR,,"PowerCapabilities",0x10001,0x2
+HKR,,"WaitWakeEnabled",0x10001,1
+
+;------------------- PS/2 Japanese Ctrl+Caps ------------------------
+[PS2JPNCInstall.NTx86]
+Include   = KEYBOARD.INF
+Needs     = 106N_TYPE_Inst
+CopyFiles = PS2Copy
+
+[PS2JPNCInstall.NTx86.Services]
+AddService = L8042Kbd,,L8042Kbd_Service_Inst
+Include    = KEYBOARD.INF
+Needs      = 106N_TYPE_Inst.Services
+
+[PS2JPNCInstall.NTx86.HW]
+AddReg  = PS2JPNCInstall.HW.AddReg
+Include = KEYBOARD.INF
+Needs   = 106N_TYPE_Inst.HW
+
+[PS2JPNCInstall.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"L8042Kbd"
+HKR,,"PowerCapabilities",0x10001,0x2
+HKR,,"WaitWakeEnabled",0x10001,1
+
+
+; -------------------------------------------------------------------
+[Strings]
+Logicool                 = "Logicool"
+DiskName                 = "SetPoint Driver Disk"
+
+LogicoolPS2Keyboard      = "PS/2 Keyboard"
+LogicoolPS2Keyboard106   = "PS/2 Keyboard (106 Keys)"
+LogicoolPS2KeyboardCC    = "PS/2 Keyboard (106 Keys Ctrl+Caps)"
+
+L8042Kbd.SvcDesc         = "SetPoint Keyboard Filter Driver"

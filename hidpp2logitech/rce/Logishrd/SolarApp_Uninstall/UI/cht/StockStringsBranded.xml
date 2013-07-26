@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="zh-TW"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Solar App 設定</String>
+    <String ID="IDS_TITLE">Solar App 設定</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Logitech 太陽能鍵盤專用軟體</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      感謝您購買本 Logitech 產品。Logitech 產品是為協助您更有效地使用 PC 設計的。安裝本軟體即可充分發揮增強的產品功能。
+
+
+
+      在您準備開始安裝本 Logitech 軟體產品時，請選擇使用的語言並按「下一步」按鈕。
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"/>
+    <String ID="IDS_INSTALL_PROGRESS_INFO"/>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Solar App 設定</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Solar App 設定</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Solar App 設定</String>
+    <String ID="IDS_WARNING_OS">很抱歉，本軟體與您的作業系統不相容。請瀏覽 www.logitech.com，下載相容版本。</String>
+    <String ID="IDS_WARNING_EDITION32">此版本的安裝程式需要使用 32 位元版的作業系統。\n請瀏覽 www.logitech.com/downloads/Solar App 來下載相容的版本。</String>
+    <String ID="IDS_WARNING_EDITION64">此版本的安裝程式需要使用 64 位元版的作業系統。\n請瀏覽 www.logitech.com/download App 來下載相容的版本。</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Logitech 軟體的更新公用程式</String>
+
+  </StringSet>
+</FESetup_Strings_1>

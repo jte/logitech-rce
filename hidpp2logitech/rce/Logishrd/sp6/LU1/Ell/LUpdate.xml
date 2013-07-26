@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">ell</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Υπάρχουν διαθέσιμες νέες ενημερώσεις. Κάντε κλικ εδώ για λήψη.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Κάντε κλικ για να ολοκληρωθούν οι ενημερώσεις του λογισμικού Logitech.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Γίνεται λήψη των ενημερώσεων για το λογισμικό Logitech</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Υπάρχουν διαθέσιμες νέες ενημερώσεις. Κάντε κλικ εδώ για εγκατάσταση.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Γίνεται εγκατάσταση των ενημερώσεων του λογισμικού Logitech</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Το λογισμικό σας Logitech είναι ενημερωμένο</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">Το πρόγραμμα εγκατάστασης λογισμικού Logitech θα ολοκληρώσει την εγκατάσταση, όταν επανεκκινήσετε το σύστημά σας</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Κάντε κλικ για να ολοκληρώσετε την εγκατάσταση του λογισμικού</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Δεν υπάρχει σύνδεση στο Internet. Δεν ήταν δυνατός ο έλεγχος για νέες εκδόσεις</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Προέκυψε ένα σφάλμα</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Σφάλμα εγκατάστασης.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Η εγκατάστση ακυρώθηκε.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Για τη λειτουργία που ζητήθηκε απαιτούνται δικαιώματα διαχειριστή</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Έγινε επανεκκίνηση της σύνδεσης στο Internet. Δοκιμάστε ξανά αργότερα</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Έγινε επανεκκίνηση της σύνδεσης στο Internet. Το Logitech Updater θα προσπαθήσει ξανά αργότερα</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Η εγκατάσταση απέτυχε επειδή ο δίσκος είναι πλήρης.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">ΟΚ</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Ολοκλήρωση</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Άκυρο</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Απόκρυψη</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Ενημέρωση αργότερα</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Λήψη &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Συνέχιση λήψης &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Εγκατάσταση &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Εγκατάσταση όλων μετά τη λήψη &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Ναι</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Όχι</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Επανεκκίνηση του συστήματος</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">Πρέπει να επανεκκινήσετε το σύστημά σας για να ολοκληρωθεί η εγκατάσταση</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Διαμόρφωση</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Διαμόρφωση αυτόματων ρυθμίσεων</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Προβολή παλαιότερων ενημερώσεων που δεν είχατε αποδεχτεί</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Γίνεται λήψη του στοιχείου %d of %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Γίνεται εγκατάσταση του στοιχείου %d of %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Χρόνος που υπολείπεται:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Έγινε λήψη του %s από %s</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">Πρέπει να επανεκκινήσετε το σύστημά σας για να ολοκληρωθεί η εγκατάσταση.</String>
+
+	<String ALIAS="IDS_UI_BANNER_CONFIG">Ρυθμίσεις του Logitech Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Επιλέξτε τις ρυθμίσεις λειτουργίας της αρεσκείας σας για το πρόγραμμα ενημέρωσης.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Ενεργοποιήστε τις αυτόματες ενημερώσεις.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Να ειδοποιηθώ αλλά να μην γίνει αυτόματη λήψη ή εγκατάσταση.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Να γίνει λήψη των ενημερώσεων, αλλά να αποφασίσω εγώ πότε θα εγκατασταθούν.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Αυτόματη λήψη και εγκατάσταση ενημερώσεων.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Επαναφορά προεπιλεγμένων ρυθμίσεων</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Προϊόν</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Κατάσταση</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Μέγεθος</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">αναμονή για έλεγχο</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">διαθέσιμες</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">έτοιμα για εγκατάσταση</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">κατεστραμμένο</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">ακυρώθηκε</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">έτοιμο</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Απαιτούμενος</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Συνιστάται</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Προαιρετική</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">ώρα</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">ώρες</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">λεπτά</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">λεπτά</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">δευτερόλεπτα</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">δευτερ.</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Επιλέξτε</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">Λήψη</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Επανεξέταση</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Εγκατάσταση</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Αυτές οι ενημερώσεις είναι διαθέσιμες.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Αξιοποιήστε στο έπακρο τα προϊόντα Logitech με τις πιο πρόσφατες εκδόσεις του λογισμικού Logitech.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Κατάσταση λήψης</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Γίνεται λήψη των ενημερώσεών σας.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Κατάσταση εγκατάστασης</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Είστε έτοιμοι να εγκαταστήσετε αυτές τις ενημερώσεις.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Κατάσταση εγκατάστασης</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Γίνεται εγκατάσταση των ενημερώσεών σας.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Κατάσταση εγκατάστασης</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Απαιτείται επανεκκίνηση</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">Απαιτείται επανεκκίνηση για να ολοκληρωθεί η εγκατάσταση του λογισμικού της Logitech. Αποθηκεύστε την εργασία σας στα ανοιχτά έγγραφα ή σε τυχόν ανοιχτές ιστοσελίδες.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Θέλετε να επανεκκινήσετε το σύστημά σας τώρα;</String>
+
+	<String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Προειδοποίηση: Έγινε κατάργηση επιλογής του στοιχείου από προεπιλογή, λόγω αποτυχίας στα ακόλουθα όρια:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Εμφάνιση του Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Αλλαγή αυτόματων ρυθμίσεων...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Έξοδος</String>
+  </LU_Strings_1>
+</LogitechUpdater>

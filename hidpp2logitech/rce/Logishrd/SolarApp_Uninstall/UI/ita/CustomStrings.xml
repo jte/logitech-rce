@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="it-it"/>
+
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_PRODUCT">Solar App</String>
+    <String ID="IDS_PRODUCT_NAME">Solar App&lt;a style="vertical-align:0.1em;font-size:85%;"&gt;&lt;/a&gt;</String>
+    <String ID="IDS_ABORTDLG_DESC">L'installazione non è stata completata.&lt;br/&gt;&lt;br/&gt;Se si esce ora, il programma non verrà installato.&lt;br/&gt;Per completare l'installazione, è possibile eseguire questa procedura in seguito.&lt;br/&gt;&lt;br/&gt;Per continuare l'installazione, fare clic su Riprendi. Per uscire dal programma di installazione, scegliere Esci.&lt;br/&gt;</String>
+
+   <String ID="IDS_IMPORTANT">Importante!</String>
+ 
+    <!-- Widgets for all pages: -->
+
+   <!-- Welcome page LegacyPre  -->
+	  <String ID="IDS_WELCOME_LEGACY_INTRO">È stata rilevata una versione precedente di SetPoint nel sistema in uso. È necessario rimuovere tale versione prima di iniziare l'installazione. Sarà necessario riavviare il sistema nel corso della procedura.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xOnly">Le impostazioni utente personalizzate della versione di SetPoint attualmente in uso andranno perse.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xOnly">Verranno tuttavia mantenuti i profili, le impostazioni e le macro creati.</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TITLE">Impostazioni utente in SetPoint 5.x</String>
+	  <String ID="IDS_WELCOME_LEGACY_5xBoth_TEXT">Verranno tuttavia mantenuti i profili, le impostazioni e le macro creati.</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TITLE">Impostazioni utente in SetPoint 4.x</String>
+	  <String ID="IDS_WELCOME_LEGACY_4xBoth_TEXT">Le impostazioni utente personalizzate della versione attualmente in uso andranno perse.</String>
+	<!--
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Some features of your device are not supported by this version of SetPoint. Click here for details.</String>
+	-->
+	
+	  <String ID="IDS_WELCOME_LEGACY_EOL">Alcune funzionalità di (nome dispositivo) non sono supportate in questa versione di SetPoint. Si consiglia di mantenere la versione attualmente in uso.</String>
+	<!--
+	<String ID=""></String>
+	<String ID=""></String>
+	<String ID=""></String>
+    -->
+  
+    <!-- Welcome page - installer -->
+    <String ID="IDS_WELCOME_INTRO">Benvenuti</String>
+    <String ID="IDS_WELCOME_TEXT"/>
+    <String ID="IDS_EXPRESS_INSTALL">Installazione rapida (consigliata)</String>
+    <String ID="IDS_EXPRESS_DESC">Un metodo semplice e rapido: scegliere Installazione rapida e Solar App verrà installata con la lingua corrente nella posizione consigliata sul disco rigido.</String>
+    <String ID="IDS_CUSTOM_INSTALL">Installazione personalizzata</String>
+    <String ID="IDS_CUSTOM_INSTALL_DESC">Scegliere l'Installazione personalizzata se si desidera modificare la lingua o il percorso di installazione sul disco rigido.</String>
+	<!--
+	<String ID="IDS_EULA_AGREE_PRE">By clicking on "Next" you agree to the </String>
+	<String ID="IDS_EULA_URL">Logicool User License Agreement</String>
+	<String ID="IDS_EULA_AGREE_POST">.</String>
+	-->
+	  <String ID="IDS_EULA_AGREE_TEXT">Facendo clic su Avanti, l'utente accetta i termini e le condizioni contenuti nell'&lt;a href="#" id="eula" onClick="fadeIn(); return false;"&gt;Accordo di licenza&lt;/a&gt;.</String>
+	  <String ID="IDS_EULA_TITLE">Accordo di licenza</String>
+	
+
+  <!-- Welcome page - un-installer -->
+	  <String ID="IDS_UNINSTALL_WELCOME_INTRO">Disinstallazione di Solar App.</String>
+    <String ID="IDS_UNINSTALL_WELCOME_TEXT">Solar App verrà rimossa dal sistema. Tutte le impostazioni utente personalizzate di Solar App andranno perdute. </String>
+		
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page - install  -->
+    <String ID="IDS_DESTINATION_STATIC">Fare clic su Sfoglia per modificare la posizione di installazione di Solar App.</String>
+    <String ID="IDS_BTN_BROWSE">Sfoglia</String>
+    <String ID="IDS_GETTING_STARTED_TEXT">Scelta delle opzioni desiderate:</String>
+    <String ID="IDS_SELECT_INSTALL_TEXT">Selezionare le opzioni di installazione desiderate...</String>
+    <String ID="IDS_UPDATE_CHECK_TEXT">Se disponibile, la connessione a Internet consente di usufruire di tutti i più recenti aggiornamenti del software.</String>
+    <String ID="IDS_CHECK_FOR_UPDATES">Verificare la disponibilità di aggiornamenti del software, quindi eseguire l'installazione.</String>
+    <String ID="IDS_LANGUAGESELECTDLG_SUBTITLE">Scegliere la lingua desiderata dal seguente menu.</String>
+    <!-- Custom: Components page: -->
+    <!-- ..Third-party components for SetPoint: -->
+
+    <!-- License page: -->
+
+  <!-- Progress page: component description, use Z_ pre-fix to perform real-time localized string update -->
+   <!-- do not defined IDS_PROGRESS_COMPONENT_NAME, IDS_PROGRESS_COMPONENT_DESC -->
+ 
+ <!--  
+   <String ID="Z_IDS_PROGRESS_COMPONENT_NAME">Solar App...</String>
+   <String ID="Z_IDS_PROGRESS_COMPONENT_DESC">Installating Solar App. Please wait.</String>
+-->
+
+	
+    <!-- Progress page - install  -->
+   <String ID="IDS_INSTALL_PROGRESS_TITLE"/>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_2">L'installazione è iniziata.</String>
+   <String ID="IDS_INSTALL_PROGRESS_TITLE_3">È in corso la copia dei file nel sistema. Attendere.</String>
+
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_2"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_3"/>
+
+    <String ID="Z_IDS_EMPTY_INITIAL_TEXT">Circa 2 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_PRE_UPDATER_PROGRESS">Circa 2 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_IMUI_PROGRESS">Circa 2 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_install_progress_sp6_start">Circa 2 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_install_progress_sp6_redistr">Circa 2 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_install_progress_sp6_drivers">Circa 1 minuto alla fine del processo... </String>
+    <String ID="Z_IDS_install_progress_sp6_gaming">Circa 50 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_install_progress_sp6_productivity">Circa 50 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_install_progress_sp6_end">Circa 30 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_POST_UPDATER_PROGRESS">Circa 30 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_EREG_PROGRESS">Circa 10 secondi alla fine del processo... </String>
+
+    <String ID="Z_IDS_4_MINUTES">Circa 4 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_3_MINUTES">Circa 3 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_2_MINUTES">Circa 2 minuti alla fine del processo... </String>
+    <String ID="Z_IDS_1_MINUTE">Circa 1 minuto alla fine del processo... </String>
+    <String ID="Z_IDS_50_SECONDS">Circa 50 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_40_SECONDS">Circa 40 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_30_SECONDS">Circa 30 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_20_SECONDS">Circa 20 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_10_SECONDS">Circa 10 secondi alla fine del processo... </String>
+    <String ID="Z_IDS_SEVERAL_MINUTES">Circa 30 secondi alla fine del processo... </String>
+
+    <!-- Progress page - LegacyPre  -->
+    <String ID="IDS_LEGACY_PRE_PROGRESS_TITLE"/>
+	  <String ID="Z_IDS_LEGACY_PRE_PROGRESS_INFO"/>
+	  <String ID="IDS_LEGACY_PRE_PROGRESS_TAG">È in corso la rimozione dei file precedentemente installati. Attendere.</String>
+
+    <String ID="IDS_LEGACY_POST_PROGRESS_TITLE">Installazione di SetPoint.</String>
+    <String ID="Z_IDS_LEGACY_POST_PROGRESS_INFO"/>
+    <String ID="IDS_LEGACY_POST_PROGRESS_TAG">Preparazione del programma di installazione. L'operazione può richiedere qualche minuto.</String>
+
+    <!-- Progress page - un-install  -->
+    <String ID="IDS_UN_INSTALL_PROGRESS_TITLE">Disinstallazione di Solar App.</String>
+    <String ID="Z_IDS_UN_INSTALL_PROGRESS_INFO"/>
+    <String ID="IDS_UN_INSTALL_PROGRESS_TAG">Disinstallazione in corso. Attendere.</String>
+
+
+    <!-- Finish page  - install -->
+    <String ID="IDS_INSTALL_FINISH_TITLE">Installazione completata.</String>
+    <String ID="IDS_INSTALL_FINISH_TEXT">Come si desidera procedere?</String>
+    <String ID="IDS_CONFIGURE">Avviare Solar App e configurare il dispositivo.</String>
+    <String ID="IDS_REGISTER">Premere il tasto Check Light della tastiera per avviare Solar App.</String>
+    <String ID="IDS_WHY_REGISTER">Perché registrare il prodotto?</String>
+
+
+ 	  <String ID="IDS_LEGACY_PRE_FINISH_TITLE"/>
+	  <String ID="IDS_LEGACY_PRE_FINISH_TEXT">Fare clic su OK per riavviare subito. L'installazione proseguirà dopo il riavvio.</String>
+ 
+	<!-- Finish page - un-install -->
+    <String ID="IDS_UN_INSTALL_FINISH_TITLE">Disinstallazione di Solar App.</String>
+    <String ID="IDS_UN_INSTALL_FINISH_TEXT">Disinstallazione completata.</String>
+    <String ID="IDS_PS2_INFO">I dispositivi PS/2 verranno attivati al prossimo riavvio.</String>
+
+    <!-- An expression, IDSE :
+    For for '<' and '>', use the character-entity-references of &#60; and &#62; respectively. -->
+    <String ID="IDSE_PATH_TO_DESTDIR_APP">&lt;destroot&gt;\\Solar App\\SetPoint.exe</String>
+    <String ID="IDS_ARGS_TO_DESTDIR_APP">/S</String>
+    <String ID="IDSE_PATH_TO_DESTDIR_PRODUCT_MANUAL">&lt;destroot&gt;\\Solar App\\setpoint.chm</String>
+    
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_WARNING_IE">Per l'installazione di Solar App è necessario Microsoft Internet Explorer 6.0 o versioni successive. Aggiornare Internet Explorer e ripetere l'operazione.</String>
+
+    <!-- Warning/Error pages: -->
+    <!-- ..for SetPoint -->
+    <String ID="IDS_WARNING_OLD_SETPOINT">Il programma di installazione ha rilevato la presenza di una versione più recente di Solar App nel sistema. L'installazione verrà annullata.</String>
+    <String ID="IDS_WARNING_RESTART">Riavviare il computer prima di eseguire il comando.</String>
+    <String ID="IDS_WARNING_UNIFYING_RUNNING">Il software Unifying è in esecuzione. \nChiuderlo ed eseguire nuovamente il programma di installazione.</String>
+    <String ID="IDS_NO_VALID_PATH">Selezionare un percorso di file per l'applicazione.</String>
+    <String ID="IDS_WARNING_INSTANCE_UNINSTALLER_RUNNING">È in esecuzione un'altra istanza di questo programma di disinstallazione. Chiudere tale istanza prima di iniziare di nuovo la disinstallazione.</String>
+    <String ID="IDS_REBOOT_PENDING">Il sistema operativo indica che è presente un processo di riavvio in sospeso. Riavviare e riprovare.</String>
+    <String ID="IDS_WARNING_ALIENWARE">Questa versione di SetPoint non è compatibile con il software Alienware. \nImpossibile continuare l'installazione.</String>
+    <String ID="IDS_WARNING_UNSUPPORTED_OS">Questa versione di Solar App non è supportata nel sistema operativo.  Procedere con l'installazione?</String>
+    <String ID="IDS_WARNING_LOW_DISK">Spazio su disco insufficiente per l'installazione di Solar App. \n\n Liberare spazio su disco.</String>
+    <String ID="IDS_WARNING_REDIST">Errore durante l'installazione dei componenti ridistribuibili di Visual C++.\n\nRiavviare e tentare nuovamente l'installazione del software.</String>
+    <String ID="IDS_WARNING_PREREQ4">È in esecuzione un'altra istanza del programma di installazione di Solar App: completare tale installazione prima di continuare.</String>
+    <String ID="IDS_WARNING_PREREQ5">Si sta utilizzando una versione del programma di installazione a 32 bit in un sistema operativo a 64 bit. Eseguire il programma di installazione corretto.</String>
+    <String ID="IDS_WARNING_PREREQ6">Si sta utilizzando una versione del programma di installazione a 64 bit in un sistema operativo a 32 bit. Eseguire il programma di installazione corretto.</String>
+    <String ID="IDS_WARNING_PREREQ7">Requisiti minimi di sistema: questa installazione richiede una versione di Windows uguale o superiore a Windows XP Service Pack 2.</String>
+    <String ID="IDS_WARNING_PREREQ9">Requisiti minimi di sistema: sono necessari privilegi di amministratore per completare l'installazione.</String>
+    <String ID="IDS_WARNING_PREREQ12">Requisiti minimi di sistema: è necessario disporre di 20 MB di spazio libero sul disco rigido.</String>
+    <String ID="IDS_FAIL_NEED_REBOOT">Installazione di Solar App non riuscita. Riavviare il computer e fare un nuovo tentativo.</String>
+    <String ID="IDS_EVTMGR6_ERROR">Installazione di EVTMGR6 non riuscita.</String>
+    <String ID="IDS_EVTMGR5_ERROR">Installazione di EVTMGR5 non riuscita.</String>
+    <String ID="IDS_CDDRV3_ERROR">Installazione di CDDRV3 non riuscita.</String>
+    <String ID="IDS_KHAL3_ERROR">Installazione di KHAL3 non riuscita.</String>
+    <String ID="IDS_BLUETOOTH_ERROR">Si è verificato un errore durante l'installazione di Bluetooth.</String>
+    <!-- Various: -->
+	
+<!-- New for Smart Design -->
+	  <String ID="IDS_STEP_TEXT_1">Operazioni preliminari</String>
+	  <String ID="IDS_STEP_TEXT_2">Opzioni</String>	
+	  <String ID="IDS_STEP_TEXT_3">Installazione</String>	
+	  <String ID="IDS_STEP_TEXT_4">Fine</String>
+	
+  <!-- Smart Design Widgets for all pages: -->
+
+    <String ID="IDS_BTN_CANCEL">Esci</String>
+    <String ID="IDS_BTN_FINISH">Fine</String>
+    <String ID="IDS_BTN_INSTALL">Installa</String>
+
+	  <String ID="IDS_BTN_QUIT">Esci</String>
+	  <String ID="IDS_BTN_NEXT">Avanti &gt;</String>
+	  <String ID="IDS_BTN_CONTINUE">Continua &gt;</String>
+	  <String ID="IDS_BTN_BACK">&lt; Indietro</String>
+	  <String ID="IDS_ABORTDLG_BTN_RESUME">Riprendi</String>
+	  <String ID="IDS_ABORTDLG_BTN_EXIT">Esci</String>
+	  <String ID="IDS_BTN_CLOSE">Chiudi</String>
+	  <String ID="IDS_BTN_OK">OK</String>
+	
+    <String ID="IDS_NEED_REBOOT">È necessario riavviare il computer per completare l'installazione.</String>
+    <String ID="IDS_BROWSE_TITLE">Individuare il percorso di installazione di Solar App.</String>
+    <String ID="IDS_CURRENT_DIR_TAG">Solar App è installato nella seguente posizione...</String>
+
+		<String ID="IDS_REMOVING_FILES">Rimozione dei file in corso.</String>
+		<String ID="IDS_UPDATING_SYSTEM_FILES">Aggiornamento dei file di sistema in corso.</String>
+		<String ID="IDS_CONFIGURATION_10_MINUTES">A causa della configurazione del sistema, può richiedere fino a 10 minuti o più.</String>
+		<String ID="IDS_UNINSTALLER_INITIAL">Preparazione del programma di disinstallazione in corso.  L'operazione può richiedere qualche minuto.</String>
+
+	</StringSet>
+</FESetup_Strings_1>

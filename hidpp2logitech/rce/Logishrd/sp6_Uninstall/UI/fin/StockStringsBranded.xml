@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="fi-fi"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPointin™ asennus</String>
+    <String ID="IDS_TITLE">SetPointin™ asennus</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Ohjelmisto Logitechin hiirille ja näppäimistöille</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Kiitos, että ostit tämän Logitechin tuotteen.  Logitechin tuotteet on suunniteltu tehostamaan tietokoneen käyttöä.  Asentamalla tämän ohjelmiston voit ottaa käyttöön tuotteen laajennetut ominaisuudet.
+
+
+
+      Kun olet valmis aloittamaan tämän Logitechin ohjelmistotuotteen asentamisen, valitse kieli ja napsauta Seuraava-painiketta.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">Vaihda Logitech-hiiresi painikkeille tai Logitech-näppäimistösi toimintonäppäimille määritetyt toiminnot</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">Vaihda Logitech-hiiresi painikkeille tai Logitech-näppäimistösi toimintonäppäimille määritetyt toiminnot</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">Vaihda Logitech-hiiresi painikkeille tai Logitech-näppäimistösi toimintonäppäimille määritetyt toiminnot</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPointin™ asennus</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">SetPointin™ asennus</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">SetPointin™ asennus</String>
+    <String ID="IDS_WARNING_OS">Ohjelmisto ei ole yhteensopiva käyttöjärjestelmäsi kanssa.  Lataa yhteensopiva versio osoitteesta www.logitech.com.</String>
+    <String ID="IDS_WARNING_EDITION32">Tämä asennusohjelman versio vaatii käyttöjärjestelmän 32-bittisen version.\nLataa yhteensopiva versio osoitteesta www.logitech.com/downloads/SetPoint.</String>
+    <String ID="IDS_WARNING_EDITION64">Tämä asennusohjelman versio vaatii käyttöjärjestelmän 64-bittisen version.\nLataa yhteensopiva versio osoitteesta www.logitech.com/downloads/SetPoint.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Logitechin ohjelmiston päivitysapuohjelma</String>
+
+  </StringSet>
+</FESetup_Strings_1>

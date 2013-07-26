@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Layout_1>
+  <language xml:lang="en-us"/>
+<!-- ***********************************************************************
+     *
+     *                              WELCOME PAGE
+     *
+     *********************************************************************** -->
+
+<Dialog ID="IDD_WELCOME" VERSION="" CONDITION='"install"==mode' REFRESH="1">
+<!-- Hide the base welcome text and language control -->
+	<Control ID="IDC_WELCOME_TITLE" SCALE="2" BOLD="1" HIDE="1"></Control>
+    <Control ID="IDC_WELCOME_TEXT" SCALE="1.2" BOLD="0" HIDE="1"></Control>
+   	<Control ID="IDC_STATIC_LANGSELECT" HIDE="1"></Control>
+    <Control ID="IDC_LANGSELECT_COMBO" HIDE="1"></Control>
+	<Control ID="12001" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" 
+	TEXT='"ui\html\install_1_options.html"'		>
+</Control>	     
+</Dialog>
+  
+<!--
+
+Misc Screens
+
+
+-->  
+
+<!-- ***********************************************************************
+     *
+     *                              Destination (actually frist page) Page
+     *
+     *********************************************************************** -->
+
+<Dialog ID="IDD_DESTINATION" VERSION="1" CONDITION='"legacy_pre"==mode' REFRESH="1">
+        <Control ID="IDC_DESTINATION_TITLE" HIDE="1"></Control>
+        <Control ID="IDC_DESTINATION_TEXT" HIDE="1"></Control>
+	<Control ID="IDC_DESTINATION_STATIC" HIDE="1"></Control>
+	<Control ID="IDC_DESTINATION_EDIT" HIDE="1"></Control>
+	<Control ID="IDC_BROWSE_BTN" HIDE="1"></Control>
+	<Control ID="IDC_ADD_TO_START_CHECK" HIDE="1"></Control>	
+	<Control ID="12024" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\legacy_pre_1.html"'></Control>
+ </Dialog>  
+
+ <Dialog ID="IDD_DESTINATION" VERSION="2" CONDITION='"uninstall"==mode' REFRESH="1">
+        <Control ID="IDC_DESTINATION_TITLE" HIDE="1"></Control>
+        <Control ID="IDC_DESTINATION_TEXT" HIDE="1"></Control>
+	<Control ID="IDC_DESTINATION_STATIC" HIDE="1"></Control>
+	<Control ID="IDC_DESTINATION_EDIT" HIDE="1"></Control>
+	<Control ID="IDC_BROWSE_BTN" HIDE="1"></Control>
+	<Control ID="IDC_ADD_TO_START_CHECK" HIDE="1"></Control>	
+	<Control ID="12014" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\uninstall_1.html"'></Control>
+ </Dialog>  
+  
+ 
+ <Dialog ID="IDD_DESTINATION" VERSION="" CONDITION='"install"==mode' REFRESH="1">
+    <Control ID="IDC_DESTINATION_TITLE" HIDE="1"></Control>
+    <Control ID="IDC_DESTINATION_TEXT" HIDE="1"></Control>
+	<Control ID="IDC_DESTINATION_STATIC" HIDE="1"></Control>
+	<Control ID="IDC_DESTINATION_EDIT" HIDE="1"></Control>
+	<Control ID="IDC_BROWSE_BTN" HIDE="1"></Control>
+	<Control ID="IDC_ADD_TO_START_CHECK" HIDE="1"></Control>	
+	<Control ID="12004" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\install_1.html"'></Control>
+ </Dialog>  
+
+ <!-- ***********************************************************************
+     *
+     *                              Progress Page
+     *
+     *********************************************************************** -->
+ 
+ <Dialog ID="IDD_PROGRESS" VERSION="1" CONDITION='"legacy_pre"==mode' REFRESH="1">
+	<Control ID="IDC_INSTALL_PROGRESS_BAR" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_TITLE" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_INFO" HIDE="1"></Control>
+    <Control ID="12005" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\legacy_pre_2.html"'></Control>
+ </Dialog> 
+ 
+  
+ <Dialog ID="IDD_PROGRESS" VERSION="2" CONDITION='"uninstall"==mode' REFRESH="1">
+	<Control ID="IDC_INSTALL_PROGRESS_BAR" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_TITLE" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_INFO" HIDE="1"></Control>
+    <Control ID="12005" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\uninstall_2.html"'></Control>
+ </Dialog> 
+
+ <Dialog ID="IDD_PROGRESS" VERSION="3" CONDITION='"legacy_post"==mode' REFRESH="1">
+	<Control ID="IDC_INSTALL_PROGRESS_BAR" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_TITLE" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_INFO" HIDE="1"></Control>
+    <Control ID="12005" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\legacy_post_2.html"'></Control>
+ </Dialog> 
+
+ <Dialog ID="IDD_PROGRESS" VERSION=""  CONDITION='"install"==mode' REFRESH='1'>
+	<Control ID="IDC_INSTALL_PROGRESS_BAR" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_TITLE" HIDE="1"></Control>
+    <Control ID="IDC_INSTALL_PROGRESS_INFO" HIDE="1"></Control>
+    <Control ID="12005" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\install_2.html"'></Control>
+ </Dialog> 
+
+<!-- ***********************************************************************
+     *
+     *                              Finish PAGE 
+     *
+     *********************************************************************** -->
+	<!-- Base version shows the reboot option This allows reboot to overide all others-->
+ 
+   <Dialog ID="IDD_FINISH"  VERSION="1" CONDITION='"legacy_pre"==mode' REFRESH="1">
+	<Control ID="IDC_FINISH_TITLE"  HIDE="1"></Control>
+    <Control ID="IDC_FINISH_TEXT"  HIDE="1"></Control>
+	<Control ID="IDC_FINISH_IMAGE1" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGE1_TEXT" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_1" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_2" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_3" HIDE="1"></Control>
+    <Control ID="IDC_REBOOTRADIO" HIDE="1"></Control>
+    <Control ID="IDC_NOREBOOTRADIO" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_NOTE" HIDE="1"></Control>
+	<Control ID="12006" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\legacy_pre_3.html"'></Control>
+  </Dialog>
+ 
+   <Dialog ID="IDD_FINISH"  VERSION="2" CONDITION='"uninstall"==mode' REFRESH="1">
+	<Control ID="IDC_FINISH_TITLE"  HIDE="1"></Control>
+    <Control ID="IDC_FINISH_TEXT"  HIDE="1"></Control>
+	<Control ID="IDC_FINISH_IMAGE1" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGE1_TEXT" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_1" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_2" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_3" HIDE="1"></Control>
+    <Control ID="IDC_REBOOTRADIO" HIDE="1"></Control>
+    <Control ID="IDC_NOREBOOTRADIO" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_NOTE" HIDE="1"></Control>
+	<Control ID="12006" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\uninstall_3.html"'></Control>
+  </Dialog>
+
+ <Dialog ID="IDD_FINISH" VERSION="" CONDITION='"install"==mode' REFRESH="1">
+	<Control ID="IDC_FINISH_TITLE"  HIDE="1"></Control>
+    <Control ID="IDC_FINISH_TEXT"  HIDE="1"></Control>
+	<Control ID="IDC_FINISH_IMAGE1" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGE1_TEXT" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_1" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_2" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_3" HIDE="1"></Control>
+    <Control ID="IDC_REBOOTRADIO" HIDE="1"></Control>
+    <Control ID="IDC_NOREBOOTRADIO" HIDE="1"></Control>
+    <Control ID="IDC_FINISH_NOTE" HIDE="1"></Control>
+	<Control ID="12006" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="0" Y="0" WIDTH="784" HEIGHT="553" TEXT='"ui\html\install_3.html"'></Control>
+  </Dialog>
+   
+<!-- ***********************************************************************
+     *
+     *                              Exit Dialog 
+     *
+     *********************************************************************** -->  
+	 
+  <Dialog ID="IDD_DLG_ABORT" WIDTH="396" HEIGHT="270">
+  <Control ID="12007" CLASS="CHtmlView" STYLE="WS_VISIBLE|WS_TABSTOP" X="1" Y="1" WIDTH="450" HEIGHT="350" TEXT='"ui\html\exit.html"'></Control>
+  <Control ID="IDC_NEXTBTN" HIDE="1">#IDS_ABORTDLG_BTN_RESUME</Control>
+  <Control ID="IDC_CANCELBTN" HIDE="1">#IDS_ABORTDLG_BTN_EXIT</Control>
+  <Control ID="IDC_ABORTDLG_DESC"  HIDE="1"></Control>
+  <Control ID="IDC_ABORTDLG_TITLE" HIDE="1"></Control>
+</Dialog>
+
+</FESetup_Layout_1>

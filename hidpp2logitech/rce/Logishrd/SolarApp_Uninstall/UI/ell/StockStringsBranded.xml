@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="el-gr"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">Εγκατάσταση Solar App</String>
+    <String ID="IDS_TITLE">Εγκατάσταση Solar App</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Λογισμικό για τα πληκτρολόγια ηλιακής ενέργειας της Logitech</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      Σας ευχαριστούμε που αγοράσατε αυτό το προϊόν της Logitech.  Τα προϊόντα της Logitech είναι σχεδιασμένα για να κάνουν τη χρήση του υπολογιστή σας ακόμα πιο αποτελεσματική. Αξιοποιήστε τις εξελιγμένες λειτουργίες του προϊόντος εγκαθιστώντας το παρόν λογισμικό.
+
+
+
+      Όταν είστε έτοιμοι να ξεκινήσετε την εγκατάσταση του λογισμικού, επιλέξτε γλώσσα και πατήστε το κουμπί Επόμενο.
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY"/>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1"/>
+    <String ID="IDS_INSTALL_PROGRESS_INFO"/>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">Εγκατάσταση Solar App</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">Εγκατάσταση Solar App</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">Εγκατάσταση Solar App</String>
+    <String ID="IDS_WARNING_OS">Λυπούμαστε, αυτό το λογισμικό δεν είναι συμβατό με το λειτουργικό σας σύστημα. Επισκεφθείτε τη διεύθυνση www.logitech.com για να κατεβάσετε μια συμβατή έκδοση.</String>
+    <String ID="IDS_WARNING_EDITION32">Αυτή η έκδοση του προγράμματος εγκατάστασης απαιτεί έκδοση 32 bit του λειτουργικού σας συστήματος.\nΕπισκεφτείτε την τοποθεσία www.logitech.com/downloads/Solar App για να πραγματοποιήσετε λήψη μιας συμβατής έκδοσης.</String>
+    <String ID="IDS_WARNING_EDITION64">Αυτή η έκδοση του προγράμματος εγκατάστασης απαιτεί έκδοση 64 bit του λειτουργικού σας συστήματος.\nΕπισκεφτείτε την τοποθεσία www.logitech.com/downloads/Solar App για να πραγματοποιήσετε λήψη μιας συμβατής έκδοσης.</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Βοηθητικό πρόγραμμα ενημέρωσης για λογισμικό της Logitech</String>
+
+  </StringSet>
+</FESetup_Strings_1>

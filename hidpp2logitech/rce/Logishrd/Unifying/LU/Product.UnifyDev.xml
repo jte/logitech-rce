@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<!-- LUpdate config file for DJ Connect Utility, Logitech, test //-->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+    <String ALIAS="IDS_PRODUCT_NAME_KEY" translate="0">UnifyDev</String>
+    <String ALIAS="IDS_PRODUCT_BRAND" translate="0">Logitech</String>
+    <String ALIAS="IDS_PAYLOAD_FILENAME" translate="0">unifydev</String>
+    <String ALIAS="IDS_PRODUCT_ABBR" translate="0">dj</String>
+    <String ALIAS="IDS_AUTO_CHECK_MIN_INTERVAL_DAYS" translate="0">0</String>
+    <!-- //-->
+    <String ALIAS="IDS_PAYLOAD_SERVER"  translate="0">http://updates.logitech.com/logitech/controldevices/unifying/pc/unifydev</String>
+    <String ALIAS="IDS_QS_SEND_QUERYSTRING" translate="0">1</String>
+    <String ALIAS="IDS_QS_SEND_UPDATER_GUID" translate="0">0</String>
+    <String ALIAS="IDS_PAYLOAD_SEND_LANG" translate="0">0</String>
+    <!-- //-->
+	</StringSet>
+</Source>

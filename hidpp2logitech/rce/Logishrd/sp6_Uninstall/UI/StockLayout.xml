@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FESetup_Layout_1>
+  <language xml:lang="en-us"/>
+  <ResourceInclude FILE="resource_ids.txt" LOG="false"/>
+ 
+  
+  <!-- Components Selection Page -->
+  <!-- Dialog ID="IDD_DLG_SETUP" WIDTH="680" HEIGHT="496"-->
+  <Dialog ID="IDD_DLG_SETUP">
+    <Control ID="IDC_MASTER_STEP_TEXT" SCALE="1.2" BOLD="1">#IDS_MASTER_STEP_TEXT</Control>
+  </Dialog>
+  
+  <Dialog ID="IDD_HWSETTINGS">
+
+  </Dialog>
+  
+  <Dialog ID="IDD_DLG_ABORT" WIDTH="396" HEIGHT="270">
+  </Dialog>
+  
+  <Dialog ID="IDD_COMPONENTS">
+    <Control ID="IDC_COMPONENTS_TITLE" SCALE="2" BOLD="1">#IDS_COMPONENTS_TITLE</Control>
+    <Control ID="IDC_GROUP_DESCRIPTION" SCALE="1.2" BOLD="0">#IDS_GROUP_DESCRIPTION</Control>
+    <Control X="300" ID="IDC_TOTAL_SIZE" SCALE="1.2" BOLD="0">#IDS_SIZE_UNIT</Control>
+  </Dialog>
+  
+  <!-- Welcome Page -->
+  <Dialog ID="IDD_WELCOME" BACKGROUNDCOLOR="255,0,0">
+    <Control ID="IDC_WELCOME_TITLE" SCALE="2" BOLD="1">#IDS_WELCOME_TITLE</Control>
+    <Control ID="IDC_WELCOME_TEXT" SCALE="1.2" BOLD="0">#IDS_WELCOME_TEXT</Control>
+    <Control Y="275" HEIGHT="20" SCALE="1.2" ID="IDC_STATIC_LANGSELECT">#IDS_STATIC_LANGSELECT</Control>
+  </Dialog>
+
+  <!-- Options Page -->
+  <Dialog ID="IDD_OPTIONS" BACKGROUNDCOLOR="255,0,0">
+    <Control ID="IDC_GETTING_STARTED_TEXT" SCALE="2" BOLD="1">#IDS_GETTING_STARTED_TEXT</Control>
+    <Control ID="IDC_SELECT_INSTALL_TEXT" SCALE="1.2" BOLD="0">#IDS_SELECT_INSTALL_TEXT</Control>
+    <Control ID="IDC_TYPICAL_INSTALL" SCALE="1.2" >#IDS_TYPICAL_INSTALL</Control>
+    <Control ID="IDC_CUSTOM_INSTALL" SCALE="1.2" >#IDS_CUSTOM_INSTALL</Control>
+    <Control ID="IDC_CHECK_FOR_UPDATES" SCALE="1.2" >#IDS_CHECK_FOR_UPDATES</Control>
+    <Control ID="IDC_UPDATE_PROMPT" SCALE="1.2">#IDS_UPDATE_PROMPT</Control>
+    <Control Y="275" ID="IDC_NOTE_TITLE" SCALE="1.2" BOLD="1">#IDS_NOTE_TITLE</Control>
+    <Control X="20" ID="IDC_OPTIONS_NOTE" SCALE="1.2">#IDS_OPTIONS_NOTE</Control>
+  </Dialog>
+ 
+  <!-- Destination Page -->
+  <Dialog ID="IDD_DESTINATION">
+    <Control ID="IDC_DESTINATION_TITLE" SCALE="2" BOLD="1">#IDS_DESTINATION_TITLE</Control>
+    <Control ID="IDC_DESTINATION_TEXT" SCALE="1.2" BOLD="0">#IDS_DESTINATION_TEXT</Control>
+    <Control Y="75" ID="IDC_DESTINATION_STATIC" SCALE="1.2" BOLD="0">#IDS_DESTINATION_STATIC</Control>
+    <Control Y="95" ID="IDC_BROWSE_BTN">#IDS_BTN_BROWSE</Control>
+    <Control ID="IDC_ADD_TO_START_CHECK" SCALE="1.2" >#IDS_ADD_TO_START_CHECK</Control>
+    <Control Y="95" ID="IDC_DESTINATION_EDIT"></Control>
+  </Dialog>
+
+  <!-- License Page -->
+  <Dialog ID="IDD_LICENSE">
+    <Control ID="IDC_LICENSE_TITLE" SCALE="2" BOLD="1">#IDS_LICENSE_TITLE</Control>
+    <Control ID="IDC_AGREE" SCALE="1.2" BOLD="0">#IDS_AGREE</Control>
+    <Control ID="IDC_NOTAGREE" SCALE="1.2" BOLD="0">#IDS_NOTAGREE</Control>
+    <Control ID="IDC_LICENSE_TEXT" SCALE="1.2">#IDS_LICENSE_TEXT</Control>
+  </Dialog>
+
+  <!-- Review Page -->
+  <Dialog ID="IDD_READYTOINSTALL">
+    <Control ID="IDC_READY_TITLE" SCALE="2" BOLD="1">#IDS_READY_TITLE</Control>
+    <Control ID="IDC_READY_TEXT" SCALE="1.2" BOLD="0">#IDS_READY_TEXT</Control>
+  </Dialog>
+  <!-- Progress Page -->
+
+  <Dialog ID="IDD_PROGRESS">
+    <Control ID="IDC_INSTALL_PROGRESS_TITLE" SCALE="2" BOLD="1">#IDS_INSTALL_PROGRESS_TITLE</Control>
+    <Control ID="IDC_INSTALL_PROGRESS_INFO" SCALE="1.2" BOLD="0">#IDS_INSTALL_PROGRESS_INFO</Control>
+    <!--
+    <Control ID="12001" CLASS="CHtmlView" STYLE="WS_VISIBLE" X="450" Y="10" WIDTH="42" HEIGHT="42" TEXT="ui\spinner.html"></Control>
+     -->
+  </Dialog>
+
+  <!-- Finish Page -->
+  <Dialog ID="IDD_FINISH">
+    <Control ID="IDC_FINISH_TITLE" SCALE="2" BOLD="1">#IDS_FINISH_TITLE</Control>
+    <Control ID="IDC_FINISH_TEXT" SCALE="1.4" BOLD="0">#IDS_FINISH_TEXT</Control>
+
+    <Control ID="IDC_FINISH_IMAGE1" CLASS="CImageStatic" STYLE="WS_VISIBLE" X="10" Y="100" WIDTH="64" HEIGHT="64" PICTUREFILE="ui\images\collateral\lens_s.jpg"></Control>
+    <Control ID="IDC_FINISH_IMAGE1_TEXT"  CLASS="STATIC" STYLE="WS_VISIBLE" SCALE="1.4" BOLD="1" X="85" Y="100" WIDTH="400" HEIGHT="30">#IDS_FINISH_IMAGE1_TEXT</Control>
+    <Control ID="IDC_FINISH_IMAGELIST_1" CLASS="CImageStatic" STYLE="WS_VISIBLE" X="100" Y="130" WIDTH="32" HEIGHT="32" PICTUREFILE="ui\images\collateral\camera_s.jpg"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_2" CLASS="CImageStatic" STYLE="WS_VISIBLE" X="100" Y="165" WIDTH="32" HEIGHT="32" PICTUREFILE="ui\images\collateral\keyboard_s.jpg"></Control>
+    <Control ID="IDC_FINISH_IMAGELIST_3" CLASS="CImageStatic" STYLE="WS_VISIBLE" X="100" Y="200" WIDTH="32" HEIGHT="32" PICTUREFILE="ui\images\collateral\headphones_s.jpg"></Control>
+
+    <Control ID="IDC_REBOOTRADIO" SCALE="1.2" BOLD="0">#IDS_REBOOTRADIO</Control>
+    <Control ID="IDC_NOREBOOTRADIO" SCALE="1.2" BOLD="0">#IDS_NOREBOOTRADIO</Control>
+    <Control ID="IDC_FINISH_NOTE" SCALE="1.2" BOLD="0" CLASS="STATIC" STYLE="WS_VISIBLE" X="10" Y="290" WIDTH="500" HEIGHT="80">#IDS_FINISH_NOTE</Control>
+  </Dialog>
+</FESetup_Layout_1>

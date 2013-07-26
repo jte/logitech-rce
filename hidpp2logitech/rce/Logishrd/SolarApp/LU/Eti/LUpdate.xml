@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">eti</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Saadaval on uued värskendused. Allalaadimiseks klõpsake siia.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Klõpsake Logitechi tarkvaravärskenduste lõpuleviimiseks.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Logitechi tarkvara värskendusi laaditakse alla</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Saadaval on uued värskendused. Installimiseks klõpsake siia.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Logitechi tarkvara värskendusi installitakse</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Teie Logitechi tarkvara on värskendatud</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Internet-ühendus puudub. Me ei saanud uue versiooni saadavust kontrollida</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Ilmnes tõrge</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Installitõrge.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Install tühistatud.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Nõutud toiming vajab administraatori õiguseid</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Interneti-ühendus lähtestati. Proovi hiljem uuesti</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Interneti-ühendus lähtestati. Logitech Updater proovib hiljem uuesti</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Valmis</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Loobu</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Peida</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Hiljem</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Laadi alla &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Jätka allalaadimist &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Installi &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Installi kõik, kui valmis &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigureeri automaatsätteid &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Kuva varem keeldutud värskendused</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Allalaadimine: komponent %d/%d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Installimine: komponent %d/%d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Järelejäänud aeg:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Alla laaditud %s/%s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Programmi Logitech Updater sätted</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Valige, kuidas soovite et värskendaja teil töötaks.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Lülita automaatvärskendused sisse.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Teavita mind kuid ära laadi automaatselt alla ega installi.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Laadi värskendused alla, kuid lase mul valida, millal need installida.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Laadi värskendused automaatselt alla ja installi.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Taasta vaikesätted</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Toode</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Olek</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Suurus</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">ootan kontrolli</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">saadaval</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">installiks valmis</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">rikutud</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">tühistatud</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">valmis</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Nõutav</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Soovitatav</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Fakultatiivne</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">s</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">s</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Saadaval on järgmised värskendused.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Logitechi tarkvara uusimate versioonidega saate oma Logitechi toodetest enam kasu.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Allalaadimise olek</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Värskendusi laaditakse alla.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Installimise olek</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Võite hakata värskendusi installima.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Installimise olek</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Värskendusi installitakse.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Hoiatus. See komponent jäi vaikimisi valimata, kuna see ei vastanud järgmis(t)ele piirangu(te)le.</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Kuva Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Muuda automaatsätteid...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Välju</String>
+  </LU_Strings_1>
+</LogitechUpdater>

@@ -1,0 +1,798 @@
+﻿@charset "utf-8";
+
+body {  
+	font-size:8pt; 
+	font-family:arial,helvetica,verdana; 
+	text-align:left; 
+	color:#333333; 
+	margin: 0px 0px 0px 0px;
+	w-background-image: url(../images/collateral/bkgnd.png);
+	}
+
+.main_page {  
+	background-image: url(../images/collateral/bkgnd.png);
+	}
+
+H1{
+	font-weight:bold; 
+	font-size: 18pt; 
+	color:#000; 
+	margin:0px 0px 0px 0px; 
+	padding:0 0 0 0;
+	}
+H2{
+	font-weight:normal; 
+	font-size: 14pt; 
+	color:#808080;
+	margin:0px 0px 0px 0px; 
+	padding:0 0 0 0;
+}
+
+.spash_image {
+	width:138px;
+	height:138px;
+}
+.splash_caption {
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+
+div {
+	 /*border:1px solid #000; */
+}
+
+div.container {
+	width:700px;
+}
+
+div.sidebar {
+	float:left; 
+	height:540px; 
+	width:30%;
+	background-repeat: repeat-x;
+	background-image: url(../images/assets/sidebar.jpg);
+	top: 450px;
+
+}
+.banner {
+	height:370px; 
+	width:100%;
+	background-repeat: repeat-x;
+	background-image: url(../images/assets/splash_bg.jpg);
+}
+div.steps {
+	height:340px;
+	width:100%;
+	padding-top:20px;
+}
+table.steps {
+	width:100%;
+	padding: 0 0 0 0;
+}
+div.sidebarTitle {
+	display:table-cell;
+	vertical-align:middle;
+	height:100px;
+	margin-left:5px;
+}
+#sidebarTitleText {
+	font-size:17px; 
+	text-align:left; 
+	color:#333333; 
+}
+
+div.productName {
+	display:table-cell;
+	vertical-align:middle;
+	height:100px;
+	margin-left:5px;
+}
+#productNameText {
+	font-size:24px;
+	font-weight:bold; 
+	text-align:left; 
+	color:#14acac;
+	position:absolute; right:52px; top:20px; 
+}
+
+
+#ps2_pane {
+	font-size:11.5px;
+	text-align:left; 
+	position:absolute; left:224px; top:420px; width:440px;
+}
+
+div.productPurpose {
+	display:table-cell;
+	vertical-align:middle;
+	height:100px;
+	margin-left:5px;
+}
+#productPurposeText {
+	font-size:15px; 
+	font-weight:bold; 
+	text-align:left; 
+	color:#A0A0A0; 
+	position:absolute; right:52px; top:50px; 
+
+}	
+#eulaAgreeText {
+	font-weight:bold; 
+}	
+#eula {
+	font-weight:bold; 
+  color:#14acac;
+}	
+div.pageContent {
+	height:540px;
+	padding-left:10px;
+	padding-right:32px;
+}
+td.stepNum {
+	width:30%;
+	font-size:17pt; 
+	font-weight:normal;
+	text-align:right; 
+	color:#808080; 
+	vertical-align:bottom;
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+}
+td.stepNumSelected  {
+	width:30%;
+	font-size:17pt; 
+	font-weight:normal;
+	text-align:right; 
+	color:#000000; 
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+td.stepNumDone  {
+	width:30%;
+	font-size:17pt; 
+	font-weight:normal;
+	text-align:right; 
+	color:#000000; 
+	background-image: url(../images/collateral/step_num_complete.png);
+	background-repeat: no-repeat;
+	background-position: 45px 6px;
+	padding-top: 10px;
+	padding-bottom: 0px;	
+}
+tr.step {
+	width:100%;	
+	vertical-align:bottom;
+	padding-top: 10px;
+}
+td.stepText {
+	font-size:17px; 	
+	font-weight:bold;
+	padding-top: 10px;
+	padding-left: 5px;
+	color:#C0C0C0; 
+	position:relative;
+	top:-5px;
+}
+td.stepTextSelected {
+	font-size:17px; 
+	font-weight:bold;
+	padding-top: 10px;
+	padding-left: 5px;
+	color:#000000; 
+	top:-5px;
+	position:relative;	
+}
+td.stepTextDone {
+	font-size:17px; 
+	font-weight:bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	color:#14acac; 
+	position:relative;	
+}
+div.pageContent {
+}
+
+div.pageNav {
+	height:100px;
+	text-align:right;
+	width:430px;
+	position: absolute; 
+	bottom: 0; 
+	right: 60px;
+	
+}
+
+div.contentBody { 
+	height:340px; 
+	padding-top:10px;
+
+}
+
+div.contentHeader {
+	height:100px;
+
+}
+
+.header_image {
+	position:absolute; 
+	left:40px; 
+	top:25px;
+}
+
+.header_important {
+	position:absolute; 
+	left:55px; 
+	top:160px;
+	font-size:21px;
+	font-weight:bold;
+	color:#14acac;
+}
+
+.leaderBoard {
+{
+	padding-top:25px;
+	w-font-size:24px;
+	font-size:25px;
+	font-weight:bold;
+	color:#000;
+}
+
+.leaderBoard_small {
+{
+	padding-top:25px;
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+}
+
+.leaderBoard_mini {
+{
+	padding-top:25px;
+	font-size:14px;
+	font-weight:bold;
+	color:#C0C0C0; 
+}
+
+.leaderBoard_mini2 {
+{
+	font-size:14px;
+	font-weight:bold;
+
+}
+
+.messaging {
+	padding-top:0px;
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+	w-color: #A0A0A0;
+	width:400px;
+}
+
+.messaging_intro {
+	padding-top:0px;
+	font-size:13.5px;
+	font-weight:bold;
+	color:#666666;
+	w-color: #A0A0A0;
+	width:400px;
+}
+.messaging_plain {
+	padding-top:0px;
+	font-size:13px;
+	color:#666666;
+	w-color: #A0A0A0;
+	width:400px;
+}
+
+.messaging_title {
+	padding-top:0px;
+	font-size:13.5px;
+	font-weight:bold;
+	w-color:#666666;
+	width:400px;
+}
+
+.messaging_overlay{
+	padding-top:10px;
+	font-size:14px;
+	font-weight:bold;
+	width:250px;
+	color:#fff;
+	float:right;
+	padding-right:20px;
+	font-style:italic;
+}
+
+.messaging_progress{
+	padding-top:25px;
+	w-padding-right:50px;
+	padding-right:20px;
+	font-size:13px;
+	font-weight:bold;
+	w-font-style:italic;
+	color:#555555;
+	w-color:red;
+	color:#fff;
+	
+	w-width:400px;
+	width:250px;
+	float:right;
+}
+
+.messaging_instruction {
+	padding-top:15px;
+	padding-left:2px;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+}
+
+
+.styled {
+	font-size:12px;
+}
+
+.instruction {
+	padding-top:5px;
+	padding-bottom:5px;
+	w-font-size:12px;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+}
+
+.instruction_light {
+	padding-top:25px;
+	padding-left:5px;
+	padding-bottom:0px;
+	font-size:12px;
+  color:#666666;
+}
+
+.instruction_light_left {
+	padding-top:50px;
+	padding-bottom:0px;
+	font-size:12px;
+  color:#666666;
+}
+
+/* UI Customization */
+span.checkbox {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(../images/controls/checkbox.gif) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+span.radio {
+	width: 19px;
+	height: 25px;
+	 padding: 0 5px 0 0;
+	background: url(../images/controls/radio.gif) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+span.select {
+	position: absolute;
+	width: 300px; 
+	height: 25px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(../images/controls/select.gif) no-repeat;
+	overflow: hidden;
+}
+
+.bigEdit {
+	background: url(../images/controls/edit_bg.gif) repeat-x;
+	width: 290px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 30px;
+	text-align:left; 
+	border-style:none;
+	background-position: 0px 0px;
+	line-height:200%;
+}
+
+.eulaText {
+	/*background: url(../images/controls/text_bg.gif) repeat-x;*/
+	background-color:#e6e6e6;
+	width: 550px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 280px;
+	text-align:left; 
+	border-style:solid;
+	border-color:#999;
+	border-width:1px;
+	color:#333;
+	background-position: 0px 0px;
+	scrollbar-arrow-color: #808080;
+	scrollbar-face-color: #808080;
+	scrollbar-track-color: #ccc;
+	scrollbar-arrow-color:#666;       
+	scrollbar-width:5px;
+	/*scrollbar-3dlight-color:#808080;*/
+	font-family:arial,helvetica,verdana; 
+	font-size:8pt;
+	padding-left:5px;
+	overflow: vertical;
+}
+
+TABLE.progressBarBorder { 
+	border: 1px solid #7F7F7F; 
+}
+
+TABLE TD.progressBarBar { 
+	font-size: 5pt; 
+	text-align: center; 
+	color: white;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType='1', StartColorStr='#77787B', EndColorStr='#CED0D1', enabled='false');
+}
+
+a.button 
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	w-font-size: 13px;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	-x-system-font: none;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	overflow-y: hidden;
+	text-decoration: none;
+	text-align: left;
+	color: #ffffff;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+a.button:hover 
+{
+	text-decoration: underline;
+}
+a.button b
+{
+	display: block;
+	color: #ffffff;
+	text-align:center;
+	margin-left: 10px;
+	padding-right:10px;
+}
+
+a.button:hover b 
+{
+	text-decoration: underline;
+}
+
+a:link, a:active 
+{
+	color: #ffffff;
+}
+
+a.action 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px 0px;
+}
+
+a.action b 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% 0px;
+	width:110px;
+}
+
+.layout1_LangButton {
+    cursor: pointer;
+}
+
+a.layout2_LangButton
+{
+    position:absolute;
+    display:block;
+    width:32px;
+    height: 32px;
+    background-image: url("../images/controls/button_language_pressed.png");
+    background-position: top;
+	top:470px;
+	left:224px;
+}
+
+a.layout2_LangButton:hover
+{
+   background-image: url("../images/controls/button_language_pressed.png");
+   background-position: top;
+
+}
+
+a.layout2_LangButton:active
+{
+   background-image: url("../images/controls/button_language_pressed.png");
+   background-position: top;
+
+}
+
+a.primary 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px -42px;
+}
+
+a.primary b 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% -42px;
+	width:90px;
+}
+
+a.secondary 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px -84px;
+}
+
+a.secondary b 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% -84px;
+	width:90px;
+}
+
+a.secondaryAction 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px -124px;
+}
+
+a.secondaryAction b 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% -124px;
+	width:90px;
+}
+a.formbutton 
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 13px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	-x-system-font: none;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	overflow-y: hidden;
+	text-decoration: none;
+	text-align: left;
+	color: #14acac;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+a.formbutton:hover 
+{
+	text-decoration: underline;
+}
+a.formbutton b
+{
+	display: block;
+	color: #14acac;
+	text-align:center;
+	margin-left: 10px;
+	padding-right:10px;
+}
+
+a.formbutton:hover b 
+{
+	text-decoration: underline;
+}
+a.browse 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/formfield.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px 0px;
+}
+
+a.browse b 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/formfield.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% 0px;
+	width:80px;
+}
+
+.ctrlCol
+{
+	padding-top:3px;
+	padding-right:10px;
+}
+
+.logLink
+{
+	color:#141c1c;
+}
+
+.description
+{
+	font-size:11px;
+	w-font-size:12px;
+	color:#808080; 
+}
+
+.stepText_sub1
+{
+	font-weight:bold;
+	padding-left:20px;
+}
+
+.installingPane
+{
+overflow: visible;
+	background-color: transparent;
+	background-image: url(../images/collateral/billboard.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -10px 0px;
+	height:145px;
+	position:relative;
+	left:-13px;
+	width:440px;
+}
+
+.unInstallingPane
+{
+
+}
+
+
+
+/* SINGLE PROGRESS BAR */
+.progressBar{
+	width:416px;
+	height:41px;
+	/*background:url(bg_bar.gif) no-repeat 0 0;*/
+	position:relative;
+}
+.progressBar span{
+	position:absolute;
+	display:block;
+	width:400px;
+	height:25px;
+	background:url(../images/controls/pbar.jpg) no-repeat 0 -25px;
+	top:0px;
+	left:0px;
+}
+.progressBar em{
+	position:absolute;
+	display:block;
+	width:400px;
+	height:25px;
+	background:url(../images/controls/pbar.jpg) no-repeat 0 0;
+	top:0;
+}
+.progressBarText {
+	font-size: 8pt; 
+	font-family: arial,helvetica,verdana; 
+	font-weight: normal;
+	text-align: left; 
+	color: #333333; 
+	margin: 0px 0px 0px 0px;
+}
+
+a.button_lang
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	w-font-size: 13px;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	-x-system-font: none;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	overflow-y: hidden;
+	text-decoration: none;
+	text-align: left;
+	color: #ffffff;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+a.button_lang b
+{
+	display: block;
+	color: #ffffff;
+	text-align:center;
+	margin-left: 10px;
+	padding-right:10px;
+}
+
+a.action_lang 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px 0px;
+}
+
+a.action_lang b 
+{
+	background-color: transparent;
+	background-image: url(../images/controls/smart_buttons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% 0px;
+	width:80px;
+}
+
+.choose_lang_title {
+	padding-top:30px;
+	font-size:20px;
+	color:#000;
+	width:400px;
+	font-weight:bold;
+}
+
+
+.layout_chooseLanguage {
+    visibility:hidden;
+    position:absolute;
+    left:150px;
+    top:50px;
+    width:420px;
+    height:390px;
+    text-align:center;
+	background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding:10px 10px 10px 10px;
+    z-index:3;
+}
+
+.layout_lang_close {
+    position:relative;
+}

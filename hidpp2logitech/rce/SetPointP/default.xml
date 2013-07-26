@@ -1,0 +1,3239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Source>
+  <language xml:lang="en-us"/>
+  <!-- LOCALIZATION Include file-->
+  <XmlInclude FILE="Strings.xml"/>
+  <!-- Non Localized-->
+  <!-- ******************************************************************** -->
+  <!--						OEM OPTIONS								  -->
+  <!-- ******************************************************************** -->
+  <OEMOptions>
+    <OEMOption Name="SuppressUI">0</OEMOption >
+    <OEMOption Name="ShowLockStatusToolTip">1</OEMOption >
+    <OEMOption Name="ShowLowBatteryIcon">1</OEMOption >
+    <OEMOption Name="ShowOnlineHelp">1</OEMOption >
+  </OEMOptions>
+
+
+  <!-- ******************************************************************** -->
+  <!--						USER OPTIONS								  -->
+  <!-- ******************************************************************** -->
+  <UserOptions>
+    <UserOption Name="ScrollSize">3</UserOption>
+    <UserOption Name="ApplicationSpecificSettings">1</UserOption>
+    <UserOption Name="SetPointUpdate">1</UserOption>
+    <UserOption Name="GameModeNotification">1</UserOption>
+    <UserOption Name="FirstTimeInitialization">1</UserOption>
+    <!-- battery check time in seconds -->
+    <UserOption Name="BatteryCheckInterval">259200</UserOption>
+    <UserOption Name="ShowTrayIcon">1</UserOption>
+  </UserOptions>
+
+
+  <!-- ******************************************************************** -->
+  <!--						HANDLERSETGROUPS TEMPLATES						      -->
+  <!-- ******************************************************************** -->
+
+  <HandlerSetGroups>
+    <!-- **************************************************************************************************************************** -->
+    <!--						Samarkand handle set groups start						                                                                      -->
+    <!-- **************************************************************************************************************************** -->
+    
+    <HandlerSetGroup Name="Windows8OthersTaskGroup" HandlerSetNames="MetroAppMenu,MetroCharms,MetroAppSwitch,MetroStartScreen,MetroShare,MetroSettings,MetroDevices" />
+    <HandlerSetGroup Name="SmrkndUnsupported" HandlerSetNames="UnknownFeature,ApplicationSwitch,AdvSmartSearch,LaunchProgram,FolderLauncher,GotoWebAddress,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="SmrkndOtherMouse" HandlerSetNames="ApplicationSwitch,AutoScroll,BackEx,Copy,CruiseDown,CruiseUp,Cut,Do Nothing,QuickSwitch,BrowserForwardEx,GenericButton,KeystrokeAssignment,LaunchProgram,LeftClick,HorzScrollLeftSet,MinMaxWindow,MiddleMouseButton,WindowsMinimize,VOLUMEMUTE,MM NEXT,AdvSmartSearch,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,WindowsRestore,RightClick,HorzScrollRightSet,RotateLeft,RotateRight,MM REWIND,MM FASTFORWARD,ShowDesktop,MM SHUFFLE,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomSet,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,MetroAppMenu,MetroCharms,MetroAppSwitch,MetroStartScreen,MetroShare,MetroSettings,MetroDevices"/>
+    <HandlerSetGroup Name="SmrkndOtherKeyboard" HandlerSetNames="ApplicationSwitch,BackEx,Calculator,Calendar,CloseApplication,ControlPanel,Copy,Cut,Do Nothing,QuickSwitch,OffDocument,Email,Eject,Favorites,BrowserForwardEx,GadgetsSet,GenericButton,Help,BrowserRefresh,BrowserStop,KeystrokeAssignment,LaunchProgram,WindowsLock,MinMaxWindow,MediaPlayer,Messenger,WindowsMinimize,VOLUMEMUTE,My Computer,PersonalFolders,HomePage,MyMusic,PicturesFolder,MyVideos,New,MM NEXT,AdvSmartSearch,FileLauncher,FolderLauncher,GotoWebAddress,PageDown,PageUp,Paste,MM PLAY,OffPowerpnt,MM PREVIOUS,Print,RecordMediaPlayer,Redo,Reply,WindowsRestore,RotateLeft,RotateRight,Save,SearchForFiles,MM REWIND,MM FASTFORWARD,ShowDesktop,MM SHUFFLE,StandBySet,Spreadsheets,MM STOP,Undo,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,MetroAppMenu,MetroCharms,MetroAppSwitch,MetroStartScreen,MetroShare,MetroSettings,MetroDevices"/>
+    <HandlerSetGroup Name="SmrkndAppSwitchKbMs" HandlerSetNames="ApplicationSwitch,QuickSwitch,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndAutoScrollMs" HandlerSetNames="AutoScroll,UniversalScroll,ApplicationSwitch,QuickSwitch,ZoomSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndBrowserBackKbMs" HandlerSetNames="Back,PageDown,CruiseDown,ZoomBtnOutSet2,MM NEXT,VOLUMEDOWNRepeat,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndBrowserBackExKbMs" HandlerSetNames="BackEx,PageDown,CruiseDown,ZoomBtnOutSet2,MM NEXT,VOLUMEDOWNRepeat,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndBatteryStatusKb" HandlerSetNames="BatteryStatus,GadgetsSet,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="SmrkndCalculatorKb" HandlerSetNames="Calculator,GadgetsSet,LaunchProgram,GotoWebAddress,LaunchProgram,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndCalendarKb" HandlerSetNames="Calendar,GadgetsSet,LaunchProgram,GotoWebAddress,LaunchProgram,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndCloseApplicationKbMs" HandlerSetNames="CloseApplication,ShowDesktop,WindowsMinimize,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndControlPanelKb" HandlerSetNames="ControlPanel,GadgetsSet,LaunchProgram,GotoWebAddress,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndCopyKbMs" HandlerSetNames="Copy,Cut,Paste,Maximize,ZoomBtnResetSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndCruiseDownKbMs" HandlerSetNames="CruiseDown,PageDown,ZoomBtnOutSet2,MM NEXT,VOLUMEDOWNRepeat,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndCruiseUpKbMs" HandlerSetNames="CruiseUp,PageUp,ZoomBtnInSet2,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndCutKbMs" HandlerSetNames="Cut,Copy,Paste,Maximize,ZoomBtnResetSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndDoNothingKbMs" HandlerSetNames="Do Nothing,ApplicationSwitch,QuickSwitch,iTouchSearch,ZoomBtnResetSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndDoNothingOneKb" HandlerSetNames="Do Nothing" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndOfficeDocumentKbMs" HandlerSetNames="OffDocument,LaunchProgram,My Computer,PersonalFolders,FolderLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndEmailKb" HandlerSetNames="Email,LaunchProgram,GotoWebAddress,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndEjectKb" HandlerSetNames="Eject,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndBrowserForwardKbMs" HandlerSetNames="BrowserForward,PageUp,CruiseUp,ZoomBtnInSet2,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndBrowserForwardExKbMs" HandlerSetNames="BrowserForwardEx,PageUp,CruiseUp,ZoomBtnInSet2,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndGadgetsSetKbMs" HandlerSetNames="GadgetsSet,Calculator,Calendar,LaunchProgram,GotoWebAddress,FileLauncher,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndGenericMouseBtnMs" HandlerSetNames="GenericMouseButton,ApplicationSwitch,QuickSwitch,iTouchSearch,ZoomBtnResetSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndGenericBtnKbMs" HandlerSetNames="GenericButton,ApplicationSwitch,QuickSwitch,iTouchSearch,ZoomBtnResetSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndHelpKb" HandlerSetNames="Help,GotoWebAddress,LaunchProgram,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndBrowserRefreshKbMs" HandlerSetNames="BrowserRefresh,BrowserStop,iTouchSearch,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndBrowserStopKbMs" HandlerSetNames="BrowserStop,BrowserRefresh,iTouchSearch,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndKeystrokeKbMs" HandlerSetNames="KeystrokeAssignment,ApplicationSwitch,QuickSwitch,iTouchSearch,Maximize,ZoomBtnResetSet" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndKeystrokeAssignmentKbMs" HandlerSetNames="KeystrokeAssignment,ApplicationSwitch,QuickSwitch,iTouchSearch,Maximize,ZoomBtnResetSet" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndMessengerKbMs" HandlerSetNames="Messenger,LaunchProgram,GotoWebAddress,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndLaunchProgramKb" HandlerSetNames="LaunchProgram,GotoWebAddress,GadgetsSet,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndMediaCenterSetKb" HandlerSetNames="MediaCenterSet,MediaPlayer,MyMusic,MyVideos,PicturesFolder,LaunchProgram,GotoWebAddress,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndLeftClickMs" HandlerSetNames="LeftClick" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndHorzScrollLeftSetMs" HandlerSetNames="HorzScrollLeftSet,Back,PageUp,CruiseUp,MM PREVIOUS,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndWindowsLockKb" HandlerSetNames="WindowsLock,LogOffSet,StandBySet,ShutdownSet,RestartSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndMaximizeKbMs" HandlerSetNames="Maximize,WindowsRestore,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMinMaxWindowToggleKbMs" HandlerSetNames="MinMaxWindow,WindowsRestore,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMediaPlayerKbMs" HandlerSetNames="MediaPlayer,MediaCenterSet,MyMusic,MyVideos,PicturesFolder,LaunchProgram,GotoWebAddress" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndMiddleMouseBtnMs" HandlerSetNames="MiddleMouseButton,ApplicationSwitch,QuickSwitch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndMinimizeKbMs" HandlerSetNames="Minimize,ShowDesktop,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndWindowsMinimizeKbMs" HandlerSetNames="WindowsMinimize,ShowDesktop,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndVolumeMuteKb" HandlerSetNames="VOLUMEMUTE,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndVolumeMuteNoOsdKb" HandlerSetNames="VOLUMEMUTE NoOSD,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndMyComputerKb" HandlerSetNames="My Computer,PersonalFolders,FolderLauncher,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndPersonalFoldersKb" HandlerSetNames="PersonalFolders,My Computer,FolderLauncher,FileLauncher,GotoWebAddress,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndHomePageKb" HandlerSetNames="HomePage,GotoWebAddress,LaunchProgram,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndMyMusicKb" HandlerSetNames="MyMusic,MediaPlayer,MediaCenterSet,LaunchProgram,FolderLauncher,GotoWebAddress" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndMyVideosKb" HandlerSetNames="MyVideos,MediaPlayer,MediaCenterSet,LaunchProgram,FolderLauncher,GotoWebAddress" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandNewKb" HandlerSetNames="New,FileLauncher,Save,Undo,Redo,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndNextTrackKbMs" HandlerSetNames="MM NEXT,VOLUMEUPRepeat,PageDown,CruiseDown,ZoomBtnOutSet2,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndNextFFTrackKbMs" HandlerSetNames="MM NEXT_FF,VOLUMEUPRepeat,PageDown,CruiseDown,ZoomBtnOutSet2,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndAdvSmartSearchKbMs" HandlerSetNames="AdvSmartSearch,My Computer,PersonalFolders,FolderLauncher,FileLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndFileLauncherKb" HandlerSetNames="FileLauncher,FolderLauncher,PersonalFolders,My Computer,GotoWebAddress,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndFolderLauncherKb" HandlerSetNames="FolderLauncher,FileLauncher,PersonalFolders,My Computer,GotoWebAddress,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndGotoWebAddressKb" HandlerSetNames="GotoWebAddress,HomePage,LaunchProgram,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndPageDownKbMs" HandlerSetNames="PageDown,CruiseDown,Back,ZoomBtnOutSet2,MM NEXT,VOLUMEDOWNRepeat,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndPageUpKbMs" HandlerSetNames="PageUp,CruiseUp,BrowserForward,ZoomBtnInSet2,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandPasteKbMs" HandlerSetNames="Paste,Copy,Cut,Maximize,ZoomBtnResetSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndSearchPictureKb" HandlerSetNames="SearchPicture,MediaPlayer,MediaCenterSet,LaunchProgram,FolderLauncher,GotoWebAddress" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndPlayTrackKbMs" HandlerSetNames="MM PLAY,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndOfficePowerPointKb" HandlerSetNames="OffPowerpnt,LaunchProgram,Do Nothing,My Computer,FolderLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndSmartKeySetKb" HandlerSetNames="SmartKeySet,LaunchProgram,GotoWebAddress,HomePage,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndPreviousTrackKbMs" HandlerSetNames="MM PREVIOUS,VOLUMEDOWNRepeat,PageUp,CruiseUp,ZoomBtnInSet2,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndPreviousRewindTrackKbMs" HandlerSetNames="MM PREVIOUS_REWIND,VOLUMEDOWNRepeat,PageUp,CruiseUp,ZoomBtnInSet2,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandPrintKb" HandlerSetNames="Print,New,FileLauncher,Save,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMediaRecordKb" HandlerSetNames="RecordMediaPlayer,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandRedoKb" HandlerSetNames="Redo,Undo,Save,New,FileLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandReplyKb" HandlerSetNames="Reply,Send,Save,Print,Email,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndWindowsRestoreKbMs" HandlerSetNames="WindowsRestore,Maximize,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndRightMs" HandlerSetNames="RightClick" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndHorzScrollRightSetMs" HandlerSetNames="HorzScrollRightSet,BrowserForward,PageDown,CruiseDown,MM NEXT,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandSaveKb" HandlerSetNames="Save,Undo,Redo,New,FileLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndPhotoGallerySetKb" HandlerSetNames="PhotoGallerySet,MediaPlayer,MediaCenterSet,LaunchProgram,FolderLauncher,GotoWebAddress" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndTrackRewindKbMs" HandlerSetNames="MM REWIND,MM PREVIOUS,VOLUMEDOWNRepeat,PageUp,CruiseUp,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndTrackFastForwardKbMs" HandlerSetNames="MM FASTFORWARD,MM NEXT,VOLUMEUPRepeat,PageDown,CruiseDown,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandSendKb" HandlerSetNames="Send,Reply,Save,Print,Email,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndShowDesktopdKb" HandlerSetNames="ShowDesktop,WindowsMinimize,Minimize,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndShuffleTrackKb" HandlerSetNames="MM SHUFFLE,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndOfficeSpreadsheetKbMs" HandlerSetNames="OffSpreadsheet,LaunchProgram,PersonalFolders,My Computer,FolderLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndStandBySetKb" HandlerSetNames="StandBySet,ShutdownSet,RestartSet,LogOffSet,WindowsLock,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndStopTrackKb" HandlerSetNames="MM STOP,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndOfficeCommandUndoKb" HandlerSetNames="Undo,Redo,Save,New,FileLauncher,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndUniversalScrollMs" HandlerSetNames="UniversalScroll,AutoScroll,ApplicationSwitch,QuickSwitch,ZoomSet,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndVolumeDownKbMs" HandlerSetNames="VOLUMEDOWNRepeat,MM PREVIOUS,MM REWIND,ZoomBtnOutSet2,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndVolumeUpKbMs" HandlerSetNames="VOLUMEUPRepeat,MM NEXT,MM FASTFORWARD,ZoomBtnInSet2,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndZoomSetKbMs" HandlerSetNames="ZoomSet,MiddleButton,ApplicationSwitch,QuickSwitch,iTouchSearch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndZoomBtnInSetKbMs" HandlerSetNames="ZoomBtnInSet,PageUp,CruiseUp,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndZoomBtnInSet2KbMs" HandlerSetNames="ZoomBtnInSet2,PageUp,CruiseUp,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndZoomBtnOutSetKbMs" HandlerSetNames="ZoomBtnOutSet,PageDown,CruiseDown,MM NEXT,VOLUMEDOWNRepeat,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndZoomBtnOutSet2KbMs" HandlerSetNames="ZoomBtnOutSet2,PageDown,CruiseDown,MM NEXT,VOLUMEDOWNRepeat,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndZoomBtnResetSetKbMs" HandlerSetNames="ZoomBtnResetSet,ApplicationSwitch,QuickSwitch,iTouchSearch,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndQuickSwitchKbMs" HandlerSetNames="QuickSwitch,ApplicationSwitch,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+
+    <HandlerSetGroup Name="SmrkndMediaBurnKb" HandlerSetNames="BurnMediaPlayer,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndBrowserFavoritesKbMs" HandlerSetNames="Favorites,BrowserRefresh,iTouchSearch,ApplicationSwitch,QuickSwitch,KeystrokeAssignment" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="SmrkndUserMenuKb" HandlerSetNames="UserMenu,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndWebcamKb" HandlerSetNames="Webcam,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndPicturesFolderKb" HandlerSetNames="PicturesFolder,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndPictureAppSetKb" HandlerSetNames="PictureAppSet,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndRotateRightKb" HandlerSetNames="RotateRight,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndSearchForFilesKb" HandlerSetNames="SearchForFiles,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+    <HandlerSetGroup Name="SmrkndOneTouchSyncKb" HandlerSetNames="OneTouchSync,KeystrokeAssignment,Do Nothing" VisibleHandlerSetCount="3" />
+
+    <HandlerSetGroup Name="SmrkndSnapLeft" HandlerSetNames="SnapLeft" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndSnapRight" HandlerSetNames="SnapRight" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndWinMinRestore" HandlerSetNames="WinMinRestore" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndWinMaxRestore" HandlerSetNames="WinMaxRestore" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndWinStretch" HandlerSetNames="WinStretch" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndSwitchMonitorLeft" HandlerSetNames="SwitchMonitorLeft" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndSwitchMonitorRight" HandlerSetNames="SwitchMonitorRight" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndShowPresentation" HandlerSetNames="ShowPresentation" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndShowMobilityCenter" HandlerSetNames="ShowMobilityCenter" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndWinRun" HandlerSetNames="WindowsRun" VisibleHandlerSetCount="1" />
+    <HandlerSetGroup Name="SmrkndMetroAppSwitch" HandlerSetNames="MetroAppSwitch,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroStartScreen" HandlerSetNames="MetroStartScreen,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroSearch" HandlerSetNames="MetroSearch,MetroAppSwitch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroAppBar" HandlerSetNames="MetroAppBar,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroCharms" HandlerSetNames="MetroCharms,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+
+    <HandlerSetGroup Name="SmrkndMetroShare" HandlerSetNames="MetroShare,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroSettings" HandlerSetNames="MetroSettings,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroDevices" HandlerSetNames="MetroDevices,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+
+    <HandlerSetGroup Name="SmrkndMetroBackLeftHorz" HandlerSetNames="MetroBackLeftHorz,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SmrkndMetroForwRightHorz" HandlerSetNames="MetroForwRightHorz,iTouchSearch,ZoomBtnResetSet,ShowDesktop,KeystrokeAssignment" VisibleHandlerSetCount="5" />
+
+    <HandlerSetGroup Name="SmrkndWin8BrowserBackKbMs" HandlerSetNames="Back,MetroCharms,MetroAppSwitch,MetroSearch,MetroShare,MetroStartScreen,MetroDevices,MetroSettings" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="SmrkndWin8BrowserForwardKbMs" HandlerSetNames="BrowserForward,MetroCharms,MetroAppSwitch,MetroSearch,MetroShare,MetroStartScreen,MetroDevices,MetroSettings" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="SmrkndWin8AppSwitchBarKbMs" HandlerSetNames="AppSwitchBar,MetroAppSwitch,BrowserForward,HorzScrollRightSet,MetroCharms,MetroSearch,MetroShare,MetroStartScreen,MetroDevices,MetroSettings" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="SmrkndWin8MetroCharms" HandlerSetNames="MetroCharms,Back,HorzScrollLeftSet,MetroSearch,MetroShare,MetroStartScreen,MetroDevices,MetroSettings,AppSwitchBar" VisibleHandlerSetCount="8" />
+    
+
+
+    <!-- ***FALCON *** -->
+    <HandlerSetGroup Name="SmrkndTouchHorzScroll" HandlerSetNames="TouchHorzScroll" VisibleHandlerSetCount="1" />
+    <!-- ***FALCON *** -->
+
+
+    <!-- **************************************************************************************************************************** -->
+    <!--						Samarkand handle set groups	end					                                                                          -->
+    <!-- **************************************************************************************************************************** -->
+
+    <HandlerSetGroup Name="OEMTiltWheelButtonGroup" HandlerSetNames="ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OEMOthersGenericMiceGroup,Windows8OthersTaskGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="OEMOthersGenericMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMOtherMiceGroup"         HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,StartMenu,DragLock,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMScrollLeftGroup" HandlerSetNames="HorzScrollLeftSet,CruiseDown,Back,KeystrokeAssignment,OEMOtherMiceGroup,CruiseDown,Back" VisibleHandlerSetCount="4"  />
+    <HandlerSetGroup Name="OEMScrollRightGroup" HandlerSetNames="HorzScrollRightSet,CruiseUp,BrowserForward,KeystrokeAssignment,OEMOtherMiceGroup,CruiseUp,BrowserForward" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="OEMScrollRightFaroAndSardiniaGroup" HandlerSetNames="BrowserForward,MM NEXT,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,MiddleMouseButton,KeystrokeAssignment,OEMOthersFaroSardinaFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="OEMOthersFaroSardinaFreeWheelRightScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,CruiseDown,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,HorzScrollLeftSet,HorzScrollRightSet,Maximize,MediaPlayer,Minimize,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMScrollLeftFaroAndSardiniaGroup" HandlerSetNames="Back,MM PREVIOUS,CruiseDown,PageDown,VOLUMEDOWNRepeat,ZoomBtnOutSet2,MiddleMouseButton,KeystrokeAssignment,OEMOthersFaroSardinaFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="OEMScrollLeftMiddleGroupExt" HandlerSetNames="HorzScrollLeftSet,MM PREVIOUS,Back,CruiseDown,PageDown,VOLUMEDOWNRepeat,ZoomBtnOutSet2,KeystrokeAssignment,MM NEXT,BrowserForward,CruiseUp,OEMOthersFreeWheelMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="OEMScrollRightMiddleGroupExt" HandlerSetNames="HorzScrollRightSet,MM NEXT,BrowserForward,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,KeystrokeAssignment,MM PREVIOUS,Back,CruiseDown,OEMOthersFreeWheelMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="OEMOthersFreeWheelMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,Cut,Do Nothing,GenericMouseButton,LeftMouseButton,HorzScrollLeftSet,Maximize,MediaPlayer,Minimize,MiddleMouseButton,PageDown,PageUp,Paste,MM PLAY,Redo,RightClick,HorzScrollRightSet,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="IkariaMiddleButtonGroup" HandlerSetNames="MiddleMouseButton,QuickSwitch,AdvSmartSearch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OEMOthersMiddleMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMOthersMiddleMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMScrollLeftGroup2" HandlerSetNames="HorzScrollLeftSet,Back,MM PREVIOUS,CruiseUp,CruiseDown,KeystrokeAssignment,OEMOtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="OEMScrollRightGroup2" HandlerSetNames="HorzScrollRightSet,BrowserForward,MM NEXT,CruiseDown,CruiseUp,KeystrokeAssignment,OEMOtherMiceGroup" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="OEMFreeWheelMiddleGroup" HandlerSetNames="ZoomSet,QuickSwitch,AutoScroll,GenericMouseButton,UniversalScroll,MediaPlayer,MM PLAY,KeystrokeAssignment,OEMOthersFreeMiddleMiceGroup" />
+    <HandlerSetGroup Name="OEMFreeWheelMiddleGroupPlaermo" HandlerSetNames="ZoomSet,MiddleMouseButton,ApplicationSwitch,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OEMOthersFreeMiddleMiceGroup" VisibleHandlerSetCount="7"/>
+    <HandlerSetGroup Name="OEMOthersFreeMiddleMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,StartMenu,DragLock,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo" />
+    <HandlerSetGroup Name="OEMFreeWheelForwardGroup" HandlerSetNames="BrowserForward,Back,CruiseDown,CruiseUp,MM NEXT,MM PREVIOUS,KeystrokeAssignment,OEMOthersFreeWheelMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMFreeWheelForwardGroupPlaermo" HandlerSetNames="BrowserForward,Back,CruiseUp,CruiseDown,MM PREVIOUS,MM NEXT,KeystrokeAssignment,OEMOthersFreeWheelMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMFreeWheelBackGroup" HandlerSetNames="Back,BrowserForward,CruiseUp,CruiseDown,MM PREVIOUS,MM NEXT,KeystrokeAssignment,OEMOthersFreeWheelMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMFreeWheelBackGroupPlaermo" HandlerSetNames="Back,BrowserForward,CruiseUp,CruiseDown,MM PREVIOUS,MM NEXT,KeystrokeAssignment,OEMOthersFreeWheelMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMAdvSmartSearchFreeWheelGroup" HandlerSetNames="AdvSmartSearch,ZoomBtnResetSet,QuickSwitch,AutoScroll,UniversalScroll,MediaPlayer,VOLUMEMUTE,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OEMAdvnSearchMaderiaOtherMiceGroup"  />
+    <HandlerSetGroup Name="OEMAdvSmartSearchFreeWheelGroupPlaermo" HandlerSetNames="AdvSmartSearch,ApplicationSwitch,MediaPlayer,VOLUMEMUTE,MM PLAY,KeystrokeAssignment,OEMAdvnSearchMaderiaOtherMiceGroup"  VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="OEMAdvnSearchMaderiaOtherMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,Maximize,Minimize,MiddleMouseButton,Paste,Redo,StartMenu,MM STOP,Undo,ShowDesktop" />
+    <HandlerSetGroup Name="OEMFreeWheelMinScrollLeftGroup" HandlerSetNames="HorzScrollLeftSet,CruiseUp,CruiseDown,Back,MM PREVIOUS,VOLUMEDOWNRepeat,KeystrokeAssignment,OEMOthersFreeWheelMinLeftScrollMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMFreeWheelMinScrollLeftGroupPlaermo" HandlerSetNames="HorzScrollLeftSet,CruiseUp,CruiseDown,Back,MM PREVIOUS,VOLUMEDOWNRepeat,KeystrokeAssignment,OEMOthersFreeWheelMinLeftScrollMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="OEMOthersFreeWheelMinLeftScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,Cut,Do Nothing,DoubleClick,DragLock,BrowserForward,LeftMouseButton,Maximize,MediaPlayer,Minimize,MM NEXT,MiddleMouseButton,PageDown,PageUp,Paste,MM PLAY,Redo,RightClick,HorzScrollRightSet,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMFreeWheelScrollMinRightGroup" HandlerSetNames="HorzScrollRightSet,CruiseDown,CruiseUp,BrowserForward,MM NEXT,VOLUMEUPRepeat,KeystrokeAssignment,OEMOthersFreeWheelMinRightScrollMiceGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="OEMFreeWheelScrollMinRightGroupPlaermo" HandlerSetNames="HorzScrollRightSet,CruiseUp,CruiseDown,BrowserForward,MM PREVIOUS,VOLUMEUPRepeat,KeystrokeAssignment,OEMOthersFreeWheelMinRightScrollMiceGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="OEMOthersFreeWheelMinRightScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,Back,CloseApplication,Copy,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,HorzScrollLeftSet,Maximize,MediaPlayer,Minimize,MiddleMouseButton,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMApplicationSwitchGroup" HandlerSetNames="QuickSwitch,AutoScroll,UniversalScroll,KeystrokeAssignment,OEMOtherMiceGroup" VisibleHandlerSetCount="4"  />
+    <HandlerSetGroup Name="OEMForwardGroup" HandlerSetNames="BrowserForward,Back,CruiseUp,CruiseDown,KeystrokeAssignment,OEMOthersGenericMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="OEMBackGroup" HandlerSetNames="Back,BrowserForward,CruiseUp,CruiseDown,KeystrokeAssignment,OEMOthersGenericMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="OEMStandardZScrollWheelBtnGroup" HandlerSetNames="Do Nothing,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OEMOthersGenericZMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="OEMOthersGenericZMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,DoubleClick,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,ZoomSet,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OEMStandardScrollWheelButtonGroup" HandlerSetNames="AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OEMOthersGenericMiceGroup" VisibleHandlerSetCount="4"  />\
+    <HandlerSetGroup Name="OEMBasicSmartSearchGroup" HandlerSetNames="BasicSmartSearch,OEMStandardScrollWheelButtonGroup"  />
+    <HandlerSetGroup Name="OEMScrollLeftMediaGroup" HandlerSetNames="HorzScrollLeftSet,MM PREVIOUS,MM PLAY,MM STOP,MediaPlayer,VOLUMEDOWNRepeat,MM NEXT,VOLUMEUP,MM REWIND,MM FASTFORWARD,CruiseUp,CruiseDown,BrowserForward,Back,KeystrokeAssignment,OEMOtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="OEMScrollRightMediaGroup" HandlerSetNames="HorzScrollRightSet,MM NEXT,MM PLAY,MM STOP,MediaPlayer,VOLUMEUPRepeat,MM PREVIOUS,VOLUMEDOWN,MM FASTFORWARD,MM REWIND,CruiseUp,CruiseDown,BrowserForward,Back,KeystrokeAssignment,OEMOtherMiceGroup" VisibleHandlerSetCount="6" />
+
+    <HandlerSetGroup Name="OEMMiddleButtonGroup" HandlerSetNames="MiddleMouseButton,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OEMOthersMiddleMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="OEMRetailMiddleButtonGroup" HandlerSetNames="QuickSwitch,MiddleMouseButton,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OEMOthersMiddleMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="OEMMiddleButtonAppSwitchGroup" HandlerSetNames="ApplicationSwitch,MiddleMouseButton,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OEMOthersMiddleMiceGroup" VisibleHandlerSetCount="7"  />
+
+
+    <HandlerSetGroup Name="PrimaryMiceButtons" HandlerSetNames="RightClick,LeftClick" />
+    <HandlerSetGroup Name="OthersGenericMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,QuickSwitch,Do Nothing,DoubleClick,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeMiddleMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,QuickSwitch,Do Nothing,DoubleClick,StartMenu,DragLock,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeDocumentFlipGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,QuickSwitch,DragLock,GenericMouseButton,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,Paste,Redo,StartMenu,Undo,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeWheelMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,Cut,Do Nothing,GenericMouseButton,LeftMouseButton,HorzScrollLeftSet,Maximize,MediaPlayer,Minimize,MiddleMouseButton,PageDown,PageUp,Paste,MM PLAY,Redo,RightClick,HorzScrollRightSet,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,ApplicationSwitch,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeWheelLeftScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,CruiseUp,Cut,Do Nothing,DoubleClick,DragLock,BrowserForward,LeftMouseButton,Maximize,MediaPlayer,Minimize,MM NEXT,PageDown,PageUp,Paste,MM PLAY,Redo,RightClick,HorzScrollRightSet,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,ApplicationSwitch,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeWheelMinLeftScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,Cut,Do Nothing,DoubleClick,DragLock,BrowserForward,LeftMouseButton,Maximize,MediaPlayer,Minimize,MM NEXT,MiddleMouseButton,PageDown,PageUp,Paste,MM PLAY,Redo,RightClick,HorzScrollRightSet,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeMaderiaZoominGroup" HandlerSetNames="MM REWIND,QuickSwitch,Back,CloseApplication,Copy,CruiseDown,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,HorzScrollLeftSet,Maximize,MediaPlayer,Minimize,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,HorzScrollRightSet,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,ZoomBtnOutSet2,AdvSmartSearch,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeMaderiaZoomoutGroup" HandlerSetNames="QuickSwitch,CloseApplication,Copy,CruiseUp,Cut,Do Nothing,DoubleClick,DragLock,BrowserForward,LeftMouseButton,HorzScrollLeftSet,Maximize,MediaPlayer,Minimize,MM NEXT,PageDown,PageUp,Paste,MM PLAY,Redo,RightClick,HorzScrollRightSet,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEUPRepeat,ZoomBtnInSet2,AdvSmartSearch,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeWheelRightScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,Back,CloseApplication,Copy,CruiseDown,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,HorzScrollLeftSet,HorzScrollRightSet,Maximize,MediaPlayer,Minimize,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,ApplicationSwitch,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFaroSardinaFreeWheelRightScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,CruiseDown,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,HorzScrollLeftSet,HorzScrollRightSet,Maximize,MediaPlayer,Minimize,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFaroFreeWheelRightScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,CloseApplication,Copy,CruiseDown,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,Maximize,MediaPlayer,Minimize,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,VOLUMEUPRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,BrowserForward,Back,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersFreeWheelMinRightScrollMiceGroup" HandlerSetNames="MM REWIND,QuickSwitch,Back,CloseApplication,Copy,Cut,Do Nothing,DoubleClick,DragLock,LeftMouseButton,HorzScrollLeftSet,Maximize,MediaPlayer,Minimize,MiddleMouseButton,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,MM FASTFORWARD,StartMenu,MM STOP,Undo,UniversalScroll,VOLUMEDOWNRepeat,ZoomBtnInSet2,ZoomBtnOutSet2,ZoomBtnResetSet,ShowDesktop,VOLUMEMUTE,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="AdvnSearchOtherMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,QuickSwitch,DoubleClick,DragLock,LeftMouseButton,Maximize,Minimize,Paste,MM PLAY,Redo,StartMenu,MM STOP,Undo,ShowDesktop,VOLUMEMUTE,ApplicationSwitch,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="AdvnSearchMaderiaOtherMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,QuickSwitch,DoubleClick,DragLock,LeftMouseButton,Maximize,Minimize,MiddleMouseButton,Paste,Redo,StartMenu,MM STOP,Undo,ShowDesktop,Windows8OthersTaskGroup,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersGenericZMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,DoubleClick,QuickSwitch,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,ZoomSet,ApplicationSwitch,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersMiddleMiceGroup" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,QuickSwitch,DoubleClick,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersMiceGroupFullList" HandlerSetNames="ApplicationSwitch,AutoScroll,Back,CloseApplication,Copy,CruiseDown,CruiseUp,Cut,Do Nothing,QuickSwitch,DoubleClick,DragLock,GenericMouseButton,BrowserForward,KeystrokeAssignment,LeftMouseButton,Maximize,Minimize,VOLUMEMUTE,MM NEXT,AdvSmartSearch,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,HorzScrollLeftSet,HorzScrollRightSet,StartMenu,Unassigned,Undo,UniversalScroll,VOLUMEUPRepeat,VOLUMEDOWNRepeat,ZoomSet,ZoomBtnResetSet,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersMiceGroupFullList2" HandlerSetNames="ApplicationSwitch,AutoScroll,Back,CloseApplication,Copy,CruiseDown,CruiseUp,Cut,Do Nothing,QuickSwitch,DoubleClick,DragLock,GenericMouseButton,BrowserForward,KeystrokeAssignment,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,DPISwitch,VOLUMEMUTE,MM NEXT,AdvSmartSearch,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,HorzScrollLeftSet,HorzScrollRightSet,StartMenu,Unassigned,Undo,UniversalScroll,VOLUMEUPRepeat,VOLUMEDOWNRepeat,ZoomSet,ZoomBtnResetSet,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OthersMiceGroupFullList3" HandlerSetNames="ApplicationSwitch,AutoScroll,Back,CloseApplication,Copy,CruiseDown,CruiseUp,Cut,Do Nothing,QuickSwitch,DoubleClick,DragLock,GenericMouseButton,BrowserForward,KeystrokeAssignment,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,VOLUMEMUTE,MM NEXT,AdvSmartSearch,PageDown,PageUp,Paste,MM PLAY,MM PREVIOUS,Redo,RightClick,HorzScrollLeftSet,HorzScrollRightSet,StartMenu,Unassigned,Undo,UniversalScroll,VOLUMEUPRepeat,VOLUMEDOWNRepeat,ZoomSet,ZoomBtnResetSet,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="OtherMiceGroup"         HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,QuickSwitch,StartMenu,DragLock,LeftMouseButton,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="StandardScrollWheelButtonGroup" HandlerSetNames="AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OthersGenericMiceGroup" VisibleHandlerSetCount="4"  />\
+    <HandlerSetGroup Name="StandardZScrollWheelBtnGroup" HandlerSetNames="Do Nothing,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OthersGenericZMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="FreeWheelZScrollWheelBtnGroup" HandlerSetNames="Do Nothing,ManualShiftSet,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OthersGenericZMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="MiddleButtonGroup" HandlerSetNames="MiddleMouseButton,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OthersMiddleMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="AppSwitchFreeWheelGroup" HandlerSetNames="QuickSwitch,AutoScroll,UniversalScroll,MediaPlayer,MM PLAY,MM STOP,KeystrokeAssignment,OthersFreeDocumentFlipGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="MiddleButtonGroup2" HandlerSetNames="MiddleMouseButton,QuickSwitch,SearchForFiles,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersMiddleMiceGroup,ApplicationSwitch" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="MiddleButtonGroup3" HandlerSetNames="ZoomSet,MiddleMouseButton,ApplicationSwitch,AdvSmartSearch,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersMiddleMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="MiddleButtonGroup4" HandlerSetNames="MiddleMouseButton,ZoomSet,ApplicationSwitch,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersMiddleMiceGroup" VisibleHandlerSetCount="8"  />
+    <HandlerSetGroup Name="MiddleButtonGroup5" HandlerSetNames="ApplicationSwitch,ZoomSet,MiddleMouseButton,AdvSmartSearch,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersMiddleMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="MiddleButtonGroup7" HandlerSetNames="MiddleMouseButton,ZoomSet,ApplicationSwitch,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersMiceGroupFullList3" VisibleHandlerSetCount="8"  />
+    <HandlerSetGroup Name="MiddleButtonGroupFlores" HandlerSetNames="ZoomSet,MiddleMouseButton,ApplicationSwitch,AdvSmartSearch,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersMiceGroupFullList" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="StandardScrollWheelGenericButtonGroup" HandlerSetNames="GenericMouseButton,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OtherMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="StandardScrollWheelGenericButtonGroup2" HandlerSetNames="UniversalScroll,GenericMouseButton,AutoScroll,KeystrokeAssignment,QuickSwitch,OtherMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="StandardScrollWheelGenericButtonGroup3" HandlerSetNames="GenericMouseButton,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OthersMiceGroupFullList3" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="MiddleButtonTiltGenericGroup" HandlerSetNames="GenericMouseButton,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OtherMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="TiltWheelButtonGroup" HandlerSetNames="ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,QuickSwitch,OthersGenericMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="TiltWheelXposeButtonGroup" HandlerSetNames="QuickSwitch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiddleButtonXposeButtonsGroup" HandlerSetNames="ApplicationSwitch,ZoomSet,MiddleMouseButton,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,QuickSwitch,OthersGenericMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="MiddleButtonAppSwitchButtonsGroup" HandlerSetNames="ApplicationSwitch,ZoomSet,MiddleMouseButton,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="MiddleButtonAppSwitchButtonsGroup2" HandlerSetNames="ApplicationSwitch,MiddleMouseButton,AdvSmartSearch,ZoomSet,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="ThumbButtonFloresGroup" HandlerSetNames="ApplicationSwitch,QuickSwitch,AdvSmartSearch,ZoomBtnResetSet,MM PLAY,KeystrokeAssignment,MiddleButtonGroupFlores" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="MiddleButtonJavaGroup" HandlerSetNames="ApplicationSwitch,MiddleMouseButton,AdvSmartSearch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,MiddleButtonGroupFlores" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="ZoomXposeButtonsGroup" HandlerSetNames="ZoomSet,MiddleMouseButton,QuickSwitch,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="AppSwitchZoomGroup" HandlerSetNames="QuickSwitch,ZoomSet,AutoScroll,UniversalScroll,MediaPlayer,MM PLAY,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="DocFlipZoomGroup" HandlerSetNames="QuickSwitch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="DocFlip3DZoomGroup" HandlerSetNames="QuickSwitch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="FreeWheelMiddleGroup" HandlerSetNames="ZoomSet,QuickSwitch,AutoScroll,GenericMouseButton,UniversalScroll,MediaPlayer,MM PLAY,KeystrokeAssignment,OthersFreeMiddleMiceGroup" />
+    <HandlerSetGroup Name="MiddleWheelButtonGroup" HandlerSetNames="ZoomSet,QuickSwitch,MiddleMouseButton,AdvSmartSearch,AutoScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment" />
+    <HandlerSetGroup Name="MiddleWheelButtonGroupExtended" HandlerSetNames="QuickSwitch,ZoomSet,MiddleMouseButton,AdvSmartSearch,AutoScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OtherMiceGroup" />
+    <HandlerSetGroup Name="FaroMiddleGroup" HandlerSetNames="ZoomSet,QuickSwitch,AdvSmartSearch,MiddleMouseButton,MediaPlayer,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersGenericMiceGroup" />
+    <HandlerSetGroup Name="AppSwitchFreeWheelGroup" HandlerSetNames="QuickSwitch,AutoScroll,UniversalScroll,MediaPlayer,MM PLAY,MM STOP,KeystrokeAssignment,OthersFreeDocumentFlipGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="ScrollLeftGroup" HandlerSetNames="HorzScrollLeftSet,CruiseUp,BrowserForward,KeystrokeAssignment,OtherMiceGroup,CruiseDown,Back" VisibleHandlerSetCount="4"  />
+    <HandlerSetGroup Name="ScrollLeftGroup3" HandlerSetNames="HorzScrollLeftSet,CruiseDown,Back,KeystrokeAssignment,OtherMiceGroup,CruiseDown,Back" VisibleHandlerSetCount="4"  />
+    <HandlerSetGroup Name="ScrollLeftFaroAndSardiniaGroup" HandlerSetNames="Back,MM PREVIOUS,CruiseDown,PageDown,VOLUMEDOWNRepeat,ZoomBtnOutSet2,MiddleMouseButton,KeystrokeAssignment,OthersFaroSardinaFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="ScrollRightFaroAndSardiniaGroup" HandlerSetNames="BrowserForward,MM NEXT,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,MiddleMouseButton,KeystrokeAssignment,OthersFaroSardinaFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="ForwardFloresGroup" HandlerSetNames="BrowserForward,MM NEXT,PageUp,CruiseUp,KeystrokeAssignment,MiddleButtonGroupFlores" VisibleHandlerSetCount="5"/>
+    <HandlerSetGroup Name="BackFloresGroup" HandlerSetNames="Back,MM PREVIOUS,PageDown,CruiseDown,KeystrokeAssignment,MiddleButtonGroupFlores" VisibleHandlerSetCount="5"/>
+    <HandlerSetGroup Name="ScrollLeftFloresGroup" HandlerSetNames="HorzScrollLeftSet,Back,MM PREVIOUS,CruiseUp,CruiseDown,KeystrokeAssignment,MiddleButtonGroupFlores" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="ScrollRightFloresGroup" HandlerSetNames="HorzScrollRightSet,BrowserForward,MM NEXT,CruiseDown,CruiseUp,KeystrokeAssignment,MiddleButtonGroupFlores" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="OthersMiddleMiceGroup2" HandlerSetNames="CloseApplication,Copy,Cut,Do Nothing,DoubleClick,StartMenu,DragLock,GenericMouseButton,LeftMouseButton,Maximize,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo,Windows8OthersTaskGroup" />
+    <HandlerSetGroup Name="MiddleButtonAppSwitchGroup" HandlerSetNames="ApplicationSwitch,MiddleMouseButton,AutoScroll,UniversalScroll,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,OthersMiddleMiceGroup2" VisibleHandlerSetCount="7"  />
+
+    <HandlerSetGroup Name="ScrollLeftFaroGroup" HandlerSetNames="HorzScrollLeftSet,MM PREVIOUS,CruiseDown,PageDown,VOLUMEDOWNRepeat,ZoomBtnOutSet2,MiddleMouseButton,KeystrokeAssignment,OthersFaroFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="FreeWheelScrollLeftGroup" HandlerSetNames="HorzScrollLeftSet,CruiseUp,CruiseDown,Back,MM PREVIOUS,KeystrokeAssignment,OthersFreeWheelLeftScrollMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="FreeWheelMinScrollLeftGroup" HandlerSetNames="HorzScrollLeftSet,CruiseUp,CruiseDown,Back,MM PREVIOUS,VOLUMEDOWNRepeat,KeystrokeAssignment,OthersFreeWheelMinLeftScrollMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="FreeWheelMinScrollSardiniaLeftGroup" HandlerSetNames="HorzScrollLeftSet,MM NEXT,MM PREVIOUS,CruiseUp,CruiseDown,PageUp,PageDown,VOLUMEDOWNRepeat,KeystrokeAssignment,OthersFreeWheelMinLeftScrollMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="ScrollLeftMiddleGroupExt" HandlerSetNames="HorzScrollLeftSet,MM PREVIOUS,Back,CruiseDown,PageDown,VOLUMEDOWNRepeat,ZoomBtnOutSet2,KeystrokeAssignment,MM NEXT,BrowserForward,CruiseUp,OthersFreeWheelMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="ScrollRightMiddleGroupExt" HandlerSetNames="HorzScrollRightSet,MM NEXT,BrowserForward,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,KeystrokeAssignment,MM PREVIOUS,Back,CruiseDown,OthersFreeWheelMiceGroup" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="ScrollLeftMiddleGroup" HandlerSetNames="HorzScrollLeftSet,MM PREVIOUS,Back,CruiseDown,PageDown,VOLUMEDOWNRepeat,ZoomBtnOutSet2,KeystrokeAssignment" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="ScrollRightMiddleGroup" HandlerSetNames="HorzScrollRightSet,MM NEXT,BrowserForward,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,KeystrokeAssignment" VisibleHandlerSetCount="8" />
+    <HandlerSetGroup Name="FreeWheelScrollRightGroup" HandlerSetNames="HorzScrollRightSet,CruiseDown,CruiseUp,BrowserForward,MM NEXT,KeystrokeAssignment,OthersFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="FreeWheelScrollMinRightGroup" HandlerSetNames="HorzScrollRightSet,CruiseDown,CruiseUp,BrowserForward,MM NEXT,VOLUMEUPRepeat,KeystrokeAssignment,OthersFreeWheelMinRightScrollMiceGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="FreeWheelScrollMinRightSardiniaGroup" HandlerSetNames="HorzScrollRightSet,MM NEXT,MM PREVIOUS,CruiseUp,CruiseDown,PageUp,PageDown,VOLUMEUpRepeat,KeystrokeAssignment,OthersFreeWheelMinRightScrollMiceGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="ScrollRightGroup2" HandlerSetNames="HorzScrollRightSet,BrowserForward,MM NEXT,CruiseDown,CruiseUp,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="ScrollRightGroup4" HandlerSetNames="HorzScrollRightSet_Borneo,BrowserForward,MM NEXT,CruiseDown,CruiseUp,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="ScrollLeftGroup2" HandlerSetNames="HorzScrollLeftSet,Back,MM PREVIOUS,CruiseUp,CruiseDown,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="ScrollLeftGroup4" HandlerSetNames="HorzScrollLeftSet_Borneo,Back,MM PREVIOUS,CruiseUp,CruiseDown,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="ScrollRightGroup" HandlerSetNames="HorzScrollRightSet,CruiseDown,Back,KeystrokeAssignment,OtherMiceGroup,CruiseUp,BrowserForward" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="ScrollRightGroup3" HandlerSetNames="HorzScrollRightSet,CruiseUp,BrowserForward,KeystrokeAssignment,OtherMiceGroup,CruiseUp,BrowserForward" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="ScrollRightFaroAndSardiniaGroup" HandlerSetNames="BrowserForward,MM NEXT,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,MiddleMouseButton,KeystrokeAssignment,OthersFaroSardinaFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="ScrollRightFaroGroup" HandlerSetNames="HorzScrollRightSet,MM NEXT,CruiseUp,PageUp,VOLUMEUPRepeat,ZoomBtnInSet2,MiddleMouseButton,KeystrokeAssignment,OthersFaroFreeWheelRightScrollMiceGroup" VisibleHandlerSetCount="8"/>
+    <HandlerSetGroup Name="ScrollLeftMediaGroup" HandlerSetNames="HorzScrollLeftSet,MM PREVIOUS,MM PLAY,MM STOP,MediaPlayer,VOLUMEDOWNRepeat,MM NEXT,VOLUMEUP,MM REWIND,MM FASTFORWARD,CruiseUp,CruiseDown,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="ScrollRightMediaGroup" HandlerSetNames="HorzScrollRightSet,MM NEXT,MM PLAY,MM STOP,MediaPlayer,VOLUMEUPRepeat,MM PREVIOUS,VOLUMEDOWN,MM FASTFORWARD,MM REWIND,CruiseUp,CruiseDown,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="ForwardGroup" HandlerSetNames="BrowserForward,Back,CruiseUp,CruiseDown,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="FreeWheelForwardGroup" HandlerSetNames="BrowserForward,Back,CruiseDown,CruiseUp,MM NEXT,MM PREVIOUS,KeystrokeAssignment,OthersFreeWheelMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="ForwardGenericGroup" HandlerSetNames="GenericMouseButton,BrowserForward,Back,CruiseUp,CruiseDown,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="BackGroup" HandlerSetNames="Back,BrowserForward,CruiseUp,CruiseDown,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="FreeWheelBackGroup" HandlerSetNames="Back,BrowserForward,CruiseUp,CruiseDown,MM PREVIOUS,MM NEXT,KeystrokeAssignment,OthersFreeWheelMiceGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="BackGroup2" HandlerSetNames="Back,MM PREVIOUS,PageDown,CruiseDown,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="BackGroup3" HandlerSetNames="Back,MM PREVIOUS,PageDown,CruiseDown,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="BackGroup4" HandlerSetNames="Back,MM PREVIOUS,PageDown,CruiseDown,KeystrokeAssignment,OthersMiceGroupFullList3" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="ForwardGroup2" HandlerSetNames="BrowserForward,MM NEXT,PageUp,CruiseUp,KeystrokeAssignment,OthersGenericMiceGroup" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="ForwardGroup3" HandlerSetNames="BrowserForward,MM NEXT,PageUp,CruiseUp,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="ForwardGroup4" HandlerSetNames="BrowserForward,MM NEXT,PageUp,CruiseUp,KeystrokeAssignment,OthersMiceGroupFullList3" VisibleHandlerSetCount="5"  />
+    <HandlerSetGroup Name="AppSwitchGroup2" HandlerSetNames="ApplicationSwitch,QuickSwitch,AdvSmartSearch,ZoomBtnResetSet,VOLUMEMUTE,MM PLAY,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="PanAndZoomGroup" HandlerSetNames="PanAndZoom,QuickSwitch,AdvSmartSearch,ZoomBtnResetSet,VOLUMEMUTE,MM PLAY,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="BackGenericGroup" HandlerSetNames="GenericMouseButton,Back,BrowserForward,CruiseUp,CruiseDown,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="ApplicationSwitchGroup" HandlerSetNames="QuickSwitch,AutoScroll,UniversalScroll,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="4"  />
+    <HandlerSetGroup Name="SearchGroup" HandlerSetNames="SearchForFiles,GotoWebAddress,LaunchProgram,Back,QuickSwitch,VOLUMEMUTE,KeystrokeAssignment" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="CruiseUpControlButtonsGroup" HandlerSetNames="CruiseUp,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="CruiseDownControlButtonsGroup" HandlerSetNames="CruiseDown,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="4" />
+    <HandlerSetGroup Name="SensitivityUpGroup" HandlerSetNames="SensitivityIncrease,CruiseUp,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SensitivityDownGroup" HandlerSetNames="SensitivityDecrease,CruiseDown,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="SensitivityToggleGroup" HandlerSetNames="SensitivityToggle,CruiseDown,BrowserForward,Back,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiceMediaButtonGroup" HandlerSetNames="MediaPlayerMediaLife,QuickSwitch,AutoScroll,UniversalScroll,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiceAllGroup" HandlerSetNames="BrowserForward,Back,QuickSwitch,CruiseUp,CruiseDown,AutoScroll,UniversalScroll,KeystrokeAssignment,Do Nothing,Unassigned,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,PageDown,PageUp,HorzScrollLeftSet,HorzScrollRightSet" />
+    <HandlerSetGroup Name="MiceAllMediaGroup" HandlerSetNames="MediaPlayerMediaLife,BrowserForward,Back,QuickSwitch,CruiseUp,CruiseDown,AutoScroll,UniversalScroll,KeystrokeAssignment,Do Nothing,Unassigned,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,PageDown,PageUp" />
+    <HandlerSetGroup Name="MiceAllGenericGroup" HandlerSetNames="BrowserForward,Back,QuickSwitch,CruiseUp,CruiseDown,AutoScroll,UniversalScroll,KeystrokeAssignment,Do Nothing,Unassigned,GenericMouseButton,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,PageDown,PageUp" />
+    <HandlerSetGroup Name="MiceAllZoomGenericGroup" HandlerSetNames="BrowserForward,Back,QuickSwitch,CruiseUp,CruiseDown,ZoomSet,UniversalScroll,KeystrokeAssignment,Do Nothing,Unassigned,AutoScroll,GenericMouseButton,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,PageDown,PageUp" />
+    <HandlerSetGroup Name="MiceAllExtraZoomGenericGroup" HandlerSetNames="BrowserForward,Back,QuickSwitch,CruiseUp,CruiseDown,AutoScroll,UniversalScroll,KeystrokeAssignment,Do Nothing,Unassigned,ZoomSet,GenericMouseButton,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,PageDown,PageUp" />
+    <HandlerSetGroup Name="MiceZoomUpGroup" HandlerSetNames="ZoomBtnInSet,VOLUMEUP,MM NEXT,CruiseUp,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiceZoomDownGroup" HandlerSetNames="ZoomBtnOutSet,VOLUMEDOWN,MM PREVIOUS,CruiseDown,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiceZoomUpGroup2" HandlerSetNames="ZoomBtnInSet2,VOLUMEUPRepeat,MM NEXT,CruiseUp,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiceZoomDownGroup2" HandlerSetNames="ZoomBtnOutSet2,VOLUMEDOWNRepeat,MM PREVIOUS,CruiseDown,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="MiceZoomResetGroup" HandlerSetNames="ZoomBtnResetSet,VOLUMEMUTE,MM PLAY,QuickSwitch,KeystrokeAssignment,OtherMiceGroup" VisibleHandlerSetCount="5" />
+    <HandlerSetGroup Name="HotKeysCommon"	  HandlerSetNames="GotoWebAddress,LaunchProgram,FileLauncher,FolderLauncher,UserMenu,KeystrokeAssignment,QuickSwitch,Do Nothing" />
+    <HandlerSetGroup Name="HotKeysCommon2"	  HandlerSetNames="GotoWebAddress,LaunchProgram,FileLauncher,FolderLauncher,UserMenu,KeystrokeAssignment,Do Nothing" />
+    <HandlerSetGroup Name="KeyCommon" HandlerSetNames="HotKeysCommon,Webcam,Calculator,ControlPanel,PreviousApplication,NextApplication,Help,Documents,Spreadsheets,Calendar,GadgetsSet"/>
+    <HandlerSetGroup Name="KeyCommonExpose" HandlerSetNames="HotKeysCommon,ApplicationSwitch,Webcam,Calculator,ControlPanel,PreviousApplication,NextApplication,Help,Documents,Spreadsheets,Calendar,GadgetsSet"/>
+    <HandlerSetGroup Name="KeyCommonExpose2" HandlerSetNames="HotKeysCommon2,ApplicationSwitch,Webcam,Calculator,ControlPanel,PreviousApplication,NextApplication,Help,Documents,Spreadsheets,Calendar,GadgetsSet"/>
+    <HandlerSetGroup Name="KeyCommonWave" HandlerSetNames="HotKeysCommon,Calculator,Calendar,Documents,QuickSwitch,Email,GadgetsSet,Help,MediaPlayer,Messenger,PersonalFolders,HomePage,AdvSmartSearch,SearchForFiles,SearchPicture,Spreadsheets,Webcam,MediaCenterSet"/>
+    <HandlerSetGroup Name="KeyCommonMini" HandlerSetNames="HotKeysCommon,Calculator,Calendar,QuickSwitch,Documents,Email,GadgetsSet,Help,MediaPlayer,Messenger,PersonalFolders,HomePage,AdvSmartSearch,SearchForFiles,SearchPicture,Spreadsheets"/>
+    <HandlerSetGroup Name="KeyCommonMiniExpose" HandlerSetNames="HotKeysCommon,Calculator,Calendar,QuickSwitch,Documents,Email,GadgetsSet,Help,MediaPlayer,Messenger,PersonalFolders,HomePage,AdvSmartSearch,SearchForFiles,ApplicationSwitch,SearchPicture,Spreadsheets"/>
+    <HandlerSetGroup Name="HotKeyCommonExpose" HandlerSetNames="HotKeysCommon,Calculator,Calendar,QuickSwitch,Documents,Email,GadgetsSet,Help,MediaPlayer,Messenger,PersonalFolders,HomePage,AdvSmartSearch,SearchForFiles,ApplicationSwitch,SearchPicture,Spreadsheets"/>
+    <HandlerSetGroup Name="HotKeyCommonExpose2" HandlerSetNames="HotKeysCommon2,Calculator,Calendar,QuickSwitch,Documents,Email,GadgetsSet,Help,MediaPlayer,Messenger,PersonalFolders,HomePage,AdvSmartSearch,SearchForFiles,ApplicationSwitch,SearchPicture,Spreadsheets"/>
+    <HandlerSetGroup Name="FKeysKeyCommonBase" HandlerSetNames="Calculator,Calendar,ControlPanel,Documents,GadgetsSet,Help,NextApplication,PreviousApplication,Spreadsheets,Webcam"/>
+    <HandlerSetGroup Name="FKeysKeyCommon" HandlerSetNames="HotKeysCommon2,FKeysKeyCommonBase"/>
+    <HandlerSetGroup Name="FKeysKeyCommonExpose" HandlerSetNames="HotKeysCommon2,FKeysKeyCommonBase,ApplicationSwitch"/>
+    <HandlerSetGroup Name="F1KeyCommon" HandlerSetNames="Do Nothing,HotKeysCommon,Webcam,Calculator,ControlPanel,PreviousApplication,NextApplication,Help,Documents,Spreadsheets,Calendar"/>
+    <HandlerSetGroup Name="HotKeysMyHomeGroup" HandlerSetNames="HomePage,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysMyHomeGroup2" HandlerSetNames="HomePage,FKeysKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysMyHomeGroupMini" HandlerSetNames="HomePage,KeyCommonMiniExpose"/>
+    <HandlerSetGroup Name="HotKeysMyHomeGroup1" HandlerSetNames="HomePage,FKeysKeyCommon"/>
+    <HandlerSetGroup Name="HotKeysMyHomeGroup3" HandlerSetNames="HomePage,HotKeyCommonExpose2"/>
+    <HandlerSetGroup Name="GadgetSetGroup" HandlerSetNames="GadgetsSet,HotKeysCommon"/>
+    <HandlerSetGroup Name="GadgetSetGroupWave" HandlerSetNames="GadgetsSet,KeyCommonWave" />
+    <HandlerSetGroup Name="GadgetSetGroup1" HandlerSetNames="GadgetsSet,FKeysKeyCommon" />
+    <HandlerSetGroup Name="GadgetSetGroup2" HandlerSetNames="GadgetsSet,KeyCommonExpose2" />
+    <HandlerSetGroup Name="GadgetSetGroup3" HandlerSetNames="GadgetsSet,HotKeyCommonExpose2" />
+    <HandlerSetGroup Name="HotKeysSearchGroup"  HandlerSetNames="iTouchSearch*,SearchForFiles,HotKeysCommon"/>
+    <HandlerSetGroup Name="DesktopSearchGroup"  HandlerSetNames="DesktopSearch,SearchForFiles,HotKeysCommon"/>
+    <HandlerSetGroup Name="AdvancedSearchGroup"  HandlerSetNames="AdvSmartSearch,SearchForFiles,HotKeysCommon"/>
+    <HandlerSetGroup Name="AdvancedSearchGroup2"  HandlerSetNames="AdvSmartSearch,SearchForFiles,HotKeysCommon,KeyCommon"/>
+    <HandlerSetGroup Name="HotKeysShoppingGroup"  HandlerSetNames="Shopping,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysFavoritesGroup" HandlerSetNames="Favorites,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysFavoritesGroup2" HandlerSetNames="Favorites,HotKeyCommonExpose2"  />
+    <HandlerSetGroup Name="HotKeysFavoritesGroup3" HandlerSetNames="Favorites,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysiTouchGroup" HandlerSetNames="iTouch,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysAdvSearchGroupMini" HandlerSetNames="AdvSmartSearch,KeyCommonMini"  />
+    <HandlerSetGroup Name="HotKeysAdvSearchGroup1" HandlerSetNames="AdvSmartSearch,FKeysKeyCommon"  />
+    <HandlerSetGroup Name="HotKeysAdvSearchGroup2" HandlerSetNames="AdvSmartSearch,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysShowDesktopGroup" HandlerSetNames="ShowDesktop,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysWindowsMinimizeGroup" HandlerSetNames="WindowsMinimize,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysWindowsRestoreGroup" HandlerSetNames="WindowsRestore,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysMyComputerGroup" HandlerSetNames="My Computer,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysWindowsLockGroup" HandlerSetNames="WindowsLock,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysInternetRefreshGroup" HandlerSetNames="BrowserRefresh,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysInternetRefreshGroup2" HandlerSetNames="BrowserRefresh,HotKeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysInternetStopGroup" HandlerSetNames="BrowserStop,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysEmailGroup" HandlerSetNames="Email,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysEmailGroup2" HandlerSetNames="Email,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysEmailGroupMini" HandlerSetNames="Email,KeyCommonMini"  />
+    <HandlerSetGroup Name="HotKeysEmailGroup1" HandlerSetNames="Email,FKeysKeyCommon"  />
+    <HandlerSetGroup Name="HotKeysEmailGroup3" HandlerSetNames="Email,HotKeyCommonExpose2"  />
+    <HandlerSetGroup Name="HotKeysEmailGroup4" HandlerSetNames="Email,KeyCommonExpose2"  />
+    <HandlerSetGroup Name="HotKeysOneTouchSyncGroup" HandlerSetNames="OneTouchSync,SearchForFiles,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMessengerGroup" HandlerSetNames="Messenger,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMessengerGroupMini" HandlerSetNames="Messenger,KeyCommonMini"  />
+    <HandlerSetGroup Name="HotKeysMessengerGroup1" HandlerSetNames="Messenger,FKeysKeyCommon"  />
+    <HandlerSetGroup Name="HotKeysMessengerGroup2" HandlerSetNames="Messenger,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysMessengerGroup3" HandlerSetNames="Messenger,KeyCommonExpose2"  />
+    <HandlerSetGroup Name="HotKeysWebcamGroup" HandlerSetNames="Webcam,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMediaGroup" HandlerSetNames="MediaPlayer,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMediaGroup2" HandlerSetNames="MediaPlayer,HotKeyCommonExpose2"  />
+    <HandlerSetGroup Name="HotKeysMediaGroupMini" HandlerSetNames="MediaPlayer,KeyCommonMiniExpose"  />
+    <HandlerSetGroup Name="HotKeysMediaGroup1" HandlerSetNames="MediaPlayer,FKeysKeyCommon"  />
+    <HandlerSetGroup Name="HotKeysMediaGroup2" HandlerSetNames="MediaPlayer,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="HotKeysMediaGroupWave" HandlerSetNames="MediaPlayer,KeyCommonWave"/>
+    <HandlerSetGroup Name="HotKeysMediaiTunesGroup" HandlerSetNames="MediaPlayeriTunes,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMediaCenterGroup" HandlerSetNames="MediaPlayerMediaCenter,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMediaCentersGroup" HandlerSetNames="MediaCenterSet,HotKeysCommon"  />
+    <HandlerSetGroup Name="HotKeysMediaCentersGroup1" HandlerSetNames="MediaCenterSet,HotKeyCommonExpose2"  />
+    <HandlerSetGroup Name="HotKeysMediaCentersGroupWave" HandlerSetNames="MediaCenterSet,KeyCommonWave" />
+    <HandlerSetGroup Name="HotKeysQuickSwitchGroup" HandlerSetNames="QuickSwitch,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysDocFlip3DGroup" HandlerSetNames="QuickSwitch,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysDocFlip3DGroupWave" HandlerSetNames="QuickSwitch,KeyCommonWave"/>
+    <HandlerSetGroup Name="HotKeysDocFlip3DGroupWaveOnly" HandlerSetNames="QuickSwitch,KeyCommonWave,ApplicationSwitch"/>
+    <HandlerSetGroup Name="HotKeysDocFlip3DGroupMercury" HandlerSetNames="ApplicationSwitch,QuickSwitch,KeyCommonWave"/>
+    <HandlerSetGroup Name="HotKeysBackGroup" HandlerSetNames="Back,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysBackGroup1" HandlerSetNames="Back,HotKeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysBackGroup2" HandlerSetNames="Back,FKeysKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysForwardGroup" HandlerSetNames="BrowserForward,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysForwardGroup1" HandlerSetNames="BrowserForward,HotKeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysForwardGroup2" HandlerSetNames="BrowserForward,FKeysKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysCloseGroup" HandlerSetNames="CloseApplication,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysZoomInGroup" HandlerSetNames="ZoomBtnInSet,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysZoomOutGroup" HandlerSetNames="ZoomBtnOutSet,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysZoomInGroupEx" HandlerSetNames="ZoomBtnInSet,KeyCommonWave"/>
+    <HandlerSetGroup Name="HotKeysZoomOutGroupEx" HandlerSetNames="ZoomBtnOutSet,KeyCommonWave"/>
+    <HandlerSetGroup Name="HotKeysZoomInGroup2" HandlerSetNames="ZoomBtnInSet2,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysZoomInGroup3" HandlerSetNames="ZoomBtnInSet2,KeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysZoomOutGroup2" HandlerSetNames="ZoomBtnOutSet2,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysZoomOutGroup3" HandlerSetNames="ZoomBtnOutSet2,KeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysZoomResetGroup" HandlerSetNames="ZoomBtnResetSet,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysCalcGroup" HandlerSetNames="Calculator,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysCalcGroupExpose" HandlerSetNames="Calculator,HotKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysCalcGroupExpose2" HandlerSetNames="Calculator,FKeysKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysCalcGroupExpose3" HandlerSetNames="Calculator,HotKeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysCalcGroupMini" HandlerSetNames="Calculator,KeyCommonMini"/>
+    <HandlerSetGroup Name="HotKeysCalcGroup1" HandlerSetNames="Calculator,FKeysKeyCommon"/>
+    <HandlerSetGroup Name="HotKeysAppSwitchGroupMini" HandlerSetNames="QuickSwitch,ApplicationSwitch,KeyCommonMini"/>
+    <HandlerSetGroup Name="HotKeysAppSwitchGroup1" HandlerSetNames="QuickSwitch,FKeysKeyCommon"/>
+    <HandlerSetGroup Name="HotKeysAppSwitchGroup2" HandlerSetNames="ApplicationSwitch,FKeysKeyCommon,QuickSwitch"/>
+    <HandlerSetGroup Name="HotKeysAppSwitchGroup3" HandlerSetNames="ApplicationSwitch,KeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysAppSwitchGroup4" HandlerSetNames="ApplicationSwitch,HotKeyCommonExpose2"/>
+    <HandlerSetGroup Name="HotKeysAppSwitchGroup5" HandlerSetNames="ApplicationSwitch,FKeysKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysMessengerStatusGroup" HandlerSetNames="ToggleStatus,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysEjectGroup" HandlerSetNames="Eject,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysEjectGroupLongDelay" HandlerSetNames="EjectLongDelay,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysEjectGroupMini" HandlerSetNames="Eject,KeyCommonMini"/>
+    <HandlerSetGroup Name="HotKeysEjectGroup1" HandlerSetNames="Eject,FKeysKeyCommon"/>
+    <HandlerSetGroup Name="HotKeysEjectGroup2" HandlerSetNames="Eject,FKeysKeyCommonExpose"/>
+    <HandlerSetGroup Name="HotKeysRecordGroup" HandlerSetNames="RecordMediaPlayer,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysBurnGroup" HandlerSetNames="BurnMediaPlayer,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysMediaLifeGroup" HandlerSetNames="RemoteMediaPlayer,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysMediaAllGroup" HandlerSetNames="MediaPlayerMediaLife,HotKeysCommon"/>
+    <HandlerSetGroup Name="HotKeysRotateGroup" HandlerSetNames="RotateRight,RotateLeft"/>
+    <HandlerSetGroup Name="HotKeysLargeMenuGroup" HandlerSetNames="MoscowLargeUserMenu,GotoWebAddress,LaunchProgram,FileLauncher,FolderLauncher,KeystrokeAssignment,Do Nothing,HotKeysOtherGroup"/>
+    <HandlerSetGroup Name="HotKeysOtherGroup" HandlerSetNames="QuickSwitch,BurnMediaPlayer,RecordMediaPlayer,Eject,Calculator,CloseApplication,GadgetsSet"/>
+    <HandlerSetGroup Name="PresetGroup" HandlerSetNames="PlaylistAssignment,MM SHUFFLE,RotateRight,RotateLeft,GotoWebAddress,FileLauncher,FolderLauncher,LaunchProgram,KeystrokeAssignment,Unassigned"/>
+    <HandlerSetGroup Name="HotKeysRotateGroupNoDialog" HandlerSetNames="RotateRightNoDialog,RotateLeftNoDialog"/>
+    <HandlerSetGroup Name="HotKeysMaximizeGroup" HandlerSetNames="Maximize,HotKeysCommon"/>
+    <HandlerSetGroup Name="Keyboard" HandlerSetNames="MediaPlayer,HotKeysCommon"  />
+    <HandlerSetGroup Name="BasicVOIPCallGroup" HandlerSetNames="VoIPCallSet,HotKeysCommon"  />
+    <HandlerSetGroup Name="BasicVOIPHangupGroup" HandlerSetNames="VoIPHangupSet,HotKeysCommon"  />
+    <HandlerSetGroup Name="FKeysGroup" HandlerSetNames="New,Reply,Forward,Send,Undo,Redo,Print,Save" />
+    <HandlerSetGroup Name="F1KeysGroup" HandlerSetNames="New,KeyCommon" />
+    <HandlerSetGroup Name="F2KeysGroup" HandlerSetNames="Reply,KeyCommon" />
+    <HandlerSetGroup Name="F3KeysGroup" HandlerSetNames="Forward,KeyCommon" />
+    <HandlerSetGroup Name="F4KeysGroup" HandlerSetNames="Send,KeyCommon" />
+    <HandlerSetGroup Name="F5KeysGroup" HandlerSetNames="Undo,KeyCommon" />
+    <HandlerSetGroup Name="F5KeysGroup1" HandlerSetNames="Undo,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F6KeysGroup" HandlerSetNames="Redo,KeyCommon" />
+    <HandlerSetGroup Name="F6KeysGroup1" HandlerSetNames="Redo,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F7KeysGroup" HandlerSetNames="Print,KeyCommon" />
+    <HandlerSetGroup Name="F8KeysGroup" HandlerSetNames="Save,KeyCommon" />
+    <HandlerSetGroup Name="F8KeysGroup1" HandlerSetNames="Save,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F9KeysGroup" HandlerSetNames="My Computer,KeyCommon" />
+    <HandlerSetGroup Name="F10KeysGroup" HandlerSetNames="PersonalFolders,KeyCommon" />
+    <HandlerSetGroup Name="F11KeysGroup" HandlerSetNames="PicturesFolder,KeyCommon" />
+    <HandlerSetGroup Name="F12KeysGroup" HandlerSetNames="MyMusic,KeyCommon" />
+    <HandlerSetGroup Name="MyVideosKeysGroup" HandlerSetNames="MyVideos,KeyCommon" />
+    <HandlerSetGroup Name="F1HelpKeysGroup" HandlerSetNames="Help,KeyCommon" />
+    <HandlerSetGroup Name="F1BatteryKeysGroup" HandlerSetNames="Do Nothing,Help,KeyCommon" />
+    <HandlerSetGroup Name="BatteryStatusKeysGroup" HandlerSetNames="BatteryStatus,KeyCommonMini" />
+    <HandlerSetGroup Name="BatteryStatusKeysGroup2" HandlerSetNames="BatteryStatus,FKeysKeyCommonExpose" />
+    <HandlerSetGroup Name="F2DocGroup" HandlerSetNames="OffDocument,KeyCommon" />
+    <HandlerSetGroup Name="F2DocGroup1" HandlerSetNames="OffDocument,FKeysKeyCommon" />
+    <HandlerSetGroup Name="F2DocGroup2" HandlerSetNames="OffDocument,FKeysKeyCommonExpose" />
+    <HandlerSetGroup Name="F2DocGroup3" HandlerSetNames="OffDocument,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F3SpreadKeysGroup" HandlerSetNames="OffSpreadsheet,KeyCommon" />
+    <HandlerSetGroup Name="F3SpreadKeysGroup1" HandlerSetNames="OffSpreadsheet,FKeysKeyCommon" />
+    <HandlerSetGroup Name="F3SpreadKeysGroup2" HandlerSetNames="OffSpreadsheet,FKeysKeyCommonExpose" />
+    <HandlerSetGroup Name="F3SpreadKeysGroup3" HandlerSetNames="OffSpreadsheet,KeyCommonExpose2" />
+    <HandlerSetGroup Name="SpreadKeysGroup" HandlerSetNames="OffSpreadsheet,HotKeyCommonExpose2" />
+    <HandlerSetGroup Name="F3CalendarKeysGroup" HandlerSetNames="Calendar,KeyCommon" />
+    <HandlerSetGroup Name="F3CalendarKeysGroup1" HandlerSetNames="Calendar,FKeysKeyCommon" />
+    <HandlerSetGroup Name="F3CalendarKeysGroup2" HandlerSetNames="Calendar,FKeysKeyCommonExpose" />
+    <HandlerSetGroup Name="F3CalendarKeysGroup3" HandlerSetNames="Calendar,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F5MyHomeKeysGroup" HandlerSetNames="HomePage,KeyCommon" />
+    <HandlerSetGroup Name="F5MyHomeKeysGroup2" HandlerSetNames="HomePage,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F5MyHomeKeysGroupExpose" HandlerSetNames="HomePage,KeyCommonExpose" />
+    <HandlerSetGroup Name="F5QuickSwitchKeysGroupExpose" HandlerSetNames="QuickSwitch,KeyCommonExpose" />
+    <HandlerSetGroup Name="F6MessengerKeysGroup" HandlerSetNames="Messenger,KeyCommon" />
+    <HandlerSetGroup Name="F6MessengerKeysGroupExpose" HandlerSetNames="Messenger,KeyCommonExpose" />
+    <HandlerSetGroup Name="F6ZoomOutGroupExpose" HandlerSetNames="ZoomBtnOutSet2,KeyCommonExpose" />
+    <HandlerSetGroup Name="F7EmailKeysGroup" HandlerSetNames="Email,KeyCommon" />
+    <HandlerSetGroup Name="F7EmailKeysGroup2" HandlerSetNames="Email,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F7EmailKeysGroupExpose" HandlerSetNames="Email,KeyCommonExpose" />
+    <HandlerSetGroup Name="F7ZoomInGroupExpose" HandlerSetNames="ZoomBtnInSet2,KeyCommonExpose" />
+    <HandlerSetGroup Name="F8SmartSearchKeysGroup" HandlerSetNames="AdvSmartSearch,KeyCommon" />
+    <HandlerSetGroup Name="F8SmartSearchKeysGroup2" HandlerSetNames="AdvSmartSearch,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F8SmartSearchKeysGroupExpose" HandlerSetNames="AdvSmartSearch,KeyCommonExpose" />
+    <HandlerSetGroup Name="F8GadgetsSetGroupExpose" HandlerSetNames="GadgetsSet,KeyCommonExpose" />
+    <HandlerSetGroup Name="F9MediaPlayerGroup" HandlerSetNames="MediaPlayer,KeyCommon" />
+    <HandlerSetGroup Name="F9MediaPlayerGroup2" HandlerSetNames="MediaPlayer,KeyCommonExpose2" />
+    <HandlerSetGroup Name="F9MediaPlayerGroupExpose" HandlerSetNames="MediaPlayer,KeyCommonExpose" />
+    <HandlerSetGroup Name="FKeysCalcGroup" HandlerSetNames="Calculator,KeyCommon" />
+    <HandlerSetGroup Name="FKeysCalcGroup1" HandlerSetNames="Calculator,KeyCommonExpose2" />
+    <HandlerSetGroup Name="FKeysCalcGroupWave" HandlerSetNames="Calculator,KeyCommonWave" />
+    <HandlerSetGroup Name="F4PowerPntKeysGroup" HandlerSetNames="OffPowerpnt,KeyCommon" />
+    <HandlerSetGroup Name="F4PowerPntKeysGroup2" HandlerSetNames="OffPowerpnt,FKeysKeyCommonExpose" />
+    <HandlerSetGroup Name="Mice" HandlerSetNames="Copy,Cut,Paste,Undo,PageDown,PageUp,Do Nothing,Unassigned,CloseApplication" />
+    <HandlerSetGroup Name="ButtonClick" HandlerSetNames="MiddleMouseButton,RightClick,LeftMouseButton,iTouch,Unassigned,CruiseDown,Calculator,CruiseUp" />
+    <HandlerSetGroup Name="SpecialFolder" HandlerSetNames="FKeys,MusicFolder,PersonalFolders,My Computer,Do Nothing" />
+    <HandlerSetGroup Name="Test" HandlerSetNames="PicturesFolder,Sound,PersonalFolders,My Computer,Do Nothing,KeystrokeAssignment" />
+    <HandlerSetGroup Name="VolumeUpGroup" HandlerSetNames="VolumeUp" />
+    <HandlerSetGroup Name="VolumeDownGroup" HandlerSetNames="VolumeDown" />
+    <HandlerSetGroup Name="VolumeMuteGroup" HandlerSetNames="VolumeMute" />
+    <HandlerSetGroup Name="VolumeUpGroup1" HandlerSetNames="VolumeUp,KeyCommon" />
+    <HandlerSetGroup Name="VolumeDownGroup1" HandlerSetNames="VolumeDown,KeyCommon" />
+    <HandlerSetGroup Name="VolumeMuteGroup1" HandlerSetNames="VolumeMute,KeyCommon" />
+    <HandlerSetGroup Name="VOIPVolumeUpGroup" HandlerSetNames="VoIPVolumeUp" />
+    <HandlerSetGroup Name="VOIPVolumeDownGroup" HandlerSetNames="VoIPVolumeDown" />
+    <HandlerSetGroup Name="VOIPVolumeMuteGroup" HandlerSetNames="VOIPMicroPhoneMute" />
+    <HandlerSetGroup Name="ProgramableKeysGroup" HandlerSetNames="GotoWebAddress*,LaunchProgram,FileLauncher,FolderLauncher,UserMenu,KeystrokeAssignment,Unassigned,,Webcam,Calculator,ControlPanel,PreviousApplication,NextApplication,Help,Documents,Spreadsheets,Calendar,QuickSwitch" />
+    <HandlerSetGroup Name="iNavZoomGroup" HandlerSetNames="iNavWheelZoom,iNavGenericScrollSet" />
+    <HandlerSetGroup Name="CalcResultOptionGroup" HandlerSetNames="CalcResultOptionSet" />
+    <HandlerSetGroup Name="NavigationWheelGroup" HandlerSetNames="NavigationWheelSet" />
+    <HandlerSetGroup Name="SmartKeyGroup" HandlerSetNames="SmartKeySet,HotKeysCommon" />
+    <HandlerSetGroup Name="PresetKeyGroup" HandlerSetNames="PlaylistAssignment,HotKeysCommon" />
+    <HandlerSetGroup Name="PresetKeyGroup1" HandlerSetNames="PlaylistAssignment,HotKeysCommon2" />
+    <HandlerSetGroup Name="PresetKeyGroup2" HandlerSetNames="PlaylistAssignment,KeyCommonExpose2" />
+    <HandlerSetGroup Name="MouseEmailGroup" HandlerSetNames="LaunchEmailItem,HotKeysCommon,OtherMiceGroup"  />
+    <HandlerSetGroup Name="MouseMessengerGroup" HandlerSetNames="LaunchIMItem,HotKeysCommon,OtherMiceGroup"  />
+    <HandlerSetGroup Name="FiveSwitchGroup" HandlerSetNames="FiveSwitchQuickSwitch,FiveSwitchZoom,FiveButtonVolumeSet,FiveButtonMediaSet,FiveButtonAutoScrollSet,FiveButtonKeystrokeSet" />
+    <HandlerSetGroup Name="TwoSwitchGroup" HandlerSetNames="TwoSwitchDPISettings,TwoSwitchZoom,TwoSwitchVolumeSet,TwoSwitchCruiseSet,TwoSwitchPageSet,TwoSwitchBackForwardSet,TwoSwitchNextPreviousSet,TwoSwitchKeystrokeSet,TwoSwitchCopyPasteSet" />
+    <HandlerSetGroup Name="VoIPBasicGroup" HandlerSetNames="VoIPBasicSet,HotKeysCommon" />
+    <HandlerSetGroup Name="VoIPAdvancedGroup" HandlerSetNames="VoIPAdvancedSet,HotKeysCommon" />
+    <HandlerSetGroup Name="VoIPF9SpeedDialGroup" HandlerSetNames="VoIPF9Preset,PlaylistAssignment,HotKeysCommon" />
+    <HandlerSetGroup Name="VoIPF10SpeedDialGroup" HandlerSetNames="VoIPF10Preset,PlaylistAssignment,HotKeysCommon" />
+    <HandlerSetGroup Name="VoIPF11SpeedDialGroup" HandlerSetNames="VoIPF11Preset,PlaylistAssignment,HotKeysCommon" />
+    <HandlerSetGroup Name="VoIPF12SpeedDialGroup" HandlerSetNames="VoIPF12Preset,PlaylistAssignment,HotKeysCommon" />
+    <HandlerSetGroup Name="AdvSmartSearchGroup" HandlerSetNames="AdvSmartSearch,QuickSwitch,AutoScroll,UniversalScroll,MediaPlayer,KeystrokeAssignment,AdvnSearchOtherMiceGroup"  VisibleHandlerSetCount="6" />
+    <HandlerSetGroup Name="AdvSmartSearchMaderiaGroup" HandlerSetNames="AdvSmartSearch,ZoomBtnResetSet,QuickSwitch,AutoScroll,UniversalScroll,MediaPlayer,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,AdvnSearchMaderiaOtherMiceGroup"  VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="AdvSmartSearchFreeWheelGroup" HandlerSetNames="AdvSmartSearch,ZoomBtnResetSet,QuickSwitch,AutoScroll,UniversalScroll,MediaPlayer,VOLUMEMUTE,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,AdvnSearchMaderiaOtherMiceGroup"  />
+    <HandlerSetGroup Name="AdvSmartSearchFreeWheelSardiniaGroup" HandlerSetNames="QuickSwitch,AdvSmartSearch,MiddleMouseButton,MediaPlayer,MM PLAY,VOLUMEMUTE,KeystrokeAssignment,AdvnSearchMaderiaOtherMiceGroup"  VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="BasicSmartSearchGroup" HandlerSetNames="BasicSmartSearch,StandardScrollWheelButtonGroup"  />
+    <HandlerSetGroup Name="BasicSmartSearchHotKeysGroup" HandlerSetNames="BasicSmartSearch,HotKeysCommon"  />
+    <HandlerSetGroup Name="BasicSmartSearchHotKeysGroup2" HandlerSetNames="BasicSmartSearch,FKeysKeyCommonExpose"  />
+    <HandlerSetGroup Name="SmartSearchHotKeysGroup" HandlerSetNames="AdvSmartSearch,HotKeyCommonExpose2"  />
+    <HandlerSetGroup Name="PictureSearchGroup" HandlerSetNames="SearchPicture,KeyCommon"  />
+    <HandlerSetGroup Name="PictureSearchGroup2" HandlerSetNames="SearchPicture,KeyCommonExpose2"  />
+    <HandlerSetGroup Name="PictureSearchGroup3" HandlerSetNames="SearchPicture,HotKeyCommonExpose2"  />
+    <HandlerSetGroup Name="PictureSearchGroupWave" HandlerSetNames="SearchPicture,KeyCommonWave" />
+    <HandlerSetGroup Name="PictureAppGroup" HandlerSetNames="PictureAppSet,KeyCommon"  />
+    <HandlerSetGroup Name="NewFolderGroup" HandlerSetNames="NewFolderSet,KeyCommon"  />
+    <HandlerSetGroup Name="AlarmGroup" HandlerSetNames="KeyboardBeepSet,ScreenSaverSet,FileLauncher,LaunchProgram,LaunchPresetSet1,LaunchPresetSet2,LaunchPresetSet3,LaunchPresetSet4"  />
+    <HandlerSetGroup Name="HotKeysShuffleGroup" HandlerSetNames="MM SHUFFLE,PlaylistAssignment,RotateRight,RotateLeft,FileLauncher,FolderLauncher,LaunchProgram,Do Nothing"/>
+    <HandlerSetGroup Name="StandByGroup" HandlerSetNames="StandBySet*,RestartSet,ShutdownSet,LogOffSet,WindowsLock,Do Nothing"/>
+    <HandlerSetGroup Name="ZoomInMaderiaGroup" HandlerSetNames="ZoomBtnInSet2,VOLUMEUPRepeat,MM FASTFORWARD,MM NEXT,BrowserForward,CruiseUp,KeystrokeAssignment,OthersFreeMaderiaZoominGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="ZoomoutMaderiaGroup" HandlerSetNames="ZoomBtnOutSet2,VOLUMEDOWNRepeat,MM REWIND,MM PREVIOUS,Back,CruiseDown,KeystrokeAssignment,OthersFreeMaderiaZoomoutGroup" VisibleHandlerSetCount="7" />
+    <HandlerSetGroup Name="DragLockTrackBallOtherGroup" HandlerSetNames="AutoScroll,KeystrokeAssignment,Copy,QuickSwitch,Cut,Do Nothing,StartMenu,Maximize,MiddleMouseButton,Minimize,PageDown,PageUp,Paste,Redo,Unassigned,Undo" />
+    <HandlerSetGroup Name="DragLockTrackBallGroup" HandlerSetNames="DragLock,UniversalScroll,CloseApplication,QuickSwitch,DoubleClick,DragLockTrackBallOtherGroup" VisibleHandlerSetCount="5"/>
+    <HandlerSetGroup Name="MiddleButtonTrackBallOtherGroup" HandlerSetNames="KeystrokeAssignment,QuickSwitch,CloseApplication,Copy,Cut,Do Nothing,DoubleClick,DragLock,Maximize,Minimize,Paste,Redo,StartMenu,Undo,ShowDesktop" />
+    <HandlerSetGroup Name="MiddleButtonTrackBallGroup" HandlerSetNames="UniversalScroll,GenericMouseButton,AutoScroll,Back,BrowserForward,QuickSwitch,MiddleButtonTrackBallOtherGroup" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="BackButtonTrackBallOtherGroup" HandlerSetNames="KeystrokeAssignment,CloseApplication,Copy,Cut,QuickSwitch,Do Nothing,DoubleClick,StartMenu,DragLock,Maximize,MiddleMouseButton,Minimize,PageDown,Paste,Redo,Unassigned,Undo"/>
+    <HandlerSetGroup Name="BackButtonTrackBallGroup" HandlerSetNames="Back,GenericMouseButton,BrowserForward,UniversalScroll,AutoScroll,QuickSwitch,PageUp,BackButtonTrackBallOtherGroup" VisibleHandlerSetCount="7"  />
+    <HandlerSetGroup Name="StromboliMenuGroup" HandlerSetNames="StromboliMenuSet" />
+    <HandlerSetGroup Name="StromboliVolGroup" HandlerSetNames="StromboliVolSet" />
+    <HandlerSetGroup Name="StromboliZoomGroup" HandlerSetNames="StromboliZoomSet" />
+    <HandlerSetGroup Name="StromboliMagnifyGroup" HandlerSetNames="StromboliMagnifySet" />
+    <HandlerSetGroup Name="OtherAirPrevButtonsGroup" HandlerSetNames="QuickSwitch,AutoScroll,UniversalScroll,KeystrokeAssignment,Do Nothing,Unassigned,LeftMouseButton,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,ApplicationSwitch" />
+    <HandlerSetGroup Name="PrevAirButtonsGroup" HandlerSetNames="CruiseUp,MM PREVIOUS,HorzScrollLeftSet,HorzScrollRightSet,PageUp,Back,BrowserForward,OtherAirPrevButtonsGroup" />
+    <HandlerSetGroup Name="NextAirButtonsGroup" HandlerSetNames="CruiseDown,MM NEXT,HorzScrollRightSet,HorzScrollLeftSet,PageDown,BrowserForward,Back,OtherAirPrevButtonsGroup" />
+    <HandlerSetGroup Name="OtherAirButtonsGroup" HandlerSetNames="LeftMouseButton,CruiseUp,CruiseDown,QuickSwitch,MM NEXT,MM PREVIOUS,HorzScrollRightSet,HorzScrollLeftSet,PageUp,PageDown,BrowserForward,Back,AutoScroll,UniversalScroll,Do Nothing,Unassigned,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo,ApplicationSwitch" />
+    <HandlerSetGroup Name="OtherLeftAirButtonsGroup" HandlerSetNames="CruiseUp,CruiseDown,MM NEXT,QuickSwitch,MM PREVIOUS,HorzScrollRightSet,HorzScrollLeftSet,PageUp,PageDown,BrowserForward,Back,AutoScroll,UniversalScroll,Do Nothing,Unassigned,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo" />
+    <HandlerSetGroup Name="OtherAirMiddleButtonsGroup" HandlerSetNames="LeftMouseButton,CruiseUp,CruiseDown,QuickSwitch,MM NEXT,MM PREVIOUS,HorzScrollRightSet,HorzScrollLeftSet,PageUp,PageDown,BrowserForward,Back,Do Nothing,Unassigned,MiddleMouseButton,DoubleClick,StartMenu,DragLock,CloseApplication,Copy,Cut,Paste,Maximize,Minimize,Undo,Redo" />
+    <HandlerSetGroup Name="BackAirGroup" HandlerSetNames="BackCursorFreezeSet,StromboliMenuSet,StromboliMediaControlSet,StromboliZoomSet,StromboliVolSet,CursorFreezeSet,QuickSwitch,MediaCenterSet,KeystrokeAssignment,OtherAirButtonsGroup" />
+    <HandlerSetGroup Name="MenuAirGroup" HandlerSetNames="StromboliMenuSet,BackCursorFreezeSet,StromboliMediaControlSet,StromboliZoomSet,StromboliVolSet,CursorFreezeSet,QuickSwitch,MediaCenterSet,KeystrokeAssignment,OtherAirButtonsGroup"  />
+    <HandlerSetGroup Name="LeftAirGroup" HandlerSetNames="LeftMouseButton,StromboliMenuSet,BackCursorFreezeSet,StromboliMediaControlSet,StromboliZoomSet,StromboliVolSet,CursorFreezeSet,QuickSwitch,MediaCenterSet,KeystrokeAssignment,OtherAirButtonsGroup"  />
+    <HandlerSetGroup Name="AirCenterGestureGroup" HandlerSetNames="Do Nothing,StromboliMenuSet,RecenterNotification,MediaCenterSet,CursorFreezeSet"  />
+    <HandlerSetGroup Name="MediaControlAirGroup" HandlerSetNames="StromboliMediaControlSet,StromboliZoomSet,StromboliVolSet,BackCursorFreezeSet,StromboliMenuSet,CursorFreezeSet,QuickSwitch,MediaCenterSet,KeystrokeAssignment,OtherAirButtonsGroup" />
+    <HandlerSetGroup Name="VolumeAirGroup" HandlerSetNames="StromboliVolSet,StromboliZoomSet,StromboliMediaControlSet,BackCursorFreezeSet,StromboliMenuSet,CursorFreezeSet,QuickSwitch,MediaCenterSet,KeystrokeAssignment,OtherAirButtonsGroup" />
+    <HandlerSetGroup Name="MiddleButtonAirGroup" HandlerSetNames="Do Nothing,CursorFreezeSet,QuickSwitch,AdvSmartSearch,AutoScroll,UniversalScroll,KeystrokeAssignment,OtherAirMiddleButtonsGroup" VisibleHandlerSetCount="7" />
+
+    <HandlerSetGroup Name="MiddleButtonGroup6" HandlerSetNames="MiddleMouseButton,DPISwitch,ApplicationSwitch,AdvSmartSearch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="8"  />
+    <HandlerSetGroup Name="MiddleButtonDPILevelGroup" HandlerSetNames="ThreeLevelDPISettings,MiddleMouseButton,ApplicationSwitch,AdvSmartSearch,ZoomSet,AutoScroll,UniversalScroll,KeystrokeAssignment,OthersMiceGroupFullList" VisibleHandlerSetCount="8"  />
+    <HandlerSetGroup Name="PanAndZoomGroup2" HandlerSetNames="ZoomSet,DPISwitch,AdvSmartSearch,ApplicationSwitch,VOLUMEMUTE,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="6"  />
+    <HandlerSetGroup Name="ApplicationSwitchGroup2" HandlerSetNames="ApplicationSwitch,DPISwitch,AdvSmartSearch,ZoomSet,MM PLAY,KeystrokeAssignment,OthersMiceGroupFullList2" VisibleHandlerSetCount="6"  />
+
+    <HandlerSetGroup Name="HotKeysOEMCommon"	  HandlerSetNames="GotoWebAddress,LaunchProgram,FileLauncher,FolderLauncher,UserMenu,KeystrokeAssignment,Do Nothing" />
+    <HandlerSetGroup Name="HotKeysOEMMyHomeGroup" HandlerSetNames="HomePage,HotKeysOEMCommon"/>
+    <HandlerSetGroup Name="HotKeysOEMBackGroup" HandlerSetNames="Back,HotKeysOEMCommon"/>
+    <HandlerSetGroup Name="HotKeysOEMForwardGroup" HandlerSetNames="BrowserForward,HotKeysOEMCommon"/>
+    <HandlerSetGroup Name="HotKeysOEMEmailGroup" HandlerSetNames="Email,HotKeysOEMCommon"  />
+    <HandlerSetGroup Name="HotKeysOEMMediaGroup" HandlerSetNames="MediaPlayer,HotKeysOEMCommon"  />
+    <HandlerSetGroup Name="BasicSmartSearchOEMHotKeysGroup" HandlerSetNames="BasicSmartSearch,HotKeysOEMCommon"  />
+    <HandlerSetGroup Name="HotKeysOEMFavoritesGroup" HandlerSetNames="Favorites,HotKeysOEMCommon"  />
+    <HandlerSetGroup Name="HotKeysOEMInternetRefreshGroup" HandlerSetNames="BrowserRefresh,HotKeysOEMCommon"/>
+    <HandlerSetGroup Name="HotKeysOEMCalcGroup" HandlerSetNames="Calculator,HotKeysOEMCommon"/>
+
+  </HandlerSetGroups>
+
+  <HandlerSets>
+
+    <!-- ******************************************************************** -->
+    <!--		FIRST BUTTON USAGE AND PERIODIC INTERVAL USAGE                -->
+    <!-- ******************************************************************** -->
+    <HandlerSet Name="ButtonUsage" HelpString="HELP_FIRSTBUTTONUSAGE">
+      <Handler Class="ButtonUsage" TriggerState="FirstButtonUse">
+        <Param  URL="none"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FirstUsageSet" HelpString="HELP_FIRSTBUTTONUSAGE">
+      <Handler Class="ButtonUsage" TriggerState="FirstButtonUse">
+        <Param  URL="none"  />
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************** -->
+    <!--			END FIRST BUTTON USAGE AND PERIODIC INTERVAL USAGE 		  -->
+    <!-- ******************************************************************** -->
+
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						MOUSE BUTTON CLICKS TEMPLATE 				  -->
+    <!-- ******************************************************************** -->
+    <HandlerSet Name="MiddleButton" HelpString="HELP_MIDDLEBUTTON">
+      <Handler Class="MouseButton"  >
+        <Param  ButtonName="MiddleButton"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="MiddleMouseButton" HelpString="HELP_MIDDLEBUTTON">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="MiddleButton"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RightClick" HelpString="HELP_RIGHTBUTTON">
+      <Handler Class="MouseButton"   >
+        <Param  ButtonName="SecondaryButton"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="LeftClick" HelpString="HELP_LEFTBUTTON">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="PrimaryButton"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="LeftMouseButton" HelpString="HELP_LEFTBUTTON">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="PrimaryButton"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="DoubleClick" HelpString="HELP_DOUBLECLICK">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="DoubleClick"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="WinSwitch" HelpString="HELP_WINSWITCH">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="WinSwitch"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="StartMenu" HelpString="HELP_STARTMENU">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="StartMenu"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="PanAndZoom" HelpString="HELP_PANANDZOOM">
+      <Handler Class="MouseButton"    >
+        <Param  ButtonName="PrimaryButton"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************** -->
+    <!--						PLAY SOUND TEMPLATE 						  -->
+    <!-- ******************************************************************** -->
+    <HandlerSet Name="Sound" HelpString="HELP_PLAYSOUND">
+      <Handler Class="PlaySound" >
+        <Param SoundFile="C:\WINNT\Media\The Microsoft Sound.wav"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--						Maximize Minimize Window TEMPLATE 			  -->
+    <!-- ******************************************************************** -->
+    <HandlerSet Name="Maximize" HelpString="HELP_MAXIMIZE">
+      <Handler Class="SysMenu" >
+        <Param WindowSize="Maximize"  />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="MinMaxWindow" HelpString="HELP_MAXIMIZE">
+      <Handler Class="SysMenu" >
+        <Param WindowSize="MinMax"  />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="Minimize" HelpString="HELP_MINIMIZE">
+      <Handler Class="SysMenu" >
+        <Param WindowSize="Minimize"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="QuickSwitch" HelpString="HELP_QUICKSWITCH">
+      <Handler Class="QuickSwitch" >
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						SENDKEY TEMPLATES						      -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler Search -->
+    <HandlerSet Name="Search" HelpString="HELP_SEARCH" >
+      <Handler Class="BrowserCommands" >
+        <Param ActionName="GOTOWEBADDRESS" URL="http://iredirect.logitech.com/re.php?B=3" ShowUIDlg="0"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler One Touch Sync -->
+    <HandlerSet Name="OneTouchSync" HelpString="HELP_EASYSYNC">
+      <Handler Class="EasySync" >
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler iTouchSearch -->
+    <HandlerSet Name="iTouchSearch" HelpString="HELP_ITOUCH_SEARCH" >
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "GOTOWEBADDRESS" URL="http://iredirect.logitech.com/re.php?B=3" ShowUIDlg="0"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Windows Run -->
+    <HandlerSet Name="WindowsRun" HelpString="HELP_WINDOWS_RUNKEY">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*r"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Windows Run -->
+    <HandlerSet Name="ShowDesktop" HelpString="HELP_WINDOWS_DESKTOP">
+      <Handler Class="showdesktop" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro AppSwitch -->
+    <HandlerSet Name="MetroAppSwitch" HelpString="HELP_WINDOWS_METROAPPSWITCH">
+      <Handler Class="HandlerAppSwitch">
+        <Param ShowAppWindows="0" ShowUIDlg="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro start screen -->
+    <HandlerSet Name="MetroStartScreen" HelpString="HELP_WINDOWS_METROSTARTSCREEN">
+      <Handler Class="HandlerMetroStartScreen" >
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro share-->
+    <HandlerSet Name="MetroShare" HelpString="HELP_WINDOWS_METROSHARE">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*h"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Metro Settings-->
+    <HandlerSet Name="MetroSettings" HelpString="HELP_WINDOWS_METROSETTINGS">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*i"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro Devices-->
+    <HandlerSet Name="MetroDevices" HelpString="HELP_WINDOWS_METRODEVICES">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*k"  />
+      </Handler>
+    </HandlerSet>
+    <!-- Handler Metro search-->
+    <HandlerSet Name="MetroSearch" HelpString="HELP_WINDOWS_METROSEARCH">
+      <Handler Class="HandlerMetroSearch" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro appbar-->
+    <HandlerSet Name="MetroAppBar" HelpString="HELP_WINDOWS_METROAPPBAR">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*z"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro Charms -->
+    <HandlerSet Name="MetroCharms" HelpString="HELP_WINDOWS_METROCHARMS">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*c"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Metro App Switch Bar -->
+    <HandlerSet Name="AppSwitchBar" HelpString="HELP_WINDOWS_APPSWITCHBAR">
+      <Handler Class="HandlerAppSwitchBar" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+    
+
+    <!-- Handler Metro App Menu -->
+    <HandlerSet Name="MetroAppMenu" HelpString="HELP_WINDOWS_METROAPPMENU">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*z"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Close Application -->
+    <HandlerSet Name="CloseApplication" HelpString="HELP_CLOSEAPP">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="%{F4}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Copy -->
+    <HandlerSet Name="Copy" HelpString="HELP_CLIP_COPY">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="^c"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Cut-->
+    <HandlerSet Name="Cut" HelpString="HELP_CLIP_CUT">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="^x"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Paste-->
+    <HandlerSet Name="Paste" HelpString="HELP_CLIP_PASTE">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="^v" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler PageDown-->
+    <HandlerSet Name="PageDown" HelpString="HELP_PAGEDOWN">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{PGDN}" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler PageUp-->
+    <HandlerSet Name="PageUp" HelpString="HELP_PAGEUP">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{PGUP}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler PreviousApplication-->
+    <HandlerSet Name="PreviousApplication" HelpString="HELP_PREVIOUS_APP">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="KeyStroke" >
+        <Param KeyName="%{ESC}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler NextApplication-->
+    <HandlerSet Name="NextApplication" HelpString="HELP_NEXT_APP">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="KeyStroke" >
+        <Param KeyName="+%{ESC}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Help-->
+    <HandlerSet Name="Help" HelpString="HELP_HELP">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{F1}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler SearchForFiles-->
+    <HandlerSet Name="SearchForFiles" HelpString="HELP_SEARCH_FOR_FILES">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*f" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Enter key -->
+    <HandlerSet Name="Enter" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="~"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler BackSpace key -->
+    <HandlerSet Name="BackSpace" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{BKSP}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler ShiftBackSpace key -->
+    <HandlerSet Name="ShiftBackSpace" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="+{BKSP}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Windows Lock -->
+    <HandlerSet Name="WindowsLock" HelpString="HELP_WINDOWS_LOCKPC">
+      <Handler Class="LockPc" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Minimize all -->
+    <HandlerSet Name="WindowsMinimize" HelpString="HELP_WINDOWS_MINIMIZE">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*m"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Windows Lock -->
+    <HandlerSet Name="WindowsRestore" HelpString="HELP_WINDOWS_RESTORE">
+      <Handler Class="KeyStroke" >
+        <Param KeyName="+*m"  />
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************** -->
+    <!--						END SENDKEYS TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+
+    <HandlerSet Name="Unassigned" HelpString="HELP_UNASSIGNED">
+      <Handler Class="HandlerBlank" >
+        <Param PromptToAssign="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Unsupported" HelpString="HELP_UNSUPPORTED">
+      <Handler Class="HandlerUnsupported" >
+        <Param NoTask="1" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Generic Button -->
+    <HandlerSet Name="GenericButton" HelpString="HELP_GENERIC_BUTTON" >
+      <Handler Class="HandlerUnsupported" >
+        <Param NoDownloadRequired="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="UnknownFeature" HelpString="HELP_UNKNOWNFEATURE">
+      <Handler Class="HandlerUnsupported" >
+        <Param />
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************** -->
+    <!--						UNASSIGNED TEMPLATES						      -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler Unassigned-->
+    <HandlerSet Name="Do Nothing" HelpString="HELP_NOTHING" >
+      <Handler Class="HandlerBlank" >
+        <Param PromptToAssign="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************** -->
+    <!--						END UNASSIGNED TEMPLATES					  -->
+    <!-- ******************************************************************** -->
+
+
+    <!-- ******************************************************************** -->
+    <!--						WEBCAM TEMPLATES						      -->
+    <!-- ******************************************************************** -->
+
+    <HandlerSet Name="WebCam" HelpString="HELP_WEBCAM" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="MessengerStatus" >
+        <Param ShowUIDlg="0" Action = "StartWebcam"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--						END WEBCAM TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+    <!-- ******************************************************************** -->
+    <!--						TOGGLE STATUS TEMPLATES						      -->
+    <!-- ******************************************************************** -->
+
+    <HandlerSet Name="ToggleStatus" HelpString="HELP_TOGGLESTATUS" >
+      <Handler Class="MessengerStatus" >
+        <Param Action = "ToggleStatus" MessengerDetails="Available|Stepped Out|YPAGER.EXE | Online | Offline | MSMSGS.EXE | Online | Offline | MSNMSGR.EXE | " ShowUIDlg="1"/>
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--						END WEBCAM TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						MENU  TEMPLATES								  -->
+    <!-- ******************************************************************** -->
+    <!-- Handler Set #4 Menu Launcher -->
+
+    <HandlerSet Name="UserMenu" HelpString="HELP_CUSTOM_MENU">
+      <Handler Class="ContextMenu" >
+        <Param MenuDetails=""  />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="LargeUserMenu" HelpString="HELP_CUSTOM_MENU">
+      <Handler Class="ContextMenu" >
+        <Param MenuDetails=""  MenuType="TENFOOT"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="MoscowLargeUserMenu" HelpString="HELP_CUSTOM_MENU">
+      <Handler Class="ContextMenu" >
+        <Param MenuDetails="0 | Musicmatch Jukebox | mmjb.exe | 0 | Windows Media Player | wmplayer.exe | " MenuType="TENFOOT" MenuFontHeight="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************** -->
+    <!--						END OF MENU  TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+
+    <!-- ******************************************************************** -->
+    <!--						SPECIAL FOLDER LAUNCH TEMPLATES				  -->
+    <!-- ******************************************************************** -->
+
+
+    <HandlerSet Name="My Computer" HelpString="HELP_MYCOMPUTER">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="0" FileName="explorer.exe" Parameters="::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="PersonalFolders" HelpString="HELP_MYDOCUMENTS">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="PersonalFolders" >
+        <Param FolderName="CSIDL_PERSONAL"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="PicturesFolder" HelpString="HELP_MYPICTURES">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="PersonalFolders" >
+        <Param FolderName="CSIDL_MYPICTURES"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MyMusic" HelpString="HELP_MYMUSIC" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="PersonalFolders" >
+        <Param FolderName="CSIDL_MYMUSIC" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MyVideos" HelpString="HELP_MYVIDEOS" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="PersonalFolders" >
+        <Param FolderName="CSIDL_MYVIDEO" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--					END SPECIAL FOLDER LAUNCH TEMPLATES				  -->
+    <!-- ******************************************************************** -->
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						FILE LAUNCHER TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler  Generic File Launcher -->
+    <HandlerSet Name="FileLauncher" HelpString="HELP_OPENFILE">
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="1" FileName="" Title="IDS_SELECT_FILE" BrowseType = "0" Name=""/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LaunchProgram" HelpString="HELP_LAUNCHPROG">
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="1" FileName="" Title="IDS_SELECT_PROGRAM" BrowseType = "1" Name=""/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FolderLauncher" HelpString="HELP_OPENFOLDER">
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="1" FileName="" Title="IDS_SELECT_FOLDER" BrowseType = "2" Name=""/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler CALCULATOR -->
+    <HandlerSet Name="Calculator" HelpString="HELP_CALCULATOR">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="0" FileName="calc.exe"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler BigFoot -->
+    <HandlerSet Name="BigFoot" HelpString="HELP_MEDIADESKTOP">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="0" FileName="MDesktop.exe" Parameters="-toggle"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler BigFoot -->
+    <HandlerSet Name="ControlPanel" HelpString="HELP_CONTROLPANEL">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="0" FileName="control.exe"  />
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						END FILE LAUNCHER TEMPLATES					  -->
+    <!-- ******************************************************************** -->
+
+
+    <!-- ******************************************************************** -->
+    <!--						MACRO FILE LAUNCHER TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler MacroFileLauncher  -->
+    <HandlerSet Name="Documents" HelpString="HELP_DOCUMENTS">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="MacroFileLauncher" >
+        <Param Program0="1,winword.exe" Program1="1,wkswp.exe" Program2="1,wpwin12.exe" Program3="1,wpwin11.exe" Program4="1,wordpad.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler MacroFileLauncher  -->
+    <HandlerSet Name="Spreadsheets" HelpString="HELP_SPREADSHEETS">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="MacroFileLauncher" >
+        <Param Program0="1,excel.exe" Program1="1,123w.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler MacroFileLauncher  -->
+    <HandlerSet Name="OffDocument" HelpString="HELP_DOCUMENTS">
+      <Handler Class="MacroFileLauncher" >
+        <Param Program0="1,winword.exe" Program1="1,wkswp.exe" Program2="1,wpwin12.exe" Program3="1,wpwin11.exe" Program4="1,wordpad.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler MacroFileLauncher  -->
+    <HandlerSet Name="OffSpreadsheet" HelpString="HELP_SPREADSHEETS">
+      <Handler Class="MacroFileLauncher" >
+        <Param Program0="1,excel.exe" Program1="1,wksss.exe" Program2="1,qpw.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler MacroFileLauncher  -->
+    <HandlerSet Name="OffPowerpnt" HelpString="HELP_PRESENTATION">
+      <Handler Class="MacroFileLauncher" >
+        <Param Program0="1,powerpnt.exe" Program1="1,prwin12.exe" Program2="1,Prwin11.exe"  />
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						END MACRO FILE LAUNCHER TEMPLATES					  -->
+    <!-- ******************************************************************** -->
+
+
+    <!-- ******************************************************************** -->
+    <!--						CALENDAR LAUNCHER TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler Calendar  -->
+    <HandlerSet Name="Calendar" HelpString="HELP_CALENDAR">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="Calendar" >
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************** -->
+    <!--						END CALENDAR LAUNCHER TEMPLATES					  -->
+    <!-- ******************************************************************** -->
+
+
+
+    <!-- ******************************************************************** -->
+    <!--						WEBSITE TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler  Generic Website Launcher -->
+    <HandlerSet Name="GotoWebAddress" HelpString="HELP_WEBPAGE" >
+      <Handler Class="BrowserCommands" >
+        <Param ShowUIDlg="1" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler HomePage Website Launcher -->
+    <HandlerSet Name="HomePage" HelpString="HELP_HOMEPAGE" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "GOHOME" URL="" ShowUIDlg="0" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler iTouch Website Launcher -->
+    <HandlerSet Name="iTouch" HelpString="HELP_ITOUCH" >
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "GOTOWEBADDRESS" URL="http://iredirect.logitech.com/re.php?B=9" ShowUIDlg="0" />
+      </Handler>
+
+    </HandlerSet>
+
+    <!-- Handler Shopping Website Launcher -->
+    <HandlerSet Name="Shopping" HelpString="HELP_SHOPPING">
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "GOTOWEBADDRESS" URL="http://iredirect.logitech.com/re.php?B=10" ShowUIDlg="0" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Favourites Website Launcher -->
+    <HandlerSet Name="Favorites" HelpString="HELP_FAVORITES">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "SHOWFAVORITES" ShowUIDlg="0" />
+      </Handler>
+
+    </HandlerSet>
+
+    <!-- Handler Back Launcher -->
+    <HandlerSet Name="Back" HelpString="HELP_BACK">
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "BACK" ShowUIDlg="0" />
+      </Handler>
+
+    </HandlerSet>
+    <HandlerSet Name="BrowserForward" HelpString="HELP_FORWARD">
+      <Handler Class="BrowserCommands" >
+        <Param ActionName = "FORWARD" ShowUIDlg="0" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler BackEx Launcher... AppOverides for Winword, etc. are folded into handler-->
+    <HandlerSet Name="BackEx" HelpString="HELP_BACK">
+      <Handler Class="BackForward" >
+        <Param ActionName = "BACK" ShowUIDlg="0" />
+      </Handler>
+
+    </HandlerSet>
+    <HandlerSet Name="BrowserForwardEx" HelpString="HELP_FORWARD">
+      <Handler Class="BackForward" >
+        <Param ActionName = "FORWARD" ShowUIDlg="0" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--				END OF WEBSITE TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+
+
+    <!-- ******************************************************************** -->
+    <!--							EMAIL TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler Set #7 Hotmail -->
+    <HandlerSet Name="Email" HelpString="HELP_EMAIL"  >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+
+      <Handler Class="EMail" >
+        <Param EmailClient="" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Set for Source Launch of Email -->
+    <HandlerSet Name="LaunchEmailItem" HelpString="HELP_EMAIL_NOTIFICATION"  >
+      <Handler Class="EMailItem" >
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					END OF EMAIL TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+
+    <!-- ******************************************************************** -->
+    <!--							MESSENGER TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <HandlerSet Name="Messenger" HelpString="HELP_MESSENGER"  >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+
+      <Handler Class="Messenger" >
+        <Param MessengerClient="" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Set for Source Launch of IM -->
+    <HandlerSet Name="LaunchIMItem" HelpString="HELP_IM_NOTIFICATION"  >
+      <Handler Class="IMItem" >
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					END OF MESSENGER TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <!-- ******************************************************************** -->
+    <!--							MEDIA PLAYER TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <HandlerSet Name="MediaPlayer" HelpString="HELP_MEDIAPLAYER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="1" ShowNoRemote="1" ShowBurnApps="1" ShowRecordApps="1" DefMediaPlayers="MusicMatch7,MusicMatch,iTunes,MSMedia9,MSMediaX"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MediaPlayeriTunes" HelpString="HELP_MEDIAPLAYER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="1" ShowNoRemote="1" ShowBurnApps="1" ShowRecordApps="1" DefMediaPlayers="MusicMatch7,MusicMatch,iTunes,MSMedia9,MSMediaX"/>
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="MediaPlayerMediaCenter" HelpString="HELP_MEDIA_CENTER_PLAYER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="1" ShowNoRemote="1" ShowBurnApps="1" ShowRecordApps="1" DefMediaPlayers="MediaCenter,MusicMatch7,MusicMatch,MSMedia9,MSMediaX"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MediaPlayerMediaLife" HelpString="HELP_MEDIAPLAYER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="1" ShowNoRemote="1" ShowBurnApps="1" ShowRecordApps="1" DefMediaPlayers="MediaLife,MusicMatch7,MusicMatch,iTunes,MSMedia9,MSMediaX"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RemoteMediaPlayer" HelpString="HELP_REMOTE_MEDIAPLAYER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="1" ShowNoRemote="0" ShowBurnApps="0" ShowRecordApps="0" DefMediaPlayers="MediaLife,MDesktop,MediaCenter"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MediaCenterSet" HelpString="HELP_LAUNCH_MEDIA_CENTER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="1" ShowNoRemote="1" ShowBurnApps="0" ShowRecordApps="0" DefMediaPlayers="MediaCenter,iTunes,MSMedia9,MSMediaX"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="NoRemoteMediaPlayer" HelpString="HELP_MEDIAPLAYER"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="MEDIA" ShowRemote="0" ShowNoRemote="1" ShowBurnApps="1" ShowRecordApps="1" DefMediaPlayers="MusicMatch7,MusicMatch,iTunes,MSMedia9,MSMediaX"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="BurnMediaPlayer" HelpString="HELP_BURN"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="BURN" ShowRemote="0" ShowNoRemote="0" ShowBurnApps="1" ShowRecordApps="0" DefMediaPlayers="MusicMatch7,MSMedia9"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RecordMediaPlayer" HelpString="HELP_RECORD"  >
+      <Handler Class="Media" >
+        <Param MediaClient="" Action="RECORD" ShowRemote="0" ShowNoRemote="0" ShowBurnApps="0" ShowRecordApps="1" DefMediaPlayers="MusicMatch7,MSMedia9"/>
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					END OF MESSENGER TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+
+
+    <!-- ******************************************************************** -->
+    <!--							iNAV TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <HandlerSet Name="iNav" HelpString="HELP_INAV"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAV" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Set iNavGo -->
+    <HandlerSet Name="iNavGo" HelpString="HELP_INAVGO"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAVGO" />
+      </Handler>
+    </HandlerSet>
+    <!-- Handler Set iNavBack -->
+    <HandlerSet Name="iNavBack" HelpString="HELP_INAVBACK"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAVBACK" />
+      </Handler>
+    </HandlerSet>
+    <!-- Handler Set iNavWheel -->
+    <HandlerSet Name="iNavWheel" HelpString="HELP_INAVWHEEL"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAVWHEEL" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Set iNavWheelZoom -->
+    <HandlerSet Name="iNavWheelZoom" HelpString="HELP_ZOOM_SET"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAVWHEEL" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet  Name="PanZoom" HelpString="HELP_PANZOOM">
+      <Handler Class="PanZoom"    >
+        <Param Apps="windowsphotogallery,ois,winword,excel,iexplore,acdsee6,acdsee7,acdsee8,acdsee8pro,illustrator,indesign,picasa2,quarkxpress,wkswp,wpwin11,opera,photoshopalbum,wpwin12,acrord32,acrobat,mozilla,firefox,netscp,medialife,outlook" ExcludedApps="explorer,mspaint,msaccess,nlnotes,googleearth" ClassNames="ShImgVw:CZoomWnd"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="iNavMoscowWheel" HelpString="HELP_INAVWHEEL"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAVMSCWWHEEL" />
+      </Handler>
+    </HandlerSet>
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					END OF iNAV TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+    <HandlerSet Name="CruiseUp" HelpString="HELP_CRUISEUP" >
+      <Handler Class="cruise"    >
+        <Param Acceleration="2" ElapseTime="75" Lines="6" Up="1" ExcludedApps="windowsphotogallery" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="CruiseDown" HelpString="HELP_CRUISEDOWN" >
+      <Handler Class="cruise"   >
+        <Param Acceleration="2" ElapseTime="75" Lines="5" Up="0" ExcludedApps="windowsphotogallery" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--					FKeys  TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+    <HandlerSet Name="New" HelpString="HELP_OFFICE_NEW" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation"   >
+        <Param ActionName="NEW" />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="Reply" HelpString="HELP_OFFICE_REPLY">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="REPLY" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Forward" HelpString="HELP_OFFICE_FORWARD" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="FORWARD" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Send" HelpString="HELP_OFFICE_SEND" >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="SEND" />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="Undo" HelpString="HELP_OFFICE_UNDO">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="UNDO" />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="Redo" HelpString="HELP_OFFICE_REDO">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="REDO" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Print" HelpString="HELP_OFFICE_PRINT">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="PRINT" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Save" HelpString="HELP_OFFICE_SAVE">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="OfficeAutomation" >
+        <Param ActionName="SAVE" />
+      </Handler>
+    </HandlerSet>
+
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					END FKeys  TEMPLATES							  -->
+    <!-- ******************************************************************** -->
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					Enhanced FKeys  TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+
+
+
+    <!-- ******************************************************************** -->
+    <!--					END Enhanced FKeys  TEMPLATES					  -->
+    <!-- ******************************************************************** -->
+
+
+
+    <HandlerSet Name="DragLock" HelpString="HELP_DRAGLOCK">
+      <Handler Class="DragLock" >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AutoScroll" HelpString="HELP_AUTOSCROLL">
+      <Handler Class="AutoScroll" >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="UniversalScroll" HelpString="HELP_UNIVERSALSCROLL" >
+      <Handler Class="UniversalScroll" >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM PLAY" HelpString="OSD_PLAYPAUSE" >
+      <Handler Class="MMPlayer"    >
+        <Param  Action="PLAY" OSDText="OSD_PLAYPAUSE" OSDImage="play_pause.png" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM STOP" HelpString="OSD_STOP" >
+      <Handler Class="MMPlayer"    >
+        <Param  Action="STOP" OSDText="OSD_STOP" OSDImage="stop.png"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM NEXT" HelpString="OSD_NEXT_TRACK" >
+      <Handler Class="MMPlayer"    >
+        <Param  Action="NEXT" OSDText="OSD_NEXT_TRACK" OSDImage="next.png"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="MM PREVIOUS" HelpString="OSD_PREV_TRACK" >
+      <Handler Class="MMPlayer"    >
+        <Param  Action="PREVIOUS" OSDText="OSD_PREV_TRACK" OSDImage="previous.png"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="MM NEXT_FF" HelpString="OSD_NEXT_TRACK" >
+      <Handler Class="MMPlayer2"    >
+        <Param  Action="NEXT" OSDText="OSD_NEXT_TRACK" OSDImage="next.png"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="MM PREVIOUS_REWIND" HelpString="OSD_PREV_TRACK" >
+      <Handler Class="MMPlayer2"    >
+        <Param  Action="PREVIOUS" OSDText="OSD_PREV_TRACK" OSDImage="previous.png"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="MM FASTFORWARD" HelpString="OSD_FASTFORWARD" >
+      <Handler Class="MMPlayer"    >
+        <Param  Action="FASTFORWARD" OSDText="OSD_FASTFORWARD" OSDImage="fast_forward.png"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM REWIND" HelpString="OSD_REWIND" >
+      <Handler Class="MMPlayer"    >
+        <Param  Action="REWIND" OSDText="OSD_REWIND" OSDImage="rewind.png"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM SHUFFLE" HelpString="HELP_MM_SHUFFLE" >
+      <Handler Class="MMPlayer"  >
+        <Param  Action="SHUFFLE" OSDImage="shuffle.png" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM TUNEUP" HelpString="HELP_MM_TUNEUP" >
+      <Handler Class="MMPlayer"  >
+        <Param  Action="TUNEUP" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MM TUNEDOWN" HelpString="HELP_MM_TUNEDOWN" >
+      <Handler Class="MMPlayer"  >
+        <Param  Action="TUNEDOWN" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VOLUMEMUTE" HelpString="HELP_MM_MUTE" >
+      <Handler Class="VolumeMonitor"    >
+        <Param  Action="VOLUMEMUTE"
+                ActionString="IDS_MUTE_OSD"
+                ActionImageFile="mute.png"
+                ImageFileUnmute="unmute.png"
+                ActionStringUnmute="IDS_UNMUTE_OSD"
+      />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VOLUMEMUTE NoOSD" HelpString="HELP_MM_MUTE" >
+      <Handler Class="VolumeMonitor"    >
+        <Param  Action="VOLUMEMUTE" ShowOSD="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VOLUMEUP" HelpString="HELP_MM_VOLUP" >
+      <Handler Class="VolumeMonitor"    >
+        <Param  Action="VOLUMEUP"
+                ActionString="IDS_VOLUMEUP_OSD"
+                ActionImageFile="volume_up.png"
+      />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VOLUMEDOWN" HelpString="HELP_MM_VOLDOWN" >
+      <Handler Class="VolumeMonitor"  >
+        <Param  Action="VOLUMEDOWN"
+                ActionString="IDS_VOLUMEDOWN_OSD"
+                ActionImageFile="volume_down.png"
+      />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VOLUMEUPRepeat" HelpString="HELP_MM_VOLUP" >
+      <Handler Class="VolumeMonitor"    >
+        <Param  Action="VOLUMEUP" RepeatDelay="50" RepeatFirstDelay="500"
+                ActionString="IDS_VOLUMEUP_OSD"
+               ActionImageFile="volume_up.png"
+      />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VOLUMEDOWNRepeat" HelpString="HELP_MM_VOLDOWN" >
+      <Handler Class="VolumeMonitor"  >
+        <Param  Action="VOLUMEDOWN" RepeatDelay="50" RepeatFirstDelay="500"
+                ActionString="IDS_VOLUMEDOWN_OSD"
+                ActionImageFile="volume_down.png" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Illumination">
+      <Handler Class="IlluminationMonitor" >
+        <Param  Action="ILLUMINATION"
+                ActionImageFile="illuminationLight.png"
+                ActionImageFileOnZero="illuminationDark.png"
+                ActionImageFileOff="illuminationOff.png"
+        />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Illumination2">
+      <Handler Class="IlluminationMonitor2" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Eject" HelpString="HELP_EJECT" >
+      <Handler Class="Eject"  >
+        <Param  ShowUIDlg="1" OSDText="IDS_OSD_EJECT" OSDImage="eject.png" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="EjectLongDelay" HelpString="HELP_EJECT" >
+      <Handler Class="Eject"  >
+        <Param  ShowUIDlg="1" LongPressTime="900" OSDText="IDS_OSD_EJECT" OSDImage="eject.png" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="Burn" HelpString="HELP_BURN" >
+      <Handler Class="PostMessage"  >
+        <Param  MessageName="Burn" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="Record" HelpString="HELP_RECORD" >
+      <Handler Class="PostMessage"  >
+        <Param  MessageName="Record" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FLOCK">
+      <Handler Class="FLockChange"  >
+        <Param  Silent="0"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LockNotification">
+      <Handler Class="LockBeep"  />
+      <Handler Class="LockNotif"  >
+        <PARAM	Silent="0"
+            CapsOnString="HELP_LOCK_CAPS_ON"
+            CapsOnImage="caps-lock_on.png"
+            CapsOffString="HELP_LOCK_CAPS_OFF"
+            CapsOffImage="caps-lock_off.png"
+            ScrollOnString="HELP_LOCK_SCROLL_ON"
+            ScrollOnImage="scroll-lock_on.png"
+            ScrollOffString="HELP_LOCK_SCROLL_OFF"
+            ScrollOffImage="scroll-lock_off.png"
+            NumsOnString="HELP_LOCK_NUMS_ON"
+            NumsOnImage="num-lock_on.png"
+            NumsOffString="HELP_LOCK_NUMS_OFF"
+            NumsOffImage="num-lock_off.png"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ForegroundWindowNotification">
+      <Handler Class="ForegroundWindowNotif"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="NumSilentNotification">
+      <Handler Class="LockBeep"  />
+      <Handler Class="LockNotif"  >
+        <PARAM	NumSilent="1" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TrayLockIcon">
+      <Handler Class="LockBeep"  />
+      <Handler Class="TrayLockIcon"  />
+      <Handler Class="LockPopup"  />
+    </HandlerSet>
+
+    <HandlerSet Name="MailHandler">
+      <Handler Class="MailNotif"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="MediaPlayerEventHandler">
+      <Handler Class="MediaPlayerEventHandler"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="InstantMessageHandler">
+      <Handler Class="InstantMessageHandler"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AlertNotification">
+      <Handler Class="AlertNotif"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="KeystrokeAssignment" HelpString="HELP_KEYSTROKE" >
+      <Handler Class="KeystrokeAssignment"  >
+        <Param  VirtualKey="0" LParam="0" Modifier="0" DisplayName=""/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ClearScreen">
+      <Handler Class="ClearScreen"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="CalculatorResult">
+      <Handler Class="CalculatorResult"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="CalcMode" >
+      <Handler Class="OnScreenDisplay">
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="UpdateDateTimeSet">
+      <Handler Class="UpdateDateTime"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="UpdateVolumeMuteSet">
+      <Handler Class="MuteIcon"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="DisplayReset">
+      <Handler Class="DisReset"  >
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Close">
+      <Handler Class="PostMessage"  >
+        <Param MessageName="Close" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RecenterNotification" HelpString="HELP_GESTURE_RECENTER">
+      <Handler Class="RecenterNotif"  >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Generic Mouse Button -->
+    <HandlerSet Name="GenericMouseButton" HelpString="HELP_GENERIC_MOUSE_BUTTON" >
+      <Handler Class="HandlerBlank" >
+        <Param PromptToAssign="1"/>
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Horz Scroll Right -->
+    <HandlerSet Name="HorzScrollRightSet" HelpString="HELP_HORZ_SCROLL_RIGHT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="1"    />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Horz Scroll Right + forward in browsers -->
+    <HandlerSet Name="MetroForwRightHorz" HelpString="HELP_HORZ_SCROLL_RIGHT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="1"   forward="1" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Horz Scroll Left + back in browsers-->
+    <HandlerSet Name="MetroBackLeftHorz" HelpString="HELP_HORZ_SCROLL_LEFT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="0"  back="1"/>
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Horz Scroll Left -->
+    <HandlerSet Name="HorzScrollLeftSet" HelpString="HELP_HORZ_SCROLL_LEFT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="0"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Horz Scroll Right Borneo-->
+    <HandlerSet Name="HorzScrollRightSet_Borneo" HelpString="HELP_HORZ_SCROLL_RIGHT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="1" ElapseTime="25"   />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Horz Scroll Left Borneo-->
+    <HandlerSet Name="HorzScrollLeftSet_Borneo" HelpString="HELP_HORZ_SCROLL_LEFT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="0"  ElapseTime="25" />
+      </Handler>
+    </HandlerSet>
+    <!-- Handler Horz Scroll No Repeat -->
+    <HandlerSet Name="HorzScrollNoRepeatSet" >
+      <Handler Class="HorizontalScroll" >
+        <Param Repeat="0"    />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler AppOverrides for Back and Forward Mouse Button -->
+    <HandlerSet Name="AppOverride_OutlookBack" HelpString="HELP_OUTLOOK_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="Outlook.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookForward" HelpString="HELP_OUTLOOK_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="Outlook.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_OutlookExpressBack" HelpString="HELP_OUTLOOK_EXPRESS_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="MSIMN.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookExpressForward" HelpString="HELP_OUTLOOK_EXPRESS_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="MSIMN.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_WordBack" HelpString="HELP_WORD_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="WINWORD.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_WordForward" HelpString="HELP_WORD_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="WINWORD.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_PowerPointBack" HelpString="HELP_POWERPOINT_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="POWERPNT.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointForward" HelpString="HELP_POWERPOINT_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="POWERPNT.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_MindMapperBack" HelpString="HELP_MINDMAPPER_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="MM.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_MindMapperForward" HelpString="HELP_MINDMAPPER_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="MM.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_ExcelBack" HelpString="HELP_EXCEL_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="EXCEL.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelForward" HelpString="HELP_EXCEL_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="EXCEL.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_LotusNotesBack" HelpString="HELP_LOTUS_NOTES_BACK" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="BACK" ExeName="NLNOTES.exe" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_LotusNotesForward" HelpString="HELP_LOTUS_NOTES_FORWARD" >
+      <Handler Class="AppOverrides"  >
+        <Param ActionName="FORWARD" ExeName="NLNOTES.exe" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler ZoomSet -->
+    <HandlerSet Name="ZoomSet" HelpString="HELP_ZOOM_SET" >
+      <Handler Class="zoom"  >
+        <Param Apps="windowsphotogallery,ois,winword,excel,iexplore,acdsee6,acdsee7,acdsee8,acdsee8pro,illustrator,indesign,picasa2,quarkxpress,wkswp,wpwin11,opera,photoshopalbum,wpwin12,acrord32,acrobat,mozilla,firefox,netscp,medialife,outlook,picasa3" ExcludedApps="explorer,mspaint,msaccess,nlnotes,googleearth,itunes" ClassNames="ShImgVw:CZoomWnd"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VerticalScrollSet -->
+    <HandlerSet Name="VerticalScrollSet">
+      <Handler Class="VerticalScroll"  >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler SmartShiftSet -->
+    <HandlerSet Name="SmartShiftSet">
+      <Handler Class="SmartShift"  >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler ZoomBtns -->
+    <HandlerSet Name="ZoomBtnOutSet" HelpString="HELP_ZOOMBTN_OUT" >
+      <Handler Class="ZoomBtns"  >
+        <Param ActionName="-1"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="ZoomBtnResetSet" HelpString="HELP_ZOOMBTN_RESET" >
+      <Handler Class="ZoomBtns"  >
+        <Param ActionName="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="ZoomBtnInSet" HelpString="HELP_ZOOMBTN_IN" >
+      <Handler Class="ZoomBtns"  >
+        <Param ActionName="1"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="ZoomBtnOutSet2" HelpString="HELP_ZOOMBTN_OUT" >
+      <Handler Class="FiveSwitchZoom" >
+        <Param  RepeatDelay="50" RepeatFirstDelay="500" MyButton="11" ShowUIDlg2="1" />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="ZoomBtnInSet2" HelpString="HELP_ZOOMBTN_IN" >
+      <Handler Class="FiveSwitchZoom" >
+        <Param  RepeatDelay="50" RepeatFirstDelay="500" MyButton="9" ShowUIDlg2="1" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler SearchForFiles-->
+    <HandlerSet Name="SearchForFiles" HelpString="HELP_SEARCH_FOR_FILES">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="KeyStroke" >
+        <Param KeyName="*f" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Rotate -->
+    <HandlerSet Name="RotateRight" HelpString="HELP_ROTATE_RIGHT" >
+      <Handler Class="RotateBtns"  >
+        <Param ActionName="1" ShowUIDlg="1" RepeatDelay="100" RepeatFirstDelay="100"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RotateLeft" HelpString="HELP_ROTATE_LEFT" >
+      <Handler Class="RotateBtns"  >
+        <Param ActionName="-1" ShowUIDlg="1" RepeatDelay="100" RepeatFirstDelay="100"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Rotate No Dialog-->
+    <HandlerSet Name="RotateRightNoDialog" HelpString="HELP_ROTATE_RIGHT" >
+      <Handler Class="RotateBtns"  >
+        <Param ActionName="1" ShowUIDlg="0" RepeatDelay="100" RepeatFirstDelay="100"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RotateLeftNoDialog" HelpString="HELP_ROTATE_LEFT" >
+      <Handler Class="RotateBtns"  >
+        <Param ActionName="-1" ShowUIDlg="0" RepeatDelay="100" RepeatFirstDelay="100"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler PlaylistAssignment (PresetBtns) -->
+    <HandlerSet Name="PlaylistAssignment" HelpString="HELP_PLAYLIST" >
+      <Handler Class="PresetBtns"  >
+        <Param LongPressTime="600"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Toggles scroll lock/insert   -->
+    <HandlerSet Name="ToggleScrollLockSet"  >
+      <Handler Class="ToggleScrollLock"  >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler to Scroll -->
+    <HandlerSet Name="iNavGenericScrollSet" HelpString="HELP_SCROLL"  >
+      <Handler Class="iNav" >
+        <Param ActionName="INAVWHEEL" ShowUIDlg="1" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler to changed preferences of calc result -->
+    <HandlerSet Name="CalcResultOptionSet" HelpString="HELP_CLIPBOARD_PREFERENCE"  >
+      <Handler Class="CalcResultOption" >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler for Navigation Wheel Acceleraion settings -->
+    <HandlerSet Name="NavigationWheelSet" HelpString="HELP_NAVIGATION_WHEEL"  >
+      <Handler Class="NavigationWheel" >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler for Smart Key settings -->
+    <HandlerSet Name="SmartKeySet" HelpString="HELP_SMART_KEY"  >
+      <Handler Class="SmartKey" >
+        <Param ActionDetails="" LongPressTime="300"/>
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************** -->
+    <!--					DPI +/-  TEMPLATES						  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler to increase the sensitivity on gaming mouse mx518 -->
+    <HandlerSet Name="SensitivityIncrease" HelpString="HELP_SENSITIVITY_INCREASE"  >
+      <Handler Class="HandlerSensitivity" >
+        <Param SensitivityUp="1" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler to increase the sensitivity on gaming mouse mx518 -->
+    <HandlerSet Name="SensitivityToggle" HelpString="HELP_SENSITIVITY_TOGGLE"  >
+      <Handler Class="HandlerSensitivity" >
+        <Param SensitivityUp="1" SensitivityToggle="1" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler to decrease the sensitivity on gaming mouse mx518 -->
+    <HandlerSet Name="SensitivityDecrease" HelpString="HELP_SENSITIVITY_DECREASE"  >
+      <Handler Class="HandlerSensitivity" >
+        <Param SensitivityUp="0" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- ******************************************************************** -->
+    <!--					END DPI +/- TEMPLATES					  -->
+    <!-- ******************************************************************** -->
+
+    <!-- Handler Record a game on gaming mouse mx518 -->
+    <HandlerSet Name="GameRecordSet"  >
+      <Handler Class="HandlerRecordGame" >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler browser stop command -->
+    <HandlerSet Name="BrowserStop" HelpString="HELP_BROWSER_STOP"  >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{ESC}"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler browser refresh command -->
+    <HandlerSet Name="BrowserRefresh" HelpString="HELP_BROWSER_REFRESH"  >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{F5}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AdvSmartSearch" HelpString="HELP_SMART_SEARCH"  >
+      <Handler Class="SmartSearch" >
+        <Param LongPressTime="2000" SupportedInternetSearchApps="GOOGLE,YAHOO,BING.COM,AOL" SupportedDesktopSearchApps="GOOGLEDESKTOP" SearchApp="YAHOO" Preference="US" ShowUIDlg="1" Default="YAHOO"  SearchType="INTERNET" SearchSettingsDesc="IDS_ADVANCED_SEARCH_SETTINGS_DESC"  SearchSettingsDescFirstTimeUse="IDS_ADVANCED_SEARCH_SETTINGS_DESC_FIRST_TIME_USE"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="DesktopSearch" HelpString="HELP_DESKTOP_SEARCH_APP"  >
+      <Handler Class="SmartSearch" >
+        <Param LongPressTime="2000" SupportedDesktopSearchApps="GOOGLEDESKTOP" SearchApp="GOOGLEDESKTOP" Preference="US" ShowUIDlg="1" Default="GOOGLEDESKTOP"  SearchType="DESKTOP" SearchSettingsDesc="IDS_ADVANCED_SEARCH_SETTINGS_DESC"  SearchSettingsDescFirstTimeUse="IDS_ADVANCED_SEARCH_SETTINGS_DESC_FIRST_TIME_USE" HelpFile="keyboard_tp" HelpURL="kbd_setting_up_search"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AdvInternetSearch" HelpString="HELP_INTERNET_SEARCH"  >
+      <Handler Class="SmartSearch" >
+        <Param LongPressTime="2000" SupportedInternetSearchApps="GOOGLE,YAHOO,BING.COM,AOL" SearchApp="YAHOO" Preference="US" ShowUIDlg="1" Default="YAHOO"  SearchType="INTERNET" SearchSettingsDesc="IDS_ADVANCED_SEARCH_SETTINGS_DESC"  SearchSettingsDescFirstTimeUse="IDS_ADVANCED_SEARCH_SETTINGS_DESC_FIRST_TIME_USE"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="BasicSmartSearch" HelpString="HELP_SMART_SEARCH"  >
+      <Handler Class="SmartSearch" >
+        <Param LongPressTime="2000" SupportedInternetSearchApps="GOOGLE,YAHOO,BING.COM,AOL"  SearchApp="YAHOO" Preference="US" ShowUIDlg="1" Default="YAHOO"  SearchType="INTERNET" SearchSettingsDesc="IDS_BASIC_SEARCH_SETTINGS_DESC"  SearchSettingsDescFirstTimeUse="IDS_BASIC_SEARCH_SETTINGS_DESC_FIRST_TIME_USE"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler FiveSwitchZoom command -->
+    <HandlerSet Name="FiveSwitchZoom" HelpString="HELP_ZOOM_SET"  >
+      <Handler Class="FiveSwitchZoom" >
+        <Param  RepeatDelay="50" RepeatFirstDelay="500" HelpFile="Devices/PointingDevice/100006D/zoom.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FiveSwitchQuickSwitch" HelpString="HELP_QUICKSWITCH"  >
+      <Handler Class="FiveSwitchQuickSwitch" >
+        <Param  RepeatDelay="50" RepeatFirstDelay="500" HelpFile="Devices/PointingDevice/100006D/documentflip.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ThreeLevelDPISettings" HelpString="HELP_THREE_LEVEL_DPISETTINGS"  >
+      <Handler Class="ThreeLevelDPISettings" >
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler TwoSwitchDPISettings command -->
+    <HandlerSet Name="TwoSwitchDPISettings" HelpString="HELP_TWOSWITCH_DPISETTINGS_SET"  >
+      <Handler Class="TwoSwitchDPISettings" >
+        <Param  DPIPlusSettings="4" DPIMinusSettings ="2"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchZoom" HelpString="HELP_ZOOM_SET"  >
+      <Handler Class="TwoSwitchZoom" >
+        <Param  RepeatDelay="50" ShowUIDlg2="1" RepeatFirstDelay="500" HelpFile="Devices/PointingDevice/100006D/zoom.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchVolumeSet" HelpString="HELP_FIVE_BUTTON_VOLUME"  >
+      <Handler Class="TwoSwitchVolume" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchCruiseSet" HelpString="HELP_TWOSWITCH_CRUISE_SET"  >
+      <Handler Class="TwoSwitchCruise" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchPageSet" HelpString="HELP_TWOSWITCH_PAGE_SET"  >
+      <Handler Class="TwoSwitchPage" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchBackForwardSet" HelpString="HELP_TWOSWITCH_BACK_FORWARD_SET"  >
+      <Handler Class="TwoSwitchBackForward" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchNextPreviousSet" HelpString="HELP_TWOSWITCH_NEXT_PREVIOUS_SET"  >
+      <Handler Class="TwoSwitchNextPrevious" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchCopyPasteSet" HelpString="HELP_TWOSWITCH_COPY_PASTE_SET"  >
+      <Handler Class="TwoSwitchCopyPaste" >
+        <Param  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="TwoSwitchKeystrokeSet" HelpString="HELP_TWOSWITCH_KEYSTROKE_SET"  >
+      <Handler Class="TwoSwitchKeystroke">
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+
+
+
+    <!-- Handler launch VoIP via SetPoint  -->
+    <HandlerSet Name="VoIPBasicSet" HelpString="HELP_VOIP_BASIC_SET">
+      <Handler Class="VoIP" >
+        <Param VOIP_MAIN_XML_TAG="VOIPApplications" VOIP_APP_TAG_NAME="VOIPApp" VOIPAction="Launch" SupportedApps="SKYPE,AOL,YAHOO,MSN,MESSENGER,ICQ" DefClient=""  VOIPHelpFile="keyboard_tp" VOIPHelpURL="kbd_using_kbd_stay_touch"    />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler launch VoIP via Bedrock ( non sk'p )  -->
+    <HandlerSet Name="VoIPAdvancedSet" HelpString="HELP_VOIP_ADVANCED_SET"  >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Launch2" SupportedApps="AIM Triton,Yahoo! Messenger,Skype" DefClient="AIM Triton"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler launch VoIP via Bedrock ( sk'p only )  -->
+    <HandlerSet Name="VoIPSkypeSet" HelpString="HELP_VOIP_BASIC_SET">
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Launch2" SupportedApps="Skype" DefClient="Skype"  Client="" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler VoIP  Call -->
+    <HandlerSet Name="VoIPCallSet"  HelpString="HELP_VOIP_CALL_SET" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Call"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VoIPDialSet"   >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Dial"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ExternalHeadsetNotificationSet"   >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="ExtHeadset"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Preset Contact 1 -->
+    <HandlerSet Name="VoIPF9Preset"   HelpString="HELP_VOIP_PRESET" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Preset" CALLTO_ID="" CALLTO_ID_IS_NO="0" preset_action="call" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Preset Contact 2 -->
+    <HandlerSet Name="VoIPF10Preset"   HelpString="HELP_VOIP_PRESET" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Preset" CALLTO_ID="" CALLTO_ID_IS_NO="0" preset_action="call" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Preset Contact 3 -->
+    <HandlerSet Name="VoIPF11Preset"   HelpString="HELP_VOIP_PRESET" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Preset" CALLTO_ID="" CALLTO_ID_IS_NO="0" preset_action="call" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Preset Contact 4 -->
+    <HandlerSet Name="VoIPF12Preset"   HelpString="HELP_VOIP_PRESET" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Preset" CALLTO_ID="" CALLTO_ID_IS_NO="0" preset_action="call" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Call Contact-->
+    <HandlerSet Name="VoIPF9CallContact"   HelpString="HELP_VOIP_CALL_CONTACT" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Call" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VoIPF10CallContact"   HelpString="HELP_VOIP_CALL_CONTACT" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Call" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VoIPF11CallContact"   HelpString="HELP_VOIP_CALL_CONTACT" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Call" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VoIPF12CallContact"   HelpString="HELP_VOIP_CALL_CONTACT" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Call" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Dial Number-->
+    <HandlerSet Name="VoIPDialNumber"   HelpString="HELP_VOIP_DIAL_NUMBER">
+      <Handler Class="VoIP" >
+        <Param VOIPAction="CallNumber" CALLTO_ID="123456789" CALLTO_ID_IS_NO="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Chat -->
+    <HandlerSet Name="VoIPChat1"   HelpString="HELP_VOIP_CHAT">
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Chat" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Chat -->
+    <HandlerSet Name="VoIPChat2"   HelpString="HELP_VOIP_CHAT">
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Chat" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Chat -->
+    <HandlerSet Name="VoIPChat3"   HelpString="HELP_VOIP_CHAT">
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Chat" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Chat -->
+    <HandlerSet Name="VoIPChat4"   HelpString="HELP_VOIP_CHAT">
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Chat" CALLTO_ID="" CALLTO_ID_IS_NO="0" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Hangup -->
+    <HandlerSet Name="VoIPHangupSet" HelpString="HELP_VOIP_HANGUP_SET" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Hangup"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Volume Up-->
+    <HandlerSet Name="VoIPVolumeUp" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="VolumeUp"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  Volume Down-->
+    <HandlerSet Name="VoIPVolumeDown" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="VolumeDown"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler VoIP  MicroPhone Mute-->
+    <HandlerSet Name="VOIPMicroPhoneMute" >
+      <Handler Class="VoIP" >
+        <Param VOIPAction="Mute"/>
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler StandBy -->
+    <HandlerSet Name="StandBySet" HelpString="HELP_STANDBY"  >
+      <Handler Class="PowerManagement" >
+        <Param action="0" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="RestartSet" HelpString="HELP_RESTART"  >
+      <Handler Class="PowerManagement" >
+        <Param action="1" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ShutdownSet" HelpString="HELP_SHUTDOWN"  >
+      <Handler Class="PowerManagement" >
+        <Param action="2" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LogOffSet" HelpString="HELP_LOGOFF"  >
+      <Handler Class="PowerManagement" >
+        <Param action="3" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="PictureSearchSet" HelpString="HELP_PICTURE_SEARCH"  >
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="PersonalFolders" >
+        <Param FolderName="CSIDL_MYPICTURES"  />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler PhotoGallery -->
+    <HandlerSet Name="PhotoGallerySet" HelpString="HELP_PICTURE_SEARCH">
+      <Handler Class="OnScreenDisplay" >
+        <Param />
+      </Handler>
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="0" FileName="%ProgramFiles%\\Windows Photo Gallery\\WindowsPhotoGallery.exe"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="PictureAppSet" HelpString="HELP_PICTURE_APP">
+      <Handler Class="Picture" >
+        <Param MAIN_XML_TAG="PictureApplications" APP_TAG_NAME="PictureApp" DefClient="acdsee6"  Client=""    />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="NewFolderSet" HelpString="HELP_NEW_FOLDER">
+      <Handler Class="newfolder" >
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="KeyboardBeepSet" HelpString="HELP_KEYBOARD_BEEP">
+      <Handler Class="HandlerBlank" >
+        <Param PromptToAssign="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ScreenSaverSet" HelpString="HELP_SCREEN_SAVER">
+      <Handler Class="StartScreenSaver" >
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="VoIPLauch" HelpString="HELP_VoIP">
+      <Handler Class="FileLauncher" >
+        <Param ShowUIDlg="0" FileName="rundll32.exe" Parameters="msconf.dll,CallToProtocolHandler %l"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LaunchPresetSet1" HelpString="HELP_LAUNCH_PRESET_1">
+      <Handler Class="HandlerButtonLauncher" >
+        <Param ButtonID="589893"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LaunchPresetSet2" HelpString="HELP_LAUNCH_PRESET_2">
+      <Handler Class="HandlerButtonLauncher" >
+        <Param ButtonID="589894"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LaunchPresetSet3" HelpString="HELP_LAUNCH_PRESET_3">
+      <Handler Class="HandlerButtonLauncher" >
+        <Param ButtonID="589895"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LaunchPresetSet4" HelpString="HELP_LAUNCH_PRESET_4">
+      <Handler Class="HandlerButtonLauncher" >
+        <Param ButtonID="589896"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Stromboli Menu -->
+    <HandlerSet Name="StromboliMenuSet"  HelpString="HELP_STROMBOLI_MENU">
+      <Handler Class="StromboliMenu" >
+        <Param LongPressTime="2000"  HelpFile="Devices/PointingDevice/100006C/menucast.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+
+    <!-- Handler Stromboli Magnify-->
+    <HandlerSet Name="StromboliMagnifySet"  HelpString="HELP_STROMBOLI_MAGNIFY">
+      <Handler Class="StromboliMagnify" >
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Stromboli vol -->
+    <HandlerSet Name="StromboliVolSet"  HelpString="HELP_STROMBOLI_VOL">
+      <Handler Class="StromboliVol" >
+        <Param LongPressTime="300"  HelpFile="Devices/PointingDevice/100006C/vol-mute.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Stromboli MediaControl -->
+    <HandlerSet Name="StromboliMediaControlSet"  HelpString="HELP_STROMBOLI_MEDIACONTROL">
+      <Handler Class="StromboliMediaControl" >
+        <Param LongPressTime="300"  HelpFile="Devices/PointingDevice/100006C/play-pause.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Stromboli zoom -->
+    <HandlerSet Name="StromboliZoomSet"  HelpString="HELP_STROMBOLI_ZOOM">
+      <Handler Class="StromboliZoom" >
+        <Param LongPressTime="300"  HelpFile="Devices/PointingDevice/100006C/air-zoom.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- Handler Stromboli OnAir -->
+    <HandlerSet Name="StromboliOnAir" >
+      <Handler Class="HandlerOnAir" >
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************* -->
+    <!-- 				App Overrides for SmartShift		 -->
+    <!-- ******************************************************************* -->
+    <HandlerSet Name="AppOverride_WordSmartShift" HelpString="HELP_WORD_SMARTSHIFT" >
+      <Handler Class="SmartShift"  >
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_WordPadSmartShift" HelpString="HELP_WORDPAD_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookSmartShift" HelpString="HELP_OUTLOOK_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointSmartShift" HelpString="HELP_POWERPOINT_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelSmartShift" HelpString="HELP_EXCEL_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_IExploreSmartShift" HelpString="HELP_IEXPLORE_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AcrobatReaderSmartShift" HelpString="HELP_ACROBATREADER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_RealPlayerSmartShift" HelpString="HELP_REALPLAYER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AdobePhotoshopSmartShift" HelpString="HELP_ADOBEPHOTOSHOP_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_MicrosoftPicManagerSmartShift" HelpString="HELP_MICROSOFTPICMANAGER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_LotusNotesSmartShift" HelpString="HELP_LNOTES_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AllProgramsSmartShift" HelpString="HELP_ALLPROGRAMS_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************* -->
+    <!-- 				App Overrides for SmartShift NO UI		 -->
+    <!-- ******************************************************************* -->
+    <HandlerSet Name="AppOverride_WordSmartShift_NOUI" HelpString="HELP_WORD_SMARTSHIFT" >
+      <Handler Class="SmartShift"  >
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_WordPadSmartShift_NOUI" HelpString="HELP_WORDPAD_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookSmartShift_NOUI" HelpString="HELP_OUTLOOK_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointSmartShift_NOUI" HelpString="HELP_POWERPOINT_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelSmartShift_NOUI" HelpString="HELP_EXCEL_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_IExploreSmartShift_NOUI" HelpString="HELP_IEXPLORE_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AcrobatReaderSmartShift_NOUI" HelpString="HELP_ACROBATREADER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_RealPlayerSmartShift_NOUI" HelpString="HELP_REALPLAYER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AdobePhotoshopSmartShift_NOUI" HelpString="HELP_ADOBEPHOTOSHOP_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_MicrosoftPicManagerSmartShift_NOUI" HelpString="HELP_MICROSOFTPICMANAGER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_LotusNotesSmartShift_NOUI" HelpString="HELP_LNOTES_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AllProgramsSmartShift_NOUI" HelpString="HELP_ALLPROGRAMS_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="1" AutoGlideAtHighSpeed="1" EnabledSmartShiftMode="3" ForceLevel="30" ShowUIDlg="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <!-- ******************************************************************* -->
+    <!-- 				App Overrides for SmartShift for Stromboli	 -->
+    <!-- ******************************************************************* -->
+    <HandlerSet Name="AppOverride_WordSmartShiftStromboli" HelpString="HELP_WORD_SMARTSHIFT" >
+      <Handler Class="SmartShift"  >
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_WordPadSmartShiftStromboli" HelpString="HELP_WORDPAD_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookSmartShiftStromboli" HelpString="HELP_OUTLOOK_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointSmartShiftStromboli" HelpString="HELP_POWERPOINT_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelSmartShiftStromboli" HelpString="HELP_EXCEL_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_IExploreSmartShiftStromboli" HelpString="HELP_IEXPLORE_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AcrobatReaderSmartShiftStromboli" HelpString="HELP_ACROBATREADER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_RealPlayerSmartShiftStromboli" HelpString="HELP_REALPLAYER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AdobePhotoshopSmartShiftStromboli" HelpString="HELP_ADOBEPHOTOSHOP_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_MicrosoftPicManagerSmartShiftStromboli" HelpString="HELP_MICROSOFTPICMANAGER_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_LotusNotesSmartShiftStromboli" HelpString="HELP_LNOTES_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AllProgramsSmartShiftStromboli" HelpString="HELP_ALLPROGRAMS_SMARTSHIFT" >
+      <Handler Class="SmartShift">
+        <Param AllowManualShift="0" AutoGlideAtHighSpeed="0" EnabledSmartShiftMode="2" ForceLevel="30"/>
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************* -->
+    <!-- 				App Overrides for VerticalScroll     -->
+    <!-- ******************************************************************* -->
+
+    <HandlerSet Name="AppOverride_WordVertScroll" HelpString="HELP_WORD_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="2" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_WordPadVertScroll" HelpString="HELP_WORDPAD_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="3" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="1"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookVertScroll" HelpString="HELP_OUTLOOK_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="1" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointVertScroll" HelpString="HELP_POWERPOINT_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="1" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelVertScroll" HelpString="HELP_EXCEL_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="1" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_IExploreVertScroll" HelpString="HELP_IEXPLORE_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="1" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_RealPlayerVertScroll" HelpString="HELP_REALPLAYER_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="0" ScrollFactor="3" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="1" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AcrobatReaderVertScroll" HelpString="HELP_ACROBATREADER_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="0" ScrollFactor="3" MaxAcceleration="15" MaxScrollFactor = "3" ForceScrollFactor="1" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_AdobePhotoshopVertScroll" HelpString="HELP_ADOBEPHOTOSHOP_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="10" ScrollFactor="2" MaxAcceleration="20" MaxScrollFactor = "3" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_IExploreVScroll" HelpString="" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="1" MaxAcceleration="100"  MaxScrollFactor="20" ForceScrollFactor="0" ShowSmoothScroll="0" AllowSmoothScroll="0" AllowReverseScroll="0"   />
+      </Handler>
+    </HandlerSet>
+
+
+
+    <HandlerSet Name="AppOverride_MicrosoftPicManagerVertScroll" HelpString="HELP_MICROSOFTPICMANAGER_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="2" MaxAcceleration="100" MaxScrollFactor = "3" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_LotusNotesVertScroll" HelpString="HELP_LNOTES_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="1" MaxAcceleration="100" MaxScrollFactor = "3" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AllProgramsVertScroll" HelpString="HELP_ALLPROGRAMS_VERTSCROLL" >
+      <Handler Class="VerticalScroll">
+        <Param Acceleration="50" ScrollFactor="2" MaxAcceleration="100" MaxScrollFactor = "20" ForceScrollFactor="0" AllowReverseScroll="0"/>
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************* -->
+    <!-- 				App Overrides for HorizontalScroll     -->
+    <!-- ******************************************************************* -->
+
+    <HandlerSet Name="AppOverride_WordHorzScroll" HelpString="HELP_WORD_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="2"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_WordPadHorzScroll" HelpString="HELP_WORDPAD_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="2"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookHorzScroll" HelpString="HELP_OUTLOOK_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointHorzScroll" HelpString="HELP_POWERPOINT_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "155"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelHorzScroll" HelpString="HELP_EXCEL_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_IExploreHorzScroll" HelpString="HELP_IEXPLORE_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "56"  Acceleration="2"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_RealPlayerHorzScroll" HelpString="HELP_REALPLAYER_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AcrobatReaderHorzScroll" HelpString="HELP_ACROBATREADER_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_AdobePhotoshopHorzScroll" HelpString="HELP_ADOBEPHOTOSHOP_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_MicrosoftPicManagerHorzScroll" HelpString="HELP_MICROSOFTPICMANAGER_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_LotusNotesHorzScroll" HelpString="HELP_LNOTES_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "175"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_AllProgramsHorzScroll" HelpString="HELP_ALLPROGRAMS_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "173"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AllProgramsBorneoHorzScroll" HelpString="HELP_ALLPROGRAMS_HORZSCROLL" >
+      <Handler Class="HorizontalScroll">
+        <Param ElapseTime = "25"  Acceleration="0"/>
+      </Handler>
+    </HandlerSet>
+    <!-- ******************************************************************* -->
+    <!-- 				App Overrides for Zoom     -->
+    <!-- ******************************************************************* -->
+
+    <HandlerSet Name="AppOverride_WordZoom" HelpString="HELP_WORD_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_WordPadZoom" HelpString="HELP_WORDPAD_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_OutlookZoom" HelpString="HELP_OUTLOOK_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_PowerPointZoom" HelpString="HELP_POWERPOINT_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "27"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_ExcelZoom" HelpString="HELP_EXCEL_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_IExploreZoom" HelpString="HELP_IEXPLORE_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "0"  Acceleration="0"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_RealPlayerZoom" HelpString="HELP_REALPLAYER_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="AppOverride_AcrobatReaderZoom" HelpString="HELP_ACROBATREADER_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_AdobePhotoshopZoom" HelpString="HELP_ADOBEPHOTOSHOP_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_MicrosoftPicManagerZoom" HelpString="HELP_MICROSOFTPICMANAGER_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "0"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="AppOverride_AllProgramsZoom" HelpString="HELP_ALLPROGRAMS_ZOOM" >
+      <Handler Class="zoom">
+        <Param ZoomFactor = "9"  Acceleration="4"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Flip3D" HelpString="3DFlip" >
+      <Handler Class="Handler3DFlip">
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="CursorFreezeSet" HelpString="HELP_CURSOR_FREEZE" >
+      <Handler Class="CursorFreeze">
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FiveButtonVolumeSet" HelpString="HELP_FIVE_BUTTON_VOLUME" >
+      <Handler Class="FiveSwitchVolume">
+        <Param HelpFile="Devices/PointingDevice/100006D/volume.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FiveButtonMediaSet" HelpString="HELP_FIVE_BUTTON_MEDIA" >
+      <Handler Class="FiveSwitchMedia">
+        <Param OSDTextPlay="OSD_PLAYPAUSE" OSDTextNext="OSD_NEXT_TRACK" OSDTextPrev="OSD_PREV_TRACK" HelpFile="Devices/PointingDevice/100006D/media.html" HelpTitle="IDS_TASK_DESCRIPTION"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FiveButtonAutoScrollSet" HelpString="HELP_FIVE_BUTTON_THUMBSCROLL" >
+      <Handler Class="FiveSwitchAutoScroll">
+        <Param HelpFile="Devices/PointingDevice/100006D/autoscroll.html" HelpTitle="IDS_TASK_DESCRIPTION"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FiveButtonUniversalScrollSet" HelpString="HELP_FIVE_BUTTON_UNIVERSALSCROLL" >
+      <Handler Class="FiveSwitchUniversalScroll">
+        <Param HelpFile="Devices/PointingDevice/100006D/universalscroll.html" HelpTitle="IDS_TASK_DESCRIPTION"  />
+      </Handler>
+    </HandlerSet>
+
+
+    <HandlerSet Name="FiveButtonSearchSet" HelpString="HELP_FIVE_BUTTON_SEARCH" >
+      <Handler Class="FiveSwitchSearch">
+        <Param HelpFile="Devices/PointingDevice/100006D/search.html" HelpTitle="IDS_TASK_DESCRIPTION" LongPressTime="2000" SupportedInternetSearchApps="GOOGLE,YAHOO,BING.COM,AOL" SupportedDesktopSearchApps="GOOGLEDESKTOP" SearchApp="YAHOO" Preference="US" ShowUIDlg="1" Default="YAHOO"  SearchType="INTERNET" SearchSettingsDesc="IDS_ADVANCED_SEARCH_SETTINGS_DESC"  SearchSettingsDescFirstTimeUse="IDS_ADVANCED_SEARCH_SETTINGS_DESC_FIRST_TIME_USE"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="FiveButtonKeystrokeSet" HelpString="HELP_FIVE_BUTTON_KEYSTROKE" >
+      <Handler Class="FiveSwitchKeystroke">
+        <Param HelpFile="Devices/PointingDevice/100006D/keystrokes.html" HelpTitle="IDS_TASK_DESCRIPTION"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="SnapLeft" HelpString="HELP_SNAP_LEFT" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*LEFT}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="SnapRight" HelpString="HELP_SNAP_RIGHT" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*RIGHT}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="WinMinRestore" HelpString="HELP_WIN_MIN_RESTORE" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*DOWN}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="WinMaxRestore" HelpString="HELP_WIN_MAX_RESTORE" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*UP}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="WinStretch" HelpString="HELP_WIN_STRETCH" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*+UP}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="SwitchMonitorLeft" HelpString="HELP_SWITCH_MONITOR_LEFT" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*+LEFT}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="SwitchMonitorRight" HelpString="HELP_SWITCH_MONITOR_RIGHT" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*+RIGHT}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ShowPresentation" HelpString="HELP_SHOW_PRESENTATION" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*P}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ShowMobilityCenter" HelpString="HELP_SHOW_MOBILITY_CENTER" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{*X}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ArrowUpKeyStrokeSet" HelpString="HELP_ARROW_UP" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{UP}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ArrowDownKeyStrokeSet" HelpString="HELP_ARROW_DOWN" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{DOWN}"  />
+      </Handler>
+    </HandlerSet>
+    <HandlerSet Name="ArrowLeftKeyStrokeSet" HelpString="HELP_ARROW_UP" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{LEFT}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ArrowRightKeyStrokeSet" HelpString="HELP_ARROW_DOWN" >
+      <Handler Class="KeyStroke" >
+        <Param KeyName="{RIGHT}"  />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ManualShiftSet" HelpString="HELP_MANUAL_SHIFT" >
+      <Handler Class="HandlerManualShift">
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="BackCursorFreezeSet" HelpString="HELP_FREEZE_BACK" >
+      <Handler Class="HandlerBackCursorFreezeWrapper">
+        <Param LongPressTime="2000" HelpFile="Devices/PointingDevice/100006C/back-freeze.html" HelpTitle="IDS_TASK_DESCRIPTION" />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="GadgetsSet" HelpString="HELP_GADGETS" >
+      <Handler Class="Gadgets">
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="SearchPicture" HelpString="HELP_PICTURE_SEARCH" >
+      <Handler Class="HandlerSearchPicture">
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="BatteryStatus" HelpString="HELP_BATTERY_STATUS" >
+      <Handler Class="HandlerBatteryStatus">
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ApplicationSwitch" HelpString="HELP_APPLICATION_SWITCH" >
+      <Handler Class="HandlerAppSwitch">
+        <Param ShowAppWindows="0" ShowUIDlg="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="Reassignset" HelpString="">
+      <Handler Class="HandlerBlank" >
+        <Param ReAssign="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="ReassignsetSelectTaskFocus" HelpString="">
+      <Handler Class="HandlerBlank" >
+        <Param ReAssign="1" FocusSelectTask="1"/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="LaunchApplication" HelpString="">
+      <Handler Class="HandlerAppLauncher" >
+        <Param AppName=""/>
+      </Handler>
+    </HandlerSet>
+
+    <HandlerSet Name="DPISwitch" HelpString="HELP_DPI_SWITCH">
+      <Handler Class="DPISwitcher" >
+        <Param DPIHighValue="1000" DPILowValue="100" />
+      </Handler>
+    </HandlerSet>
+
+    <!-- ***FALCON *** -->
+    <!-- Handler Horz Scroll Right -->
+    <HandlerSet Name="TouchHorzScroll" HelpString="HELP_HORZ_SCROLL_RIGHT" >
+      <Handler Class="HorizontalScroll" >
+        <Param Right="@"    />
+      </Handler>
+    </HandlerSet>
+
+    <!-- ***FALCON *** -->
+
+
+    <HandlerSet Name="TouchBackForwardHorzScroll" HelpString="HELP_HORZ_SCROLL_RIGHT">
+      <Handler Class="HandlerBackForwardHorz" >
+        <Param />
+      </Handler>
+    </HandlerSet>
+
+  </HandlerSets>
+</Source>
+

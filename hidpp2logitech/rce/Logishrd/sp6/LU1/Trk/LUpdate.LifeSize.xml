@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">trk</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize Güncelleştirici</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize Güncelleştirici</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Yeni güncelleştirmeler var. İndirmek için burayı tıklatın.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">LifeSize yazılım güncelleştirmelerinizi tamamlamak için tıklayın.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">LifeSize yazılımınıza ilişkin güncelleştirmeler indiriliyor</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Yeni güncelleştirmeler var. Yüklemek için burayı tıklatın.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">LifeSize yazılımınıza ilişkin güncelleştirmeler yükleniyor</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">LifeSize yazılımınız güncel</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">Sistemi yeniden başlattığınızda LifeSize yazılımınızın yüklenmesi işlemi sona erer</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">Yazılımın yüklenmesini tamamlamak için tıklatın</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Internet bağlantısı yok. Yeni sürüm olup olmadığı denetlenemedi</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Bir hata meydana geldi</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Yükleme hatası.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Yükleme iptal edildi.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">İstenen işlem, yönetici ayrıcalıkları gerektiriyor</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internet bağlantısı sıfırlandı. Daha sonra tekrar deneyin</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">İnternet bağlantısı sıfırlandı. LifeSize Güncelleştirici daha sonra tekrar deneyecek</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Disk dolu olduğundan yükleme başarısız oldu.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">Tamam</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Son</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">İptal</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Gizle</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Daha sonra güncelleştir</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">İndir &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">İndirmeye devam et &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Yükle &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Hazır olduğunda tümünü yükle &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">Evet</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">Hayır</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">Sistemi yeniden başlat</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">Yüklemeyi sonlandırmak için sistemi yeniden başlatmanız gerekir</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">Yapılandır</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">Otomatik ayarları yapılandır</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Önceden reddedilen güncelleştirmeleri göster</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Bileşen %d/%d indiriliyor</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Bileşen %d/%d yükleniyor</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Kalan süre:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">%s/%s indirildi</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">Yüklemeyi sonlandırmak için sistemi yeniden başlatmanız gerekir.</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">LifeSize Güncelleştirici Ayarları</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Updater yazılımının nasıl çalışmasını istediğinizi seçin.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Otomatik güncelleştirmeleri etkinleştirin.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Bana bildir, ancak otomatik olarak indirip yükleme.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Güncelleştirmeleri indir, ancak ne zaman yükleneceklerini benim seçmeme izin ver.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Güncelleştirmeleri otomatik olarak indir ve yükle.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Varsayılan ayarları geri yükle</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Ürün</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Durum</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Boyut</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">denetim için bekliyor</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">var</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">yüklenmeye hazır</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">bozuk</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">iptal edildi</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">tamamlandı</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Gerekli</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Önerilen</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">İsteğe bağlı</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">sa</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">sa</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">dk</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">dk</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sn</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sn</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">Seç</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">İndir</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">Gözden geçirme</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">Yükle</String>	
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Bu güncelleştirmeler var.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">LifeSize yazılımının en son sürümleriyle LifeSize ürünlerinizden daha fazlasını elde edin</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">İndirme durumu</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Güncelleştirmeleriniz indiriliyor.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Yükleme durumu</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Bu güncelleştirmeleri yüklemeye hazırsınız.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Yükleme durumu</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Güncelleştirmeleriniz yükleniyor.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">Yükleme durumu</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">Yeniden başlatma gerekli</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">LifeSize yazılımınızın yükleme işlemini tamamlayabilmesi için sistemin yeniden başlatılması gerekir. Açık belge veya web sayfalarındaki işlerinizi kaydedin.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">Sisteminizi şimdi yeniden başlatmak ister misiniz?</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize Güncelleştirici</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Uyarı: Bu bileşen varyılan olarak seçilmedi, çünkü aşağıdaki sınırlara uymuyor:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">LifeSize Güncelleştiriciyi Göster</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Otomatik ayarları değiştir...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Çıkış</String>
+  </LU_Strings_1>
+</LogitechUpdater>

@@ -1,0 +1,2252 @@
+<XML>
+	<LANGUAGES>
+		<LANGID Name="ENU">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>				
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin13.exe">
+				  <VERSIONS>
+					<VERSION Name="Default">
+					  <ACTION Name="New" Command="^n" />
+					  <ACTION Name="Reply" Command="^r" />
+					  <ACTION Name="Forward" Command="^f" />
+					  <ACTION Name="Send" Command="^~" />
+					  <ACTION Name="Undo" Command="^z" />
+					  <ACTION Name="Redo" Command="^+z" />
+					  <ACTION Name="Print" Command="^p" />
+					  <ACTION Name="Save" Command="^s" />
+					</VERSION>
+				  </VERSIONS>
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>				
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		<LANGID Name="CHS">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="CHT">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="FRA">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="10.0">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%v" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+						<VERSION Name="11.0">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%v" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%v" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>				
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="KOR">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="DEU">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="NLD">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%e" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%e" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>						
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="SVE">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+						<ACTION Name="New" Command="^n" />
+						<ACTION Name="Reply" Command="^r" />
+						<ACTION Name="Forward" Command="^b" />
+						<ACTION Name="Send" Command="%c" />
+						<ACTION Name="Undo" Command="^z" />
+						<ACTION Name="Redo" Command="^y" />
+						<ACTION Name="Print" Command="^p" />
+						<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+						
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^b" />
+							<ACTION Name="Send" Command="%c" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>						
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="PTB">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+					</VERSIONS>						
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="8.0">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+						<VERSION Name="10.0">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+						<VERSION Name="11.0">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+					</VERSIONS>						
+				</APPID>
+				<APPID Name="msimn.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>						
+				</APPID>
+				<APPID Name="excel.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+						<VERSION Name="11.0">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="Powerpnt.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+						<VERSION Name="11.0">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+					</VERSIONS>							
+				</APPID>
+				<APPID Name="MsAccess.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />		
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				
+				<APPID Name="wordpad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^b" />
+						</VERSION>
+					</VERSIONS>						
+				</APPID>
+
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="JPN">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="PTG">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^o" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^g" />		
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />		
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="excel.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />		
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="powerpnt.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />		
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^r" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />		
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="msimn.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />	
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="RUS">
+			<APPIDS>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^o" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="%{BKSP}" />
+							<ACTION Name="Redo" Command="{F4}" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+{F12}" />		
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+
+			</APPIDS>
+		</LANGID>
+		
+		
+		<LANGID Name="ITA">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^(+{F12})" />
+							<ACTION Name="Save" Command="+{F12}" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="msimn.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+{F12}" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="10.0">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%a" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^(+{F12})" />
+							<ACTION Name="Save" Command="+{F12}" />
+						</VERSION>
+						<VERSION Name="11.0">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%a" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^(+{F12})" />
+							<ACTION Name="Save" Command="+{F12}" />
+						</VERSION>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^(+{F12})" />
+							<ACTION Name="Save" Command="+{F12}" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="MsAccess.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />		
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="^~" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^(+{F12})" />
+					<ACTION Name="Save" Command="+{F12}" />	
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="DAN">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="8.0">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^b" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="%d" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>								
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="8.0">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^b" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="%d" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="ELL">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%k" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>								
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%k" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="FIN">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%h" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%h" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="NOR">
+			<APPIDS>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^b" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^b" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />\
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^s" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+		<LANGID Name="ESP">
+			<APPIDS>
+				<APPID Name="winword.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%r" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="wpwin12.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="wpwin11.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="qpw.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>					
+				</APPID>
+				<APPID Name="powerpnt.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="excel.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="Outlook.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%n" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="MsAccess.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />	
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				<APPID Name="iexplore.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />	
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+				
+				<APPID Name="wordpad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^u" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="%s" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^y" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^g" />	
+						</VERSION>
+					</VERSIONS>	
+				</APPID>
+
+				<APPID Name="Default">
+					<ACTION Name="New" Command="^n" />
+					<ACTION Name="Reply" Command="^r" />
+					<ACTION Name="Forward" Command="^f" />
+					<ACTION Name="Send" Command="%s" />
+					<ACTION Name="Undo" Command="^z" />
+					<ACTION Name="Redo" Command="^y" />
+					<ACTION Name="Print" Command="^p" />
+					<ACTION Name="Save" Command="^g" />		
+				</APPID>
+				<APPID Name="notepad.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="photoshop.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+				<APPID Name="illustrator.exe">
+					<VERSIONS>
+						<VERSION Name="Default">
+							<ACTION Name="New" Command="^n" />
+							<ACTION Name="Reply" Command="^r" />
+							<ACTION Name="Forward" Command="^f" />
+							<ACTION Name="Send" Command="^~" />
+							<ACTION Name="Undo" Command="^z" />
+							<ACTION Name="Redo" Command="^+z" />
+							<ACTION Name="Print" Command="^p" />
+							<ACTION Name="Save" Command="+^s" />
+						</VERSION>
+					</VERSIONS>
+				</APPID>
+			</APPIDS>
+		</LANGID>
+		
+	</LANGUAGES>
+</XML>

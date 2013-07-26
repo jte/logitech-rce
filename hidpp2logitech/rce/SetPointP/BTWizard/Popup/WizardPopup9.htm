@@ -1,0 +1,95 @@
+<%@ Language=JavaScript %>
+<html>
+	<head>
+		<meta http-equiv="Content-Language" content="en-us">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script language="JavaScript" type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_preloadImgs2() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs2) d.FP_imgs2=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs2[i]=new Image; d.FP_imgs2[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+
+// -->
+		</script>
+		<link rel="stylesheet" type="text/css" href="WizardPopup.css">
+		<title>Bluetooth&#174; Connection Assistant</title>
+		<style type="text/css">
+.style1 {
+	text-align: center;
+}
+.style2 {
+	text-align: left;
+}
+.style3 {
+	text-align: center;
+	color: #FF0000;
+}
+.style4 {
+	text-align: center;
+	color: #000000;
+}
+</style>
+	</head>
+	<body background="WizardPopup.png" topmargin="0" leftmargin="0"
+		rightmargin="0" bottommargin="0" style="width: 700; height: 500"
+		link="#FF0000" vlink="#FF0000" alink="#FF0000">
+		<div style="position: absolute; width: 400px; height: 13px; z-index: 2; left: 12px; top: 6px; ">
+		<b><font color="#ffffff">Bluetooth<sup>&#174;</sup> Connection Assistant</font></b>
+		</div>
+		<div style="position: absolute; width: 22px; height: 22px; z-index: 1; left: 672px; top: 3px"
+			id="layerX">
+			<img border="0" id="buttonX" src="CloseX_0.gif" height="22" width="22" alt="Close"
+			    onmouseover="FP_swapImg(1,0,'buttonX','CloseX_1.gif')"
+				onmouseout="FP_swapImg(0,0,'buttonX','CloseX_0.gif')"
+				onmousedown="FP_swapImg(1,0,'buttonX','CloseX_2.gif')"
+				onmouseup="FP_swapImg(0,0,'buttonX','CloseX_1.gif')">
+		</div>
+		<div style="position: absolute; width: 670px; height: 450px; z-index: 2; left: 12px; top: 30px; "
+			id="Text" class="style1">
+
+
+<p class="style2" style="margin-top:8pt;margin-bottom:8pt"><b>Troubleshooting</b></p>
+
+<p class="style2">We're sorry you're having problems. If your device is still not connected, or if it keeps disconnecting from time to time, please try the following:</p>
+
+<ul>
+
+<li><p class="style2">Check that there is sufficient charge in the batteries.<br>If you are using a rechargeable device, you can place the device in the rapid charger until the LED indicator on the device is green.</p></li>
+
+<li><p class="style2">If a USB mini-receiver was supplied with your device, close this dialog and the Bluetooth<sup>&#174;</sup> Connection Assistant, then plug in the mini-receiver. Then open the Bluetooth<sup>&#174;</sup> Connection Assistant again and follow the Troubleshoot Connection instructions to connect your devices with the receiver.<br>If you are not sure whether a receiver was supplied, you can check the package content of your device.</p>
+
+<li><p class="style2">If your device is provided with no USB mini-receiver, you may refer to your computer manufacturer's documentation to find how to manage the integrated Bluetooth<sup>&#174;</sup> radio.</p>
+
+</ul>
+
+</div>
+
+		<div style="position: absolute; width: 670px; height: 21px; z-index: 11; left:12px; top:458px"
+		    id="layerContinueBtn">
+<p align="center"><form><input type=button value=" Close " WizLink="3"></form></p>
+		</div>
+
+	</body>
+</html>

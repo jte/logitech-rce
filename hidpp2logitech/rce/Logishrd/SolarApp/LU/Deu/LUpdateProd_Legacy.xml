@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">deu</String>
+	   
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech-Produkt</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Software für das Logitech-Produkt</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Maus- und Tastatur-Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Maus- und Tastatur-Software</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Produktivitätssoftware für Mäuse und Tastaturen</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Gaming-Software für Mäuse und Tastaturen</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Webkamera-Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Webkamera-Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Kommunikations-Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ-Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series-Software</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Software für Logitech G15 Gaming Keyboard</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series-Software</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Software für Lautsprecher Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series-Software</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Software für Logitech G11 Gaming Keyboard</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series-Software</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Software für Logitech G11 Gaming Keyboard</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel-Software</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Software für Logitech G15 Gaming Keyboard, Logitech G11 Keyboard und Lautsprecher Logitech Z-10</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Advanced Surround Sound-Software</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Lautsprecher Logitech Z-5</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Erweiterte Software für Lautsprecher Logitech Z-5</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Software für Surround-Sound-Headsets</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Kabelloses Gaming-Headset G930 von Logitech mit mehrkanaligem Dolby Surround Sound</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logitech Wireless Headset H760-Assistent für Multimedia-Anwendungen</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Software zum Pairen von Unifying-Geräten</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying Maus</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Firmware-Update für Unifying-Mäuse</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying-Tastatur</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Firmware-Update für Unifying-Tastaturen</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying-Ziffernblock</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Firmware-Update für Unifying-Ziffernblöcke</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying-Empfänger</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Firmware-Update für Unifying-Empfänger</String>
+
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Webkamera-Software</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Software für Logitech-Webkameras</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Mit Vid bleiben Sie auf einfache Weise mit Freunden und Verwandten weltweit in Kontakt</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Software für Ihr Videoüberwachungssystem Logitech Alert™</String>
+	</LU_Strings_1>
+</LogitechUpdater>

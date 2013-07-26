@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">hun</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech-termék</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Szoftver a Logitech-termékhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Egér- és billentyűzetszoftver</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Egér- és billentyűzetszoftver</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Hatékonyságjavító szoftver egerekhez és billentyűzetekhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Játékhoz tervezett szoftver egerekhez és billentyűzetekhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Webkameraszoftver</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Webkameraszoftver</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Kommunikációs szoftver</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Software</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Szoftver a játékhoz tervezett Logitech G15 billentyűzethez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Szoftver a Logitech Z-10 hangrendszerhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Szoftver a játékhoz tervezett Logitech G11 billentyűzethez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Szoftver a játékhoz tervezett Logitech G11 billentyűzethez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Szoftver a Logitech G sorozatú billentyűzeteihez és játékvezérlőihez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">Játékkezelő szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Szoftver Logitech botkormányokhoz, játékkonzolokhoz és kormánykerekekhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">Játékkezelő szoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">Szoftver a Logitech G sorozatú billentyűzeteihez és játékvezérlőihez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Szoftver speciális térhangzáshoz</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logitech Z-5 Speakers</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Kezelőszoftver a Logitech Z-5 Speakers hangszóróhoz</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Fejhallgatószoftver térhangzáshoz</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitech G930 játékhoz tervezett, vezeték nélküli mikrofonos fejhallgató többcsatornás Dolby térhangzással</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logitech H760 vezeték nélküli mikrofonos fejhallgató, médialejátszó-segéd</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">Logitech Wireless Headset H800 segédprogram médialejátszókhoz</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Szoftver a Unifying eszközök párosításához</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying egér</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Firmware-frissítés a Unifying egérhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying billentyűzet</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Firmware-frissítés a Unifying billentyűzethez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying számbillentyűzet</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Firmware-frissítés a Unifying számbillentyűzethez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying vevőegység</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Firmware-frissítés a Unifying vevőegységhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Webkameraszoftver</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Szoftver Logitech webkamerához</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">A Vid a távol lévő családtagokkal és ismerősökkel való kapcsolattartás legegyszerűbb módja</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Szoftver a Logitech Alert™ Video Security System rendszerhez</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">A LifeSize Connections a munkatársakkal és ügyfelekkel világszerte folytatott kommunikáció egyszerű módját kínálja.</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Logitech Solar App</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Szoftver a Logitech K750-es vezeték nélküli, napelemes billentyűzetének felügyeletéhez és kezeléséhez</String>
+  </LU_Strings_1>
+</LogitechUpdater>

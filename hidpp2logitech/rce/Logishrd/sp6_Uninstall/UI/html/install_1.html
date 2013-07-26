@@ -1,0 +1,476 @@
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+
+<head lang='en-us'>
+
+  <meta http-equiv="Pragma"       content="no-cache">
+  <meta http-equiv="Expires"      content="-1">
+  <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+
+  <script type="text/javascript" src="../js/custom_ui.js"></script> 
+  <script type="text/javascript" src="../js/logi_code.js"></script> 
+  <script type="text/javascript" src="../js/logi_uninstall.js"></script> 
+
+  
+  
+	<script type='text/javascript'>
+    var langCode = window.external.EvaluateExpression('langcode');
+    document.write("<link rel='stylesheet' href='../"+langCode+"/wizpage.css' type='text/css' media='screen'>");
+    
+    var maxComponents=30;
+
+    var channel = window.external.EvaluateExpression('channel');
+    var register = window.external.EvaluateExpression('register');
+    var updater = window.external.EvaluateExpression('updater');
+    var ps2 = window.external.EvaluateExpression('ps2');
+    var showUI = window.external.EvaluateExpression('showUI');
+    var displayVersion = window.external.EvaluateExpression('displayVersion_persistent');
+    var devwarning = window.external.EvaluateExpression('prereqCheck')
+
+    var showMiHints = window.external.EvaluateExpression('showMiHints');
+
+    var gbIsIERun = "0";
+    var AppText = "RunningApp";
+    var nIntervalID = 0;
+    var gbCalledNext = "false";
+    var IsWinXp = (navigator.userAgent.match(/Windows NT 5.1/i));   
+    var IsWinVista = (navigator.userAgent.match(/Windows NT 6.0/i));   
+
+
+
+    function SetStuffLater() {
+       var el = document.getElementById("productNameText");
+	  	 if (el != null) {el.innerHTML +=" "+displayVersion+""}
+       var el = document.getElementById("Logi_checkbox_01");
+	     
+       if (el) {
+          el.checked = window.external.EvaluateExpression('Logi_checkbox_01');
+       }
+    }
+    
+    function SetStuff() {
+    
+      if (channel == "oem") { 
+      
+        var el = document.getElementById("productPurposeText");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("logo_image");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("header_image");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_pane");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_title");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+
+        var el = document.getElementById("install_title_2");
+	  	  if (el != null) {el.style.display = "";}	  	  
+
+        var el = document.getElementById("install_title_3");
+	  	  if (el != null) {el.style.display = "";}	  	  
+	  	}  
+	  	
+	  	if (register == "no") { 
+        var el = document.getElementById("register_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (updater == "no") { 
+        var el = document.getElementById("updater_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (ps2 == "yes") { 
+        var el = document.getElementById("ps2_pane");
+	  	  if (el != null) {el.style.display = "";}
+      }
+
+      if (showUI == "no") { 
+        var el = document.getElementById("done_messaging");
+        if (el != null) {el.style.display = "none";}
+      }
+
+
+    }
+
+  var expr =  'SetVar(jumpBack,"0")';
+  var res = window.external.EvaluateExpression(expr);
+
+
+function toggleActive(active) {
+
+    obj = document.getElementById("btnCancel");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("btnNext");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("Logi_radio_04_A");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("Logi_radio_04_B");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("eulaAgreeText");
+    if (obj != null) {
+      obj.disabled=!active;      
+    }
+}
+
+var sfAttachLocal = false;
+var sfObjLocal = null;
+var sfTimeoutLocal = 0;
+function selectFirstLocal(obj, nTimeout)
+{
+	if (sfAttachLocal == false)
+	{
+		sfAttachLocal = true;
+		sfTimeoutLocal = nTimeout;
+		sfObjLocal = obj;
+		window.attachEvent("onfocus", selectFirstLocal);
+	}
+	if (sfObjLocal != null)
+	{
+	    if (blanket.style.display=='none')
+			setTimeout(sfObjLocal.id+".focus()", sfTimeoutLocal);
+		else
+			setTimeout("eulaclose.focus()",sfTimeoutLocal);
+	}
+}
+
+
+
+
+	function toggleBlanket(show)
+	{
+		blanket.style.width = document.body.offsetWidth;
+		blanket.style.height = document.body.offsetHeight;
+		
+		if (show == true)
+		{
+			blanket.style.display = "block";
+			toggleActive(false);
+		}
+		else
+		{
+			blanket.style.display = "none";
+			toggleActive(true);
+		}
+	}
+	
+	function fadeIn() {	
+		txtEula.style.filter="blendTrans(duration=0.25);";
+	    // Make sure the filter is not playing.
+	    if (txtEula.filters.blendTrans.status != 2) {
+	        txtEula.filters.blendTrans.apply();
+	        txtEula.style.visibility="visible";
+	        txtEula.filters.blendTrans.play();
+	    }
+		toggleBlanket(true);
+		//maskMainControls(true);
+		setTimeout('eulaclose.focus()',500);
+	}
+	
+	function fadeOut() {
+	    txtEula.style.filter="blendTrans(duration=0.25);";
+	    // Make sure the filter is not playing.
+	    if (txtEula.filters.blendTrans.status != 2) {
+	        txtEula.filters.blendTrans.apply();
+	        txtEula.style.visibility="hidden";
+	        txtEula.filters.blendTrans.play();
+	    }
+		toggleBlanket(false);
+		//maskMainControls(false);
+		setTimeout('eula.focus()',200);
+	}	
+	
+
+	function CheckForBrowsers()
+	{
+	    var AreAppsRunning = 0;
+	    var CkBit = window.external.EvaluateExpression('OSBitSize()');
+
+ 	    gbIsIERun = window.external.EvaluateExpression('TestForRunningApps("", "<rootdir>")');
+
+      var obj=document.getElementById('browser_warning');
+      if (obj && gbIsIERun != "0") 
+      {
+        obj.style.display="";
+        document.write(makeComponentTable(maxComponents));
+      }
+
+	}// CheckForBrowsers
+
+
+	function OnBtnNext()
+	{
+		if (devwarning=="19")  
+		{
+//			Div2.style.display = "none";
+      initLearnmoreText();
+			var btnIEClose = document.getElementById("A1");
+      if (btnIEClose == null)
+				return;
+
+			btnIEClose.onclick = null
+			btnIEClose.attachEvent("onclick", onIEBtn);
+
+		}
+    else
+    {
+	     document.getElementById("btnNext").click();	
+
+     }		
+	}// OnBtnNext
+
+
+	function onIEBtn()
+  {
+       fadeOut2();
+	     gbCalledNext = "true";
+	     document.getElementById("btnNext").click();	
+	}
+
+	function OnEnterKeyNext()
+	{
+	    if (gbCalledNext == "false" && event.keyCode == 13)
+	    {
+        OnBtnNext();
+	    }
+	}// OnEnterKeyNext
+
+  
+	function ChangeOnClickHandlers()
+	{
+		var btnElt = document.getElementById("btnNext");
+		if (btnElt == null)
+			return;
+			
+		btnElt.onclick = null;
+		btnElt.attachEvent("onclick", OnBtnNext);
+		
+//		btnElt.onkeydown = null;
+//		btnElt.attachEvent("onkeydown", OnEnterKeyNext);
+		
+	}// ChangeOnClickHandlers
+
+
+
+  function onSelectUpdate(obj)
+  {
+    var el = document.getElementById("Logi_checkbox_01");
+    if (el) {
+      var checked = el.checked ? "1" : "0";
+      var expr =  'SetVar(Logi_checkbox_01,"'+checked+'")';
+      var res = window.external.EvaluateExpression(expr);  
+     }
+   }// onSelectUpdate
+    
+	function initLicenseText()
+	{
+		txtAreaEula.value = readUrl("../"+langCode+"/License.txt");
+	}  
+
+	function initLearnmoreText()
+	{
+
+		title2 = getString ("IDS_NOSUPPORT_DEVICES");
+
+		fadeIn2();
+
+	}  // initLearnmoreText
+
+    function AskLanguage()
+    {
+		    fadeIn3();
+
+    }
+	function onSelectLang(obj)
+	{
+		// 1031:  IDC_LANGSELECT_COMBO
+		var hWnd = window.external.GetDlgItem(1031);
+		
+		// 0x014E: CB_SETCURSEL
+		window.external.SendMessage(hWnd, 0x014E, obj.selectedIndex, 0);
+		
+		lparam = MAKEDWORD(1, 1031);	// 1: notification code for CBN_SELCHANGE
+		window.external.PostMessage(0x111, lparam, hWnd);	// 0x111 : WM_COMMAND		
+	}
+	function initSelectLang()
+	{
+		var selObj = document.getElementById("langselect");
+		if (selObj == null)
+			return;
+		// 1031:  IDC_LANGSELECT_COMBO
+		var hWnd = window.external.GetDlgItem(1031);
+		if (hWnd == null)
+			return;
+		// 0x0146: CB_GETCOUNT                 
+		// 0x0147: CB_GETCURSEL
+		// 0x0148: CB_GETLBTEXT         
+		// 0x0149: CB_GETLBTEXTLEN
+		
+		// initialize the languge dropdown list: ask the windows language combo box for its strings
+		var numItems = window.external.SendMessage(hWnd, 0x0146, 0, 0);	
+		if (numItems == 0)
+			return;
+		for (i=0; i < numItems; i++)
+		{
+			var elt = document.createElement("option");
+			elt.text = window.external.SendMessage(hWnd, 0x0148, i, 0);
+			selObj.options.add(elt);
+		}
+		
+		// Select current language
+		selObj.selectedIndex = window.external.SendMessage(hWnd, 0x0147, 0, 0);
+	}
+
+  </script>
+
+  <style type="text/css">
+  </style>
+  
+</head>
+
+<body id="theBody" class="main_page" ondragstart="return false;" onLoad="SetStuff();loadStrings();initSelectLang();Custom.init();initLicenseText(); setStep(1);SetStuffLater();selectFirstLocal(document.getElementById('btnNext'),300);ChangeOnClickHandlers();"> 
+    	<!-- the txtEula needs to be placed before the blanket or the blanket will cover it up -->
+
+	<div id="txtEula" style=" visibility:hidden;position:absolute; left=80px; top=50px; width=580px; 
+	       background-color: #FFFFFF; border: 1px solid #000000; padding:10px 10px 10px 10px; z-index:3;">
+		<center>
+		   <h2 string="IDS_EULA_TITLE"></h2>
+		   <br/>
+		<textarea id='txtAreaEula' readonly="readonly" tabindex="2" class="eulaText" rows='15' cols='75' width='80%' height='80%'></textarea>
+		<br></br>
+		<a href="#" tabindex="5" onclick="fadeOut();" class="button secondary" id="eulaclose"><b string="IDS_BTN_CLOSE"></b></a>
+		</center>
+	</div>
+
+	<div id="GamingWarning" style=" visibility:hidden;position:absolute; left=120px; top=120px; width=500px; 
+	       background-color: #FFFFFF; border: 1px solid #000000; padding:10px 10px 10px 10px; z-index:3;">
+	<br>		
+	<!--[if lte IE 6]>
+	 	<img style="background:transparent; float:left; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\warning.png' sizing='scale')" src="..\images\collateral\blank.gif">
+	<![endif]-->
+ 	<!--[if gt IE 6]>
+		<img style="float:left;" src="..\images\collateral\warning.png"/>
+	<![endif]-->
+	       <div class="messaging_plain" string="IDS_NOSUPPORT_DEVICES"></div>
+
+    <br><br>
+		<a href="#" tabindex="6" onclick="fadeOut();" style="float:right" class="button action" id="A1""><b string="IDS_BTN_CONTINUE"></b></a>
+		<a href="#" tabindex="5" onclick="btnCancel.click();return false;" style="float:right"class="button primary" id="btnQuit"><b string="IDS_BTN_QUIT"></b></a>
+	</div>
+
+	<div id="ChooseLanguage" class="layout_chooseLanguage">
+	<br>		
+            <div class="choose_lang_title" string="IDS_LANGUAGE_SELECTION"></div>
+			<div class="instruction_light_left" string="IDS_LANGUAGESELECTDLG_SUBTITLE"></div>
+                              <br>
+			<select id="langselect" tabindex="2" class="styled" size="1" onchange='onSelectLang(this);'>
+			</select>
+
+    <br><br><br><br><br><br><br><br><br><br>
+		<a href="#" tabindex="6" onclick="fadeOut3();" class="button_lang action_lang layout_lang_close" id="A2""><b string="IDS_BTN_CLOSE"></b></a>
+	</div>
+
+
+	<div id='blanket' style='position: absolute; top: 0; left: 0; display: none; background-color: black; z-index:2; filter=progid:DXImageTransform.Microsoft.Alpha(opacity=25)'></div>
+
+	<div class="container">
+		<div class="sidebar">
+
+			<div class="sidebarTitle">
+			</div>
+
+					<div class="steps">
+			<table class="steps">
+				<tr class="step"><td id="stepNum_1" class="stepNum">1</td><td id="stepText_1" string="IDS_STEP_TEXT_1" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_2" class="stepNum">2</td><td id="stepText_2" string="IDS_STEP_TEXT_3" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_3" class="stepNum">3</td><td id="stepText_3" string="IDS_STEP_TEXT_4" class="stepText"></td></tr>
+			</table>
+		</div>
+			<!--[if lte IE 6]>
+			<div id="logo_image" style='padding-top:35px;padding-left:47px;'><img src='..\images\collateral\blank.gif' style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\logos\logo.png' sizing='scale')"></div>
+			<![endif]-->
+			<!--[if gt IE 6]>		
+			<div id="logo_image" style='padding-top:35px;padding-left:35px;'><img src='..\images\logos\logo.png'></div>
+			<![endif]-->
+		</div>
+		<div class="pageContent">
+			<div class="contentHeader" style="height:50px;">
+			  			<!--[if lte IE 6]>
+			<img id="header_image"  style="background:transparent;position:absolute; left:0px; top:0px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\header_image_1.png' sizing='scale')" 
+			src="..\images\collateral\blank.gif">
+			<![endif]-->
+
+			<!--[if gt IE 6]>
+			<img id="header_image" style="position:absolute; left:0px; top:0px;" src="..\images\collateral\header_image_1.png">
+			<![endif]-->
+
+			  
+			  <table height="100%" width="100%">
+				<tr><td valign="bottom">
+				 <span id="productNameText" string="IDS_PRODUCT_NAME"></span>
+			   </td></tr>
+				<tr><td valign="bottom">
+				 <span id="productPurposeText" string="IDS_PRODUCT_PURPOSE"></span>
+			   </td></tr>
+		       </table>
+			  	
+			</div>
+
+			<br/>
+			<br/>
+			<br/>
+
+			<div class="contentBody" style="height:100px;">			<div style="width:400px;" string="IDS_WELCOME_INTRO" class="leaderBoard"></div>
+			<br/>
+			
+			<div class="contentBody" style="height:0px;"> <div style = "width:400px;color:#999;padding-top:0px" string="IDS_WELCOME_INTRO2" CLASS="leaderBoard_small"></div>
+	
+			<div class="contentBody" id="browser_warning" style="height:200px;display:none;" > <div style = "width:400px;color:#bbb;padding-top:12px;font-size:15px;" string="IDS_BROWSERS" CLASS="leaderBoard_small"></div>
+			<div id="componentList" style="height:150px;width:98%;overflow:auto;"> <!--overflow-y:auto;-->
+			<script>
+    	                   if (!(IsWinXp || IsWinVista)) {   CheckForBrowsers(); }
+				</script>
+			</div>
+		
+
+			
+			<div style="height:30px;">&nbsp;</div>
+		</div>
+	    		<a href="#"  class="layout1_LangButton layout2_LangButton" onclick="AskLanguage();" id="btnLang"><border:0></a>
+		<div style="text-align:left;position:absolute; bottom=120px;"><span id="eulaAgreeText" string="IDS_EULA_AGREE_TEXT"></span></div> 
+			</div>
+
+			<div class="pageNav" style="width:80%;">			<div style="height:10px;"/>&nbsp;</div>
+
+		<a href="#" tabindex="3" onclick="this.click();return false;" class="button primary" id="btnCancel"><b string="IDS_BTN_QUIT"></b></a> &nbsp;&nbsp;&nbsp;
+		<a href="#" tabindex="1" onclick="this.click();return false;" class="button action"  id="btnNext"><b string="IDS_BTN_NEXT"></b></a>
+			<div style="height:50px;"/>&nbsp;</div>
+		</div>
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (showMiHints=="yes") { 
+		  displayLangCode();
+		}  
+	</script>	
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<LogiUpdaterLibDoc 
+ xmlns="http://updates.logitech.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://updates.logitech.com ..\..\lulib_msgs_strings.xsd"
+ internalName="LuLib 2.00 Message Strings" 
+ contentRevision="2010-01-26" >
+
+  <LuLibMsgStrings brand="Logitech">
+    <String ALIAS="IDS_UI_LANG" l10n="0">enu</String>
+    
+    <String ALIAS="IDS_MSG_MIN_SYS_REQ" l10n="1">We have detected that your system is below the minimum requirements.
+
+If you select to install this software, please note that your software will not perform optimally.</String>
+
+
+    <!-- The string below is almost identical to the one in LWS 1.1.  "your webcam will not.." was changed to "your software will not ..." //-->
+    <String ALIAS="IDS_MSG_MIN_SYS_REQ1" l10n="1">We have detected that your system is below the minimum requirements.
+
+You can continue to install your software, but please note that your software will not perform optimally.
+
+Would you like to continue with installation?</String>
+
+    <String ALIAS="IDS_MSG_INSUFFICIENT_RAM" l10n="1">Insufficient RAM memory.  Your software may not perform optimally.</String>
+    
+    <String ALIAS="IDS_MSG_INSUFFICIENT_HDD" l10n="1">Insufficient free disk space.  Your software may not perform optimally.</String>
+    
+   </LuLibMsgStrings>
+</LogiUpdaterLibDoc>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<!-- ******************************************************************** -->
+	<!--						HI-RES Global Settings						  -->
+	<!-- ******************************************************************** -->
+	<!--
+		If HiEnabled is "0" than Setpoint will enable those applications specified under <SupportedApplications>
+		Version is optional.  If present, the Master version number is given. 458752 = 0x70000 and is for Internet Explorer 7.0 and above
+		If HiEnable is "1" than  Setpoint will disable those applications specified under <UnsupportedApplications>
+		Version is optional.  If present, the Master version number is given. 458752 = 0x70000 and is for Internet Explorers less than 7.0
+	-->
+	<Settings>
+		<Setting HiEnababled="0" />
+	</Settings>
+	<!-- ******************************************************************** -->
+	<!--						HI-RES Applications							  -->
+	<!-- ******************************************************************** -->
+	<SupportedApplications>
+		<!--	IExplorer 7.0 and above -->
+		<SupportedApplication Name="iexplore.exe" Version="458752" XP="0" Vista="0"/>
+		<!--	Winword 11.0 (2007) and above -->
+		<SupportedApplication Name="winword.exe" Version="786432" XP="0" Vista="0"/>
+		<!--	Firefox 2.0 and above -->
+		<SupportedApplication Name="firefox.exe" Version="65544" XP="0" Vista="0"/>
+	</SupportedApplications>
+	<UnsupportedApplications>
+		<UnsupportedApplication Name="iexplore.exe" Version="458752"/>
+	</UnsupportedApplications>
+</Source>

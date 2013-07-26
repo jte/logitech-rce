@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">kor</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">새로운 업데이트가 있습니다. 다운로드하려면 여기를 클릭하십시오.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">LifeSize 소프트웨어 업데이트를 완료하려면 여기를 클릭하십시오.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">LifeSize 소프트웨어 업데이트를 다운로드 중입니다.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">새로운 업데이트가 있습니다. 설치하려면 여기를 클릭하십시오.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">LifeSize 소프트웨어 업데이트를 설치하는 중입니다.</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">LifeSize 소프트웨어가 최신 버전입니다.</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT">시스템을 다시 시작하면 LifeSize 소프트웨어가 설치를 마칩니다.</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE_NEEDS_REBOOT_CLICK">소프트웨어 설치를 완료하려면 클릭하십시오.</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">인터넷이 연결되어 있지 않습니다. 새로운 버전이 있는지 확인할 수 없습니다</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">오류가 발생했습니다</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">설치 오류입니다.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">설치가 취소되었습니다.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">요청한 작업은 관리자 권한이 필요합니다</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">인터넷 연결이 재설정되었습니다. 나중에 다시 시도하십시오</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">인터넷 연결이 재설정되었습니다. LifeSize Updater가 나중에 다시 시도할 것입니다.</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">디스크가 가득 때문에 설치가 실패했습니다.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">확인</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">마침(F)</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">취소</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">숨기기</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">나중에 업데이트</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">다운로드 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">다운로드 계속 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">설치 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">준비되면 모두 설치 &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_YES_REBOOT">예</String>
+    <String ALIAS="IDS_UI_BUTTON_NO_REBOOT">아니요</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK">시스템 다시 시작</String>
+	<String ALIAS="IDS_UI_BUTTON_REBOOT_LINK_TOOLTIP">설치를 마치려면 시스템을 다시 시작해야 합니다</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG">구성</String>
+	<String ALIAS="IDS_UI_BUTTON_CONFIG_TOOLTIP">자동 설정 구성</String>
+
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">이전에 거부한 업데이트 표시</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">%d번째(총 %d) 구성 요소를 다운로드하는 중</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">%d번째(총 %d) 구성 요소를 설치하는 중</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">남은 시간:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">%s(총 %s)개가 다운로드되었습니다</String>
+    <String ALIAS="IDS_UI_ELEM_RESTART_REMINDER_NOTE">설치를 마치려면 시스템을 다시 시작해야 합니다.</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">LifeSize Updater 설정</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Updater의 작동 방식을 선택하십시오.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">자동 업데이트를  사용합니다.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">새 업데이트가 있으면 자동으로 다운로드하거나 설치하지 않고 사용자에게 알립니다.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">업데이트를 다운로드하고 언제 설치할 지는 사용자가 선택합니다.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">업데이트를 자동으로 다운로드하고 설치합니다.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">기본 설정 복원</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">제품</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">상태</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">크기</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">확인을 기다리는 중</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">사용 가능</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">설치 준비 완료</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">손상됨</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">취소됨</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">완료</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">필수</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">권장</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">선택 항목</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">시간</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">시간</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">분</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">분</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">초</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">초</String>
+	
+	<String ALIAS="IDS_UI_WAYPOINT_SELECT">선택</String>
+	<String ALIAS="IDS_UI_WAYPOINT_DOWNLOAD">다운로드</String>
+	<String ALIAS="IDS_UI_WAYPOINT_REVIEW">검토</String>
+	<String ALIAS="IDS_UI_WAYPOINT_INSTALL">설치</String>	
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">다음과 같은 업데이트가 있습니다.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">LifeSize 제품을 최대한 활용하려면 최신 버전의 LifeSize 소프트웨어를 사용하십시오.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">다운로드 상태</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">업데이트를 다운로드 중입니다.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">설치 상태</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">이 업데이트를 설치할 준비가 되었습니다.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">설치 상태</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">업데이트를 설치하는 중입니다.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT">설치 상태</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_REBOOT_SUB">다시 시작해야 함</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_BODY">LifeSize 소프트웨어에서 설치를 완료하려면 다시 시작해야 합니다. 열린 문서 또는 웹 페이지가 있는 경우 작업 내용을 저장하십시오.</String>
+    <String ALIAS="IDS_UI_TEXT_REBOOT_QUESTION">지금 시스템을 다시 시작하시겠습니까?</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">경고: 다음 조건을 충족하지 못했기 때문에 이 구성요소는 선택되지 않았습니다:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">LifeSize Updater 표시</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">자동 설정 변경...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">나가기</String>
+  </LU_Strings_1>
+</LogitechUpdater>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogicoolUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogicoolUpdater>
+	<LU_Strings_1>
+		<String ALIAS="IDS_UI_LANG" translate="0">jpn</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logicool 製品</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Logicool 製品用のソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">マウスとキーボード ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">マウスとキーボード ソフトウェア</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">マウスとキーボード生産性ソフトウェア</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">マウスとキーボード ゲーミング ソフトウェア</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">ウェブカメラ ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">ウェブカメラ ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">通話ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ Software</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Logicool G15 ゲーム キーボードをサポートしているソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Logicool Z-10 スピーカをサポートしているソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Logicool G11 ゲーム キーボードをサポートしているソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Logicool G11 ゲームキーボードをサポートしているソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel ソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Logicool G-Series キーボードおよびゲームボード用ソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">ゲームソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Logicool ジョイスティック、ゲームパッド、およびホイール用ソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">ゲームソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">ほとんどの Logicool G-Series マウス、キーボード、ゲームボード、およびヘッドセット用ソフトウェア</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">アドバンスト サラウンド サウンド ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logicool Z-5 スピーカー</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Logicool Z-5 スピーカー用の先進ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logicool G35</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">サラウンド サウンド ヘッドセット ソフトウェア</String>
+		
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logicool G930</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logicool ワイヤレス ゲーミング ヘッドセット G930 - マルチチャンネル ドルビー サラウンド サウンド付き</String>
+    
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logicool H760</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Logicool ワイヤレス ヘッドセット H760 アシスタント - メディア プレーヤー用</String>
+    
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logicool H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">メディアプレイヤー用Logicool Wireless Headset H800 Assistant</String>
+    
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Unifying デバイスをペアリングするためのソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying マウス</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Unifying マウスのファームウェア アップデート</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying キーボード</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Unifying キーボードのファームウェア アップデート</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Unifying テンキーパッド</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Unifying テンキーパッドのファームウェア アップデート</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifyingレシーバー</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Unifyingレシーバーのファームウェア アップデート</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">ウェブカメラ ソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Logicool ウェブカム用のソフトウェア</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logicool Vid™</String>
+		<String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid を使用すると、友達や家族が世界中のどこにいようとも簡単に連絡をとりあうことができます</String>
+    
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logicool Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Logicool Alert™ ビデオ セキュリティ システム用のソフトウェア</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">LifeSize Connections を使用すると、同僚や顧客が世界中のどこにいようとも簡単に連絡を取り合うことができます</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Logicool SolarApp</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Logicool ワイヤレス ソーラー キーボード K750 を監視および管理するためのソフトウェア</String>
+    
+  </LU_Strings_1>
+</LogicoolUpdater>

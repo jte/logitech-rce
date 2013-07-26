@@ -1,0 +1,305 @@
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html mlns="http://www.w3.org/1999/xhtml" xml:lang="mul" lang="mul" dir="ltr">
+
+<head lang='en-us'>
+
+  <meta http-equiv="Pragma"       content="no-cache">
+  <meta http-equiv="Expires"      content="-1">
+  <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+
+  <script type="text/javascript" src="../js/custom_ui.js"></script> 
+  <script type="text/javascript" src="../js/logi_code.js"></script> 
+
+  
+  
+	<script type='text/javascript'>
+    var langCode = window.external.EvaluateExpression('langcode');
+    document.write("<link rel='stylesheet' href='../"+langCode+"/wizpage.css' type='text/css' media='screen'>");
+    
+
+    var channel = window.external.EvaluateExpression('channel');
+    var register = window.external.EvaluateExpression('register');
+    var updater = window.external.EvaluateExpression('updater');
+    var ps2 = window.external.EvaluateExpression('ps2');
+    var showUI = window.external.EvaluateExpression('showUI');
+    var displayVersion = window.external.EvaluateExpression('displayVersion_persistent');
+
+    var showMiHints = window.external.EvaluateExpression('showMiHints');
+    showMiHints = window.external.EvaluateExpression(showMiHints);
+
+    function SetStuffLater() {
+       var el = document.getElementById("productNameText");
+	  	 if (el != null) {el.innerHTML +=" "+displayVersion+""}
+       var el = document.getElementById("Logi_checkbox_01");
+	     
+       if (el) {
+	  el.checked = window.external.EvaluateExpression('Logi_checkbox_01');
+       }
+    }
+    
+    function SetStuff() {
+    
+      if (channel == "oem") { 
+      
+        var el = document.getElementById("productPurposeText");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("logo_image");
+	  	  if (el != null) {el.style.display = "none";}
+
+        var el = document.getElementById("header_image");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_pane");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+	  	  
+        var el = document.getElementById("install_title");
+	  	  if (el != null) {el.style.display = "none";}	  	  
+
+        var el = document.getElementById("install_title_2");
+	  	  if (el != null) {el.style.display = "";}	  	  
+
+        var el = document.getElementById("install_title_3");
+	  	  if (el != null) {el.style.display = "";}	  	  
+	  	}  
+	  	
+	  	if (register == "no") { 
+        var el = document.getElementById("register_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (updater == "no") { 
+        var el = document.getElementById("updater_pane");
+	  	  if (el != null) {el.style.display = "none";}
+      }
+
+	  	if (ps2 == "yes") { 
+        var el = document.getElementById("ps2_pane");
+	  	  if (el != null) {el.style.display = "";}
+      }
+
+      if (showUI == "no") { 
+        var el = document.getElementById("done_messaging");
+        if (el != null) {el.style.display = "none";}
+      }
+
+
+    }
+
+      var expr =  'SetVar(jumpBack,"0")';
+  var res = window.external.EvaluateExpression(expr);
+
+
+function toggleActive(active) {
+    obj = document.getElementById("btnCancel");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("btnNext");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("Logi_radio_04_A");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("Logi_radio_04_B");
+    if (obj != null) {
+      obj.disabled=!active;
+    }
+    obj = document.getElementById("eulaAgreeText");
+    if (obj != null) {
+      obj.disabled=!active;      
+    }
+}
+
+var sfAttachLocal = false;
+var sfObjLocal = null;
+var sfTimeoutLocal = 0;
+function selectFirstLocal(obj, nTimeout)
+{
+	if (sfAttachLocal == false)
+	{
+		sfAttachLocal = true;
+		sfTimeoutLocal = nTimeout;
+		sfObjLocal = obj;
+		window.attachEvent("onfocus", selectFirstLocal);
+	}
+	if (sfObjLocal != null)
+	{
+	    if (blanket.style.display=='none')
+			setTimeout(sfObjLocal.id+".focus()", sfTimeoutLocal);
+		else
+			setTimeout("eulaclose.focus()",sfTimeoutLocal);
+	}
+}
+
+
+
+
+	function toggleBlanket(show)
+	{
+		blanket.style.width = document.body.offsetWidth;
+		blanket.style.height = document.body.offsetHeight;
+		
+		if (show == true)
+		{
+			blanket.style.display = "block";
+			toggleActive(false);
+		}
+		else
+		{
+			blanket.style.display = "none";
+			toggleActive(true);
+		}
+	}
+	function fadeIn() {	
+		txtEula.style.filter="blendTrans(duration=0.25);";
+	    // Make sure the filter is not playing.
+	    if (txtEula.filters.blendTrans.status != 2) {
+	        txtEula.filters.blendTrans.apply();
+	        txtEula.style.visibility="visible";
+	        txtEula.filters.blendTrans.play();
+	    }
+		toggleBlanket(true);
+		//maskMainControls(true);
+		setTimeout('eulaclose.focus()',500);
+	}
+	
+	function fadeOut() {
+	    txtEula.style.filter="blendTrans(duration=0.25);";
+	    // Make sure the filter is not playing.
+	    if (txtEula.filters.blendTrans.status != 2) {
+	        txtEula.filters.blendTrans.apply();
+	        txtEula.style.visibility="hidden";
+	        txtEula.filters.blendTrans.play();
+	    }
+		toggleBlanket(false);
+		//maskMainControls(false);
+		setTimeout('eula.focus()',200);
+	}	
+	function initLicenseText()
+	{
+		txtAreaEula.value = readUrl("../"+langCode+"/License.txt");
+	}  
+  </script>
+
+  <style type="text/css">
+  </style>
+  
+</head>
+
+<body id="theBody" class="main_page" ondragstart="return false;" onLoad="SetStuff();loadStrings();Custom.init(); initLicenseText(); setStep(1);SetStuffLater();selectFirstLocal(document.getElementById('btnNext'),300);"> 
+    	<!-- the txtEula needs to be placed before the blanket or the blanket will cover it up -->
+
+	<div id="txtEula" style=" visibility:hidden;position:absolute; left=80px; top=50px; width=580px; 
+	       background-color: #FFFFFF; border: 1px solid #000000; padding:10px 10px 10px 10px; z-index:3;">
+		<center>
+		   <h2 string="IDS_EULA_TITLE"></h2>
+		   <br/>
+		<textarea id='txtAreaEula' readonly="readonly" tabindex="2" class="eulaText" rows='15' cols='75' width='80%' height='80%'></textarea>
+		<br></br>
+		<a href="#" tabindex="5" onclick="fadeOut();" class="button secondary" id="eulaclose"><b string="IDS_BTN_CLOSE"></b></a>
+		</center>
+	</div>
+
+
+	<div id='blanket' style='position: absolute; top: 0; left: 0; display: none; background-color: black; z-index:2; filter=progid:DXImageTransform.Microsoft.Alpha(opacity=25)'></div>
+
+	<div class="container">
+		<div class="sidebar">
+
+			<div class="sidebarTitle">
+			</div>
+
+					<div class="steps">
+			<table class="steps">
+				<tr class="step"><td id="stepNum_1" class="stepNum">1</td><td id="stepText_1" string="IDS_STEP_TEXT_1" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_2" class="stepNum">2</td><td id="stepText_2" string="IDS_STEP_TEXT_3" class="stepText"></td></tr>
+				<tr class="step"><td id="stepNum_3" class="stepNum">3</td><td id="stepText_3" string="IDS_STEP_TEXT_4" class="stepText"></td></tr>
+			</table>
+		</div>
+			<!--[if lte IE 6]>
+			<div id="logo_image" style='padding-top:0px;padding-left:47px;'><img src='..\images\collateral\blank.gif' style="background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\logos\logo.png' sizing='scale')"></div>
+			<![endif]-->
+			<!--[if gt IE 6]>		
+			<div id="logo_image" style='padding-top:0px;padding-left:35px;'><img src='..\images\logos\logo.png'></div>
+			<![endif]-->
+		</div>
+		<div class="pageContent">
+			<div class="contentHeader" style="height:50px;">
+			  			<!--[if lte IE 6]>
+			<img id="header_image"  style="background:transparent;position:absolute; left:0px; top:0px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='..\images\collateral\header_image_1.png' sizing='scale')" 
+			src="..\images\collateral\blank.gif">
+			<![endif]-->
+
+			<!--[if gt IE 6]>
+			<img id="header_image" style="position:absolute; left:0px; top:0px;" src="..\images\collateral\header_image_1.png">
+			<![endif]-->
+
+			  
+			  <table height="100%" width="100%">
+				<tr><td valign="bottom">
+				 <span id="productNameText" string="IDS_PRODUCT_NAME"></span>
+			   </td></tr>
+				<tr><td valign="bottom">
+				 <span id="productPurposeText" string="IDS_PRODUCT_PURPOSE"></span>
+			   </td></tr>
+		       </table>
+			  	
+			</div>
+
+			<br/>
+			<br/>
+			<br/>
+
+			<div class="contentBody" style="height:330px;">			<div style="width:400px;" string="IDS_WELCOME_INTRO" class="leaderBoard"></div>
+			<br/>
+			
+			<table>
+			<tr><td valign="top" class="ctrlCol"><input type="radio" class="styled" id="Logi_radio_04_A" name="Logi_radio_04"></td>
+				<td valign="top"><div class="instruction" style="margin-left:3px;"><label string="IDS_EXPRESS_INSTALL"  for="Logi_radio_04_A"></label> </div>
+					<div class="description" string="IDS_EXPRESS_DESC" style="margin-left:3px;"></div>
+				</td>
+
+
+
+
+			</tr>
+			</table>
+
+			<table>
+			<tr><td valign="top" class="ctrlCol"><input type="radio" class="styled" id="Logi_radio_04_B" name="Logi_radio_04"></td>
+				<td valign="top"><div class="instruction"><label string="IDS_CUSTOM_INSTALL"  for="Logi_radio_04_B"></label></div>
+					<div class="description" string="IDS_CUSTOM_INSTALL_DESC"></div>
+				</td>
+			</tr>
+			</table>
+			
+			<div style="height:30px;">&nbsp;</div>
+		</div>
+		<div style="text-align:left"><span id="eulaAgreeText" string="IDS_EULA_AGREE_TEXT"></span></div> 
+			</div>
+
+			<div class="pageNav" style="width:80%;">			<div style="height:10px;"/>&nbsp;</div>
+
+		<a href="#" tabindex="3" onclick="this.click();return false;" class="button primary" id="btnCancel"><b string="IDS_BTN_QUIT"></b></a> &nbsp;&nbsp;&nbsp;
+		<a href="#" tabindex="1" onclick="this.click();return false;" class="button action"  id="btnNext"><b string="IDS_BTN_NEXT"></b></a>
+			<div style="height:50px;"/>&nbsp;</div>
+		</div>
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (showMiHints=="yes") { 
+		  displayLangCode();
+		}  
+	</script>	
+</body>
+</html>

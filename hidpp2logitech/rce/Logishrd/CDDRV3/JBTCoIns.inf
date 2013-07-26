@@ -1,0 +1,70 @@
+;##############################################################################
+;#  JBTCoIns.INF for Windows 2K/XP/VISTA
+;#  Copyright (c) 1999-2010 Logicool. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = JBTCoIns.CAT
+Class       = HIDClass
+ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider    = Logicool
+DriverVer   = 01/03/2013,5.52.22.0
+
+[DestinationDirs]
+LBTCoIns_CopyFiles = 11
+
+[ControlFlags]
+ExcludeFromSelect   = *
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LBTCoIns.DLL = 1
+
+[Manufacturer]
+%Provider%	= Logicool
+%Provider64%	= Logicool,NTamd64
+
+[Logicool]
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c703&Mi_01&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c704&Mi_01&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c705&Mi_01&Col01
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c708&Mi_01&Col04
+
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c70A&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c70C&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c719&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c71C&Col04
+
+[Logicool.NTamd64]
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c703&Mi_01&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c704&Mi_01&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c705&Mi_01&Col01
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c708&Mi_01&Col04
+
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c70A&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c70C&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c719&Col04
+%hpps.desc% = LBTCoIns,HID\Vid_046d&Pid_c71C&Col04
+
+[LBTCoIns]
+Include = Input.inf
+Needs = HID_Raw_Inst.NT
+
+[LBTCoIns.CoInstallers]	
+CopyFiles = LBTCoIns_CopyFiles
+AddReg = LBTCoIns_AddReg
+ 
+[LBTCoIns_AddReg]
+HKR,,CoInstallers32,0x00010000,"LBTCoIns.DLL,CoDeviceInstall"
+
+[LBTCoIns_CopyFiles]
+LBTCoIns.DLL
+
+[Strings]
+Provider = "Logicool"
+Provider64 = "Logicool (x64)"
+DiskName = "Logicool Driver Disk"
+hpps.desc = "HID-compliant Device"

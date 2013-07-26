@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<ResourceInclude FILE="MacroMedia.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<!-- From PresetBtns.h -->
+		<String ALIAS="IDS_PLAYLIST">SetPoint</String>
+		<String ALIAS="IDS_WMP_LAUNCHED">Windows Media Player Launched</String>
+		<String ALIAS="IDS_MC_LAUNCHED">Windows Media Center Launched</String>
+		<String ALIAS="IDS_MM_LAUNCHED">MusicMatch Launched</String>
+		<String ALIAS="IDS_ML_LAUNCHED">Media Life Launched</String>
+		<String ALIAS="IDS_MEDIAPLAYER_LAUNCHED">Media Player Launched</String>
+		<String ALIAS="IDS_PRESET_NOT_SAVED">Preset is not saved</String>
+		<String ALIAS="IDS_WA_LAUNCHED">Winamp Launched</String>
+		<String ALIAS="IDS_PRESET_SAVED">Saved</String>
+		<String ALIAS="IDS_PRESET_PLAYING">Playing</String>
+		<String ALIAS="IDS_EJECT_LONGPRESS_DESC">To select a different drive, hold the Eject key down.</String>
+		<String ALIAS="IDS_SPECIFY_SCRIPTFILE">Select the Script File</String>
+		<String ALIAS="IDS_NO_ACTIVE_MESSENGER_TOAST">Please log on to Windows Live Messenger before using this button.</String>
+		<String ALIAS="IDS_NO_MESSENGER_INSTALLED">Please install a messenger service</String>
+		<!-- Error Message Text -->
+		<String ALIAS="IDS_SETPOINT_CAPTION">Logitech SetPoint</String>
+		<String ALIAS="MEDIA_PLAYER_MISSING"> Sorry, no supported Media Players are installed.&#10;Please install a supported player or use the &#10;SetPoint &quot;Launch Program&quot; function to use this button.</String>
+		<String ALIAS="REMOTE_MEDIA_PLAYER_MISSING"> Sorry, no supported Remote Media Players are installed.&#10;Please install a supported player or use the &#10;SetPoint &quot;Launch Program&quot; function to use this button.</String>
+		<!-- Media Player Shuffle -->
+		<String ALIAS="OSD_SHUFFLE_ON">Shuffle On</String>
+		<String ALIAS="OSD_SHUFFLE_OFF">Shuffle Off</String>
+		<String ALIAS="OSD_SHUFFLE_TOGGLED">Shuffle Toggled</String>
+		<String ALIAS="OSD_SHUFFLE_PLAYLIST">Playlist Shuffled</String>
+		<String ALIAS="IDS_MEDIA_SELECTION">Select Media Player</String>
+	</StringSet>
+	<Dialog ID="IDD_HANDLER_MEDIA_DIALOG" WIDTH="219" HEIGHT="33">
+		<Control ID="IDC_COMBO_MEDIAPROGRAMS" Scale="1.0"/>
+	</Dialog>
+  <Dialog ID="IDD_HANDLER_DESCRIPTION_DLG">
+    <Control ID="ID_CONFIGURE_LAUNCH">Task Description</Control>
+  </Dialog>
+</Source>

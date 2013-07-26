@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<!-- Set to 0 to disable popup -->
+		<String ALIAS="IDS_POPUP_VISIBLE_MILLISECONDS">0</String>
+		<String ALIAS="IDS_POPUP_CAPS_ON">CAPS LOCK: ON</String>
+		<String ALIAS="IDS_POPUP_CAPS_OFF">CAPS LOCK: OFF</String>
+		<String ALIAS="IDS_POPUP_NUM_ON">NUM LOCK: ON</String>
+		<String ALIAS="IDS_POPUP_NUM_OFF">NUM LOCK: OFF</String>
+		<String ALIAS="IDS_POPUP_SCROLL_ON">SCROLL LOCK: ON</String>
+		<String ALIAS="IDS_POPUP_SCROLL_OFF">SCROLL LOCK: OFF</String>
+		<String ALIAS="IDS_TRAY_CAPS_TIP">Caps Lock On</String>
+		<String ALIAS="IDS_TRAY_NUM_TIP">Num Lock On</String>
+		<String ALIAS="IDS_TRAY_SCROLL_TIP">Scroll Lock On</String>
+		<String ALIAS="IDS_TRAYBALLOON_CAPS_TITLE">Caps Lock ON</String>
+		<String ALIAS="IDS_TRAYBALLOON_CAPS_MESSAGE">Caps Lock capitalizes all letters</String>
+		<String ALIAS="IDS_TRAYBALLOON_NUM_TITLE">Num Lock ON</String>
+		<String ALIAS="IDS_TRAYBALLOON_NUM_MESSAGE">Num Lock enables the number pad</String>
+		<String ALIAS="IDS_TRAYBALLOON_SCROLL_TITLE">Scroll Lock ON</String>
+		<String ALIAS="IDS_TRAYBALLOON_SCROLL_MESSAGE">Scroll Lock offers improved navigation within certain applications</String>
+		<String ALIAS="IDS_TRAYBALLOON_VISIBLE_MILLISECONDS">5000</String>
+		<!-- Number of times to show each balloon, per user.  Set to 0 to disable balloons , -1 to show balloon all the time -->
+		<String ALIAS="IDS_TRAYBALLOON_CAPS_SHOW_MAXCOUNT">-1</String>
+		<String ALIAS="IDS_TRAYBALLOON_NUM_SHOW_MAXCOUNT">-1</String>
+		<String ALIAS="IDS_TRAYBALLOON_SCROLL_SHOW_MAXCOUNT">-1</String>
+	</StringSet>
+</Source>

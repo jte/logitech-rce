@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">dan</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_DEFAULT">Logitech-produkt</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_DEFAULT">Software til dit Logitech-produkt</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINT">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINT">Software til mus og tastaturer</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTII">SetPoint II</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTII">Software til mus og tastaturer</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTP">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTP">Kontorsoftware til mus og tastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SETPOINTG">SetPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SETPOINTG">Gamingsoftware til mus og tastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QUICKCAM">QuickCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QUICKCAM">Webkamera-software</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_QCAM">QCam</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_QCAM">Webkamera-software</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_CALLCENTRAL">CallCentral</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_CALLCENTRAL">Kommunikationssoftware</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_STREAMPOINT">StreamPoint</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_STREAMPOINT">Wireless DJ-software</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGKS">G-Series-software</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGKS">Software der understøtter Logitech G15-spilletastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LZS">Z-Series-software</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LZS">Software der understøtter Logitech Z-10-højtalere</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGLLKS">G-Series-software</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGLLKS">Software der understøtter Logitech G11-tastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LG11KS">G-Series-software</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LG11KS">Software der understøtter Logitech G11-tastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGPS">GamePanel-software</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGPS">Software til tastaturer og gameboards i Logitechs S-serie</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS">Spilsoftware</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS">Software til Logitechs joystick, gamepads og rat</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LGS7">Spilsoftware</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LGS7">Software til tastaturer og gameboards i Logitechs S-serie</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_HAYDN">Z Cinéma</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_HAYDN">Avanceret surroundsoundsoftware</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_Z5S">Logitech Z-5-højtalere</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_Z5S">Avanceret software til Logitech Z-5-højtalerne</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G35">Logitech G35</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G35">Software til surroundsound i headset</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_G930">Logitech G930</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_G930">Logitech trådløst gamingheadset G930 med flerkanalers Dolby surroundsound</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H760">Logitech H760</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H760">Hjælpeprogram til medieafspillere til Logitech Wireless Headset H760</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_H800">Logitech H800</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_H800">Hjælpeprogram til medieafspillere til Logitech Wireless Headset H800</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYSW">Unifying</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYSW">Software til binding af dine Unifying-enheder</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYMSE">Unifying-mus</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYMSE">Firmwareopdatering til din Unifying-mus</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYKBD">Unifying-tastatur</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYKBD">Firmwareopdatering til dit Unifying-tastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYNMP">Numerisk Unifying-tastatur</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYNMP">Firmwareopdatering til dit numeriske Unifying-tastatur</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_UNIFYRCV">Unifying-modtager</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_UNIFYRCV">Firmwareopdatering til din Unifying-modtager</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LWS">Software til webkamera</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LWS">Software til dit Logitech-webkamera</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LVID">Logitech Vid™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LVID">Vid er en nem måde at bevare kontakten med familie og venner verden over</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_ALERT">Logitech Alert™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_ALERT">Software til dit Logitech Alert™-videoovervågningssystem</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_LSC">LifeSize Connections™</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_LSC">Med LifeSize Connections er det let at kommunikere med kollegaer og klienter verden over</String>
+
+    <String ALIAS="IDS_UI_PROD_LEGACY_TITLE_SAPP">Logitech Solar App</String>
+    <String ALIAS="IDS_UI_PROD_LEGACY_DESCR_SAPP">Software til at overvåge og administrere dit Logitech Wireless Solar Keyboard K750</String>
+  </LU_Strings_1>
+</LogitechUpdater>

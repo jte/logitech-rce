@@ -1,0 +1,100 @@
+;##############################################################################
+;#  JfEqdUsb.inf - framework HID INF for USB devices
+;#  Copyright (c) 1999-2012 Logicool. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile = JfEqdUsb.cat
+Class       = HIDClass
+ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider    = %Provider%
+DriverVer   = 01/03/2013,5.52.22
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles]
+LEqdUsb.sys = 1
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+; ---------------------------------------------------------
+[Manufacturer]
+%Provider%	= Logicool
+
+[Logicool]
+%USB\VID_046D&PID_C52B&Mi_02% = HidInst,USB\VID_046D&PID_C52B&Mi_02
+
+; Install Sections
+; ---------------------------------------------------------
+[CopyFilesLEqdUsb]
+LEqdUsb.sys
+
+[HidInst.NT]
+CopyFiles = CopyFilesLEqdUsb
+
+[HidInst.NT.Services]
+AddService = LEqdUsb,%SPSVCINST_ASSOCSERVICE%,LEqdUsb_Service_Inst,LEqdUsb_Logging_Inst
+
+[LEqdUsb_Service_Inst]
+DisplayName     = %FltDisplayName%
+ServiceType     = %SERVICE_KERNEL_DRIVER%
+StartType       = %SERVICE_DEMAND_START%
+ErrorControl    = %SERVICE_ERROR_IGNORE%
+ServiceBinary   = %10%\System32\Drivers\LEqdUsb.Sys
+LoadOrderGroup  = Extended Base
+
+[LEqdUsb_Logging_Inst]
+AddReg = LEqdUsb_Logging_Inst_AddReg
+
+[LEqdUsb_Logging_Inst_AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\drivers\LEqdUsb.sys"
+HKR,,TypesSupported,0x00010001,7
+
+;--- WDF Coinstaller installation ------
+ 
+[DestinationDirs]
+LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles = 11
+
+[HidInst.NT.CoInstallers]
+AddReg=LOGIUSBMOUSE_Inst_CoInstaller_AddReg
+CopyFiles=LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles
+
+[LOGIUSBMOUSE_Inst_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "LkmdfCoInst.dll,CoDeviceInstall"
+
+[LOGIUSBMOUSE_Inst_CoInstaller_CopyFiles]
+LkmdfCoInst.dll
+
+[SourceDisksFiles]
+LkmdfCoInst.dll=1		; make sure the number matches with SourceDisksNames
+
+[HidInst.NT.Wdf]
+KmdfService = LEqdUsb, HidInst_wdfsect
+
+[HidInst_wdfsect]
+KmdfLibraryVersion = 1.5
+
+;-----------------------------------------------------------
+[Strings]
+Provider                    = "Logicool"
+ProviderVista		    = "Logicool (Vista and Above)"
+DiskName                    = "Logicool SetPoint Unifying Driver Disk"
+SvcDisplayName              = "Logicool SetPoint Unifying USB receiver Device Driver"
+SvcDescription              = "Logicool SetPoint Unifying USB receiver"
+FltDisplayName              = "Logicool SetPoint Unifying KMDF USB Filter"
+
+USB\VID_046D&PID_C52B&Mi_02 = "Logicool Unifying USB receiver"
+
+SERVICE_KERNEL_DRIVER       = 0x00000001
+SERVICE_DEMAND_START        = 0x00000003
+SERVICE_ERROR_IGNORE        = 0x00000000
+SERVICE_ERROR_NORMAL        = 0x00000001
+REG_MULTI_SZ                = 0x00010000
+SPSVCINST_ASSOCSERVICE      = 0x00000002
+COPYFLG_NOSKIP              = 0x00000002

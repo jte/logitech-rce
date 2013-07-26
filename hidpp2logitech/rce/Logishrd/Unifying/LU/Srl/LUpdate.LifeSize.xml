@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">srl</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Dostupne su nove ispravke. Kliknite ovde za preuzimanje.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Kliknite da biste dovršili ažuriranja LifeSize softvera.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Ispravke za LifeSize softver se preuzimaju</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Dostupne su nove ispravke. Kliknite ovde za instaliranje.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Ispravke za LifeSize softver se instaliraju</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">LifeSize softver je ažuran</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Ne postoji Internet veza. Ne možemo da proverimo da li je dostupna nova verzija</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Došlo je do greške</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Greška pri instaliranju.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Instaliranje poništeno.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Za zahtevanu operaciju potrebne su administratorske privilegije</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internet veza je poništena. Pokušajte ponovo kasnije</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internet veza je poništena. LifeSize Updater će pokušati ponovo kasnije</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installation failed because the disk is full.</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">U redu</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Završi</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Otkaži</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Sakrij</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Kasnije</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Preuzmi &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Nastavi preuzimanje &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Instaliraj &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Instaliraj sve kada bude spremno &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfiguriši automatske postavke &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Prikaži prethodno odbijene ispravke</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Preuzimanje komponente %d od %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Instaliranje komponente %d od %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Preostalo vremena:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Preuzeto %s od %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Postavke za LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Odaberite željeni način rada programa za ažuriranje.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Uključi automatsko ažuriranje.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Obavesti me, ali ih nemoj automatski preuzimati niti instalirati.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Preuzmi ispravke, ali mi dozvoli da odlučim kada ću ih instalirati.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Automatski preuzmi ispravke i instaliraj ih.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Vrati podrazumevane postavke</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Proizvod</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Status</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Veličina</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">čeka se na proveru</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">dostupno</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">spremno za instaliranje</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">oštećeno</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">poništeno</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">gotovo</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Potrebno</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Preporučeno</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Dodatno</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">kB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">čas</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">časova</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sek</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sek</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Dostupne su sledeće ispravke.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Iskoristite LifeSize proizvode na najbolji način zahvaljujući najnovijim verzijama LifeSize softvera.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Status preuzimanja</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Ispravke se preuzimaju.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Status instalacije</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Spremni ste za instaliranje ovih ispravki.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Status instalacije</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Ispravke se instaliraju.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Upozorenje: ova komponenta nije podrazumevano odabrana jer ne odgovara sledećim uslovima:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Prikaži LifeSize Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Promeni automatske postavke...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Izađi</String>
+  </LU_Strings_1>
+</LogitechUpdater>

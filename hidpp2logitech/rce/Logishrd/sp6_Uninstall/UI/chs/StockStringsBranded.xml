@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FESetup_Strings_1>
+  <language xml:lang="zh-cn"/>
+  
+  <!-- String Sets -->
+  <ActiveStringSet ID="English" LOG="true"/>
+  <StringSet ID="English">
+
+    <!-- Header for all pages: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPoint™ 安装</String>
+    <String ID="IDS_TITLE">SetPoint™ 安装</String>
+    <String ID="IDS_PRODUCT_PURPOSE">Logitech 鼠标与键盘软件</String>
+
+    <!-- Widgets for all pages: -->
+    
+    <!-- Welcome page: -->
+    <String ID="IDS_WELCOME_TEXT">
+      感谢您购买本 Logitech 产品。Logitech 产品是为协助您更有效地使用 PC 设计的。安装本软件即可充分发挥增强的产品功能。
+
+
+
+      在您准备开始安装本 Logitech 软件产品时，请选择使用的语言并按“下一步”按钮。
+    </String>
+
+    <!-- Install Type (Typical vs. Custom) page: -->
+    
+    <!-- Custom: Destination page: -->
+    
+    <!-- Custom: Components page: -->
+    
+    <!-- License page: -->
+    
+    <!-- Ready-to-install page: -->
+    
+    <!-- Progress page: -->
+    <String ID="IDS_INSTALL_PROGRESS_INFO_OVERLAY">更改指定给 Logitech 鼠标按钮或 Logitech 键盘功能键的功能</String>
+    <String ID="Z_IDS_INSTALL_PROGRESS_INFO_OVERLAY_1">更改指定给 Logitech 鼠标按钮或 Logitech 键盘功能键的功能</String>
+    <String ID="IDS_INSTALL_PROGRESS_INFO">更改指定给 Logitech 鼠标按钮或 Logitech 键盘功能键的功能</String>
+
+    <!-- Finish page: -->
+    <String ID="IDS_URL_TO_REGISTRATION">http://www.logitech.com/register</String>
+
+    <!-- Exit-setup (Abort) page: -->
+    <String ID="IDS_ABORTDLG_TITLE">SetPoint™ 安装</String>
+	
+	<!-- Exit-setup (Abnormal execution) page: -->
+    <String ID="IDS_ABNORMALDLG_TITLE">SetPoint™ 安装</String>
+    <!-- Warning/Error dialogs: -->
+    <String ID="IDS_WARNING_TITLE">SetPoint™ 安装</String>
+    <String ID="IDS_WARNING_OS">抱歉，本软件与您的操作系统不兼容。请访问 www.logitech.com，下载兼容版本。</String>
+    <String ID="IDS_WARNING_EDITION32">该版本的安装程序需要 32 位版本的操作系统。\n请访问 www.logitech.com/downloads/SetPoint，下载兼容版本。</String>
+    <String ID="IDS_WARNING_EDITION64">该版本的安装程序需要 64 位版本的操作系统。\n请访问 www.logitech.com/downloads/SetPoint，下载兼容版本。</String>
+
+    <!-- Various: -->
+    <String ID="IDS_UPDATER_DESC">Logitech 软件的更新实用程序</String>
+
+  </StringSet>
+</FESetup_Strings_1>

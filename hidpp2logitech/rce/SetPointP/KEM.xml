@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+  <language xml:lang="en-us"/>
+  <ResourceInclude FILE="KEM.xmlres"/>
+  <!-- BatteryStatusInfoSet -->
+  <!-- TEST-Set the ICONINDEX according to this table:
+		IDI_BATTERY_LEVEL_LOW					0
+		IDI_BATTERY_LEVEL_FAIR					1
+		IDI_BATTERY_LEVEL_GOOD					2
+		IDI_BATTERY_LEVEL_FULL					3
+		IDI_BATTERY_LEVEL_CRITICAL				4
+
+  	   -->
+  <BatteryStatusInfoSet>
+    <BatteryStatusInfo NumLevels="2">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="3">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="1"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="4">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="5">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="5" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="6">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="5" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="6" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="7">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="5" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="6" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="7" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+  </BatteryStatusInfoSet>
+  <!-- String Sets -->
+  <ActiveStringSet ID="Main"/>
+  <StringSet ID="Main">
+    <String ALIAS="IDS_COMPANY">Logitech</String>
+    <String ALIAS="IDS_PRODUCT">SetPoint</String>
+    <String ALIAS="IDS_DEVICE_MOUSE">Mouse</String>
+    <String ALIAS="IDS_DEVICE_KEYBOARD">Keyboard</String>
+    <String ALIAS="IDS_DEVICE_MEDIAPAD">MediaPad</String>
+    <String ALIAS="IDS_DEVICE_REMOTE">Remote</String>
+    <String ALIAS="IDS_DEVICE_NUMPAD">Number Pad</String>
+    <!-- Tray Icon Menu -->
+    <String ALIAS="IDS_TRAYICON_SETTINGS">Mouse and Keyboard Settings</String>
+    <String ALIAS="IDS_TRAYICON_QUICKTOUR">QuickTour</String>
+    <String ALIAS="IDS_TRAYICON_HELPCENTER">Help Center</String>
+    <String ALIAS="IDS_TRAYICON_BLUETOOTH_PLACES">My Bluetooth Places</String>
+    <String ALIAS="IDS_TRAYICON_BLUETOOTH_RESOURCES">Logitech web site for Bluetooth</String>
+    <String ALIAS="IDS_TRAYICON_MEDIADESKTOP">Media Desktop</String>
+    <String ALIAS="IDS_TRAYICON_MEDIALIFE">MediaLife</String>
+    <String ALIAS="IDS_TRAYICON_EXIT">Exit</String>
+    <String ALIAS="IDS_TRAYICON_TOOLTIP">Logitech Mouse and Keyboard</String>
+    <String ALIAS="IDS_TRAYICON_CONNECTED_TOOLTIP">Logitech Device Connected: %s</String>
+    <String ALIAS="IDS_TRAYICON_CONNECT_TOOLTIP">Now press the Connect/Reset button on the bottom of your Logitech device (%s) to keep it connected</String>
+    <String ALIAS="IDS_ONE_NEW_EMAIL_MESSAGE">1 new E-Mail</String>
+    <String ALIAS="IDS_ONE_NEW_IM_MESSAGE">1 new IM Message</String>
+    <String ALIAS="IDS_ONE_NEW_MESSAGE">1 new Message</String>
+    <!-- OEM Configuration Items -->
+    <String ALIAS="IDS_BLUETOOTH_RESOURCES_URL"/>
+    <String ALIAS="IDS_BLUETOOTH_RESOURCES_URL_2">http://www.logitech.com/bluetooth</String>
+    <!-- LCD Media Player States -->
+    <String ALIAS="IDS_MEDIA_STATE_PLAYING">Playing</String>
+    <String ALIAS="IDS_MEDIA_STATE_PAUSED">Pause</String>
+    <String ALIAS="IDS_MEDIA_STATE_READY">Ready</String>
+    <String ALIAS="IDS_MEDIA_STATE_STOPPED">Stopped</String>
+    <!-- Battery Status Message and ToolTips -->
+    <String ALIAS="IDS_MOUSE_BATTERY_LEVEL_PREFIX">Your mouse&apos;s batteries are</String>
+    <String ALIAS="IDS_KEYBOARD_BATTERY_LEVEL_PREFIX">Your keyboard&apos;s batteries are</String>
+    <String ALIAS="IDS_MEDIAPAD_BATTERY_LEVEL_PREFIX">Your MediaPad&apos;s batteries are</String>
+    <String ALIAS="IDS_REMOTE_BATTERY_LEVEL_PREFIX">Your Number Pad&apos;s batteries are</String>
+    <String ALIAS="IDS_BATT_CHARGING">charging</String>
+    <String ALIAS="IDS_BATT_CHARGE_COMPLETE">fully charged</String>
+    <String ALIAS="IDS_BATT_LEVEL_UNKNOWN">unknown</String>
+    <String ALIAS="IDS_BATT_LEVEL_GOOD">good</String>
+    <String ALIAS="IDS_BATT_LEVEL_LOW">low</String>
+    <String ALIAS="IDS_BATT_LEVEL_FULL">full</String>
+    <String ALIAS="IDS_BATT_LEVEL_FAIR">fair</String>
+    <String ALIAS="IDS_BATT_LEVEL_CRITICAL">critical</String>
+    <String ALIAS="IDS_BATT_STATUS_MSG">Your %1&apos;s batteries are %2</String>
+    <String ALIAS="IDS_BATT_RECHARGE_MOUSE">Please recharge your mouse.</String>
+    <String ALIAS="IDS_BATT_RECHARGE_KEYBOARD">Please recharge your keyboard.</String>
+    <String ALIAS="IDS_BATT_REPLACE">Please replace your batteries.</String>
+    <String ALIAS="IDS_MULTIPLE_DEVICE_LOWBATTERY_PREFIX">The following devices have critical batteries:\n</String>
+    <String ALIAS="IDS_SINGLE_DEVICE_LOWBATTERY_PREFIX">The following device has critical battery:</String>
+    <String ALIAS="IDS_BATT_CHARGE_ERROR">An error occurred when charging.</String>
+    <String ALIAS="IDS_BATT_BATTERY">battery</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_DAYS">Day(s)</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_MONTHS">Month(s)</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_WEEKS">Week(s)</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_PERCENT">Percent</String>
+    <String ALIAS="IDS_BATTMILEAGE_REMAIN_PREFIX">Remaining battery power:</String>
+    <!-- Keyboard Lock Status Message and ToolTips -->
+    <String ALIAS="IDS_LOCK_CAPS">CAPS Lock</String>
+    <String ALIAS="IDS_LOCK_SCROLL">Scroll Lock</String>
+    <String ALIAS="IDS_LOCK_NUM">Num Lock</String>
+    <String ALIAS="IDS_LOCK_ON">On</String>
+    <String ALIAS="IDS_LOCK_OFF">Off</String>
+    <!-- Device Connect Status Message and ToolTips -->
+    <String ALIAS="IDS_DEVICE_CONNECT_STATUS">To connect your device, press the Connect/Reset button on the bottom of the device</String>
+    <String ALIAS="IDS_DEVICE_CONNECT_STATUS_QUAD">To connect your device, turn it off, then turn it back on.</String>
+
+    <String ALIAS="IDS_DEVICE_CONNECT_STATUS_CAPTION">Connect Status</String>
+    <String ALIAS="OEM_CONFIGURE">0</String>
+    <String ALIAS="IMAGES_DIR">Images\</String>
+    <String ALIAS="IDS_CURSORSETTING_CHANGED">The changes you made to your mouse cannot be applied because you used more than one device while making those changes.\nPlease retry using only the mouse you would like to change.</String>
+    <String ALIAS="IDS_OSD_NOAPPSRUNNING">No Apps to Switch</String>
+  </StringSet>
+
+  <Dialog ID="IDD_RECOMMEND_SKYPE" WIDTH="460" HEIGHT="400">
+    <Control ID="IDC_STATIC_KNOW_SKYPE" FONT="trebuchet ms" SCALE="2.0" BOLD="1">Do you know Skype?</Control>
+    <Control ID="IDC_STATIC_SKYPE_1" FONT="trebuchet ms" SCALE="1.0" BOLD="0">The Logitech SetPoint software has detected that Skype 2.0 (or above) is not installed on your computer.</Control>
+    <Control ID="IDC_STATIC_SKYPE_2" FONT="trebuchet ms" SCALE="1.0" BOLD="1">You need to install Skype 2.0 (or above) to take advantage of all the features of your EasyCall&#8482; Desktop.</Control>
+    <Control ID="IDC_STATIC_SKYPE_3" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Click the "Go to Skype Web Site" button below and choose your language. Then click on the Download button and follow the instructions. Once the application is installed, you are ready to EasyCall&#8482; your friends and family :-)</Control>
+    <Control ID="IDC_BUTTON_GOTOWEB">Go to Skype Web Site</Control>
+    <Control ID="IDC_BUTTON_HELP">Help</Control>
+    <Control ID="IDC_BUTTON_CANCEL">Cancel</Control>
+  </Dialog>
+  <Dialog ID="IDD_RECOMMEND_YAHAIM" WIDTH="500" HEIGHT="400">
+    <Control ID="IDC_STATIC_WELCOME" FONT="trebuchet ms" SCALE="1.8" BOLD="1">Welcome to the Internet Communication world!</Control>
+    <Control ID="IDC_STATIC_1" FONT="trebuchet ms" SCALE="1.0" BOLD="0">The Logitech SetPoint software has detected that you don't have the following application (or version) installed on your computer.</Control>
+    <Control ID="IDC_STATIC_2" FONT="trebuchet ms" SCALE="1.0" BOLD="1">You need to install the correct application to take advantage of all the features of your EasyCall&#8482; Desktop.</Control>
+    <Control ID="IDC_STATIC_3" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Click on the logo to visit the application's web page. If you are not a US citizen, scroll to the bottom of the page and click on your country name and follow the instructions. Once the application is installed, you are ready to EasyCall&#8482; your friends and family :-)</Control>
+    <Control ID="IDC_YAHOO_VER" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Version 7.5 (or above)</Control>
+    <Control ID="IDC_AIM_VER" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Version 1.2 (or above)</Control>
+    <Control ID="IDC_BUTTON_HELP">Help</Control>
+    <Control ID="IDOK">OK</Control>
+  </Dialog>
+  <Dialog ID="IDD_DIALOG_PCPS3SWITCH" WIDTH="460" HEIGHT="262">
+    <Control ID="IDC_STATIC_PCPS3SWITCH_TITLE" FONT="trebuchet ms" SCALE="1.8" BOLD="1">Wrong Keyboard Mode</Control>
+    <Control ID="IDC_STATIC_PCPS3SWITCH_MSG" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Logitech SetPoint has detected that your keyboard is set to work on a PLAYSTATION3. Please switch your keyboard to the "PC" mode in order to enjoy a correct behavior. The switch is located under the battery cover.</Control>
+    <Control ID="IDC_CHECK_PCPS3_DONTSHOW" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Don't warn me about this again.</Control>
+    <Control ID="IDOK">OK</Control>
+  </Dialog>
+  <Dialog ID="IDD_DIALOG_DEVICEINITIALIZING" WIDTH="350" HEIGHT="150">
+    <Control ID="IDC_STATIC_DEVICEENUMERATING_MSG" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Please wait while we scan for devices.</Control>
+  </Dialog>
+</Source>

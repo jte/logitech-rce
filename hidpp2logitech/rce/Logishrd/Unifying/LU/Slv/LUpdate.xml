@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">slv</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Na voljo so nove posodobitve. Kliknite tukaj, če jih želite prenesti.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Kliknite, da dokončate posodobitve programske opreme Logitech.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Posodobitve za programsko opremo Logitech se prenašajo</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Na voljo so nove posodobitve. Kliknite tukaj, če jih želite namestiti.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Posodobitve za programsko opremo Logitech se nameščajo</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Najnovejša programska oprema Logitech je že nameščena</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Ni internetne povezave, zato ni mogoče preveriti, ali je na voljo nova različica</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Prišlo je do napake</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Napaka pri nameščanju.+</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Namestitev preklicana.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Za zahtevano dejanje potrebujete skrbniške pravice</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Internetna povezava je bila ponastavljena. Poskusite znova pozneje</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Internetna povezava je bila ponastavljena. Posodobitveno orodje Logitech Updater bo poskusilo znova pozneje</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installation failed because the disk is full.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">V redu</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Končaj</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Prekliči</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Skrij</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Pozneje</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Prenesi  &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Nadaljuj prenos &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Namesti &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Namesti vse, ko je pripravljeno &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfiguriraj samodejne nastavitve &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Pokaži zavrnjene posodobitve.</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Prenos komponente %d od %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Nameščanje komponente %d od %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Preostali čas:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Preneseno %s od %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Nastavitve orodja Logitech Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Izberite, kako naj deluje orodje Updater.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Vklopite samodejne posodobitve.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Obvesti me, vendar jih ne prenesi ali namesti samodejno.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Prenesi posodobitve, vendar mi ponudi možnost izbire, kdaj naj bodo nameščene.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Samodejno prenesi posodobitve in jih namesti.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Obnovi privzete nastavitve</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Izdelek</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Stanje</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Velikost</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">čakanje na preverjanje</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">na voljo</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">pripravljeno na namestitev</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">pokvarjeno</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">preklicano</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">končano</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Zaželeno</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Priporočljivo</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Dodatno</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">KB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">ur</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">ur</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">sek</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">sek</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Na voljo so te posodobitve.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Bolje izkoristite izdelke Logitech, tako da pridobite najnovejše različice programske opreme Logitech.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Stanje prenosa</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Posodobitve se prenašajo.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Stanje namestitve</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Lahko namestite posodobitve.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Stanje namestitve</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Posodobitve se nameščajo.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Opozorilo: ta element ni bil privzeto izbran, ker ni zadovoljil naslednjih kriterijev:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Pokaži Logitech Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Spremeni samodejne nastavitve...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Izhod</String>
+  </LU_Strings_1>
+</LogitechUpdater>

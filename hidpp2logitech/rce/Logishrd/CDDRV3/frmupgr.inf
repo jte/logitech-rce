@@ -1,0 +1,778 @@
+;
+; Broadcom  Bluetooth USB Device DFU Installation Script
+; for Windows 2000 and XP
+;
+; Copyright (c) 2000-2006, Broadcom Corp.
+;
+
+[Version]
+signature="$WINDOWS NT$"
+Class=BTDFU
+ClassGuid={281922b1-a910-451e-adb1-0b5567f1edb1}
+Provider=%V_WIDCOMM%
+CatalogFile=frmupgr.cat
+DriverVer=05/08/2007,6.1.0.1000
+
+
+[ControlFlags]
+ExcludeFromSelect=USB\VID_044E&PID_3014
+ExcludeFromSelect=USB\VID_0DF6&PID_000B
+ExcludeFromSelect=USB\VID_0458&PID_0083
+ExcludeFromSelect=USB\VID_413C&PID_8131
+ExcludeFromSelect=USB\VID_413C&PID_8127
+ExcludeFromSelect=USB\VID_07B8&PID_B02E
+ExcludeFromSelect=USB\VID_07B8&PID_B02D
+ExcludeFromSelect = USB\VID_08EA&PID_ABBB
+ExcludeFromSelect = USB\VID_0A12&PID_ffff
+ExcludeFromSelect = USB\VID_04BF&PID_030B
+ExcludeFromSelect = USB\VID_04BF&PID_030C
+ExcludeFromSelect = USB\VID_04BF&PID_0311
+ExcludeFromSelect = USB\VID_049F&PID_0036
+ExcludeFromSelect = USB\VID_044e&PID_ffff
+ExcludeFromSelect = USB\VID_413C&PID_8010
+ExcludeFromSelect = USB\VID_413C&PID_8501&REV_9999 
+ExcludeFromSelect = USB\VID_1668&PID_1441
+ExcludeFromSelect = USB\VID_0DB0&PID_ffff
+ExcludeFromSelect = USB\VID_04BF&PID_0321
+ExcludeFromSelect = USB\VID_1668&PID_3441
+ExcludeFromSelect = USB\VID_0FD1&PID_ffff
+ExcludeFromSelect = USB\VID_0A5C&PID_2000
+ExcludeFromSelect = USB\VID_0A5C&PID_2035
+ExcludeFromSelect = USB\VID_0A5C&PID_205E
+ExcludeFromSelect = USB\VID_03F0&PID_051D
+ExcludeFromSelect = USB\VID_03F0&PID_181D
+ExcludeFromSelect = USB\VID_413C&PID_8106
+ExcludeFromSelect = USB\VID_413C&PID_8111
+ExcludeFromSelect = USB\VID_046D&PID_C70F
+ExcludeFromSelect = USB\VID_046D&PID_C712
+ExcludeFromSelect = USB\VID_046D&PID_C715
+ExcludeFromSelect = USB\VID_046D&PID_C71A
+ExcludeFromSelect = USB\VID_046D&PID_C71D
+ExcludeFromSelect = USB\VID_046D&PID_C720
+ExcludeFromSelect = USB\VID_045E&PID_070A
+ExcludeFromSelect = USB\VID_047D&PID_1152
+
+[SourceDisksNames]
+1 = %Source_Description%,,,
+
+[SourceDisksFiles]
+frmupgr.sys = 1
+
+[ClassInstall32]
+AddReg=BTDFU.NT.AddReg
+
+[BTDFU.NT.AddReg]
+HKR,,,0,%BTWClassName%
+HKR,,Icon,,"-18"
+
+[Manufacturer]
+%V_WIDCOMM%=WIDCOMM,NTx86.5.1
+
+;
+; WinXP or newer specific sections
+;
+[WIDCOMM.NTx86.5.1]
+%BluetootSonyUsb.DeviceDesc%=DFUBTUSB,  USB\VID_044E&PID_3014
+%Sitecomm.DeviceDesc%=DFUBTUSB,  USB\VID_0DF6&PID_000B
+%KYE.DeviceDesc%=DFUBTUSB,  USB\VID_0458&PID_0083
+%DellStardustDFU.DeviceDesc%=DFUBTUSB,  USB\VID_413C&PID_8131
+%DellFangornDFU.DeviceDesc%=DFUBTUSB,  USB\VID_413C&PID_8127
+%ABOCOMDFU.DeviceDesc%=DFUBTUSB,  USB\VID_07B8&PID_B02E
+%ABOCOMDFU.DeviceDesc%=DFUBTUSB,  USB\VID_07B8&PID_B02D
+%CSRDFU.DeviceDesc%=DFUBTUSB,         USB\VID_0A12&PID_ffff  ; CSR DFU VID&PID
+%ERICSSONUSBDFU.DeviceDesc%=DFUBTUSB, USB\VID_08EA&PID_ABBB  ; Ericsson VID&PID DFU
+%TDKDFU.DeviceDesc%=DFUBTUSB,         USB\VID_04BF&PID_030B  ; TDK CSR VID&PID DFU
+%TDKDFU.DeviceDesc%=DFUBTUSB,         USB\VID_04BF&PID_0321  ; TDK CSR VID&PID DFU
+%IBMDFU.DeviceDesc%=DFUBTUSB,         USB\VID_04BF&PID_030C  ; IBM CSR VID&PID DFU
+%IBMBDCDFU.DeviceDesc%=DFUBTUSB,      USB\VID_04BF&PID_0311  ; IBM BDC VID&PID DFU
+%ALPSDFU.DeviceDesc%=DFUBTUSB,        USB\VID_044e&PID_ffff  ; ALPS DFU VID&PID
+%DELLDFU.DeviceDesc%=DFUBTUSB,        USB\VID_413C&PID_8010  ; Dell BC02 VID&PID
+%DELLELWOODDFU.DeviceDesc%=DFUBTUSB,  USB\VID_413C&PID_8501&REV_9999; Dell Elwood VID&PID DFU
+%IBMBMDFU.DeviceDesc%=DFUBTUSB,       USB\VID_1668&PID_1441  ; IBM Integrated Bluetooth III VID&PID DFU
+%IBMBMDFU3.DeviceDesc%=DFUBTUSB,      USB\VID_1668&PID_3441  ; IBM integrated BT Modem VID&PID DFU
+%MSIDFU.DeviceDesc%=DFUBTUSB,         USB\VID_0DB0&PID_ffff  ; MSI USB Device VID&PID DFU
+%BLUETHUMBDFU.DeviceDesc%=DFUBTUSB,   USB\VID_049F&PID_0036  ; BLUETHUMB Device VID&PID DFU
+%GiantDFU.DeviceDesc%=DFUBTUSB,       USB\VID_0FD1&PID_ffff  ; Giant DFU
+%BROADCOMDFU.DeviceDesc%=DFUBTUSB,    USB\VID_0A5C&PID_2000 ; BROADCOM DFU VID&PID
+%BROADCOMDFU.DeviceDesc%=DFUBTUSB,    USB\VID_0A5C&PID_2035 ; Broadcom DFU VID&PID
+%BROADCOMDFU.DeviceDesc%=DFUBTUSB,    USB\VID_0A5C&PID_205E ; Broadcom DFU VID&PID, 2037
+%BROADCOMHPDFU.DeviceDesc%=DFUBTUSB,  USB\VID_03F0&PID_051D ; BROADCOM DFU VId&PID for Hp
+%BROADCOM2045HPDFU.DeviceDesc%=DFUBTUSB, USB\VID_03F0&PID_181D ; BROADCOM DFU VId&PID for Hp
+%DELLU2DFU.DeviceDesc%=DFUBTUSB,      USB\VID_413C&PID_8106 ; DELL\CSR's U2 module DFU VID&PID
+%DELLPHISHDFU.DeviceDesc%=DFUBTUSB,   USB\VID_413C&PID_8111 ; DELL PHISH module DFU VID&PID
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C70F ; LOGITECH Boppity, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C712 ; LOGITECH RR45.x Zoot, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C715 ; LOGITECH RR49.x Quartz, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C71A ; LOGITECH RR58.x Boppity Stardust , BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C71D ; LOGITECH RBR01.x Boppity Adhil receiver, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C720 ; LOGITECH RBR02.x Boppity Ruby receiver, BCM2045 DFU
+%MICROSOFTDFU.DeviceDesc%=DFUBTUSB,   USB\VID_045E&PID_070A ; MICROSOFT DFU VID&PID
+%KENSINGTONEDR.DeviceDesc%=DFUBTUSB,  USB\VID_047D&PID_1152 ; Kensington DFU VID&PID
+
+;
+; Win2k specific sections
+;
+[WIDCOMM]
+%BluetootSonyUsb.DeviceDesc%=DFUBTUSB,  USB\VID_044E&PID_3014
+%Sitecomm.DeviceDesc%=DFUBTUSB,  USB\VID_0DF6&PID_000B
+%KYE.DeviceDesc%=DFUBTUSB,  USB\VID_0458&PID_0083
+%DellStardustDFU.DeviceDesc%=DFUBTUSB,  USB\VID_413C&PID_8131
+%DellFangornDFU.DeviceDesc%=DFUBTUSB,  USB\VID_413C&PID_8127
+%ABOCOMDFU.DeviceDesc%=DFUBTUSB,  USB\VID_07B8&PID_B02E
+%ABOCOMDFU.DeviceDesc%=DFUBTUSB,  USB\VID_07B8&PID_B02D
+%CSRDFU.DeviceDesc%=DFUBTUSB,         USB\VID_0A12&PID_ffff  ; CSR DFU VID&PID
+%ERICSSONUSBDFU.DeviceDesc%=DFUBTUSB, USB\VID_08EA&PID_ABBB  ; Ericsson VID&PID DFU
+%TDKDFU.DeviceDesc%=DFUBTUSB,         USB\VID_04BF&PID_030B  ; TDK CSR VID&PID DFU
+%TDKDFU.DeviceDesc%=DFUBTUSB,         USB\VID_04BF&PID_0321  ; TDK CSR VID&PID DFU
+%IBMDFU.DeviceDesc%=DFUBTUSB,         USB\VID_04BF&PID_030C  ; IBM CSR VID&PID DFU
+%IBMBDCDFU.DeviceDesc%=DFUBTUSB,      USB\VID_04BF&PID_0311  ; IBM BDC VID&PID DFU
+%ALPSDFU.DeviceDesc%=DFUBTUSB,        USB\VID_044e&PID_ffff  ; ALPS DFU VID&PID
+%DELLDFU.DeviceDesc%=DFUBTUSB,        USB\VID_413C&PID_8010  ; Dell BC02 VID&PID
+%DELLELWOODDFU.DeviceDesc%=DFUBTUSB,  USB\VID_413C&PID_8501&REV_9999; Dell Elwood VID&PID DFU
+%IBMBMDFU.DeviceDesc%=DFUBTUSB,       USB\VID_1668&PID_1441  ; IBM Integrated Bluetooth III VID&PID DFU
+%IBMBMDFU3.DeviceDesc%=DFUBTUSB,      USB\VID_1668&PID_3441  ; IBM integrated BT Modem VID&PID DFU
+%MSIDFU.DeviceDesc%=DFUBTUSB,         USB\VID_0DB0&PID_ffff  ; MSI USB Device VID&PID DFU
+%BLUETHUMBDFU.DeviceDesc%=DFUBTUSB,   USB\VID_049F&PID_0036  ; BLUETHUMB Device VID&PID DFU
+%GiantDFU.DeviceDesc%=DFUBTUSB,       USB\VID_0FD1&PID_ffff  ; Giant DFU
+%BROADCOMDFU.DeviceDesc%=DFUBTUSB,    USB\VID_0A5C&PID_2000 ; BROADCOM DFU VID&PID
+%BROADCOMDFU.DeviceDesc%=DFUBTUSB,    USB\VID_0A5C&PID_2035 ; Broadcom DFU VID&PID
+%BROADCOMHPDFU.DeviceDesc%=DFUBTUSB,  USB\VID_03F0&PID_051D ; BROADCOM DFU VId&PID for Hp
+%BROADCOMDFU.DeviceDesc%=DFUBTUSB,    USB\VID_0A5C&PID_205E ; Broadcom DFU VID&PID, 2037
+%BROADCOM2045HPDFU.DeviceDesc%=DFUBTUSB, USB\VID_03F0&PID_181D ; BROADCOM DFU VId&PID for Hp
+%DELLU2DFU.DeviceDesc%=DFUBTUSB,      USB\VID_413C&PID_8106  ; DELL\CSR's U2 module DFU VID&PID
+%DELLPHISHDFU.DeviceDesc%=DFUBTUSB,   USB\VID_413C&PID_8111 ; DELL PHISH module DFU VID&PID
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C70F ; LOGITECH Boppity, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C712 ; LOGITECH RR45.x Zoot, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C715 ; LOGITECH RR49.x Quartz, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C71A ; LOGITECH RR58.x Boppity Stardust , BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C71D ; LOGITECH RBR01.x Boppity Adhil receiver, BCM2045 DFU
+%LOGITECHDFU.DeviceDesc%=DFUBTUSB,    USB\VID_046D&PID_C720 ; LOGITECH RBR02.x Boppity Ruby receiver, BCM2045 DFU
+%MICROSOFTDFU.DeviceDesc%=DFUBTUSB,   USB\VID_045E&PID_070A ; MICROSOFT DFU VID&PID
+%KENSINGTONEDR.DeviceDesc%=DFUBTUSB,  USB\VID_047D&PID_1152 ; Kensington DFU VID&PID
+
+;
+; Firmware Upgrade Driver
+;
+[DFUBTUSB]
+AddReg=DFUBTUSB.reg 
+CopyFiles=DFUBTUSB.CopyFiles, DFUBTUSB.inf.CopyFiles
+
+[DFUBTUSB.NT]
+AddReg=DFUBTUSB.reg 
+CopyFiles=DFUBTUSB.CopyFiles.NT, DFUBTUSB.inf.CopyFiles
+
+[DFUBTUSB.NT.Services]
+Addservice = DFUBTUSB, 0x00000002, DFUBTUSB.AddService
+
+[DFUBTUSB.AddService]
+DisplayName    = %DFUBTUSB.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\frmupgr.sys
+LoadOrderGroup = Base
+
+[DFUBTUSB.reg]
+HKR,,DevLoader,,"*ntkern"
+HKR,,NTMPDriver,,frmupgr.sys
+
+[DFUBTUSB.NTx86.5.1]
+AddReg=DFUBTUSB.reg
+CopyFiles=DFUBTUSB.CopyFiles.NT, DFUBTUSB.inf.CopyFiles
+
+[DFUBTUSB.NTx86.5.1.Services]
+Addservice = DFUBTUSB, 0x00000002, DFUBTUSB.AddService
+
+[DFUBTUSB.CopyFiles]
+frmupgr.sys
+
+[DFUBTUSB.CopyFiles.NT]
+frmupgr.sys
+
+[DFUBTUSB.inf.CopyFiles]
+;frmupgr.inf
+
+[DestinationDirs]
+DefaultDestDir             =11
+DFUBTUSB.CopyFiles         =11
+DFUBTUSB.CopyFiles.NT      =12
+DFUBTUSB.inf.CopyFiles     =10,INF
+;BTW.NT.CopyFiles           =11
+
+[strings]
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth Devices"
+Source_Description="WIDCOMM Installation Media"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0404] ; Chinese Traditional
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="¬≈™ﬁ∏À∏m"
+Source_Description="WIDCOMM ¶w∏À¥C≈È"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0406] ; Danish
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth-enheder"
+Source_Description="WIDCOMM-installationsmedie"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0407] ; German
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth-Ger‰te"
+Source_Description="WIDCOMM-Installationsmedien"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.040a] ; Spanish
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Dispositivos Bluetooth"
+Source_Description="Medios de instalaciÛn de WIDCOMM"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.040b] ; Finnish
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth-laitteet"
+Source_Description="WIDCOMM-asennuslevy"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.040c] ; French
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="PÈriphÈriques Bluetooth"
+Source_Description="Support d'installation WIDCOMM"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0410] ; Italian
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Periferiche Bluetooth"
+Source_Description="Supporto di installazione WIDCOMM"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0411] ; Japanese
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth ÉfÉoÉCÉX"
+Source_Description="WIDCOMM ÉCÉìÉXÉgÅ[Éã ÉÅÉfÉBÉA"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0412] ; Korean
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth ¿Âƒ°"
+Source_Description="WIDCOMM º≥ƒ° πÃµæÓ"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0413] ; Dutch
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth-apparaten"
+Source_Description="WIDCOMM-installatiemedia"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0416] ; Brazilian Portuguese
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Dispositivos Bluetooth"
+Source_Description="MÌdia de instalaÁ„o WIDCOMM"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.041d] ; Swedish
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth-enheter"
+Source_Description="WIDCOMM-installationsskiva"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0415] ; Polish
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Urzπdzenia Bluetooth"
+Source_Description="Noúnik instalacyjny WIDCOMM"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0419] ; Russian
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="”ÒÚÓÈÒÚ‚‡ Bluetooth"
+Source_Description="ÕÓÒËÚÂÎ¸ ‰Îˇ ÛÒÚ‡ÌÓ‚ÍË WIDCOMM"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0414] ; Norwegian
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="Bluetooth-enheter"
+Source_Description="WIDCOMM-installasjonsmedier"
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"
+
+[Strings.0804] ; ChineseSimplified
+BluetootSonyUsb.DeviceDesc="Sony Alps Device in Firmware Upgrade"
+Sitecomm.DeviceDesc="Bluetooth 2.0.USB Adapter DFU"
+KYE.DeviceDesc="Genius Bluetooth USB Dongle Firmware Upgrade"
+DellStardustDFU.DeviceDesc="Dell Wireless 355C Bluetooth 2.0 + EDR module."
+DellFangornDFU.DeviceDesc="Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology."
+ABOCOMDFU.DeviceDesc="Bluetooth dongle firmware upgrade"
+V_WIDCOMM="WIDCOMM"
+BTWClassName="¿∂—¿…Ë±∏"
+Source_Description="WIDCOMM ∞≤◊∞ΩÈ÷ "
+CSRDFU.DeviceDesc= "CSR USB Bluetooth Device in DFU State"
+DFUBTUSB.SvcDesc= "WIDCOMM USB Bluetooth Driver in DFU State"
+SIWAVEDFU.DeviceDesc= "Silicon Wave Firmware Upgrade Device"
+ALPSDFU.DeviceDesc= "Alps Bluetooth Firmware Upgrade Device"
+ERICSSONUSBDFU.DeviceDesc= "Ericsson USB Bluetooth Device in DFU State"
+TDKDFU.DeviceDesc= "TDK Bluetooth USB Firmware Upgrade Device"
+IBMDFU.DeviceDesc= "Bluetooth Ultraport Firmware Upgrade Device"
+IBMBDCDFU.DeviceDesc= "IBM Integrated Bluetooth Firmware Upgrade Device"
+DELLDFU.DeviceDesc="Dell TrueMobile Bluetooth Module in Firmware Upgrade"
+DELLU2DFU.DeviceDesc="Dell Wireless 350 Bluetooth Internal Card in Firmware Upgrade"
+DELLELWOODDFU.DeviceDesc="Dell Elwood Bluetooth Module Firmware Upgrade"
+IBMBMDFU.DeviceDesc="IBM Integrated Bluetooth II Firmware Upgrade"
+IBMBMDFU3.DeviceDesc="IBM Integrated Bluetooth III Firmware Upgrade"
+MSIDFU.DeviceDesc="MSI USB Bluetooth Device Firmware Upgrade"
+BLUETHUMBDFU.DeviceDesc="Bluetooth by hp."
+GiantDFU.DeviceDesc="GIANT Bluetooth Device"
+BROADCOMHPDFU.DeviceDesc="HP integrated module with Bluetooth wireless technology."
+BROADCOM2045HPDFU.DeviceDesc="HP integrated module with Bluetooth 2.0 wireless technology."
+BROADCOMDFU.DeviceDesc="Broadcom Bluetooth Firmware Upgrade Device"
+DELLPHISHDFU.DeviceDesc="Dell Wireless 3xx Bluetooth Internal Card in Firmware Upgrade"
+LOGITECHDFU.DeviceDesc="Bluetooth wireless hub (firmware upgrade)"
+MICROSOFTDFU.DeviceDesc="Microsoft Charon Bluetooth Dongle (DFU)"
+KENSINGTONEDR.DeviceDesc="Kensington Bluetooth EDR Dongle Firmware Upgrade"

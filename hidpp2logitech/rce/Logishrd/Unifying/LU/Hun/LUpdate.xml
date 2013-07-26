@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">hun</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">Logitech Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">Új frissítések jelentek meg. Kattintson ide a letöltéshez.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">A Logitech szoftverfrissítések befejezéséhez kattintson ide.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">A frissítőprogram letölti a Logitech szoftver frissítéseit</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">Új frissítések jelentek meg. Kattintson ide a telepítéshez.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">A program telepíti a Logitech szoftver frissítéseit</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">A Logitech szoftver frissítése sikeresen megtörtént</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Nem található internetkapcsolat, ezért nem állapítható meg, hogy van-e új programverzió</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Hiba történt</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Telepítési hiba.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Teleítés megszakítva.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">A kért művelet végrehajtásához rendszergazdai jogosultság szükséges</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Az internetkapcsolat újraindult. Próbálkozzon ismét később</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Az internetkapcsolat újraindult. A Logitech Updater később ismét próbálkozik</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Telepítés nem sikerült, mert a lemez megtelt.</String>
+	
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Befejezés</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Mégse</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Elrejtés</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Később</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Letöltés &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Letöltés folytatása &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Telepítés &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Az összes telepítése, ha a letöltés kész &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Automatikus beállítások konfigurálása &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Korábban elutasított frissítések megjelenítése</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">%d / %d összetevő letöltése</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">%d / %d összetevő telepítése</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Hátralévő idő:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">%s / %s letöltve</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Logitech Updater – Beállítások</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Válassza ki a frissítő kívánt működési módját.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Automatikus frissítések bekapcsolása.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Értesítést kérek a frissítésekről, de ne legyen automatikus letöltés vagy telepítés.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Telepítések letöltése, de én döntöm el, hogy mikor legyenek telepítve.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Frissítések automatikus letöltése és telepítése.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Alapértelmezett beállítások visszaállítása</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Termék</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Állapot</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Méret</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">várakozás az ellenőrzésre</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">elérhető</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">telepítésre kész</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">sérült</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">megszakítva</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">kész</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Kötelező</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Ajánlott</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Opcionális</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">kB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">ó</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">ó</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">p</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">p</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">mp</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">mp</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Ezek a frissítések érhetők el.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Hozzon ki többet Logitech-termékeiből a Logitech szoftver legújabb verzióinak segítségével.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Letöltés állapota</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">A frissítések letöltése folyamatban van.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Telepítés állapota</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">A frissítések készen állnak a telepítésre.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Telepítés állapota</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">A frissítések telepítése folyamatban van.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">Logitech Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Figyelmeztetés: Ez az összetevő alapértelmezés szerint nincs kijelölve, mivel nem teljesíti az alábbi feltétel(eke)t:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Logitech Updater megjelenítése</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Automatikus beállítások módosítása...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Kilépés</String>
+  </LU_Strings_1>
+</LogitechUpdater>

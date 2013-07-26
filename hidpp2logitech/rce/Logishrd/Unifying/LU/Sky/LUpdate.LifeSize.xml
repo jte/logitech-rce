@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LogitechUpdater SYSTEM "../../lu_ui_strings.dtd">
+<LogitechUpdater>
+  <LU_Strings_1>
+    <String ALIAS="IDS_UI_LANG" translate="0">sky</String>
+
+    <String ALIAS="IDS_UI_TOOLTIP">LifeSize Updater</String>
+
+    <String ALIAS="IDS_UI_BALLOON_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_DOWNLOAD">K dispozícii sú nové aktualizácie. Prevzmete ich kliknutím sem.</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_RESUMING_DOWNLOAD">Ak chcete dokončiť aktualizáciu softvéru LifeSize, kliknite sem.</String>
+    <String ALIAS="IDS_UI_BALLOON_DOWNLOADING">Preberajú sa aktualizácie pre váš softvér LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_WAIT_FOR_INSTALL">K dispozícii sú nové aktualizácie. Nainštalujete ich kliknutím sem.</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALLING">Inštalujú sa aktualizácie pre váš softvér LifeSize</String>
+    <String ALIAS="IDS_UI_BALLOON_DONE">Váš softvér LifeSize je aktuálny</String>
+    <String ALIAS="IDS_UI_BALLOON_NO_CONNECT">Pripojenie na Internet nie je k dispozícii. Nepodarilo sa skontrolovať dostupnosť novej verzie</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR">Vyskytla sa chyba</String>
+    <String ALIAS="IDS_UI_BALLOON_INSTALL_ERROR">Chyba inštalácie.</String>
+    <String ALIAS="IDS_UI_BALLOON_USER_CANCEL_INSTALL">Inštalácia bola zrušená.</String>
+    <String ALIAS="IDS_UI_BALLOON_NEED_ADMIN">Požadovaná operácia vyžaduje oprávnenia správcu</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_MANUAL">Pripojenie na Internet sa vynulovalo. Skúste znova neskôr</String>
+    <String ALIAS="IDS_UI_BALLOON_ERROR_CONNECTION_DROPPED_AUTO">Pripojenie na Internet sa vynulovalo. Program LifeSize Updater zopakuje operáciu neskôr</String>
+	<String ALIAS="IDS_UI_BALLOON_DISK_FULL">Installation failed because the disk is full.</String>
+
+    <String ALIAS="IDS_UI_BUTTON_OK">OK</String>
+    <String ALIAS="IDS_UI_BUTTON_FINISH">Dokončiť</String>
+    <String ALIAS="IDS_UI_BUTTON_CANCEL">Zrušiť</String>
+    <String ALIAS="IDS_UI_BUTTON_HIDE">Skryť</String>
+    <String ALIAS="IDS_UI_BUTTON_LATER">Neskôr</String>
+    <String ALIAS="IDS_UI_BUTTON_DOWNLOAD">Prevziať &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_RESUME_DOWNLOAD">Pokračovať v preberaní &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL">Inštalovať &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_INSTALL_WHEN_READY">Inštalovať všetky pripravené položky &gt;</String>
+    <String ALIAS="IDS_UI_BUTTON_CONFIG">Konfigurovať nastavenia automatických aktualizácií &gt;</String>
+    <String ALIAS="IDS_UI_CHECK_SHOW_DECLINED">Zobraziť predtým odmietnuté aktualizácie</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_COMPONENT">Preberá sa súčasť %d z %d</String>
+    <String ALIAS="IDS_UI_INSTALLING_COMPONENT">Inštaluje sa súčasť %d z %d</String>
+    <String ALIAS="IDS_UI_DOWNLOADING_TIME_REMAINING_STAT">Zostávajúci čas:</String>
+    <String ALIAS="IDS_UI_DOWNLOADED_STAT">Prevzaté %s z %s</String>
+
+    <String ALIAS="IDS_UI_BANNER_CONFIG">Nastavenia programu LifeSize Updater</String>
+    <String ALIAS="IDS_UI_BANNER_CONFIG_SUB">Vyberte spôsob použitia aktualizácií.</String>
+    <String ALIAS="IDS_UI_CHECK_ALLOW_CHECK">Zapnúť automatické aktualizácie.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_DOWNLOAD">Upozorniť, no aktualizácie automaticky nepreberať ani neinštalovať.</String>
+    <String ALIAS="IDS_UI_RADIO_ASK_BEFORE_INSTALL">Preberať aktualizácie, ale poskytnúť možnosť vybrať, kedy sa nainštalujú.</String>
+    <String ALIAS="IDS_UI_RADIO_AUTOMATIC">Automaticky preberať a inštalovať aktualizácie.</String>
+    <String ALIAS="IDS_UI_BUTTON_RESTORE_DEFAULT">Obnoviť predvolené nastavenia</String>
+
+    <String ALIAS="IDS_UI_COLUMN_LABEL_PRODUCT">Produkt</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_STATUS">Stav</String>
+    <String ALIAS="IDS_UI_COLUMN_LABEL_SIZE">Veľkosť</String>
+
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_CHECK">čaká na kontrolu</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_DOWNLOAD">k dispozícii</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_WAITING_FOR_INSTALL">pripravené na inštaláciu</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_FAILED_AUTHENTICATION">poškodené</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_INSTALL_CANCELLED">zrušené</String>
+    <String ALIAS="IDS_UI_ELEM_STATUS_DONE">hotovo</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_REQUIRED">Požiadavky</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_RECOMMENDED">Odporúčané</String>
+    <String ALIAS="IDS_UI_ELEM_CATEGORY_OPTIONAL">Voliteľné</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_KB">kB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_MB">MB</String>
+    <String ALIAS="IDS_UI_ELEM_PAYLOAD_SIZE_FORMAT_GB">GB</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOUR">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_HOURS">h</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTE">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_MINUTES">min</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECOND">s</String>
+    <String ALIAS="IDS_UI_ELEM_TIME_UNIT_SECONDS">s</String>
+
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD">Tieto aktualizácie sú k dispozícii.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_DOWNLOAD_SUB">Získajte najnovšie verzie softvéru LifeSize a využite produkty LifeSize naplno.</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING">Stav preberania</String>
+    <String ALIAS="IDS_UI_BANNER_DOWNLOADING_SUB">Aktualizácie sa preberajú.</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL">Stav inštalácie</String>
+    <String ALIAS="IDS_UI_BANNER_WAIT_FOR_INSTALL_SUB">Tieto aktualizácie sú pripravené na inštaláciu.</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING">Stav inštalácie</String>
+    <String ALIAS="IDS_UI_BANNER_INSTALLING_SUB">Aktualizácie sa inštalujú.</String>
+
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_TITLE">LifeSize Updater</String>
+    <String ALIAS="IDS_UI_FAILED_SOFTLIMIT_PREAMBLE">Upozornenie: Výber tejto súčasti bol predvolene zrušený, pretože nesplnila nasledujúce obmedzenia:</String>
+
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SHOW">Zobraziť program LifeSize Updater</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_SETTINGS">Zmeniť nastavenia automatických aktualizácií...</String>
+    <String ALIAS="IDS_UI_CONTEXT_MENU_QUIT">Skončiť</String>
+  </LU_Strings_1>
+</LogitechUpdater>

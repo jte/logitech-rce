@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Source>
+  <language xml:lang="en-us" />
+  <Controls>
+    <!--   // 0x02000000 = LD_EVENT_KEYBOARD_KEY -->
+    <!--   // 0x01000000 = LD_EVENT_MOUSE_BUTTON -->
+    <Control Name="LD_FINFO_CTRLID_VOLUME_UP"                 Id="1" IconLoc="" EventType="0x02000000" ScanCode="0x000C00E9" />
+    <Control Name="LD_FINFO_CTRLID_VOLUME_DOWN"               Id="2" IconLoc="" EventType="0x02000000" ScanCode="0x000C00EA" />
+    <Control Name="LD_FINFO_CTRLID_MUTE"                      Id="3" IconLoc="" EventType="0x02000000" ScanCode="0x000C00E2" />
+    <Control Name="LD_FINFO_CTRLID_PLAYPAUSE"                 Id="4" IconLoc="" EventType="0x02000000" ScanCode="0x000C00CD" />
+    <Control Name="LD_FINFO_CTRLID_NEXT"                      Id="5" IconLoc="" EventType="0x02000000" ScanCode="0x000C00B5" />
+    <Control Name="LD_FINFO_CTRLID_PREVIOUS"                  Id="6" IconLoc="" EventType="0x02000000" ScanCode="0x000C00B6" />
+    <Control Name="LD_FINFO_CTRLID_STOP"                      Id="7" IconLoc="" EventType="0x02000000" ScanCode="0x000C00B7" />
+    <Control Name="LD_FINFO_CTRLID_APP_SWITCH"                Id="8" IconLoc="Devices\Keyboard\CommonIcons\QuickSwitch" EventType="0x02000000" ScanCode="0x00F00008" />
+    <Control Name="LD_FINFO_CTRLID_BURN"                      Id="9" IconLoc="Devices\Keyboard\CommonIcons\Burn" EventType="0x02000000" ScanCode="0x00F00009" />
+    <Control Name="LD_FINFO_CTRLID_CALCULATOR"                Id="10" IconLoc="Devices\Keyboard\CommonIcons\Calc" EventType="0x02000000" ScanCode="0x000C0192" />
+    <Control Name="LD_FINFO_CTRLID_CALENDAR"                  Id="11" IconLoc="Devices\Keyboard\CommonIcons\Calendar" EventType="0x02000000" ScanCode="0x000C018E" />
+    <Control Name="LD_FINFO_CTRLID_CLOSE"                     Id="12" IconLoc="Devices\Keyboard\CommonIcons\Close" EventType="0x02000000" ScanCode="0x00F0000C" />
+    <Control Name="LD_FINFO_CTRLID_EJECT"                     Id="13" IconLoc="Devices\Keyboard\CommonIcons\Eject" EventType="0x02000000" ScanCode="0x000C00B8" />
+    <Control Name="LD_FINFO_CTRLID_EMAIL"                     Id="14" IconLoc="Devices\Keyboard\CommonIcons\Email" EventType="0x02000000" ScanCode="0x000C018A" />
+    <Control Name="LD_FINFO_CTRLID_HELP_AS_HID"               Id="15" IconLoc="Devices\Keyboard\CommonIcons\F1" EventType="0x02000000" ScanCode="0x000C0095" />
+    <Control Name="LD_FINFO_CTRLID_HELP_AS_F1"                Id="16" IconLoc="Devices\Keyboard\CommonIcons\F1" EventType="0x02000000" ScanCode="0x0007003A" />
+    <Control Name="LD_FINFO_CTRLID_LAUNCH_WORD_PROC"          Id="17" IconLoc="Devices\Keyboard\CommonIcons\F2" EventType="0x02000000" ScanCode="0x000C0184" />
+    <Control Name="LD_FINFO_CTRLID_LAUNCH_SPREADSHEET"        Id="18" IconLoc="Devices\Keyboard\CommonIcons\F3" EventType="0x02000000" ScanCode="0x000C0186" />
+    <Control Name="LD_FINFO_CTRLID_LAUNCH_PRESENTATION"       Id="19" IconLoc="Devices\Keyboard\CommonIcons\F4" EventType="0x02000000" ScanCode="0x000C0188" />
+    <Control Name="LD_FINFO_CTRLID_UNDO_AS_CTRL_Z"            Id="20" IconLoc="Devices\Keyboard\CommonIcons\F5" EventType="0x02000000" ScanCode="0x00F00014" />
+    <Control Name="LD_FINFO_CTRLID_UNDO_AS_HID"               Id="21" IconLoc="Devices\Keyboard\CommonIcons\F5" EventType="0x02000000" ScanCode="0x000C021A" />
+    <Control Name="LD_FINFO_CTRLID_REDO_AS_CTRL_Y"            Id="22" IconLoc="Devices\Keyboard\CommonIcons\F6" EventType="0x02000000" ScanCode="0x00F00016" />
+    <Control Name="LD_FINFO_CTRLID_REDO_AS_HID"               Id="23" IconLoc="Devices\Keyboard\CommonIcons\F6" EventType="0x02000000" ScanCode="0x000C0279" />
+    <Control Name="LD_FINFO_CTRLID_PRINT_AS_CTRL_P"           Id="24" IconLoc="Devices\Keyboard\CommonIcons\F7" EventType="0x02000000" ScanCode="0x00F00018" />
+    <Control Name="LD_FINFO_CTRLID_PRINT_AS_HID"              Id="25" IconLoc="Devices\Keyboard\CommonIcons\F7" EventType="0x02000000" ScanCode="0x000C0208" />
+    <Control Name="LD_FINFO_CTRLID_SAVE_AS_CTRL_S"            Id="26" IconLoc="Devices\Keyboard\CommonIcons\F8" EventType="0x02000000" ScanCode="0x00F0001A" />
+    <Control Name="LD_FINFO_CTRLID_SAVE_AS_HID"               Id="27" IconLoc="Devices\Keyboard\CommonIcons\F8" EventType="0x02000000" ScanCode="0x000C0207" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_A"                  Id="28" IconLoc="Devices\Keyboard\CommonIcons\F9" EventType="0x02000000" ScanCode="0x00F0001C" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_B"                  Id="29" IconLoc="Devices\Keyboard\CommonIcons\F10" EventType="0x02000000" ScanCode="0x00F0001D" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_C"                  Id="30" IconLoc="Devices\Keyboard\CommonIcons\F11" EventType="0x02000000" ScanCode="0x00F0001E" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_D"                  Id="31" IconLoc="Devices\Keyboard\CommonIcons\F12" EventType="0x02000000" ScanCode="0x00F0001F" />
+    <Control Name="LD_FINFO_CTRLID_FAVORITES"                 Id="32" IconLoc="Devices\Keyboard\CommonIcons\Favorites" EventType="0x02000000" ScanCode="0x000C022A" />
+    <Control Name="LD_FINFO_CTRLID_GADGETS"                   Id="33" IconLoc="Devices\Keyboard\CommonIcons\Gadgets" EventType="0x02000000" ScanCode="0x00F00021" />
+    <Control Name="LD_FINFO_CTRLID_MY_HOME"                   Id="34" IconLoc="Devices\Keyboard\CommonIcons\Home" EventType="0x02000000" ScanCode="0x000C0223" />
+    <Control Name="LD_FINFO_CTRLID_GADGETS_AS_WIN_G"           Id="35" IconLoc="Devices\Keyboard\CommonIcons\Gadgets" EventType="0x02000000" ScanCode="0x00F00023" />
+    <Control Name="LD_FINFO_CTRLID_MAXIMIZE_AS_HID"           Id="36" IconLoc="Devices\Keyboard\CommonIcons\Maximize" EventType="0x02000000" ScanCode="0x000C0205" />
+    <Control Name="LD_FINFO_CTRLID_MAXIMIZE_AS_WIN_SHIFT_M"   Id="37" IconLoc="Devices\Keyboard\CommonIcons\Maximize" EventType="0x02000000" ScanCode="0x00F00025" />
+    <Control Name="LD_FINFO_CTRLID_MINIMIZE_AS_HID"           Id="38" IconLoc="Devices\Keyboard\CommonIcons\Minimize_Window" EventType="0x02000000" ScanCode="0x000C0206" />
+    <Control Name="LD_FINFO_CTRLID_MINIMIZE_AS_WIN_M"         Id="39" IconLoc="Devices\Keyboard\CommonIcons\Minimize_Window" EventType="0x02000000" ScanCode="0x00F00027" />
+    <Control Name="LD_FINFO_CTRLID_MEDIA_PLAYER"              Id="40" IconLoc="Devices\Keyboard\CommonIcons\media" EventType="0x02000000" ScanCode="0x000C0183" />
+    <Control Name="LD_FINFO_CTRLID_MEDIA_CENTER_LOGI"         Id="41" IconLoc="Devices\Keyboard\CommonIcons\MediaCenter" EventType="0x02000000" ScanCode="0x00F00029" />
+    
+    <!--   // This should never be used. The scancode is bogus and this key won't be reprogrammable -->
+    <Control Name="LD_FINFO_CTRLID_MEDIA_CENTER_MSFT"         Id="42" IconLoc="Devices\Keyboard\CommonIcons\MediaCenterNew" EventType="0x02000000" ScanCode="0x00F0002A" />
+    
+    <Control Name="LD_FINFO_CTRLID_CUSTOM_MENU"               Id="43" IconLoc="Devices\Keyboard\CommonIcons\Menu" EventType="0x02000000" ScanCode="0x00F0002B" />
+    <Control Name="LD_FINFO_CTRLID_MESSENGER"                 Id="44" IconLoc="Devices\Keyboard\CommonIcons\MessengerOnePerson" EventType="0x02000000" ScanCode="0x000C01BC" />
+    <Control Name="LD_FINFO_CTRLID_MY_DOCUMENTS"              Id="45" IconLoc="Devices\Keyboard\CommonIcons\My Docs" EventType="0x02000000" ScanCode="0x000C01A7" />
+    <Control Name="LD_FINFO_CTRLID_MY_MUSIC"                  Id="46" IconLoc="Devices\Keyboard\CommonIcons\My Music" EventType="0x02000000" ScanCode="0x000C01B7" />
+    <Control Name="LD_FINFO_CTRLID_WEBCAM"                    Id="47" IconLoc="Devices\Keyboard\CommonIcons\Webcam" EventType="0x02000000" ScanCode="0x00F0002F" />
+    <Control Name="LD_FINFO_CTRLID_MY_PICTURES"               Id="48" IconLoc="Devices\Keyboard\CommonIcons\My Pics New" EventType="0x02000000" ScanCode="0x000C01B6" />
+    <Control Name="LD_FINFO_CTRLID_MY_VIDEOS"                 Id="49" IconLoc="Devices\Keyboard\CommonIcons\My Video" EventType="0x02000000" ScanCode="0x000C01B8" />
+    <Control Name="LD_FINFO_CTRLID_MY_COMPUTER_AS_HID"        Id="50" IconLoc="Devices\Keyboard\CommonIcons\MyComputer" EventType="0x02000000" ScanCode="0x000C0194" />
+    <Control Name="LD_FINFO_CTRLID_MY_COMPUTER_AS_WIN_E"      Id="51" IconLoc="Devices\Keyboard\CommonIcons\MyComputer" EventType="0x02000000" ScanCode="0x00F00033" />
+    <!--   // 52 is available not implemented for now -->
+    <Control Name="LD_FINFO_CTRLID_LAUNC_PICTURE_VIEWER"      Id="53" IconLoc="Devices\Keyboard\CommonIcons\NewPic" EventType="0x02000000" ScanCode="0x000C0187" />
+    <Control Name="LD_FINFO_CTRLID_ONE_TOUCH_SEARCH"          Id="54" IconLoc="Devices\Keyboard\CommonIcons\OneTouchSearch" EventType="0x02000000" ScanCode="0x000C01C6" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_1"                  Id="55" IconLoc="Devices\Keyboard\CommonIcons\Preset1" EventType="0x02000000" ScanCode="0x00F00037" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_2"                  Id="56" IconLoc="Devices\Keyboard\CommonIcons\Preset2" EventType="0x02000000" ScanCode="0x00F00038" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_3"                  Id="57" IconLoc="Devices\Keyboard\CommonIcons\Preset3" EventType="0x02000000" ScanCode="0x00F00039" />
+    <Control Name="LD_FINFO_CTRLID_PRESET_4"                  Id="58" IconLoc="Devices\Keyboard\CommonIcons\Preset4" EventType="0x02000000" ScanCode="0x00F0003A" />
+    <Control Name="LD_FINFO_CTRLID_RECORD"                    Id="59" IconLoc="Devices\Keyboard\CommonIcons\Record" EventType="0x02000000" ScanCode="0x000C00B2" />
+    <Control Name="LD_FINFO_CTRLID_INTERNET_REFRESH"          Id="60" IconLoc="Devices\Keyboard\CommonIcons\Refresh" EventType="0x02000000" ScanCode="0x000C0227" />
+    <Control Name="LD_FINFO_CTRLID_ROTATE_RIGHT"              Id="61" IconLoc="Devices\Keyboard\CommonIcons\Rotate" EventType="0x02000000" ScanCode="0x000C0245" />
+    <Control Name="LD_FINFO_CTRLID_SEARCH"                    Id="62" IconLoc="Devices\Keyboard\CommonIcons\Search" EventType="0x02000000" ScanCode="0x000C0221" />
+    <Control Name="LD_FINFO_CTRLID_SHUFFLE"                   Id="63" IconLoc="Devices\Keyboard\CommonIcons\Shuffle" EventType="0x02000000" ScanCode="0x000C00B9" />
+    <Control Name="LD_FINFO_CTRLID_SLEEP"                     Id="64" IconLoc="Devices\Keyboard\CommonIcons\Sleep" EventType="0x02000000" ScanCode="0x00010082" />
+    <Control Name="LD_FINFO_CTRLID_INTERNET_STOP"             Id="65" IconLoc="Devices\Keyboard\CommonIcons\Stop" EventType="0x02000000" ScanCode="0x000C0226" />
+    <Control Name="LD_FINFO_CTRLID_SYNCHRONIZE"               Id="66" IconLoc="Devices\Keyboard\CommonIcons\Sync" EventType="0x02000000" ScanCode="0x000C0286" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM"                      Id="67" IconLoc="Devices\Keyboard\CommonIcons\Zoom" EventType="0x02000000" ScanCode="0x000C022F" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_IN_AS_HID"            Id="68" IconLoc="Devices\Keyboard\CommonIcons\ZoomIn" EventType="0x02000000" ScanCode="0x000C022D" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_IN_AS_CTRL_WHEEL"     Id="69" IconLoc="Devices\Keyboard\CommonIcons\ZoomIn" EventType="0x01000000" ScanCode="0x00F00045" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_IN_AS_CLTR_PLUS"      Id="70" IconLoc="Devices\Keyboard\CommonIcons\ZoomIn" EventType="0x02000000" ScanCode="0x00F00046" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_OUT_AS_HID"           Id="71" IconLoc="Devices\Keyboard\CommonIcons\ZoomOut" EventType="0x02000000" ScanCode="0x000C022E" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_OUT_AS_CTRL_WHEEL"    Id="72" IconLoc="Devices\Keyboard\CommonIcons\ZoomOut" EventType="0x01000000" ScanCode="0x00F00048" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_OUT_AS_CLTR_MINUS"    Id="73" IconLoc="Devices\Keyboard\CommonIcons\ZoomOut" EventType="0x02000000" ScanCode="0x00F00049" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_RESET"                Id="74" IconLoc="Devices\Keyboard\CommonIcons\Zoom100" EventType="0x02000000" ScanCode="0x000C0231" />
+    <Control Name="LD_FINFO_CTRLID_ZOOM_FULL_SCREEN"          Id="75" IconLoc="Devices\Keyboard\CommonIcons\ZoomReset100" EventType="0x02000000" ScanCode="0x000C0230" />
+    <Control Name="LD_FINFO_CTRLID_PRINT_SCREEN"              Id="76" IconLoc="" EventType="0x02000000" ScanCode="0x00070046" />
+    <Control Name="LD_FINFO_CTRLID_PAUSE_BREAK"               Id="77" IconLoc="" EventType="0x02000000" ScanCode="0x00070048" />
+    <Control Name="LD_FINFO_CTRLID_SCROLL_LOCK"               Id="78" IconLoc="" EventType="0x02000000" ScanCode="0x00070047" />
+    <Control Name="LD_FINFO_CTRLID_CONTEXTUAL_MENU"           Id="79" IconLoc="" EventType="0x02000000" ScanCode="0x00070065" />
+    <Control Name="LD_FINFO_CTRLID_LEFT_CLICK"                Id="80" IconLoc="" EventType="0x01000000" ScanCode="0x00000001" />
+    <Control Name="LD_FINFO_CTRLID_RIGHT_CLICK"               Id="81" IconLoc="" EventType="0x01000000" ScanCode="0x00000002" />
+    <Control Name="LD_FINFO_CTRLID_MIDDLE_BUTTON"             Id="82" IconLoc="" EventType="0x01000000" ScanCode="0x00000003" />
+    <Control Name="LD_FINFO_CTRLID_BACK_AS_BUTTON_4"          Id="83" IconLoc="Devices\Keyboard\CommonIcons\Back" EventType="0x01000000" ScanCode="0x00000004" />
+    <Control Name="LD_FINFO_CTRLID_BACK_AS_HID"               Id="84" IconLoc="Devices\Keyboard\CommonIcons\Back" EventType="0x02000000" ScanCode="0x000C0224" />
+    <Control Name="LD_FINFO_CTRLID_BACK_AS_ALT_WIN_ARROW"     Id="85" IconLoc="Devices\Keyboard\CommonIcons\Back" EventType="0x02000000" ScanCode="0x00F00055" />
+    <Control Name="LD_FINFO_CTRLID_FORWARD_AS_BUTTON_5"       Id="86" IconLoc="Devices\Keyboard\CommonIcons\Forward" EventType="0x01000000" ScanCode="0x00000005" />
+    <Control Name="LD_FINFO_CTRLID_FORWARD_AS_HID"            Id="87" IconLoc="Devices\Keyboard\CommonIcons\Forward" EventType="0x02000000" ScanCode="0x00090225" />
+    <Control Name="LD_FINFO_CTRLID_FORWARD_AS_ALT_WIN_ARROW"  Id="88" IconLoc="Devices\Keyboard\CommonIcons\Forward" EventType="0x02000000" ScanCode="0x00F00058" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_6"                  Id="89" IconLoc="" EventType="0x01000000" ScanCode="0x00000006" />
+    <Control Name="LD_FINFO_CTRLID_LEFT_SCROLL_AS_BUTTON_7"   Id="90" IconLoc="" EventType="0x01000000" ScanCode="0x00000007" />
+    <Control Name="LD_FINFO_CTRLID_LEFT_SCROLL_AS_AC_PAN"     Id="91" IconLoc="" EventType="0x01000000" Type="6" ScanCode="0x00F0005B" />
+    <Control Name="LD_FINFO_CTRLID_RIGHT_SCROLL_AS_BUTTON_8"  Id="92" IconLoc="" EventType="0x01000000" ScanCode="0x00000008" />
+    <Control Name="LD_FINFO_CTRLID_RIGHT_SCROLL_AS_AC_PAN"    Id="93" IconLoc="" EventType="0x01000000" Type="6" ScanCode="0x00F0005D" />
+
+    <Control Name="LD_FINFO_CTRLID_BUTTON_9"                  Id="94" IconLoc="" EventType="0x01000000" ScanCode="0x00000009" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_10"                 Id="95" IconLoc="" EventType="0x01000000" ScanCode="0x0000000A" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_11"                 Id="96" IconLoc="" EventType="0x01000000" ScanCode="0x0000000B" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_12"                 Id="97" IconLoc="" EventType="0x01000000" ScanCode="0x0000000C" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_13"                 Id="98" IconLoc="" EventType="0x01000000" ScanCode="0x0000000D" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_14"                 Id="99" IconLoc="" EventType="0x01000000" ScanCode="0x0000000E" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_15"                 Id="100" IconLoc="" EventType="0x01000000" ScanCode="0x0000000F" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_16"                 Id="101" IconLoc="" EventType="0x01000000" ScanCode="0x00000010" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_17"                 Id="102" IconLoc="" EventType="0x01000000" ScanCode="0x00000011" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_18"                 Id="103" IconLoc="" EventType="0x01000000" ScanCode="0x00000012" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_19"                 Id="104" IconLoc="" EventType="0x01000000" ScanCode="0x00000013" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_20"                 Id="105" IconLoc="" EventType="0x01000000" ScanCode="0x00000014" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_21"                 Id="106" IconLoc="" EventType="0x01000000" ScanCode="0x00000015" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_22"                 Id="107" IconLoc="" EventType="0x01000000" ScanCode="0x00000016" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_23"                 Id="108" IconLoc="" EventType="0x01000000" ScanCode="0x00000017" />
+    <Control Name="LD_FINFO_CTRLID_BUTTON_24"                 Id="109" IconLoc="" EventType="0x01000000" ScanCode="0x00000018" />
+      
+    <Control Name="LD_FINFO_CTRLID_SHOW_DESKTOP"              Id="110" IconLoc="Devices\Keyboard\CommonIcons\Desktop" EventType="0x02000000" ScanCode="0x00F0006E" />
+    <Control Name="LD_FINFO_CTRLID_LOKC_PC"                   Id="111" IconLoc="Devices\Keyboard\CommonIcons\Lock_PC" EventType="0x02000000" ScanCode="0x00F0006F" />
+
+
+    <Control Name="LD_FINFO_CTRLID_FN_F1"                     Id="112" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00070" />
+    <Control Name="LD_FINFO_CTRLID_FN_F2"					            Id="113" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00071" />
+    <Control Name="LD_FINFO_CTRLID_FN_F3"					            Id="114" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00072" />
+    <Control Name="LD_FINFO_CTRLID_FN_F4"					            Id="115" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00073" />
+    <Control Name="LD_FINFO_CTRLID_FN_F5"					            Id="116" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00074" />
+    <Control Name="LD_FINFO_CTRLID_FN_F6"					            Id="117" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00075" />
+    <Control Name="LD_FINFO_CTRLID_FN_F7"					            Id="118" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00076" />
+    <Control Name="LD_FINFO_CTRLID_FN_F8"					            Id="119" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00077" />
+    <Control Name="LD_FINFO_CTRLID_FN_F9"					            Id="120" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00078" />
+    <Control Name="LD_FINFO_CTRLID_FN_F10"					          Id="121" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00079" />
+    <Control Name="LD_FINFO_CTRLID_FN_F11"					          Id="122" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F0007A" />Devices\Keyboard\CommonIcons\FN_PLUS
+    <Control Name="LD_FINFO_CTRLID_FN_F12"					          Id="123" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F0007B" />
+    <Control Name="LD_FINFO_CTRLID_FN_F13"					          Id="124" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F0007C" />
+    <Control Name="LD_FINFO_CTRLID_FN_F14"					          Id="125" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F0007D" />
+    <Control Name="LD_FINFO_CTRLID_FN_F15"					          Id="126" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F0007E" />
+    <Control Name="LD_FINFO_CTRLID_FN_F16"					          Id="127" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F0007F" />
+    <Control Name="LD_FINFO_CTRLID_FN_F17"					          Id="128" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00080" />
+    <Control Name="LD_FINFO_CTRLID_FN_F18"					          Id="129" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00081" />
+    <Control Name="LD_FINFO_CTRLID_FN_F19"					          Id="130" IconLoc="Devices\Keyboard\CommonIcons\FN_PLUS" EventType="0x02000000" ScanCode="0x00F00082" />
+    
+    <Control Name="LD_FINFO_CTRLID_IOS_HOME"				          Id="131" IconLoc="" EventType="0x02000000" ScanCode="0x000C0223" />
+    <Control Name="LD_FINFO_CTRLID_ANDROID_HOME"			        Id="132" IconLoc="" EventType="0x02000000" ScanCode="0x0007004A" />
+    <Control Name="LD_FINFO_CTRLID_ANDROID_MENU"			        Id="133" IconLoc="" EventType="0x02000000" ScanCode="0x000C0040" />  
+    <Control Name="LD_FINFO_CTRLID_ANDROID_SEARCH"			      Id="134" IconLoc="" EventType="0x02000000" ScanCode="0x000C0221" />
+    <Control Name="LD_FINFO_CTRLID_ANDROID_BACK"			        Id="135" IconLoc="" EventType="0x02000000" ScanCode="0x000C0224" />
+
+    <Control Name="LD_FINFO_CTRLID_HOME_COMBO"			          Id="136" IconLoc="" EventType="0x02000000" ScanCode="" />
+    <Control Name="LD_FINFO_CTRLID_LOCK_COMBO"			          Id="137" IconLoc="" EventType="0x02000000" ScanCode="" />
+    <Control Name="LD_FINFO_CTRLID_IOS_VIRTUAL_KEYBOARD"			Id="138" IconLoc="" EventType="0x02000000" ScanCode="0x000C00B8" />
+    <Control Name="LD_FINFO_CTRLID_IOS_LANGUAGE_SWICH"			  Id="139" IconLoc="" EventType="0x02000000" ScanCode="0xF0008B" />
+    <Control Name="LD_FINFO_CTRLID_MAC_EXPOSE"			          Id="140" IconLoc="" EventType="0x02000000" ScanCode="0x00070042" />
+    <Control Name="LD_FINFO_CTRLID_MAC_DASHBOARD"			        Id="141" IconLoc="" EventType="0x02000000" ScanCode="0x00070045" />
+
+    <Control Name="LD_FINFO_CTRLID_WIN7_SNAP_LEFT"			            Id="142" IconLoc="" EventType="0x02000000" ScanCode="0x00F0008E" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_SNAP_RIGHT"			            Id="143" IconLoc="" EventType="0x02000000" ScanCode="0x00F0008F" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_MINIMIZE_AS_WIN_ARROW"			Id="144" IconLoc="" EventType="0x02000000" ScanCode="0x00F00090" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_MAXIMIZE_AS_WIN_ARROW"			Id="145" IconLoc="" EventType="0x02000000" ScanCode="0x00F00091" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_STRETCH_UP"			            Id="146" IconLoc="" EventType="0x02000000" ScanCode="0x00F00092" />
+    
+    
+    <Control Name="LD_FINFO_CTRLID_WIN7_MONITOR_SWITCH_AS_WIN_SHIFT_LEFTARROW"			         Id="147" IconLoc="" EventType="0x02000000" ScanCode="0x00F00093" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_MONITOR_SWITCH_AS_WIN_SHIFT_RIGHTARROW"			         Id="148" IconLoc="" EventType="0x02000000" ScanCode="0x00F00094" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_SHOW_PRESENTATION_MODE"			                         Id="149" IconLoc="" EventType="0x02000000" ScanCode="0x00F00095" />
+    <Control Name="LD_FINFO_CTRLID_WIN7_SHOW_MOBILITY_CENTER"		              	             Id="150" IconLoc="" EventType="0x02000000" ScanCode="0x00F00096" />
+    
+    <Control Name="LD_FINFO_CTRLID_ANALOG_HSCROLL"                                         Id="151" IconLoc="" Type="6" EventType="0x01000000" ScanCode="0x000C0238" />
+
+    <Control Name="LD_FINFO_CTRLID_METRO_APPSWITCH"                                 Id="159" IconLoc="Devices\Keyboard\CommonIcons\switch_apps" EventType="0x02000000" ScanCode="0x00F0009F" />
+    <Control Name="LD_FINFO_CTRLID_METRO_APPBAR"                                           Id="160" IconLoc="Devices\Keyboard\CommonIcons\Calc" EventType="0x02000000" ScanCode="0x00F000A0" />
+    <Control Name="LD_FINFO_CTRLID_METRO_CHARMS"                                           Id="161" IconLoc="Devices\Keyboard\CommonIcons\Calc" EventType="0x02000000" ScanCode="0x00F000A1" />
+
+    <Control Name="LD_FINFO_CTRLID_CALC_VKEYBOARD"                                         Id="162" IconLoc="Devices\Keyboard\CommonIcons\Calc" EventType="0x02000000" ScanCode="0x000C0192" />
+    <Control Name="LD_FINFO_CTRLID_METRO_SEARCH"                                           Id="163" IconLoc="Devices\Keyboard\CommonIcons\search" EventType="0x02000000" ScanCode="0x000C0221" />
+    <Control Name="LD_FINFO_CTRLID_COMBO_SLEEP"                                            Id="164"  IconLoc="Devices\Keyboard\CommonIcons\Calc" EventType="0x02000000" ScanCode="0x00010081" />
+
+    <Control Name="LD_FINFO_METRO_START_SCREEN"                                            Id="169"  IconLoc="Devices\Keyboard\CommonIcons\Calc" EventType="0x02000000" ScanCode="0x00700E3" />
+    <Control Name="LD_FINFO_CTRLID_ZOOMIN"                                                 Id="170"  IconLoc="" EventType="0x01000000" ScanCode="0x00F000AA" />
+    <Control Name="LD_FINFO_CTRLID_ZOOMOUT"                                                Id="171"  IconLoc="" EventType="0x01000000" ScanCode="0x00F000AB" />
+    <Control Name="LD_FINFO_CTRLID_BACK_HSCROLL"                                           Id="172" IconLoc="" EventType="0x01000000" ScanCode="0x00F000AC" />
+
+    <Control Name="LD_FINFO_CTRLID_METRO_SHARE"                                            Id="165" IconLoc="Devices\Keyboard\CommonIcons\share" EventType="0x02000000" ScanCode="0x00F000A5" />
+    <Control Name="LD_FINFO_CTRLID_METRO_SETTINGS"                                          Id="166" IconLoc="Devices\Keyboard\CommonIcons\settings" EventType="0x02000000" ScanCode="0x00F000A6" />
+    <Control Name="LD_FINFO_CTRLID_METRO_DEVICES"                                          Id="167" IconLoc="Devices\Keyboard\CommonIcons\devices" EventType="0x02000000" ScanCode="0x00F000A7" />
+    <Control Name="LD_FINFO_CTRLID_SHOW_DESKTOP_HPP"                                       Id="174" IconLoc="Devices\Keyboard\CommonIcons\Desktop" EventType="0x02000000" ScanCode="0x00F000AE" />
+
+  </Controls>
+</Source>

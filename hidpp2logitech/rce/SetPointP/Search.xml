@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source>
+	<language xml:lang="en-us"/>
+	<SEARCHTYPES>
+		<SEARCHTYPE Name="IDS_INTERNET_SEARCH" Type="INTERNET" Default="YIQ">
+			<APP Name="YAHOO" HelpString="IDS_YAHOO_INTERNETSEARCH" DefaultURL="http://search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" SearchEngineDescription="Internet search from Yahoo!">
+				<PREFERENCE Name="Argentina" URL="http://ar.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="11274"/>
+				<PREFERENCE Name="Australia" URL="http://au.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3081"/>
+				<PREFERENCE Name="Austria" URL="http://at.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3079"/>
+				<PREFERENCE Name="Brazil" URL="http://br.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1046"/>
+        <PREFERENCE Name="Canada - English" URL="http://ca.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4105"/>
+				<PREFERENCE Name="Canada - French" URL="http://cf.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3084"/>
+        <PREFERENCE Name="China" URL="http://one.cn.yahoo.com/s?pid=hp&amp;v=web&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2052"/>
+        <PREFERENCE Name="Denmark" URL="http://dk.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1030"/>
+				<PREFERENCE Name="Finland" URL="http://fi.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1035"/>
+				<PREFERENCE Name="France" URL="http://fr.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1036"/>
+				<PREFERENCE Name="Germany" URL="http://de.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1031"/>
+				<PREFERENCE Name="Hong Kong" URL="http://hk.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3076"/>
+				<PREFERENCE Name="Italy" URL="http://it.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1040"/>
+				<PREFERENCE Name="Mexico" URL="http://mx.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2058"/>
+				<PREFERENCE Name="Netherlands" URL="http://nl.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1043"/>
+				<PREFERENCE Name="New Zealand" URL="http://au.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="5129"/>
+				<PREFERENCE Name="Norway" URL="http://no.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1044"/>
+				<PREFERENCE Name="Russia" URL="http://ru.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1049"/>
+				<PREFERENCE Name="Singapore" URL="http://sg.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4100"/>
+				<PREFERENCE Name="Spain" URL="http://es.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3082"/>
+				<PREFERENCE Name="Sweden" URL="http://se.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1053"/>
+				<PREFERENCE Name="Switzerland - French" URL="http://chfr.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4108"/>
+				<PREFERENCE Name="Switzerland - German" URL="http://ch.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2055"/>
+				<PREFERENCE Name="Switzerland - Italian" URL="http://chit.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2064"/>
+        <PREFERENCE Name="Taiwan" URL="http://tw.search.yahoo.com/search?ei=UTF-8&amp;fr=sfp&amp;_adv_prop=web&amp;fl=0&amp;vl=0&amp;vf=all&amp;vd=all&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1028"/>
+        <PREFERENCE Name="United Kingdom" URL="http://uk.search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2057"/>
+				<PREFERENCE Name="US" URL="http://search.yahoo.com/search?ei=UTF-8&amp;fr=hwlt-1&amp;p=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1033"/>
+			</APP>
+			<APP Name="GOOGLE" HelpString="IDS_GOOGLE_INTERNETSEARCH" DefaultURL="http://www.google.com/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" SearchEngineDescription="Internet search from Google">
+				<PREFERENCE Name="Argentina" URL="http://www.google.com.ar/search?hl=es&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="11274"/>
+				<PREFERENCE Name="Australia" URL="http://www.google.com.au/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3081"/>
+				<PREFERENCE Name="Austria" URL="http://www.google.at/search?hl=de&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3079"/>
+				<PREFERENCE Name="Belgium - Dutch" URL="http://www.google.be/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2067"/>
+				<PREFERENCE Name="Belgium - French" URL="http://www.google.be/search?hl=nl&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2060"/>
+				<PREFERENCE Name="Brazil" URL="http://www.google.com.br/search?hl=pt-BR&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1046"/>
+				<PREFERENCE Name="China" URL="http://www.google.com/search?hl=zh-CN&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2052"/>
+				<PREFERENCE Name="Canada - English" URL="http://www.google.ca/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4105"/>
+				<PREFERENCE Name="Canada - French" URL="http://www.google.ca/search?hl=fr&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3084"/>
+				<PREFERENCE Name="Chile" URL="http://www.google.cl/search?hl=es&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="13322"/>
+				<PREFERENCE Name="Denmark" URL="www.google.dk/search?hl=da&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1030"/>
+				<PREFERENCE Name="Finland" URL="http://www.google.fi/search?hl=fi&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1035"/>
+				<PREFERENCE Name="France" URL="http://www.google.fr/search?hl=fr&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1036"/>
+				<PREFERENCE Name="Germany" URL="http://www.google.de/search?hl=de&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1031"/>
+				<PREFERENCE Name="Hong Kong" URL="http://www.google.com.hk/search?hl=zh-TW&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3076"/>
+				<PREFERENCE Name="Ireland" URL="http://www.google.ie/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="6153"/>
+				<PREFERENCE Name="Italy" URL="http://www.google.it/search?hl=it&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1040"/>
+				<PREFERENCE Name="Japan" URL="http://www.google.co.jp/search?hl=ja&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1041"/>
+				<PREFERENCE Name="Mexico" URL="http://www.google.com.mx/search?hl=es&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2058"/>
+				<PREFERENCE Name="Netherlands" URL="http://www.google.nl/search?hl=nl&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1043"/>
+				<PREFERENCE Name="New Zealand" URL="http://www.google.co.nz/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="5129"/>
+				<PREFERENCE Name="Norway" URL="http://www.google.no/search?hl=no&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1044"/>
+				<PREFERENCE Name="Portugal" URL="http://www.google.pt/search?hl=pt-PT&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2070"/>
+				<PREFERENCE Name="Poland" URL="http://www.google.pl/search?hl=pl&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1045"/>
+				<PREFERENCE Name="Russia" URL="http://www.google.ru/search?hl=ru&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1049"/>
+				<PREFERENCE Name="Singapore" URL="http://www.google.com.sg/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4100"/>
+				<PREFERENCE Name="South Africa" URL="http://www.google.co.za/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="7177"/>
+				<PREFERENCE Name="Korea" URL="http://www.google.co.kr/search?hl=ko&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1042"/>
+				<PREFERENCE Name="Spain" URL="http://www.google.es/search?hl=es&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3082"/>
+				<PREFERENCE Name="Sweden" URL="http://www.google.se/search?hl=sv&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1053"/>
+				<PREFERENCE Name="Switzerland - French" URL="http://www.google.ch/search?hl=fr&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4108"/>
+				<PREFERENCE Name="Switzerland - German" URL="http://www.google.ch/search?hl=de&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2055"/>
+				<PREFERENCE Name="Switzerland - Italian" URL="http://www.google.ch/search?hl=it&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2064"/>
+				<PREFERENCE Name="Taiwan" URL="http://www.google.com.tw/search?hl=zh-TW&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1028"/>
+				<PREFERENCE Name="United Kingdom" URL="http://www.google.co.uk/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2057"/>
+				<PREFERENCE Name="US" URL="http://www.google.com/search?hl=en&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1033"/>
+			</APP>
+			<APP Name="BING.COM" HelpString="IDS_LIVE_DOT_COM_INTERNETSEARCH" DefaultURL="http://www.bing.com/search?setmkt=en-US&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" SearchEngineDescription="Internet search from Bing.Com">
+				<PREFERENCE Name="Argentina" URL="http://www.bing.com/search?setmkt=es-ar&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="11274"/>
+				<PREFERENCE Name="Australia" URL="http://www.bing.com/search?setmkt=en-au&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3081"/>
+				<PREFERENCE Name="Austria" URL="http://www.bing.com/search?setmkt=de-at&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3079"/>
+				<PREFERENCE Name="Belgium - Dutch" URL="http://www.bing.com/search?setmkt=nl-be&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2067"/>
+				<PREFERENCE Name="Belgium - French" URL="http://www.bing.com/search?setmkt=fr-be&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2060"/>
+				<PREFERENCE Name="Brazil" URL="http://www.bing.com/search?setmkt=pt-br&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1046"/>
+				<PREFERENCE Name="China" URL="http://www.bing.com/search?setmkt=zh-cn&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2052"/>
+				<PREFERENCE Name="Canada - English" URL="http://www.bing.com/search?setmkt=en-ca&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4105"/>
+				<PREFERENCE Name="Canada - French" URL="http://www.bing.com/search?setmkt=fr-ca&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3084"/>
+				<PREFERENCE Name="Chile" URL="http://www.bing.com/search?setmkt=en-cl&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="13322"/>
+				<PREFERENCE Name="Denmark" URL="http://www.bing.com/search?setmkt=da-dk&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1030"/>
+				<PREFERENCE Name="Finland" URL="http://www.bing.com/search?setmkt=fi-sv&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1035"/>
+				<PREFERENCE Name="France" URL="http://www.bing.com/search?setmkt=fr-fr&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1036"/>
+				<PREFERENCE Name="Germany" URL="http://www.bing.com/search?setmkt=de-de&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1031"/>
+				<PREFERENCE Name="Hong Kong" URL="http://www.bing.com/search?setmkt=zh-hk&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3076"/>
+				<PREFERENCE Name="India" URL="http://www.bing.com/search?setmkt=en-in&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1081"/>
+				<PREFERENCE Name="Ireland" URL="http://www.bing.com/search?setmkt=en-ie&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="6153"/>
+				<PREFERENCE Name="Italy" URL="http://www.bing.com/search?setmkt=it-it&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1040"/>
+				<PREFERENCE Name="Japan" URL="http://www.bing.com/search?setmkt=ja-jp&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1041"/>
+				<PREFERENCE Name="Mexico" URL="http://www.bing.com/search?setmkt=es-mx&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2058"/>
+				<PREFERENCE Name="Netherlands" URL="http://www.bing.com/search?setmkt=nl-nl&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1043"/>
+				<PREFERENCE Name="New Zealand" URL="http://www.bing.com/search?setmkt=en-nz&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="5129"/>
+				<PREFERENCE Name="Norway" URL="http://www.bing.com/search?setmkt=nb-no&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1044"/>
+				<PREFERENCE Name="Portugal" URL="http://www.bing.com/search?setmkt=pt-pt&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2070"/>
+				<PREFERENCE Name="Poland" URL="http://www.bing.com/search?setmkt=pl-pl&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1045"/>
+				<PREFERENCE Name="Russia" URL="http://www.bing.com/search?setmkt=ru-ru&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1049"/>
+				<PREFERENCE Name="Singapore" URL="http://www.bing.com/search?setmkt=en-sg&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4100"/>
+				<PREFERENCE Name="South Africa" URL="http://www.bing.com/search?setmkt=en-za&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="7177"/>
+				<PREFERENCE Name="Korea" URL="http://www.bing.com/search?setmkt=ko-kr&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1042"/>
+				<PREFERENCE Name="Spain" URL="http://www.bing.com/search?setmkt=es-es&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3082"/>
+				<PREFERENCE Name="Sweden" URL="http://www.bing.com/search?setmkt=sv-se&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1053"/>
+				<PREFERENCE Name="Switzerland - French" URL="http://www.bing.com/search?setmkt=fr-ch&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="4108"/>
+				<PREFERENCE Name="Switzerland - German" URL="http://www.bing.com/search?setmkt=de-ch&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2055"/>
+				<PREFERENCE Name="Taiwan" URL="http://www.bing.com/search?setmkt=zh-tw&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1028"/>
+				<PREFERENCE Name="United Kingdom" URL="http://www.bing.com/search?setmkt=en-gb&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2057"/>
+				<PREFERENCE Name="US - English" URL="http://www.bing.com/search?setmkt=en-us&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1033"/>
+				<PREFERENCE Name="US - Spanish" URL="http://www.bing.com/search?setmkt=es-us&amp;q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="21514"/>
+			</APP>
+			<APP Name="AOL" HelpString="IDS_AOL_INTERNETSEARCH" DefaultURL="http://search.aol.com/aolcom/search?query=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" SearchEngineDescription="Internet search from AOL">
+				<PREFERENCE Name="Argentina" URL="http://search.aol.com.ar/aol/search?query=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="11274"/>
+				<PREFERENCE Name="Australia" URL="http://search.aol.com.au/index.php?q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="3081"/>
+				<PREFERENCE Name="France" URL="http://www.recherche.aol.fr/rech?q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1036"/>
+				<PREFERENCE Name="Germany" URL="http://suche.aol.de/suche/web/search.jsp?q=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1031"/>
+				<PREFERENCE Name="Mexico" URL="http://busqueda.aol.com.mx/search?query=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2058"/>
+				<PREFERENCE Name="United Kingdom" URL="http://search.aol.co.uk/web?query=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="2057"/>
+				<PREFERENCE Name="US" URL="http://search.aol.com/aolcom/search?query=" DefaultCGIParamPrefix="" DefaultCGIParamSuffix="" LCID="1033"/>
+			</APP>
+		</SEARCHTYPE>
+		<SEARCHTYPE Name="IDS_DESKTOP_SEARCH" Type="DESKTOP" Default="">
+			<APP Name="YAHOODESKTOP" HelpString="IDS_YAHOO_DESKTOP" DefaultURL="http://www.yahoo.com" SearchEngineDescription="Yahoo Desktop Search">
+				<PREFERENCE Name=""/>
+			</APP>
+			<APP Name="WINXP" HelpString="IDS_WINXP_DESKTOP" DefaultURL="http://www.microsoft.com" SearchEngineDescription="Windows XP Search">
+				<PREFERENCE Name=""/>
+			</APP>
+			<APP Name="VISTA" HelpString="IDS_VISTA_DESKTOP" DefaultURL="http://www.microsoft.com" SearchEngineDescription="">
+				<PREFERENCE Name="Windows Vista Search"/>
+			</APP>
+			<APP Name="GOOGLEDESKTOP" HelpString="IDS_GOOGLE_DESKTOP" DefaultURL="" SearchEngineDescription="Desktop Search From Google">
+				<PREFERENCE Name="Google Desktop Search"/>
+			</APP>
+			<APP Name="X1DESKTOP" HelpString="IDS_X1_DESKTOP" DefaultURL="" SearchEngineDescription="Desktop Search From X1">
+				<PREFERENCE Name="X1 Desktop Search"/>
+			</APP>
+		</SEARCHTYPE>
+	</SEARCHTYPES>
+</Source>
